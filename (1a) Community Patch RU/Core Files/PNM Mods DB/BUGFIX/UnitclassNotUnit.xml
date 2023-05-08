@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_TP_FAITH_NEXT_PROPHET_PARAM">
+			<Text>Минимум {1_Num} [ICON_PEACE] веры требуется для следующего шанса на {2_UNITCLASS_PROPHET}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RO_FAITH_TOOLTIP_PARAM">
+			<Text>Необходимо минимум {1_MinFaith} [ICON_PEACE] веры для следующего {2_UNITCLASS_PROPHET}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_AUTO_FAITH_PROPHET_PARAM">
+			<Text>Сохранить для {1_UNITCLASS_PROPHET}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_AUTO_FAITH_PURCHASE_PROPHET_PARAM">
+			<Text>Купить {1_UNITCLASS_PROPHET}</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

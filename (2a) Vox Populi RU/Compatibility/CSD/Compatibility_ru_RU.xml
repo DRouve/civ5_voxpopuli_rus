@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2016 9:26:47 PM -->
+<GameData>
+	<Language_ru_RU>
+		<!-- Civil Servant Text -->
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_CIVIL_SERVANT_HEADING3_TITLE">
+			<Text>[COLOR_GREEN]Госслужащий[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_CIVIL_SERVANT_HEADING3_BODY">
+			<Text>Государственные служащие приносят разнообразную прибыль, а также дают очки Великим дипломатам. Эти юниты необходимы, если вы пытаетесь одержать дипломатическую победу или хотите заключить еще несколько союзов города-государства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_CIVIL_SERVANT_ADV_QUEST">
+			<Text>Чем занимаются государственные служащие?</Text>
+		</Row>
+		<!-- Automation Text -->
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT">
+			<Text>Дипломатическая миссия (автоматизировать)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT_HELP">
+			<Text>Автоматизировать все действия [COLOR_UNIT_TEXT]дипломатического юнита[ENDCOLOR]. Юнит будет оставаться автономным до тех пор, пока вы не отмените эту команду.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT_DISABLED_HELP">
+			<Text>В настоящее время нет действительных целей для дипломатии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DP_VOTES">
+			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} от пактов о защите</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_DIPLOMAT_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Великие Дипломаты</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_DIPLOMAT_DETAILS">
+			<Text>[ICON_PLUS] Великие Дипломаты</Text>
+		</Row>
+	</Language_ru_RU>
+  
+</GameData>

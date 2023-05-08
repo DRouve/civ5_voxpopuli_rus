@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/20/2013 2:16:05 PM -->
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_CITY_STATE_PERMANENT_ALLY_TT">
+			<Text>{1_CivName:textkey} является их текущим союзником. Пока их [COLOR_POSITIVE_TEXT]сфера влияния[ENDCOLOR] не будет удалена, вы не можете убрать их с этой должности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_ALLY_NOBODY_PERMA">
+			<Text>Поскольку здесь действует [COLOR_POSITIVE_TEXT]Политика Открытых Дверей[ENDCOLOR], никто не может стать союзником этого города-государства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_SOI">
+			<Text>Сфера влияния</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_SOI_HELP">
+			<Text>Потребовать сферу влияния над городом-государством. В случае успеха предлагающий игрок становится постоянным союзником города-государства (если это предложение не будет отменено). Предлагающий должен быть текущим союзником города-государства. [NEWLINE][NEWLINE]Доступно после того, как любая цивилизация изучит Паровой двигатель.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI">
+			<Text>Сферы влияния: {1_CivsList}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI_ENTRY">
+			<Text>{@1_CivName} (для {@2_CivName})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_DECOLONIZATION">
+			<Text>Деколонизация</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_DECOLONIZATION_HELP">
+			<Text>Обеспечить глобальную деколонизацию. В случае успеха [ICON_INFLUENCE] Влияние всех игроков со всеми городами-государствами снижается до 50, если только они не являются постоянными союзниками. [NEWLINE][NEWLINE]Доступно после того, как любая цивилизация изучит Радио.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_OPEN_DOOR">
+			<Text>Политика Открытых дверей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_OPEN_DOOR">
+			<Text>Политика Открытых дверей: {1_CivsList}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_OPEN_DOOR_ENTRY">
+			<Text>{@1_CivName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_OPEN_DOOR_HELP">
+			<Text>Принять Политику Открытых дверей для города-государства. В случае успеха, [ICON_INFLUENCE] Влияние всех цивилизаций на Город-Государство будет немедленно установлено на 40, и никто не сможет стать Союзником Города-Государства, пока это Предложение не будет отменено.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_CHOICE_CITY_CSD">
+			<Text>{@1_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PREFIX_PROPOSER">
+			<Text>{1_CivAdj}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_DECISION_CITY_CSD">
+			<Text>Выберите город-государство, на которое повлияет резолюция</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_SPACESHIP_INSPECTION">
+			<Text>Правила космических полетов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_SPACESHIP_INSPECTION_HELP">
+			<Text>Правила космических полетов контролируют распространение современных баллистических технологий, контролируют национальные космические программы и ограничивают продвижение потенциально опасных технологий. [NEWLINE][NEWLINE]Пока это разрешение активно, все игроки получат -25% к [ICON_PRODUCTION] производству [ICON_VICTORY_SPACE] Деталей космического корабля, +25% к [ICON_GOLD] стоимости покупки [ICON_VICTORY_SPACE] Деталей космического корабля и +25% к [ICON_PEACE] стоимости веры для инженеров.[NEWLINE][NEWLINE]Доступно после того, как любая цивилизация откроет Атомную теорию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SPACESHIP_LIMIT">
+			<Text>{1_Spaceship}% [ICON_PRODUCTION] производства при постройке Деталей космического корабля</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SPACESHIP_PURCHASE">
+			<Text>+{1_Spaceship}% к стоимости [ICON_GOLD] золота при покупке Деталей космического корабля и [ICON_PEACE] веры при покупке Великих Инженеров</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_WORLD_WAR">
+			<Text>Casus Belli (повод для объявления войны)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_WORLD_WAR_HELP">
+			<Text>Мир признает необходимость оправданной войны для разрешения дипломатических споров. [NEWLINE][NEWLINE]Пока это решение активно, [ICON_GOLD] затраты на обслуживание юнитов снижаются на 15%. [ICON_VICTORY_DOMINATION] Штрафы разжигателя войны за захват городов и объявление войны значительно снижены, а [ICON_VICTORY_DOMINATION] Очки разжигателя войны уменьшаются гораздо быстрее, чем обычно.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_WAR">
+			<Text>{1_UnitMaintenancePercent}% [ICON_GOLD] золота на содержания юнитов. [ICON_VICTORY_DOMINATION] Штрафы разжигателя войны сильно уменьшены</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WAR_PEACE">
+			<Text>+{1_UnitMaintenancePercent}% [ICON_GOLD] золота на содержания юнитов. [ICON_VICTORY_DOMINATION] Штрафы разжигателя войны неизменны.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_COLD_WAR">
+			<Text>Холодная война</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_COLD_WAR_HELP">
+			<Text>Идеологические разногласия подтолкнули мир к холодной войне; формируются экономические и политические группировки, основанные только на идеологии. [NEWLINE][NEWLINE]Пока активно это разрешение, игроки могут прокладывать [ICON_INTERNATIONAL_TRADE] Торговые Пути только с цивилизациями, которые придерживаются той же идеологии, или с союзными городами-государствами. Кроме того, [ICON_INFLUENCE] уровни влияния на союзные города-государства не снижаются. [NEWLINE][NEWLINE]Доступно после того, как любая цивилизация откроет Атомную теорию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_IDEOLOGY">
+			<Text>Нет [ICON_INTERNATIONAL_TRADE] Торговых Путей с идеологическими противниками или несоюзными городами-государствами. [ICON_INFLUENCE] Влияние на Союзные города-государства не ослабевает.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CONTRADICTION">
+			<Text>Предотвращено активной или предлагаемой резолюцией.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_PREREQ">
+			<Text>Недоступно, пока Мировая Идеология не активна.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_POSITIVE_GREAT_PERSON_RATE_SCIENCEY">
+			<Text>Повышение [ICON_FOOD]/[ICON_RESEARCH] для цивилизаций со счётом ниже среднемирового. +{1_GreatPersonRateMod}% к скорости появления {2_GreatPersonList}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_POSITIVE_GREAT_PERSON_RATE_ARTSY">
+			<Text>Повышение [ICON_PRODUCTION]/[ICON_CULTURE] для цивилизаций со счётом ниже среднемирового. +{1_GreatPersonRateMod}% к скорости появления {2_GreatPersonList}</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

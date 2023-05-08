@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/21/2014 12:19:12 PM -->
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_BUILD_EMBASSY">
+			<Text>Построить [LINK=IMPROVEMENT_EMBASSY]посольство[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_EMBASSY">
+			<Text>Юнит исчезнет.[NEWLINE][NEWLINE]Это великое улучшение не может быть построено поверх Стратегических ресурсов или ресурсов Роскоши. Дает [COLOR_POSITIVE_TEXT]1 голос на Всемирном конгрессе[ENDCOLOR] при постройке.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

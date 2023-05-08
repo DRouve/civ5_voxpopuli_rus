@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_SPY_STATE_TERMINATED">
+			<Text>Ликвидирован!</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

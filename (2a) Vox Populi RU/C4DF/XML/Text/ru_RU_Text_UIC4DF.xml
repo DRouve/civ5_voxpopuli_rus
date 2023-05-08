@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/25/2013 11:35:27 PM -->
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_OPINION">
+			<Text>Что вы думаете о...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP">
+			<Text>КАРТА МИРА</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP_TT">
+			<Text>Отображает все земли, исследованные этой цивилизацией.[NEWLINE][NEWLINE]Примечание. Контакт с неизвестными цивилизациями и городами-государствами не будет получен.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_BOTH">
+			<Text>У обоих игроков еще нет Технологии, необходимой для торговли этим предметом (Военная наука).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_OTHER_PLAYER">
+			<Text>У них еще нет Технологии, необходимой для торговли этим предметом (Военная наука).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_PLAYER">
+			<Text>У вас еще нет технологии, необходимой для торговли этим предметом (Военная наука).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_THEY_ALREADY_EXPLORED">
+			<Text>Они уже исследовали все земли, показанные на вашей карте мира.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_WE_ALREADY_EXPLORED">
+			<Text>Мы уже исследовали все земли, показанные на их карте мира.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_TRADING">
+			<Text>Запрет на обмен технологиями</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_TRADING_HELP">
+			<Text>Запрещает обмен технологиями между цивилизациями.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RESEARCH_AGREEMENTS">
+			<Text>Включить исследовательские соглашения</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RESEARCH_AGREEMENTS_HELP">
+			<Text>Если включено, вы можете подписывать соглашения об исследованиях с другими цивилизациями.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING">
+			<Text>Запрет на перепродажу технологий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING_HELP">
+			<Text>Если эта функция включена, вы не можете продавать технологии другой цивилизации, если вы сами не исследовали эту технологию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ITEMS_TECHNOLOGIES">
+			<Text>ТЕХНОЛОГИИ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TECHNOLOGIES">
+			<Text>ТЕХНОЛОГИИ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_YES">
+			<Text>У нас есть Технологии, доступные для торговли.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_NO">
+			<Text>У нас нет Технологий, доступных для торговли.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_YES_THEM">
+			<Text>У другого лидера есть Технологии, доступные для торговли.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_NO_THEM">
+			<Text>У другого лидера нет Технологий, доступных для обмена.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_TECH_OTHER_PLAYER">
+			<Text>У них еще нет Технологии для продажи этого предмета (Научная Теория).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_TECH_PLAYER">
+			<Text>У вас еще нет Технологии для продажи этого предмета (Научная Теория).</Text>
+		</Row>
+		<!-- Vassalage -->
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_VASSALS">
+			<Text>Не допускается из-за отсутствия вассалов.</Text>
+		</Row>
+		<!-- Opinion Weights -->
+		<Row Tag="TXT_KEY_DIPLO_WE_ARE_MASTER">
+			<Text>Вы их вассальное государство, и им это нравится!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WE_ARE_VASSAL">
+			<Text>Они наше вассальное государство.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WE_ARE_VOLUNTARY_VASSAL">
+			<Text>Они наше добровольное вассальное государство.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_TREATMENT_CONTENT">
+			<Text>Они довольны вашим обращением с ними в качестве их хозяина.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_TREATMENT_DISAGREE">
+			<Text>Они не согласны с некоторыми из ваших политик в качестве их хозяина.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_TREATMENT_MISTREATED">
+			<Text>Они считают, что вы с ними, как с вассалом, плохо обращаетесь!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_TREATMENT_UNHAPPY">
+			<Text>Они крайне недовольны вашей властью над ними!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_TREATMENT_ENSLAVED">
+			<Text>Они считают, что находятся в рабстве под вашим правлением!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_PROTECT">
+			<Text>Вы защищали их территорию как их хозяин!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_FAILED_PROTECT">
+			<Text>Вы не смогли защитить их территорию как их хозяин!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MASTER_LIBERATED_ME_FROM_VASSALAGE">
+			<Text>Вы освободили их без просьбы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_PEACEFULLY_REVOKED">
+			<Text>Вы даровали их нации независимость!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_FORCEFULLY_REVOKED">
+			<Text>Вы отказали им в предоставлении независимости, когда они попросили!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ATTACKED_VASSAL_ME">
+			<Text>Вы объявили им войну, пока они были вашим вассалом!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DONT_LIKE_VASSAL">
+			<Text>Им не нравятся некоторые из наших вассалов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TOO_MANY_VASSALS">
+			<Text>Они в страхе от того, что вы получили нескольких вассалов!</Text>
+		</Row>
+		<!-- Diplomacy Screen -->
+		<Row Tag="TXT_KEY_YOUR_CIV">
+			<Text>ваша цивилизация</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_PEACE">
+			<Text>ВАССАЛЬНОЕ ГОСУДАРСТВО</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_PEACE_TT">
+			<Text>Добровольно стать вассалом другой цивилизации. Добровольный вассал может покинуть своего хозяина в любой момент после того, как пройдет {1_Num} ходов.[NEWLINE][NEWLINE]ВНИМАНИЕ: хозяин, принявший добровольного вассала, немедленно объявляет войну всем, кто в данный момент находится в состоянии войны с этим вассалом. Это может иметь серьезные последствия![NEWLINE][NEWLINE]Если у капитулирующей цивилизации есть вассалы, они будут освобождены.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE">
+			<Text>КАПИТУЛЯЦИЯ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_REVOKE">
+			<Text>ОСВОБОЖДЕНИЕ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_REVOKE_TT">
+			<Text>Эта цивилизация отказывается от господства над всеми вассалами. Действует только в том случае, если у игрока есть вассалы и он может их освободить.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_TT">
+			<Text>Эта цивилизация сдается другому игроку и становится его вассальным государством. Капитулировавшая цивилизация не может покинуть своего хозяина, пока не пройдет {1_Num} ходов.[NEWLINE][NEWLINE]Если у капитулирующей цивилизации есть вассалы, они будут освобождены.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_END_VASSAL">
+			<Text>Прекратить вассалитет с {1_PlayerName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_END_VASSAL_TT">
+			<Text>Аннулирует Соглашение о вассалитете между вами и {1_PlayerName:textkey}, предоставляя им независимость от вашей цивилизации. Лидер будет благодарен за этот шаг, но вы больше не будете получать выгоды от того, что являетесь хозяином этой цивилизации.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_HUMAN_END_VASSAL">
+			<Text>Даруй нам независимость или жди последствий! Мы готовы бороться за неё!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_HUMAN_END_VASSAL_TT">
+			<Text>Аннулирует Соглашение о вассалитете между вами и {1_PlayerName:textkey}, предоставляя вам независимость от их цивилизации. Как ваш Мастер, они оставляют за собой право отклонить или принять ваш запрос. Если они откажутся от вашей просьбы, это означает немедленную войну.[NEWLINE][NEWLINE]Ваши шансы на мирную независимость возрастут в зависимости от их мнения о вас и их военной мощи по сравнению с вами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_CANT_END_VASSAL">
+			<Text>[NEWLINE][NEWLINE]В настоящее время вы не можете завершить вассалитет с {1_PlayerName:textkey}. Пожалуйста, обратитесь к Цивилопедии для более подробной информации.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_DONT_ALLOW_VASSAL_INDEPENDENCE">
+			<Text>Пора тебе научиться уважению. (ОБЪЯВИТЬ ВОЙНУ!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_ALLOW_VASSAL_INDEPENDENCE">
+			<Text>Понял. Мы даруем вам вашу независимость.</Text>
+		</Row>
+		<!-- Added in Version 10 -->
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS_TT">
+			<Text>Попросите лидера убрать свои войска с вашей границы. Если лидер отклонит вашу просьбу, он может объявить вам войну, так что будьте осторожны!</Text>
+		</Row>
+		<!-- Notifications -->
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VASSALAGE_ALLOWED">
+			<Text>Вассалитет включен!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_VASSALAGE_ALLOWED">
+			<Text>Поскольку вы достигли {1_EraName}, теперь вы можете создавать вассалов!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSALAGE_NOW_VASSAL_YOU">
+			<Text>Столкнувшись с верным поражением, {1_TeamName} сдались как вассал нашей великой цивилизации.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSALAGE_NOW_VASSAL_YOU_SUMMARY">
+			<Text>{1_TeamName} капитулировали перед нами!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSALAGE_NOW_VASSAL_YOU_VOLUNTARY">
+			<Text>Признавая вашу великую силу, {1_TeamName} согласились принять вашу защиту в качестве вашего вассала.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSALAGE_NOW_VASSAL_YOU_VOLUNTARY_SUMMARY">
+			<Text>{1_TeamName} теперь наш добровольный вассал!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSALAGE_YOU_NOW_VASSAL">
+			<Text>Вы отказались от своей политической независимости в обмен на защиту {1_TeamName} как их вассала.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSALAGE_YOU_NOW_VASSAL_SUMMARY">
+			<Text>Теперь вы вассал {1_TeamName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_NOW_VASSAL">
+			<Text>{1_PlyrName} теперь является вассалом {2_PlyrName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_NOW_VASSAL_UNKNOWN_VASSAL_SUMMARY">
+			<Text>{1_PlyrName} получил нового вассала</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_NOW_VASSAL_UNKNOWN_VASSAL">
+			<Text>{1_PlyrName} получили {2_PlyrName} в качестве нового вассала.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_NOW_VASSAL_UNKNOWN_MASTER">
+			<Text>{1_PlyrName} теперь является вассалом {2_PlyrName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_ACQUIRE_NEW_VASSAL">
+			<Text>{1_PlyrName} получил нового вассала!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSALAGE_ENDED_WITH_YOU_SUMMARY">
+			<Text>{1_TeamName} больше не является вашим вассалом!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSALAGE_ENDED_WITH_YOU_PEACEFUL">
+			<Text>После долгих раздумий мы согласились предоставить людям {1_TeamName} свободу.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Они больше не являются нашим вассалом.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSALAGE_ENDED_WITH_YOU">
+			<Text>Вероломные псы под предводительством {1_TeamName} ополчились против нашей империи! Они объявили о своей независимости и готовы сражаться насмерть, чтобы защитить свои права.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Они больше не наши вассалы.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSALAGE_ENDED_FROM_YOU_SUMMARY">
+			<Text>Вы больше не являетесь вассалом {1_TeamName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSALAGE_ENDED_FROM_YOU_PEACEFUL">
+			<Text>Мы получили освобождение от {1_TeamName}! Мы больше не связаны их политической ориентацией и свободны преследовать свои собственные интересы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSALAGE_ENDED_FROM_YOU">
+			<Text>Да здравствует революция! Наши люди взялись за оружие, чтобы защитить право нашей страны на независимость от правления {1_TeamName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_ENDED_VASSALAGE">
+			<Text>{1_PlyrName} больше не является вассалом {2_PlyrName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSAL_TAXES_AVAILABLE">
+			<Text>Доступно изменение вассального налога для {1_PlyrName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSAL_TAX_INCREASED_SUMMARY">
+			<Text>Налоги увеличены!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSAL_TAX_INCREASED">
+			<Text>{1_TeamName} увеличила ваши налоги с {2_Num}% до {3_Num}%!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSAL_TAX_DECREASED_SUMMARY">
+			<Text>Налоги уменьшены!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSAL_TAX_DECREASED">
+			<Text>{1_TeamName} уменьшила ваши налоги с {2_Num}% до {3_Num}%!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSAL_LIBERATION_POSSIBLE_SUMMARY">
+			<Text>Освобождение доступно!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_VASSAL_LIBERATION_POSSIBLE">
+			<Text>Поскольку они были нашим вассалом много лет, теперь мы можем освободить {1_TeamName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_MAKES_VASSAL">
+			<Text>{1_TeamName} стал вассалом {2_TeamName}!</Text>
+		</Row>
+		<!-- UI -->
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_VASSALAGE">
+			<Text>Нет вассалитета</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_VASSALAGE_HELP">
+			<Text>Отключает систему вассалитета. Нельзя создавать вассалов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_HUMAN_VASSALS">
+			<Text>Разрешить вассалитет игроков-людей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_HUMAN_VASSALS_HELP">
+			<Text>Позволяет игрокам-людям становиться вассалами других цивилизаций.[NEWLINE][NEWLINE]Примечание. Если включен параметр «Отключить вассалитет», это ничего не делает.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_OF">
+			<Text>[COLOR_GREY]Вассал {1_CivName:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_YOU_ARE_VASSAL">
+			<Text>[COLOR_GREY]Вы являетесь их вассалом[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MASTER_OF">
+			<Text>Они являются вашим вассалом</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_VASSALS">
+			<Text>{1_Num} от вассалов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_MASTERS">
+			<Text>ХОЗЯЕВА</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_VASSALS">
+			<Text>ВАССАЛЫ</Text>
+		</Row>
+		<!-- Vassal Overview -->
+		<Row Tag="TXT_KEY_VO_NUM_OUR_VASSALS">
+			<Text>Количество вассалов, которыми мы владеем: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_NUM_WORLD_VASSALS">
+			<Text>Количество вассалов в мире: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VASSALAGE_NOT_STARTED_YET">
+			<Text>Вассалитет не начинается, пока вы не войдете в Средневековье или не станете чьим-то вассалом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO">
+			<Text>Обзор вассалов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_YOUR_MASTERS">
+			<Text>ВАШИ МАСТЕРА</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_YOUR_VASSALS">
+			<Text>ВАШИ ВАССАЛЫ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_DETAILS">
+			<Text>ПОДРОБНОСТИ О МАСТЕРЕ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_VASSAL_DETAILS">
+			<Text>ПОДРОБНОСТИ О ВАССАЛЕ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TURNS">
+			<Text>Вассал на {1_NumTurns} ходов (ход {2_TurnStarted})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE">
+			<Text>Могут объявить о независимости:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_TT">
+			<Text>Если вассал может провозгласить независимость, он может отозвать свой статус вашего вассала в любое время. Если вы откажетесь от этой просьбы, вы объявите войну своему вассалу. Скорее всего, они спросят, есть ли у них хорошие шансы добиться успеха в своей революции.[NEWLINE][NEWLINE]Ваш вассал может объявить независимость после выполнения следующих условий:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_MASTER_TT">
+			<Text>Если вы можете провозгласить независимость, вы можете отозвать свой статус вассала в любое время. Будьте осторожны, так как если они откажут в вашей просьбе, они объявят вам войну. Они с большей вероятностью будут уважать вашу декларацию о независимости, если у вас есть сильное военное присутствие.[NEWLINE][NEWLINE]Вы можете объявить независимость после выполнения следующих условий:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_TURNS_TT">
+			<Text>1. Вассал на {1_NumTurns} ходов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_OR_HEADER_TT">
+			<Text>2. Одно из следующих условий:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_CITY_PERCENT_TT">
+			<Text>[TAB][ICON_BULLET]У команды вассала {1_CityPercent}% городов (или меньше), чем было на момент начала вассалитета (в настоящее время {2_Percent})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_POP_PERCENT_TT">
+			<Text>[TAB][ICON_BULLET]у команды вассала {1_PopPercent}% населения (или больше), чем было на момент начала вассалитета (в настоящее время {2_Percent})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_MASTER_PERCENT_TT">
+			<Text>[TAB][ICON_BULLET]У команды вассала {1_CityPercent}% городов (или больше), чем у команды хозяина (для всей команды), А ТАКЖЕ [ICON_CITIZEN] населения {2_PopPercent}% (или больше), чем у команды хозяина (в настоящее время {3_Percent} и {4_Percent})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_STATISTICS">
+			<Text>СТАТИСТИКА</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MANAGEMENT">
+			<Text>УПРАВЛЕНИЕ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CITY_PERCENT">
+			<Text>Процент текущего города:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CITY_PERCENT_TT">
+			<Text>Соотношение между общим количеством городов, которыми сейчас владеет ваш вассал (для всей команды), и количеством городов (для всей команды), которое у него было, когда он стал вашим вассалом.[NEWLINE][NEWLINE][ICON_BULLET]Количество городов в команде сейчас: { 1_CurrentCities}[NEWLINE][ICON_BULLET]Количество городов в команде на момент начала игры Vassal: {2_StartCities}[NEWLINE][NEWLINE]У этого игрока сейчас {3_PlayerCities} городов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_CITY_PERCENT">
+			<Text>Процент города хозяина:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_CITY_PERCENT_TT">
+			<Text>Соотношение между общим количеством городов, которыми в настоящее время владеет ваш вассал (для всей команды), и количеством городов, которыми сейчас владеет ваша команда.[NEWLINE][NEWLINE][ICON_BULLET]Количество городов вассалов в команде сейчас: {1_CurrentCities}[NEWLINE][ICON_BULLET ]Мастер-команда Количество городов: {2_MasterCities}[NEWLINE][NEWLINE]У этого игрока сейчас {3_Cities} городов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_POP_PERCENT">
+			<Text>Процент населения хозяина:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_POP_PERCENT_TT">
+			<Text>Соотношение между общим [ICON_CITIZEN] населением, которым сейчас владеет ваш вассал (для всей команды), и количеством [ICON_CITIZEN] населения, которое сейчас есть в вашей команде.[NEWLINE][NEWLINE][ICON_BULLET]Количество [ICON_CITIZEN] населения в команде сейчас: {1_CurrentPop }[NEWLINE][ICON_BULLET]Мастер-команда [ICON_CITIZEN] Население: {2_MasterPop}[NEWLINE][NEWLINE]На данный момент у этого игрока {3_PlayerPop} [ICON_CITIZEN] населения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_POP_PERCENT">
+			<Text>Процент текущего населения:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_POP_PERCENT_TT">
+			<Text>Соотношение между [ICON_CITIZEN] населением, которым сейчас владеет ваш вассал (для всей команды), и [ICON_CITIZEN] населением (для всей команды), которое у него было, когда он стал вашим вассалом.[NEWLINE][NEWLINE][ICON_BULLET]Население команды [ICON_CITIZEN] Теперь: {1_CurrentPop}[NEWLINE][ICON_BULLET]Население команды [ICON_CITIZEN] На момент запуска Vassal: {2_StartPop}[NEWLINE][NEWLINE]Население этого игрока на данный момент составляет {3_PlayerPop} [ICON_CITIZEN].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_LIBERATE_VASSAL">
+			<Text>Освободить вассала</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_LIBERATE_VASSAL_TT">
+			<Text>Освободите этого вассала, освободив их от вашего контроля. Это мирное действие, оно не приведет к войне и приведет к значительному усилению дипломатических отношений с вашим бывшим вассалом.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]После выполнения этого действия {1_TeamName} больше не будет вашим вассалом. Это действие нельзя отменить.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_LIBERATE_VASSAL_TOO_SOON">
+			<Text>Вы можете выполнить это действие только после того, как у вас будет вассал как минимум на {1_Num} ходов. Вы можете освободить этого вассала через {2_Num} ходов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_RATE">
+			<Text>Налоговая ставка: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT">
+			<Text>Мнение вассалитета: {1_szStr}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_TT">
+			<Text>Мнение вашего вассала о том, как вы к ним относитесь, основанное на следующих полях:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_NOTHING">
+			<Text>Не было никаких инцидентов, которые изменили бы мнение вашего вассала о вас.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_DEMAND">
+			<Text>Требования к ним: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_STEALING">
+			<Text>Воровство у них: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_DENOUNCING">
+			<Text>Осуждение их: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_TAX">
+			<Text>Текущая налоговая политика: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_PROTECT">
+			<Text>Защита их земель: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_RELIGION">
+			<Text>Общие религиозные интересы: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_TRADE_ROUTE">
+			<Text>Торговые Пути с ними: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_OPEN_BORDERS">
+			<Text>Открытие наших с ними границ: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_TOTAL">
+			<Text>Итого: {1_Sum}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_THRESHOLDS">
+			<Text>Несогласие: {1_Num}[NEWLINE]Плохое обращение: {2_Num}[NEWLINE]Недовольство: {3_Num}[NEWLINE]Порабощение: {4_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_CONTENT">
+			<Text>[COLOR_GREY]Удовлетворение[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_DISAGREE">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]Несогласие[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_MISTREATED">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]Жестокое обращение[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_UNHAPPY">
+			<Text>[COLOR_NEGATIVE_TEXT]Несчастье[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_ENSLAVED">
+			<Text>[COLOR_NEGATIVE_TEXT]Рабство[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_GPT_RECEIVED_TT">
+			<Text>Вы получаете {1_Num} [ICON_GOLD] золота за ход от этого вассала на основе {2_TaxRate}% от его {3_Num} [ICON_GOLD] валового золота за ход.[NEWLINE][NEWLINE]Налоги распределяются поровну между членами вашей команды .[NEWLINE][NEWLINE]Налог вассала рассчитывается в начале хода.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_TOO_SOON">
+			<Text>Вы можете применить изменения к налоговой ставке вассала только после того, как пройдет {1_NumTurns} ходов с момента последней корректировки.[NEWLINE][NEWLINE]Вы можете внести еще одну корректировку через {2_NumTurnsLeft} ходов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_TURN_SET">
+			<Text>Налоги были установлены во время хода {1_Turn}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_TURN_NOT_SET_EVER">
+			<Text>[COLOR_NEGATIVE_TEXT]Налоги для этого вассала никогда не устанавливались.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_TURN_AVAILABLE">
+			<Text>Налоги могут быть изменены, начиная с хода {1_Turn}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_CHANGE_READY">
+			<Text>[COLOR_POSITIVE_TEXT]Налоги доступны для изменения.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_APPLY_CHANGES">
+			<Text>Применить изменения</Text>
+		</Row>
+		<Row Tag="TXT_KEY_APPLY_CHANGES_TT">
+			<Text>Примените изменения к налоговой ставке вассала. Изменения вступят в силу на следующем ходу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CONFIRM_TAX_CHANGE">
+			<Text>Вы уверены, что хотите применить налоговую ставку {1_TaxRate} к {2_TeamName}? Вы не можете изменить это значение {3_NumTurns} ходов. Налог будет применён на следующий ход. [COLOR_WARNING_TEXT]Это действие НЕЛЬЗЯ отменить.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CONFIRM_LIBERATE">
+			<Text>Вы уверены, что хотите освободить {1_TeamName}? Это освободит ВСЕ цивилизации в этой команде от вашего контроля. [COLOR_WARNING_TEXT]Это действие НЕЛЬЗЯ отменить.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CONFIRM_REQUEST_INDEPENDENCE">
+			<Text>Вы уверены, что хотите запросить независимость от {1_TeamName}? В случае отказа ваши цивилизации вступят в [COLOR_WARNING_TEXT]войну[ENDCOLOR]. [COLOR_WARNING_TEXT]Это действие НЕЛЬЗЯ отменить.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_VASSAL_TYPE_VOLUNTARY">
+			<Text>Добровольный вассал</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_VASSAL_TYPE_VOLUNTARY_TT">
+			<Text>Добровольные вассалы — это вассалы, приобретенные в результате торговли. Это взаимное соглашение, по которому вассал соглашается служить Господу в обмен на защиту. Добровольные вассалы могут уйти в любое время после короткого периода.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_VASSAL_TYPE_CAPITULATED">
+			<Text>Капитулированный вассал</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_VASSAL_TYPE_CAPITULATED_TT">
+			<Text>Капитулированные вассалы — это вассалы, приобретенные в результате поражения в войне. Капитулированные вассалы полностью подчиняются хозяину и не могут покинуть своих хозяев, пока не выполнят ряд требований.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_POPULATION_STAT">
+			<Text>[ICON_CITIZEN] Население</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_HAPPINESS_STAT">
+			<Text>Счастье</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_GROSS_GPT_STAT">
+			<Text>[ICON_GOLD] Валовое золото за ход</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_GOLD_PER_TURN_STAT">
+			<Text>[ICON_GOLD] Золото за ход</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TRADE_ROUTES_STAT">
+			<Text>[ICON_TURNS_REMAINING] Торговые Пути</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TRADE_ROUTES_LABEL">
+			<Text>{1_TradeRoutesUsed} / {2_TradeRoutesAvailable}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_IDEOLOGY_STAT">
+			<Text>{1_Str}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CULTURE_STAT">
+			<Text>[ICON_CULTURE] культура</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TOURISM_STAT">
+			<Text>[ICON_TOURISM] туризм</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_FAITH_STAT">
+			<Text>[ICON_PEACE] вера</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_SCIENCE_STAT">
+			<Text>[ICON_RESEARCH] наука</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CITIES">
+			<Text>Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_POPULATION">
+			<Text>Население</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_ECONOMY">
+			<Text>Экономика</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CULTURE">
+			<Text>Культура</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_RELIGION">
+			<Text>Религия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_SCIENCE">
+			<Text>Наука</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_NO_IDEOLOGY">
+			<Text>Нет идеологии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_NO_RELIGION">
+			<Text>Нет религии большинства</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MAJORITY_RELIGION">
+			<Text>Религия большинства: {1_szReligion}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_IDEOLOGY">
+			<Text>Принятая идеология: {1_szIdeology}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_CONTRIBUTION">
+			<Text>{1_Num} [ICON_GOLD] золота за ход от этого игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_VASSAL">
+			<Text>+{1_Num}% Бонус за статус вашего вассала[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAXES">
+			<Text>Налогообложение</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_DIPLOMACY">
+			<Text>Дипломатия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE">
+			<Text>Независимость</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_NO_VASSALS">
+			<Text>У вас нет вассалов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAXES_AVAILABLE_TT">
+			<Text>Доступно {1_Num} вассалов, для которых можно установить налоги.</Text>
+		</Row>
+		
+		<!-- Vassal Overview: Master -->
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_MASTER">
+			<Text>Может объявить независимость: {1_Str}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_VALUE_DISPLAY">
+			<Text>{1_Num} ({2_iTeamNum})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_VALUE_DISPLAY_PERCENT">
+			<Text>{1_iTeamNum}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_VALUE_DISPLAY_PERCENT_PLAYER">
+			<Text>{1_Num}% ({2_iTeamNum}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_YOUR_POP">
+			<Text>Ваше [ICON_CITIZEN] население</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_YOUR_POP_TT">
+			<Text>Наше [ICON_CITIZEN] население (командное [ICON_CITIZEN] население)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_THEIR_POP">
+			<Text>Их [ICON_CITIZEN] население</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_THEIR_POP_TT">
+			<Text>Их [ICON_CITIZEN] население (командное [ICON_CITIZEN] население)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_VIEW_POP_PERCENT">
+			<Text>[ICON_CITIZEN] Население %</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_VIEW_POP_PERCENT_TT">
+			<Text>Соотношение между нашим [ICON_CITIZEN] населением и [ICON_CITIZEN] населением {1_MasterPlayer}.[NEWLINE][NEWLINE]Соотношение между [ICON_CITIZEN] населением игрока (соотношение между [ICON_CITIZEN] населением команды)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_POP_STARTED_PERCENT">
+			<Text>[ICON_CITIZEN] Население, когда мы стали вассалом %</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_POP_STARTED_PERCENT_TT">
+			<Text>Соотношение между [ICON_CITIZEN] Населением нашей команды сейчас и [ICON_CITIZEN] Населением нашей команды, когда мы стали вассалом {1_TeamName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_YOUR_CITIES">
+			<Text>Количество ваших городов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_YOUR_CITIES_TT">
+			<Text>Количество наших городов (количество городов нашей команды)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_THEIR_CITIES">
+			<Text>Количество их городов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_THEIR_CITIES_TT">
+			<Text>Количество их городов (количество городов их команды)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_CITIES_PERCENT">
+			<Text>Количество городов %</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_CITIES_PERCENT_TT">
+			<Text>Соотношение между нашим количеством городов и количеством городов у {1_MasterPlayer}.[NEWLINE][NEWLINE]Соотношение между количеством городов у игрока (соотношение между количеством городов в команде)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_CITIES_STARTED_PERCENT">
+			<Text>Количество городов на момент принятия вассала %</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_CITIES_STARTED_PERCENT_TT">
+			<Text>Соотношение между количеством городов нашей команды сейчас и количеством городов нашей команды, когда мы стали вассалом {1_TeamName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_CHANGE_READY_MASTER">
+			<Text>[COLOR_GREY]Ваш хозяин может изменить ваши налоги начиная с этого хода.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_TURN_NOT_SET_EVER_MASTER">
+			<Text>[COLOR_POSITIVE_TEXT]Ваш хозяин никогда не устанавливал для вас налоги.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_CONTRIBUTION_MASTER">
+			<Text>{1_Num} [ICON_GOLD] золота за ход от вас!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_REQUEST_INDEPENDENCE">
+			<Text>Запросить независимость</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_REQUEST_INDEPENDENCE_TT">
+			<Text>Попросите независимости от своего Хозяина. После выполнения этого действия ваше вассальное положение с {1_TeamName} прекращается.[NEWLINE][NEWLINE]У вашего господина будет выбор: принять или отклонить вашу просьбу о независимости. Если ваш запрос будет отклонен, вы пойдете на войну с другим игроком! Шанс мирной независимости увеличивается, чем сильнее вы по сравнению с вашим Хозяином.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_REQUEST_INDEPENDENCE_TOO_SOON">
+			<Text>[COLOR_NEGATIVE_TEXT]Вы не можете требовать независимости, пока вы не были вассалом в течение {1_MinimumTurns} ходов. Вы можете выполнить это действие через {2_iNumTurns} ходов.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_REQUEST_INDEPENDENCE_CONDITION_NOT_MET">
+			<Text>[COLOR_NEGATIVE_TEXT]Вы не можете запросить независимость, пока не выполните все необходимые условия независимости. Наведите указатель мыши на «Может объявить независимость», чтобы просмотреть необходимые требования для независимости.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_RATE_MASTER_TT">
+			<Text>Вы облагаетесь налогом на {1_Num}% от вашего [ICON_GOLD] валового золота за ход. Вы не можете контролировать налоговую ставку {2_TeamName}, установленную для вас. Налоги устанавливаются индивидуально на каждого члена вассальной команды.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_GPT_TAKEN_TT">
+			<Text>Они получают от вас {1_Num} [ICON_GOLD] золота за ход на основе {2_TaxRate}% от вашего {3_Num} [ICON_GOLD] валового золота за ход.[NEWLINE][NEWLINE]Ваш облагаемый налогом доход рассчитывается в начале вашего хода.</Text>
+		</Row>
+		
+		<!-- Vassal Benefits -->
+		<Row Tag="TXT_KEY_VO_VASSAL_BENEFITS">
+			<Text>Преимущества вассала</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_OPEN_BORDERS">
+			<Text>[ICON_BULLET] Открытые границы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_RELIGION_MOD">
+			<Text>[ICON_BULLET] +100% [ICON_PEACE] религиозное давление</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_TOURISM_MOD">
+			<Text>[ICON_BULLET] +33% [ICON_TOURISM] распространение туризма</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_DIPLOMAT">
+			<Text>[ICON_BULLET] [ICON_DIPLOMAT] дипломат в [ICON_CAPITAL] столице</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_YIELD_PERCENTAGE">
+			<Text>[ICON_BULLET] +20% к [ICON_RESEARCH] науке, [ICON_CULTURE] культуре, [ICON_PEACE] вере вассала</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_IDEOLOGY">
+			<Text>[ICON_BULLET] Вассад принимает идеологию Хозяина</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_LEVY">
+			<Text>[ICON_BULLET] Военный сбор при переходе в новую эру</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_TYPE_VOLUNTARY_TT">
+			<Text>Как вассал по воле, вы полагаетесь на {1_Name}, чтобы обеспечить защиту ваших земель. На вас не распространяются ограничения, которые помешали бы вам выйти из вассальной зависимости, как это делают капитулировавшие вассалы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_TYPE_CAPITULATED_TT">
+			<Text>Как капитулированный вассал {1_Name}, вы сильно ограничены в своей возможности провозгласить независимость. Ваши ограничения требуют, чтобы вы увеличили свое [ICON_CITIZEN] население и города, чтобы стать конкурентоспособными со своим хозяином, или ваш хозяин не смог защитить ваши города от вражеского захвата.</Text>
+		</Row>
+		
+		<!-- Version 9 -->
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS">
+			<Text>Пожалуйста, отведите свои войска от наших границ.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS_HOSTILE">
+			<Text>Собираешься напасть на нас, свинья?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_ADVANCED_DIPLOMACY">
+			<Text>Прозрачная дипломатия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_ADVANCED_DIPLOMACY_HELP">
+			<Text>Отображать числа рядом с дипломатическими модификаторами. Кроме того, лидеры ИИ никогда не будут скрывать отрицательные модификаторы.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_VICTORY_COMPETITION">
+			<Text>Отключить соревнование за победу</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_VICTORY_COMPETITION_HELP">
+			<Text>Лидеры ИИ не будут обижаться на других игроков за их прогресс в достижении условий победы. Это значительно упрощает игру.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_ENDGAME_AGGRESSION">
+			<Text>Отключить агрессию в эндгейме</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_ENDGAME_AGGRESSION_HELP">
+			<Text>Лидеры ИИ не получат повышения агрессии по отношению к игрокам, которые близки к победе в игре. ПРИМЕЧАНИЕ. Этот параметр ничего не делает, если включен параметр «Отключить соревнование за победу».</Text>
+		</Row>
+		
+		<!-- End Vassalage Resolution -->
+		<Row Tag="TXT_KEY_RESOLUTION_PLAYER_VASSAL_TAX">
+			<Text>Глобальная либерализация</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_PLAYER_VASSAL_TAX_HELP">
+			<Text>Все отношения хозяина и вассала немедленно и мирно аннулируются.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_VASSAL_MAINTENANCE">
+			<Text>+{1_VassalMaintenancePercent}% [ICON_GOLD] золота для содержания юнитов/городов вассала</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TP_HAPPINESS_VASSALS">
+			<Text>{1_Num} от счастья вассала.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_VASSALS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от вассалов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_VASSALS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] от вассалов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_VASSALS">
+			<Text>{1_Num} от вассалов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_FAITH_VASSALS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от вассалов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_FROM_VASSALS">
+			<Text>Вассалы</Text>
+		</Row>
+
+		<!-- Levy -->
+		<Row Tag="TXT_KEY_NOTIFICATION_VASSAL_LEVY">
+			<Text>Поскольку вы вступили в новую эру, ваши вассалы прислали вам {1_Num} юнит(ов) в качестве дани.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_VASSAL_LEVY_SUMMARY">
+			<Text>Дань вассала!</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_TP_GOLD_VASSAL_MAINT">
+			<Text>{1_Num} потрачено на содержание вассала.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_VASSAL_TAX">
+			<Text>{1_Num} от налогов вассала.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/2/2011 2:22:56 PM -->
+<GameData>
+	<Language_ru_RU>
+		<!--Diplo Building Names-->
+		<Row Tag="TXT_KEY_BUILDING_CHANCERY">
+			<Text>Канцелярия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WIRE_SERVICE">
+			<Text>Телеграф</Text>
+		</Row>
+		<!--National Wonder Names-->
+		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS">
+			<Text>Печатный станок</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE">
+			<Text>Иностранное бюро</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE">
+			<Text>Офис писаря</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE">
+			<Text>Дворец культуры и науки</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE">
+			<Text>Зал чести</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER">
+			<Text>Международный финансовый центр</Text>
+		</Row>
+		<!-- World Wonder Names -->
+		<Row Tag="TXT_KEY_BUILDING_FORUM">
+			<Text>Римский Форум</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE">
+			<Text>Летний дворец</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL">
+			<Text>Большой канал</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE">
+			<Text>Менинские ворота</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OLYMPIC_VILLAGE">
+			<Text>Олимпийская деревня</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_PALACE">
+			<Text>Хрустальный дворец</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SECURITY_COUNCIL">
+			<Text>Палаты Совета Безопасности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CONSULATE">
+			<Text>Консульство</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UN">
+			<Text>ООН</Text>
+		</Row>
+		<!--Diplo Building Help
+		<Row Tag="TXT_KEY_BUILDING_CHANCERY_HELP">
+			<Text>+1 [ICON_RES_PAPER] Paper. +10% [ICON_PRODUCTION] Production of Diplomatic Units. Grants Promotion [COLOR_POSITIVE_TEXT]Royal Signet[ENDCOLOR] for Diplomatic Units in the city in which it is built. [NEWLINE][NEWLINE]+5% of the City's [ICON_PRODUCTION] Production is added to the current [ICON_PRODUCTION] Production amount every time the city gains a [ICON_CITIZEN] Citizen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WIRE_SERVICE_HELP">
+			<Text>+1 [ICON_RES_PAPER] Paper. +10% [ICON_PRODUCTION] Production of Diplomatic Units. Grants Promotion [COLOR_POSITIVE_TEXT]Wire Service[ENDCOLOR] for Diplomatic Units in the city in which it is built. [NEWLINE][NEWLINE]+5% of the City's [ICON_PRODUCTION] Production is added to the current [ICON_PRODUCTION] Production amount every time the city gains a [ICON_CITIZEN] Citizen.</Text>
+		</Row>-->
+		<!--Diplo National Wonder Help-->
+		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS_HELP">
+			<Text>+1 [ICON_RES_PAPER] Бумага. +20% [ICON_PRODUCTION] Производство дипломатических юнитов в этом городе. Все дипломатические юниты получают повышение [COLOR_POSITIVE_TEXT]Грамотность[ENDCOLOR].[NEWLINE][NEWLINE]Во всех городах должна быть построена Канцелярия. Чем больше городов в Империи, тем выше стоимость постройки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE_HELP">
+			<Text>+1 [ICON_RES_PAPER] Бумага. +20% [ICON_PRODUCTION] Производство дипломатических юнитов в этом городе. Все дипломатические юниты получают повышение [COLOR_POSITIVE_TEXT]Дипломатическая неприкосновенность[ENDCOLOR].[NEWLINE][NEWLINE]Во всех городах должен быть построен Телеграф. Чем больше городов в Империи, тем выше стоимость постройки.</Text>
+		</Row>
+		<!--
+		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE_HELP">
+			<Text>+1 [ICON_RES_PAPER] Paper. +10% [ICON_PRODUCTION] Production of Diplomatic Units. Can only be constructed in a player's Capital. [NEWLINE][NEWLINE] +5% of the City's [ICON_PRODUCTION] Production is added to the current [ICON_PRODUCTION] Production amount every time the city gains a [ICON_CITIZEN] Citizen.</Text>
+		</Row>-->
+		<!--Diplo World Wonder Help-->
+		<Row Tag="TXT_KEY_BUILDING_FORUM_HELP">
+			<Text>Даёт 1 [COLOR_POSITIVE_TEXT]бесплатного[ENDCOLOR] [ICON_DIPLOMAT] Великого Дипломата по завершении строительства. +1 [ICON_RES_PAPER] Бумага. +20% [ICON_PRODUCTION] производство дипломатических юнитов в этом городе. Все дипломатические юниты получают повышение [COLOR_POSITIVE_TEXT]Императорская печать[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE_HELP">
+			<Text>+1 [ICON_RES_PAPER] Бумага. +20% [ICON_PRODUCTION] производство дипломатических юнитов в этом городе. Все дипломатические юниты получают повышение [COLOR_POSITIVE_TEXT]Дворянское происхождение[ENDCOLOR]. Все Канцелярии получают +3 [ICON_GOLD] золота и +1 [ICON_CULTURE] культуры.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_HELP">
+			<Text>Требуется Порядок. +5% [ICON_CULTURE] культура и [ICON_RESEARCH] наука в городе. Получите по одному голосу за каждое [COLOR_POSITIVE_TEXT]Соглашение об исследованиях[ENDCOLOR], заключенное с другими игроками. [NEWLINE][NEWLINE]Во всех городах должна быть построена Государственная школа. Чем больше городов в Империи, тем выше стоимость постройки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE_HELP">
+			<Text>Требуется [COLOR_MAGENTA]Автократия[ENDCOLOR]. +15 [ICON_TOURISM] Туризм и +10% [ICON_PRODUCTION] производство в городе. Получите два голоса за каждую [COLOR_POSITIVE_TEXT]вражескую столицу[ENDCOLOR], которую вы контролируете. [NEWLINE][NEWLINE]Во всех городах должна быть построена Военная академия. Чем больше городов в Империи, тем выше стоимость постройки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER_HELP">
+			<Text>Требуется Свобода. +5% [ICON_FOOD] еда и [ICON_GOLD] золото в городе. Получите по одному голосу за каждые две [COLOR_POSITIVE_TEXT]Декларации о дружбе[ENDCOLOR], которые у вас есть с другими игроками.[NEWLINE][NEWLINE]Во всех городах должна быть построена Фондовая биржа. Чем больше городов в Империи, тем выше стоимость постройки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL_HELP">
+			<Text>Может быть построен только совместно через Всемирный Конгресс. Получите 1 [COLOR_POSITIVE_TEXT]дополнительный[ENDCOLOR] [ICON_INTERNATIONAL_TRADE] Торговый Путь. Предоставляет всем военно-морским юнитам, кроме подводных лодок и авианосцев, повышение [COLOR_POSITIVE_TEXT]Флот сокровищ[ENDCOLOR], которое дает +10% к [ICON_STRENGTH] боевой мощи при атаке, +1 к обзору и способность ремонтироваться [COLOR_POSITIVE_TEXT]за пределами дружественной территории[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE_HELP">
+			<Text>Может быть построен только совместно через Всемирный Конгресс. Получите +2 [ICON_HAPPINESS_1] счастья в городе.[NEWLINE][NEWLINE]Получите 2 [ICON_CULTURE] культуры и [ICON_GOLDEN_AGE] очка Золотого века каждый раз, когда убит принадлежащий вам юнит (в зависимости от Эры). Форты, цитадели и достопримечательности дают +2 [ICON_CULTURE] культуры и [ICON_GOLDEN_AGE] очков Золотого века при обработке.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OLYMPIC_VILLAGE_HELP">
+			<Text>Может быть построен только совместно через Всемирный Конгресс. Получите +3 [ICON_HAPPINESS_1] счастья и +3 [ICON_CULTURE] культуры в городе, в котором он построен. 25% [ICON_CULTURE] культуры от Чудес Света и клеток добавляется к [ICON_TOURISM] туризму города.[NEWLINE][NEWLINE]Все стадионы получают +2 [ICON_GOLD] золота и [ICON_TOURISM] туризма.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_PALACE_HELP">
+			<Text>Может быть построен только совместно через Всемирный Конгресс. Получите +2 к [ICON_PRODUCTION] производству и +2 к [ICON_RESEARCH] науке для всех Фабрик в принадлежащих вам городах. Империя вступает в [ICON_GOLDEN_AGE] Золотой век.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONSULATE_HELP">
+			<Text>Получите 1 [COLOR_POSITIVE_TEXT]дополнительного[ENDCOLOR] [ICON_DIPLOMAT] делегата на Всемирный конгресс за каждые 8 ​​[ICON_CITY_STATE] городов-государств в игре.</Text>
+		</Row>
+		<!--
+		<Row Tag="TXT_KEY_SECURITY_COUNCIL_HELP">
+			<Text>+1 [ICON_RES_PAPER] Paper. +10% [ICON_PRODUCTION] Production of Diplomatic Units. Receive additional [ICON_SPY] Spies.</Text>
+		</Row>
+		-->
+		<Row Tag="TXT_KEY_UN_HELP">
+			<Text>Может быть построен только совместно через Всемирный Конгресс. Получите 1 [COLOR_POSITIVE_TEXT]дополнительного[ENDCOLOR] [ICON_DIPLOMAT] делегата на Всемирный конгресс за каждые 8 ​​[ICON_CITY_STATE] городов-государств в игре. Кроме того, использовав [ICON_GREAT_PEOPLE] Великого Человека, вы получите 25 [ICON_INFLUENCE] влияния со всеми [ICON_CITY_STATE] городами-государствами, которые вы встретили. Начинает [ICON_GOLDEN_AGE] Золотой век, а также [COLOR_POSITIVE_TEXT]специальную сессию Всемирного конгресса ООН[ENDCOLOR].</Text>
+		</Row>
+		
+		<!--Diplo Building Strategy
+		<Row Tag="TXT_KEY_BUILDING_CHANCERY_STRATEGY">
+			<Text>Increases Diplomatic Unit production speed and increases the amount of Influence received for Diplomatic Units built in the city. The Civil Servant specialist of this building offers a little [ICON_CULTURE] Culture, [ICON_RESEARCH] Science and [ICON_GOLD] Gold, in exchange for [ICON_FOOD] Food and [ICON_PRODUCTION] Production. The additional [ICON_PRODUCTION] Production granted upon City growth makes it important to build this building early on to maximize the boost..</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WIRE_SERVICE_STRATEGY">
+			<Text>Increases Diplomatic Unit production speed and increases the amount of Influence received for Diplomatic Units built in the city.  The Civil Servant specialist of this building offers a little [ICON_CULTURE] Culture, [ICON_RESEARCH] Science and [ICON_GOLD] Gold, in exchange for [ICON_FOOD] Food and [ICON_PRODUCTION] Production. The additional [ICON_PRODUCTION] Production granted upon City growth makes it important to build this building early on to maximize the boost.</Text>
+		</Row>-->
+		<!--Diplo National Wonder Strategy-->
+		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS_STRATEGY">
+			<Text>Это Национальное Чудо не может быть построено, если в городе нет Канцелярии. Постройте его, чтобы получить увеличение скорости производства дипломатических юнитов в городе, где он построен, увеличение движения и влияния для всех ваших дипломатических юнитов, а также возможность вашим дипломатическим юнитам игнорировать штрафы за рельеф.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE_STRATEGY">
+			<Text>Это Национальное Чудо не может быть построено, если в городе нет Телеграфа. Постройте его, чтобы увеличить скорость производства дипломатических юнитов в городе, где он построен, повысить скорость передвижения и влияние всех ваших дипломатических юнитов, а также возможность отправлять свои дипломатические юниты через территорию соперника без [COLOR_POSITIVE_TEXT]Соглашения об Открытых границах[ENDCOLOR].</Text>
+		</Row>
+		<!--
+		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE_STRATEGY">
+			<Text>This National Wonder is unique, in that players may build it in their Capital without any other prerequisites. The Scrivener's Office gives a small production boost when building diplomatic units in the capital, and one [ICON_RES_PAPER] Paper resource. Build this building if you want to secure a city-state ally or two during the first few eras of the game.</Text>
+		</Row>-->
+		<!-- Diplo World Wonder Strategy-->
+		<Row Tag="TXT_KEY_BUILDING_FORUM_STRATEGY">
+			<Text>Постройте это Чудо Света, чтобы постоянно улучшать свои отношения с городами-государствами с помощью лучше обученных дипломатических юнитов. Предоставляет бесплатно Великого Дипломата для отправки в близлежащие города-государства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE_STRATEGY">
+			<Text>Постройте это Чудо, чтобы ваши дипломатические юниты могли проникнуть на территорию соперника без Соглашения об Открытых границах на столетия раньше других. Повышает эффективность всех Канцелярий в вашей империи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_STRATEGY">
+			<Text>Это Национальное Чудо не может быть построено, если цивилизация не построила Государственную школу в каждом из своих городов. Постройте это Национальное Чудо, чтобы получить дополнительные голоса на Всемирном конгрессе в зависимости от количества соглашений об исследованиях, которые вы в настоящее время имеете с другими игроками. Вы также получите большой импульс к культуре и науке города, в котором он построен.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE_STRATEGY">
+			<Text>Это Национальное Чудо не может быть построено, если цивилизация не построила Военную академию в каждом из своих городов. Постройте это Национальное Чудо, чтобы получить дополнительные голоса на Всемирном конгрессе в зависимости от количества завоеванных вами вражеских столиц. Вы также получите большой прирост туризма и веры в городе, где он построен.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER_STRATEGY">
+			<Text>Это Национальное Чудо не может быть построено, если цивилизация не построила Фондовую Биржу в каждом из своих городов. Постройте это Национальное Чудо, чтобы получить дополнительные голоса на Всемирном конгрессе в зависимости от количества Деклараций о дружбе, которые у вас есть с другими игроками. Вы также получите большой прирост производства еды и золота в городе, где он построен.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL_STRATEGY">
+			<Text>Постройте это чудо, чтобы повысить силу и живучесть своего флота с помощью повышения [COLOR_POSITIVE_TEXT]Флот сокровищ[ENDCOLOR] и получить дополнительный Торговый Путь. Может быть построен только совместно через Всемирный Конгресс.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE_STRATEGY">
+			<Text>Защитное Чудо. Увеличивает доход от фортов, цитаделей и достопримечательностей. Менинские ворота также дают небольшой бонус за каждый павший в бою юнит. Может быть построен только совместно через Всемирный Конгресс.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OLYMPIC_VILLAGE_STRATEGY">
+			<Text>Сочетая в себе сильные стороны Отеля, Стадиона и Эрмитажа, Олимпийская деревня представляет собой центр культуры поздней игры. Может быть построен только совместно через Всемирный Конгресс.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_PALACE_STRATEGY">
+			<Text>Как и его аналог из реального мира, Хрустальный дворец предоставляет множество преимуществ. Игроки с большим количеством городов и Фабрик больше всего выиграют от Хрустального дворца, однако дополнительные ячейки Шедевров и Культурных работ полезны для любой цивилизации. Может быть построен только совместно через Всемирный Конгресс.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CONSULATE_STRATEGY">
+			<Text>Консульство дает своему владельцу небольшое преимущество на Всемирном конгрессе, предоставляя дополнительного делегата. Может быть построен только совместно через Всемирный Конгресс.</Text>
+		</Row>
+		<!--
+		<Row Tag="TXT_KEY_BUILDING_SECURITY_COUNCIL_STRATEGY">
+			<Text>The Security Council Office grants its owner an additional Spy, and improves the rate of Diplomatic Unit production. May only be built collaboratively through the World Congress.</Text>
+		</Row>
+		-->
+		<Row Tag="TXT_KEY_BUILDING_UN_STRATEGY">
+			<Text>В сочетании с высокой скоростью появления Великих Людей Организация Объединённых Наций дает своему владельцу значительный прирост дипломатической власти во Всемирном конгрессе. Это также дает дополнительного делегата и начинает Золотой век. [NEWLINE][NEWLINE]Помимо этих непосредственных преимуществ, создание Организации Объединенных Наций запускает специальную сессию Всемирного конгресса ООН, которая обеспечивает дипломатическую победу. Может быть построен только совместно через Всемирный Конгресс.</Text>
+		</Row>
+		<!--Diplo Building Civilopedia Entries-->
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CHANCERY_TEXT">
+			<Text>В период раннего средневековья канцелярии возникли в Европе как филиал многих королевских дворов. Имея задачи выпуска судебных документов, управления королевскими указами, отправления правосудия и оценки доходов монарха, канцелярии баловались всеми элементами управления государством, включая дипломатию. По мере того, как королевства и государства росли в размерах и размахе в период раннего Нового времени, власть канцелярий постоянно расширялась, пока в 17 и 18 веках большинство западных стран юридически не разделили канцелярии на несколько более конкретных бюро. Таким образом, Канцелярия является прародительницей современной государственной службы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_WIRE_SERVICE_TEXT">
+			<Text>Создание региональных, национальных и, в конечном счете, международных информационных агентств (или телеграфных служб) сегодня считается само собой разумеющимся, но это было большим благом для экономической, политической и культурной взаимосвязанности мира. Стандартизируя скорость, качество и стабильность связи в глобальном масштабе, современные информационные агентства полезны не только для распространения популярных и интеллектуальных знаний, но и для ускорения дискурса между правительствами. В конце концов, большинство стран создадут национальные телеграфные службы, ориентированные на иностранные дела и дипломатию. Многие из этих организаций находились под контролем национального иностранного бюро.</Text>
+		</Row>
+		<!--Diplo National Wonder Entries-->
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PRINTING_PRESS_TEXT">
+			<Text>К концу 15 века из единственной типографии в Майнце, Германия, печать распространилась не менее чем на 270 городов Центральной, Западной и Восточной Европы. Предполагается, что уже в 1480 году «печатная книга была в Европе повсеместной». К 1500 году печатные станки, работавшие по всей Западной Европе, уже выпустили более двадцати миллионов экземпляров. Европейские типографии, которых было около 1600, могли производить 3600 оттисков за рабочий день. Для сравнения, печать подвижными литерами на Дальнем Востоке, не знавшая печатных машин и производившаяся исключительно ручным притиранием оборотной стороны бумаги к странице, не превышала производительности сорока страниц в день. Быстрота производства типографских текстов, а также резкое падение удельных издержек привели к выпуску первых газет, открывших совершенно новое поле для донесения до населения актуальной информации.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FOREIGN_OFFICE_TEXT">
+			<Text>Министерство иностранных дел находится в самом сердце современной империи. Через залы Иностранного бюро проходят огромные, бесконечные легионы государственных служащих, дипломатов и помощников, и все новости, как критические, так и обыденные.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_COURT_SCRIBE_TEXT">
+			<Text>Должность королевского писаря - одна из старейших и наиболее важных должностей на государственной службе. Хотя в современном государстве есть сотни государственных служащих, которые пишут, редактируют и выпускают правительственную документацию, в древнем мире эти задачи обычно возлагались на одного человека, писаря. Скривенеры обладали огромной властью, поскольку они контролировали формулировки, переводы и толкования законов страны. Из-за этой великой силы хороший, верный писец был бесценным ресурсом.</Text>
+		</Row>
+		
+		<!-- Diplo Project UN Wonders 
+		-->
+		<!--
+		<Row Tag="TXT_KEY_SECURITY_COUNCIL_DESC">
+			<Text>The United Nations Security Council (UNSC) is one of the six principal organs of the United Nations and is charged with the maintenance of international peace and security. Its powers include the establishment of peacekeeping operations, the establishment of international sanctions, and the authorization of military action through Security Council resolutions; it is the only UN body with the authority to issue binding resolutions to member states. The Security Council held its first session on 17 January 1946. Like the UN as a whole, the Security Council was created following World War II to address the failings of another international organization, the League of Nations, in maintaining world peace.</Text>
+		</Row>
+		-->
+		<Row Tag="TXT_KEY_CONSULATE_DESC">
+			<Text>Офис консула называется консульством и обычно подчиняется главному представительству государства в этой иностранной стране, обычно посольству или Верховной комиссии между странами Содружества в столице принимающего государства. Как и термин «посольство», слово «консульство» может относиться не только к офису консула, но и к зданию, занимаемому консулом и его или ее персоналом. Консульство может делить помещение с самим посольством. В наше время многие консульства связаны с Организацией Объединенных Наций и/или другими международными организациями.</Text>
+		</Row>
+		
+		<!--Diplo World Wonder Entries-->
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FORUM_TEXT">
+			<Text>Римский форум (лат. Forum Romanum) представляет собой прямоугольный форум (площадь), окруженный руинами нескольких важных древних правительственных зданий в центре города Рима. На протяжении веков он был центром римской общественной жизни: местом триумфальных шествий и выборов, местом публичных выступлений, уголовных процессов, гладиаторских боев и торговых дел. Кишащее сердце древнего Рима, оно было названо самым знаменитым местом встречи в мире и во всей истории.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FORUM_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Я пришёл в Рим, когда он был городом из кирпича, а оставил его городом из мрамора". [NEWLINE] – Август Цезарь[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SUMMER_PALACE_TEXT">
+			<Text>Построенный поэтапно в период позднего Средневековья и раннего Нового времени, Летний дворец был большим, великолепным сооружением силы и могущества ранней династии Цин и аналогом главного императорского дворца в Пекине. Летний дворец, известный своим изысканным ландшафтом, пышными садами и захватывающими видами, остается важным символом могущества Китая раннего Нового времени и популярным туристическим направлением.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SUMMER_PALACE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Монархия — самая дорогая из всех форм правления... Тот, кто зависит от своей власти, должен укреплять эту власть, подкупая активных и предприимчивых, которых он не может запугать». [NEWLINE] — Джеймс Ф. Купер.[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PALACE_SCIENCE_CULTURE_TEXT">
+			<Text>Дворец культуры и науки в Варшаве — самое высокое здание в Польше, восьмое по высоте здание в Европейском Союзе. Первоначально здание было известно как Дворец культуры и науки имени Иосифа Сталина, но после десталинизации посвящение Сталину было отменено; Имя Сталина убрали с внутреннего вестибюля и одной из скульптур здания. В настоящее время это 187-е по высоте здание в мире.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_EHRENHALLE_TEXT">
+			<Text>«Эренхалле» (Зал почета) был построен городом Нюрнбергом по проекту немецкого архитектора Фрица Майера. Он был открыт в 1930 году, до эпохи Гитлера во времена Веймарской республики. Это аркадный зал с примыкающей к нему мощеной каменной террасой с двумя рядами постаментов для костровых чаш. Все четырнадцать пилонов остались практически нетронутыми и не зажигались с момента последнего съезда нацистской партии в сентябре 1938 года. Первоначально зал должен был стать мемориалом 9855 солдатам из Нюрнберга, павшим в Первой мировой войне. Во время партийного съезда В 1929 году тогда еще недостроенный «Зал чести» впервые был использован национал-социалистами для проведения культа мертвых. Во времена Третьего рейха нацисты использовали это место в первую очередь как память о павших солдатах Первой мировой войны и память о 16 погибших во время «Гитлерпутча» (так называемых «мучеников движения NS»). Путч) 9 ноября 1923 года в Мюнхене. Гитлер в сопровождении лидера СС Генриха Гиммлера и лидера СА Виктора Лутце прошел по арене по гранитной дорожке длиной 240 метров от главной трибуны до террасы Эренхалле и показал там нацистский салют. Ритуал стал кульминацией праздника.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FINANCE_CENTER_TEXT">
+			<Text>Финансовый центр — это глобальный город, в котором находится большое количество всемирно значимых банков, предприятий и фондовых бирж. Международный финансовый центр, иногда сокращенно IFC, представляет собой неконкретный термин, обычно используемый для описания важного участника торговли на международном финансовом рынке, обычно имеющего по крайней мере один крупный фондовый рынок. На протяжении большей части 20-го века Соединенные Штаты и их финансовая столица Нью-Йорк были лидерами. Но с 1990-х годов, когда возник многополярный мир с новыми региональными державами и глобальным капитализмом, многочисленные финансовые центры бросили вызов господству Уолл-стрит, особенно из Азии, которая, по мнению некоторых аналитиков, станет центром нового мирового роста.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GRAND_CANAL_TEXT">
+			<Text>
+				Гранд-канал является крупнейшим каналом в Венеции, Италия, и остается одним из самых важных торговых и транспортных коридоров в городе. Как город на небольших островах, Венеция в средние века была усовершенствована за счет дноуглубительных работ, чтобы поднять болотистую землю над приливами, результатом чего стала серия затопленных каналов. Эти каналы, или каналы, способствовали расцвету морской культуры, которая сыграла центральную роль в экономике города со средних веков и до наших дней. Сегодня эти каналы по-прежнему обеспечивают транспортировку товаров и людей в пределах города. Лабиринт каналов, пронизывающих город, требует использования более 400 мостов, чтобы обеспечить поток пешеходов. В 2011 году город открыл Ponte della Costituzione, четвертый мост через Гранд-канал, соединяющий район автовокзала Piazzale Roma с Stazione Ferroviaria (железнодорожный вокзал); остальные три - Ponte di Rialto, Ponte dell Accademia, и Ponte degli Scalzi.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GRAND_CANAL_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"Строить город там, где невозможно построить город, — само по себе безумие, а строить там один из самых изящных и величественных городов — безумие гения". [NEWLINE] — Александр Герцен[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE_TEXT">
+			<Text>
+				Мемориал Мененских ворот пропавшим без вести — это военный мемориал в Ипре, Бельгия, посвященный британским солдатам и солдатам Содружества, которые были убиты в выступе Ипра во время Первой мировой войны. солдат, погибших в Выступе, но чьи тела так и не были обнаружены. Мемориал стоит на восточном выезде из города, отмечая отправную точку к линии фронта, где было убито более 450 000 человек с обеих сторон конфликта.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]«Кто вспомнит, проходя через эти Врата, [NEWLINE][TAB][TAB]негероических мертвецов, кормивших пушки?[NEWLINE][TAB][TAB]Кто снимет мерзость их судьбы,[NEWLINE][TAB] ][TAB]Обреченных, призванных, непобедивших?"[NEWLINE] – Зигфрид Сассун[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_OLYMPIC_VILLAGE_TEXT">
+			<Text>
+				Олимпийская деревня — это жилой комплекс, построенный для Олимпийских игр, обычно в Олимпийском парке или в другом месте города-организатора. Олимпийские деревни строятся для размещения всех участвующих спортсменов, а также официальных лиц и спортивных тренеров. Идея Олимпийской деревни исходит от Пьера де Кубертена. Вплоть до летних Олимпийских игр 1924 года национальные олимпийские комитеты арендовали помещения вокруг города-организатора для размещения участников, что было дорого. Для летних Олимпийских игр 1924 года организаторы построили кабинки возле Олимпийского стадиона Коломб, чтобы спортсмены могли легко добраться до объектов Игр. Олимпийская деревня летних Олимпийских игр 1932 года послужила образцом сегодняшних олимпийских деревень; он состоял из группы зданий с помещениями для размещения спортсменов и зданий с другими помещениями.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OLYMPIC_VILLAGE_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]«Самое главное в Олимпийских играх — не победа, а участие; главное в жизни — не победа, а хорошая борьба». [NEWLINE]– Пьер де Кубертен[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CRYSTAL_PALACE_TEXT">
+			<Text>
+				Хрустальный дворец представлял собой здание из чугуна и листового стекла, первоначально возведенное в Гайд-парке в Лондоне, Англия, для проведения Великой выставки 1851 года. показать примеры новейших технологий, разработанных в ходе промышленной революции. Спроектированное сэром Джозефом Пакстоном здание Большой выставки имело длину 1851 фут и внутреннюю высоту 128 футов. Из-за недавнего изобретения в 1848 году метода литья листового стекла, который позволял изготавливать большие листы дешевого, но прочного стекла, в то время это было самое большое количество стекла, когда-либо виденное в здании, и оно поражало посетителей своими прозрачными стенами и потолками, которые не требовалось внутреннее освещение, поэтому «Хрустальный дворец».
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CRYSTAL_PALACE_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]«Мне снилось, что Выставка ... была, как и должно быть, дворцом из самого хрусталя, небо сквозь каждую часть крыши смотрит на все народы под ним». [NEWLINE] – Дуглас Джерролд[NEWLINE][TAB]
+			</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Update>
+			<Where Tag="TXT_KEY_GOODY_GOLD"/>
+			<Set>
+				<Text>В руинах вы находите сокровища древней империи!</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GOODY_PROPHET_FAITH"/>
+			<Set>
+				<Text>Вы нашли тайную религиозную общину. Проповедник предсказывает приход Великого Пророка.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GOODY_FAITH"/>
+			<Set>
+				<Text>Вы нашли древнего оракула. Жрица благословила вас божественным откровением.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GOODY_CULTURE"/>
+			<Set>
+				<Text>Вы нашли культурные артефакты, которые вызывают благоговейный трепет у ваших горожан!</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MISC_RECEIVED_GOLD"/>
+			<Set>
+				<Text>[SPACE]Вы получили {1_Num} [ICON_GOLD] золота!</Text>
+			</Set>
+		</Update>
+		<Row Tag="TXT_KEY_MISC_RECEIVED_CULTURE">
+			<Text>[SPACE]Вы получили {1_Num} [ICON_CULTURE] культуры!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_RECEIVED_FAITH">
+			<Text>[SPACE]Вы получили {1_Num} [ICON_PEACE] веры!</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

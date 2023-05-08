@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/2/2011 12:46:11 PM -->
+<GameData>
+	<Language_ru_RU>
+		<!--Unit Combat Type- Diplo Units-->
+		<Row Tag="TXT_KEY_UNITCOMBAT_DIPLOMACY">
+			<Text>Дипломатические юниты</Text>
+		</Row>
+		<!--Diplo Promotion Titles-->
+		<Row Tag="TXT_KEY_PROMOTION_EMISSARY">
+			<Text>Стажёр</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENVOY">
+			<Text>Адепт</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DIPLOMAT">
+			<Text>Профессионал</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBASSADOR">
+			<Text>Полномочный</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_DIPLOMAT">
+			<Text>Мастер</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_NOBEL_LAUREATE">
+			<Text>Нобелевский лауреат</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIGNET">
+			<Text>Королевская печать</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EXPRESS">
+			<Text>Телеграф</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LITERACY">
+			<Text>Грамотность</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMMUNITY">
+			<Text>Дипломатическая неприкосновенность</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PAX">
+			<Text>Имперская печать</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NOBILITY">
+			<Text>Дворянство</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TREASURE_FLEET">
+			<Text>Флот сокровищ</Text>
+		</Row>
+		<!--Diplo Promotion Help-->
+		<Row Tag="TXT_KEY_PROMOTION_EMISSARY_HELP">
+			<Text>+40 [ICON_INFLUENCE] влияния при выполнении дипломатической миссии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENVOY_HELP">
+			<Text>+50 [ICON_INFLUENCE] влияния при выполнении дипломатической миссии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DIPLOMAT_HELP">
+			<Text>+60 [ICON_INFLUENCE] влияния при выполнении дипломатической миссии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBASSADOR_HELP">
+			<Text>+70 [ICON_INFLUENCE] влияния при выполнении дипломатической миссии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_DIPLOMAT_HELP">
+			<Text>+100 [ICON_INFLUENCE] влияния при выполнении дипломатической миссии; -100 влияние [ICON_INFLUENCE] других цивилизаций на этот город-государство. Даёт дополнительное [ICON_INFLUENCE] влияние за каждую завершенную эпоху. Имеет возможность проникнуть на территорию соперника без Соглашения об Открытых границах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NOBEL_LAUREATE_HELP">
+			<Text>Дает дипломатическим подразделениям +10 [ICON_INFLUENCE] влияния, когда вы выполняете дипломатическую миссию. Бонус эксклюзивен для шведской цивилизации (при использовании специальной черты CSD для Швеции).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIGNET_HELP">
+			<Text>+10 [ICON_INFLUENCE] влияния при выполнении дипломатической миссии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EXPRESS_HELP">
+			<Text>+10 [ICON_INFLUENCE] влияния при выполнении дипломатической миссии, +1 [ICON_MOVES] движение.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LITERACY_HELP">
+			<Text>+10 [ICON_INFLUENCE] влияния при выполнении дипломатической миссии, +1 [ICON_MOVES] движение для дипломатических юнитов, игнорирует штрафы передвижения по местности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMMUNITY_HELP">
+			<Text>+10 [ICON_INFLUENCE] влияния при выполнении дипломатической миссии, может проникнуть на территорию соперника без Соглашения об Открытых границах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PAX_HELP">
+			<Text>+10 [ICON_INFLUENCE] влияния при выполнении дипломатической миссии с городом-государством.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NOBILITY_HELP">
+			<Text>+15 [ICON_INFLUENCE] влияния при выполнении дипломатической миссии с городом-государством, может проникнуть на территорию соперника без Соглашения об Открытых границах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TREASURE_FLEET_HELP">
+			<Text>+1 к зрению, +10% к боевой мощи при атаке и способность ремонтироваться в недружественных водах.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

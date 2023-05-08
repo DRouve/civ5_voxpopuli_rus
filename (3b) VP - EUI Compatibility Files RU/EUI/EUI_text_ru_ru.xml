@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with notepad by bc1 -->
+<GameData>
+	<Language_ru_RU>
+		<!-- C4DF Support-->
+		<Replace Tag="TXT_KEY_C4DF_VASSAL_OVERVIEW">
+			<Text>Обзор вассалов</Text>
+		</Replace>
+<!-- UI additions -->
+		<Replace Tag="TXT_KEY_POP_GREAT_PERSON_UNITS">
+			<Text>ВЕЛИКИЕ ЛЮДИ</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_RELIGIOUS_UNITS">
+			<Text>РЕЛИГИОЗНЫЕ ЮНИТЫ</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_LAND_UNITS">
+			<Text>НАЗЕМНЫЕ ВОЕННЫЕ ЮНИТЫ</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_SEA_UNITS">
+			<Text>МОРСКИЕ ВОЕННЫЕ ЮНИТЫ</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_AIR_UNITS">
+			<Text>ВОЗДУШНЫЕ ВОЕННЫЕ ЮНИТЫ</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_MILITARY_UNITS">
+			<Text>ВОЕННЫЕ ЮНИТЫ</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_NATIONAL_WONDERS">
+			<Text>НАЦИОНАЛЬНЫЕ ЧУДЕСА</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_WORLD_WONDERS">
+			<Text>ЧУДЕСА СВЕТА</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_PROJECTS">
+			<Text>ПРОЕКТЫ</Text>
+		</Replace>
+<!-- UNIT attributes -->
+		<Replace Tag="TXT_KEY_EUI_UNIT_MOVEAFTERPURCHASE">
+			<Text>Может передвигаться после покупки</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_IMMOBILE">
+			<Text>Immobile</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_FOOD">
+			<Text>{TXT_KEY_CITYVIEW_STAGNATION_TEXT}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_NOBADGOODIES">
+			<Text>Нет плохих вкусностей</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_RIVALTERRITORY">
+			<Text>Территория соперника</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_MILITARYSUPPORT">
+			<Text>Military Support</Text>
+		</Replace-->
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_MILITARYPRODUCTION">
+			<Text>Military Production</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_PILLAGE">
+			<Text>Можно грабить улучшенные клетки</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_FOUND">
+			<Text>Может основать город</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_FOUNDABROAD">
+			<Text>Может основать заморский город</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_IGNOREBUILDINGDEFENSE">
+			<Text>Ignores City Fortifications</Text>
+		</Replace-->
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_MECHANIZED">
+			<Text>Mechanized</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_SUICIDE">
+			<Text>Юнит расходуется во время атаки</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_CAPTUREWHILEEMBARKED">
+			<Text>Захват во время посадки</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_RUSHBUILDING">
+			<Text>{TXT_KEY_MISSION_HURRY_PRODUCTION}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_SPREADRELIGION">
+			<Text>{TXT_KEY_MISSION_SPREAD_RELIGION}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_REMOVEHERESY">
+			<Text>{TXT_KEY_MISSION_REMOVE_HERESY}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_FOUNDRELIGION">
+			<Text>{TXT_KEY_MISSION_FOUND_RELIGION}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_REQUIRESENHANCEDRELIGION">
+			<Text>Требуется расширенная религия</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_PROHIBITSSPREAD">
+			<Text>Запрещает распространение</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_CANBUYCITYSTATE">
+			<Text>{TXT_KEY_MISSION_BUY_CITY_STATE}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_RANGEATTACKONLYINDOMAIN">
+			<Text>Атака по дальности только в домене</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_RANGEATTACKIGNORELOS">
+			<Text>{TXT_KEY_PROMOTION_INDIRECT_FIRE}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_TRADE">
+			<Text>{TXT_KEY_MISSION_ESTABLISH_TRADE_ROUTE}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_NOMAINTENANCE">
+			<Text>{TXT_KEY_PEDIA_MAINT_LABEL} 0</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_BASESIGHTRANGE">
+			<Text>Base Sight Range {1}</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_CULTUREBOMBRADIUS">
+			<Text>{TXT_KEY_MISSION_CULTURE_BOMB} ({1})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_GOLDENAGETURNS">
+			<Text>{TXT_KEY_MISSION_START_GOLDENAGE} ({1} {TXT_KEY_TURNS})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_FREEPOLICIES">
+			<Text>{TXT_KEY_MISSION_GIVE_POLICIES} ({1}x[ICON_CULTURE])</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_ONESHOTTOURISM">
+			<Text>{TXT_KEY_MISSION_ONE_SHOT_TOURISM} ({1}x[ICON_TOURISM])</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_ONESHOTTOURISMPERCENTOTHERS">
+			<Text>One Shot Tourism Percent Others {1}</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_MINAREASIZE">
+			<Text>Min Area Size {1}</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_AIRINTERCEPTRANGE">
+			<Text>{TXT_KEY_MISSION_INTERCEPT} [ICON_RANGE_STRENGTH]{1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_AIRUNITCAP">
+			<Text>Лимит воздушных юнитов {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_NUKEDAMAGELEVEL">
+			<Text>Уровень ядерного урона {1}</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_WORKRATE">
+			<Text>Work Rate {1}</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_NUMFREETECHS">
+			<Text>{TXT_KEY_MISSION_DISCOVER_TECH} ({1})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_BASEBEAKERSTURNSTOCOUNT">
+			<Text>{TXT_KEY_MISSION_DISCOVER_TECH} ({1} {TXT_KEY_TURNS})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_BASECULTURETURNSTOCOUNT">
+			<Text>{TXT_KEY_MISSION_GIVE_POLICIES} ({1} {TXT_KEY_TURNS})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_RELIGIONSPREADS">
+			<Text>{TXT_KEY_UPANEL_SPREAD_RELIGION_USES}: {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_RELIGIOUSSTRENGTH">
+			<Text>Религиозная сила {1}</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_COMBATLIMIT">
+			<Text>Combat Limit {1}</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_NUMEXOTICGOODS">
+			<Text>{TXT_KEY_MISSION_SELL_EXOTIC_GOODS}: {1}</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_RANGEDCOMBATLIMIT">
+			<Text>Ranged Combat Limit {1}</Text>
+		</Replace-->
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_CONSCRIPTION">
+			<Text>Conscription {1}</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_EXTRAMAINTENANCECOST">
+			<Text>{TXT_KEY_PEDIA_MAINT_LABEL} {1}[ICON_GOLD]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_UNHAPPINESS">
+			<Text>{TXT_KEY_UNHAPPINESS}: {1}[ICON_HAPPINESS_3]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_LEADEREXPERIENCE">
+			<Text>Опыт лидера {1}</Text>
+		</Replace>
+
+<!-- BUILDING attributes -->
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TEAMSHARE">
+			<Text>{TXT_KEY_POP_UN_TEAM}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_FOUNDSRELIGION">
+			<Text>{TXT_KEY_MISSION_FOUND_RELIGION}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ISRELIGIOUS">
+			<Text>Религиозный</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_BORDEROBSTACLE">
+			<Text>Пограничное препятствие</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_PLAYERBORDEROBSTACLE">
+			<Text>Препятствие на границе игрока</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_CAPITAL">
+			<Text>Столица</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GOLDENAGE">
+			<Text>{TXT_KEY_MISSION_START_GOLDENAGE}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_MAPCENTERING">
+			<Text>Центрирование карты</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NEVERCAPTURE">
+			<Text>Не захватываемый</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NUKEIMMUNE">
+			<Text>Иммунитет к ядерному оружию</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ALLOWSWATERROUTES">
+			<Text>Разрешает водные маршруты</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_EXTRALUXURIES">
+			<Text>Дополнительные ресурсы Роскоши</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_DIPLOMATICVOTING">
+			<Text>Дипломатическое голосование</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_AFFECTSPIESNOW">
+			<Text>Воздействовать на шпионов сейчас</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NULLIFYINFLUENCEMODIFIER">
+			<Text>Обнулить модификатор влияния</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_HOLYCITY">
+			<Text>[COLOR_WHITE]{TXT_KEY_RO_WR_HOLY_CITY}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_AIRLIFT">
+			<Text>{TXT_KEY_MISSION_AIRLIFT}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NOOCCUPIEDUNHAPPINESS">
+			<Text>{TXT_KEY_BUILDING_COURTHOUSE_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ALLOWSRANGESTRIKE">
+			<Text>Позволяет дальний удар.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ESPIONAGE">
+			<Text>{TXT_KEY_GAME_CONCEPT_SECTION_22}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ALLOWSFOODTRADEROUTES">
+			<Text>[ICON_FOOD]{TXT_KEY_TRADE_ROUTES_HEADING2_TITLE}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ALLOWSPRODUCTIONTRADEROUTES">
+			<Text>[ICON_PRODUCTION]{TXT_KEY_TRADE_ROUTES_HEADING2_TITLE}</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_BUILDING_CITYWALL">
+			<Text>City Wall</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_BUILDING_LEAGUECOST">
+			<Text>Стоимость лиги {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NUMCITYCOSTMOD">
+			<Text>Модификатор стоимости из-за количества городов {1}</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_BUILDING_MINAREASIZE">
+			<Text>Min Area Size {1}</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_BUILDING_CONQUESTPROB">
+			<Text>{1}% шанс захвата</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_CITIESPREREQ">
+			<Text>Требования городов {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_LEVELPREREQ">
+			<Text>Требования к уровню {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALCULTURERATEMODIFIER">
+			<Text>Глобальный модификатор скорости культуры {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GREATPEOPLERATEMODIFIER">
+			<Text>+{1}%[ICON_GREAT_PEOPLE] {TXT_KEY_CITYVIEW_GREAT_PEOPLE_TEXT}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALGREATPEOPLERATEMODIFIER">
+			<Text>Глобальный модификатор скорости появления Великих Людей {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GREATGENERALRATEMODIFIER">
+			<Text>Модификатор скорости появления Великих Полководцев {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GREATPERSONEXPENDGOLD">
+			<Text>Great Person Expend Gold {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GOLDENAGEMODIFIER">
+			<Text>+{1}% {TXT_KEY_REPLAY_DATA_GOLDAGETURNS}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_UNITUPGRADECOSTMOD">
+			<Text>Модификация стоимости обновления юнитов {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_EXPERIENCE">
+			<Text>Опыт {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALEXPERIENCE">
+			<Text>Глобальный опыт {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_FOODKEPT">
+			<Text>+{1}%[ICON_FOOD] {TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_AIRMODIFIER">
+			<Text>Модификатор воздуха {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NUKEMODIFIER">
+			<Text>Модификатор ядерного оружия {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NUKEEXPLOSIONRAND">
+			<Text>Nuke Explosion Rand {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_HEALRATECHANGE">
+			<Text>Изменения скорости исцеления {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_UNHAPPINESSMODIFIER">
+			<Text>Модификатор несчастья {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_HAPPINESSPERCITY">
+			<Text>Счастья за город {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_HAPPINESSPERXPOLICIES">
+			<Text>+1 счастья за каждые {1} Социальных политик</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_CITYCOUNTUNHAPPINESSMOD">
+			<Text>Модификатор несчастья количеством городов {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_WORKERSPEEDMODIFIER">
+			<Text>Модификатор скорости Рабочих {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_MILITARYPRODUCTIONMODIFIER">
+			<Text>Модификатор военного производства {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_SPACEPRODUCTIONMODIFIER">
+			<Text>Модификатор космического производства {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALSPACEPRODUCTIONMODIFIER">
+			<Text>Глобальный модификатор космического производства {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_BUILDINGPRODUCTIONMODIFIER">
+			<Text>Модификатор скорости строительства зданий {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_WONDERPRODUCTIONMODIFIER">
+			<Text>Модификатор скорости строительства Чудес {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_CITYCONNECTIONTRADEROUTEMODIFIER">
+			<Text>Модификатор Торговой Сети {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_CAPTUREPLUNDERMODIFIER">
+			<Text>Модификатор захвата добычи {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_POLICYCOSTMODIFIER">
+			<Text>Модификатор стоимости Социальных политик {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_PLOTCULTURECOSTMODIFIER">
+			<Text>Модификатор стоимости клетки (культура) {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALPLOTCULTURECOSTMODIFIER">
+			<Text>Глобальный модификатор стоимости клетки (культура) {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_PLOTBUYCOSTMODIFIER">
+			<Text>Модификатор стоимости покупки клетки {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALPLOTBUYCOSTMODIFIER">
+			<Text>Глобальный модификатор стоимости покупки клетки {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALPOPULATIONCHANGE">
+			<Text>Изменение глобальной популяции {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TECHSHARE">
+			<Text>Техническая доля {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_FREETECHS">
+			<Text>Бесплатных Технологий: {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_FREEPOLICIES">
+			<Text>Бесплатных Социальных политик: {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_FREEGREATPEOPLE">
+			<Text>Бесплатных Великих Людей: {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_MEDIANTECHPERCENTCHANGE">
+			<Text>Среднее процентное изменение технологий {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GOLD">
+			<Text>Золото {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALDEFENSEMOD">
+			<Text>Глобальный модификатор защиты {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_MINORFRIENDSHIPCHANGE">
+			<Text>Незначительное изменение дружбы {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_VICTORYPOINTS">
+			<Text>Очки победы {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_EXTRAMISSIONARYSPREADS">
+			<Text>Дополнительное Миссионерское распространение {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_RELIGIOUSPRESSUREMODIFIER">
+			<Text>Модификатор религиозного давления {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ESPIONAGEMODIFIER">
+			<Text>Модификатор шпионажа {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALESPIONAGEMODIFIER">
+			<Text>Глобальный модификатор шпионажа {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_EXTRASPIES">
+			<Text>Дополнительные шпионы {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_SPYRANKCHANGE">
+			<Text>Изменение ранга шпиона {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_INSTANTSPYRANKCHANGE">
+			<Text>Мгновенные изменение ранга шпиона {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTERECIPIENTBONUS">
+			<Text>[ICON_INTERNATIONAL_TRADE]{TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER} +{1}[ICON_GOLD][ICON_ARROW_LEFT]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTETARGETBONUS">
+			<Text>[ICON_INTERNATIONAL_TRADE]{TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER} +{1}[ICON_GOLD][ICON_ARROW_RIGHT]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NUMTRADEROUTEBONUS">
+			<Text>+{1}[ICON_INTERNATIONAL_TRADE]{TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_LANDMARKSTOURISMPERCENT">
+			<Text>Процент туризма от Достопримечательностей {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_INSTANTMILITARYINCREASE">
+			<Text>Мгновенное военное увеличение {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GREATWORKSTOURISMMODIFIER">
+			<Text>Модификатор туризма от Шедевров {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_XBUILTTRIGGERSIDEOLOGYCHOICE">
+			<Text>XBuilt инициирует выбор Идеологии {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTESEADISTANCEMODIFIER">
+			<Text>Модификатор дальности морского Торгового Пути {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTESEAGOLDBONUS">
+			<Text>Бонус к золоту морского Торгового Пути {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTELANDDISTANCEMODIFIER">
+			<Text>Модификатор дальности наземного Торгового Пути {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTELANDGOLDBONUS">
+			<Text>Бонус к золоту наземного Торгового Пути {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_CITYSTATETRADEROUTEPRODUCTIONMODIFIER">
+			<Text>Модификатор производства Торгового Пути к город-государство {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GREATSCIENTISTBEAKERMODIFIER">
+			<Text>Модификатор колбы Великого Учёного {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_SPECIALISTEXTRACULTURE">
+			<Text>Дополнительная культура от Специалиста {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_EXTRALEAGUEVOTES">
+			<Text>Дополнительные голоса в лиге {1}</Text>
+		</Replace>
+		<!-- Vox Populi -->
+		<Replace Tag="TXT_KEY_EUI_BUILDING_SUPPLY_CAP_LOCAL">
+			<Text>Военное снабжение, локальное:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_SUPPLY_CAP_GLOBAL">
+			<Text>Военное снабжение, глобальное:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GRANTED_BY">
+			<Text>ПРЕДОСТАВЛЕНО</Text>
+		</Replace>
+		<!-- VP end -->
+<!-- MISC EUI tooltips -->
+		<Replace Tag="TXT_KEY_CBE91AF606834326BC7758BB489E509F_DESCRIPTION">
+			<Text>Данные планшета 1</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_OPEN_BORDERS_YOUR">
+			<Text>Ваши границы открыты для них</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_OPEN_BORDERS_THEIR">
+			<Text>Их границы открыты для вас</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_CLOSED_BORDERS_YOUR">
+			<Text>Ваши границы закрыты для них</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_CLOSED_BORDERS_THEIR">
+			<Text>Их границы закрыты для вас</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILT_IN_X_CITIES">
+			<Text>{1: plural  0?Не построено; 1?Построено в 1 Городе; 2?Построено в {1} Городах;}{2: plural 0?; 1?, Здание в 1 Городе; 2?, Здание в {2} Городах;}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_WONDER_BUILT_BY">
+			<Text>Построено {@1_CivName} в {@2_CityName}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNKNOWN_CITY">
+			<Text>Неизвестный город</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_AIR_STRENGTH_DEFENSE">
+			<Text>Защита от авиаударов:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_GLOBAL">
+			<Text>[COLOR_HIGHLIGHT_TEXT]Глобальный[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_EMPIRE">
+			<Text>[COLOR_HIGHLIGHT_TEXT]По Империи[ENDCOLOR]</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_VP_PUPPET_CITIES">
+			<Text>[ICON_PUPPET] города-сателлиты</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_EUI_RESOURCES_QUANTITY_TOTAL_REQUIRED">
+			<Text>Требуется доступ</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_EUI_RESOURCES_QUANTITY_TOTAL_REQUIRED_UNIT_PANEL">
+			<Text>Требуется доступ к ресурсу:</Text>
+		</Replace>
+	</Language_ru_RU>
+</GameData>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2016 4:34:53 PM -->
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MONGOLIA_ORDO">
+			<Text>Ордо</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MONGOLIA_ORDO_TEXT">
+			<Text>В простом переводе «ордо» означает «дворцовая палатка». Однако ордо был чем-то гораздо большим, чем просто шатер — он был центром племени для кочевых монголов.[NEWLINE][NEWLINE]Ордо служил штабом и главным лагерем для хана и его воинов. Хотя он был построен для путешествий, в нем был свой стиль, от простых украшений до тщательно вышитых узоров. Ордо двигался вместе с ханом и его воинами, когда они отправлялись в поход, гарантируя, что они всегда будут чувствовать себя как дома, где бы они ни путешествовали.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MONGOLIA_ORDO_HELP">
+			<Text>Уникальное улучшение тайла великого монгольского человека, заменяющее Цитадель. Обеспечивает [ICON_FOOD] еду, [ICON_GOLD] золото, [ICON_PRODUCTION] производство и [ICON_CULTURE] культуру.[NEWLINE][NEWLINE]Строительство Ордо требует смежных клеток.[NEWLINE][NEWLINE]Юниты, стоящие на Ордо, получают +50% к [ICON_STRENGTH] защите и +1 [ICON_MOVES] к движению за этот ход.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MONGOLIA_ORDO">
+			<Text>Построить [LINK=IMPROVEMENT_MONGOLIA_ORDO]Ордо[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MONGOLIA_ORDO_HELP">
+			<Text>Даёт [ICON_FOOD] еду, [ICON_GOLD] золото, [ICON_PRODUCTION] производство и [ICON_CULTURE] культуру. Дает [ICON_STRENGTH] бонус к защите и дополнительное [ICON_MOVES] движение юнитам, размещенным на нем. Забирает соседние клетки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MONGOLIA_ORDO_REC">
+			<Text>Юнит исчезнет.[NEWLINE]Уникальное монгольское улучшение клетки. Обеспечивает [ICON_FOOD] еду, [ICON_GOLD] золото, [ICON_PRODUCTION] производство и [ICON_CULTURE] культуру. Дает [ICON_STRENGTH] бонус к защите и [ICON_MOVES] движение юнитам, размещенным на нем.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_EKI">
+			<Text>Эки</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_EKI_TEXT">
+			<Text>«Эки» — это термин, который гунны, вероятно, использовали для описания земли, особенно той, которая была необходима для выпаса скота. Кочевое скотоводство - это форма скотоводства, при которой скот пасутся, чтобы найти свежие пастбища, на которых можно пастись. Строго говоря, настоящие кочевники следуют нерегулярному образцу передвижения, в отличие от отгонного скотоводства, когда сезонные пастбища фиксированы. Однако это различие часто не соблюдается, и термин « кочевник» используется для обоих - в исторических случаях регулярность перемещений в любом случае часто неизвестна. Стадный скот включает крупный рогатый скот, яков, овец, коз, северных оленей, лошадей, ослов или верблюдов или смеси видов. Кочевое скотоводство обычно практикуется в регионах с небольшим количеством пахотных земель, как правило, в развивающихся странах. Из примерно 30–40 миллионов кочевников-скотоводов во всем мире большинство проживает в Центральной Азии и регионе Сахель в Западной Африке. Увеличение поголовья скота может привести к чрезмерному выпасу скота и опустыниванию, если землям не будет позволено полностью восстанавливаться между одним пастбищным периодом и другим. Увеличение ограждения и ограждения земли уменьшило количество земли, доступной для этой практики. [NEWLINE][NEWLINE]Эки можно построить только на ровных участках суши без доступа к пресной воде. Он обеспечивает [ICON_PRODUCTION] производство, [ICON_CULTURE] культуру и [ICON_FOOD] еду, а также дополнительное [ICON_PRODUCTION] производство, если [COLOR_POSITIVE_TEXT]рядом с двумя[ENDCOLOR] другими эки. Удаляет любые объекты на плитке. Можно построить [COLOR_POSITIVE_TEXT]на территории[ENDCOLOR] гуннов или рядом с ней.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_EKI_HELP">
+			<Text>Эки можно построить только на плоских тайлах без доступа к пресной воде. Он обеспечивает [ICON_PRODUCTION] производство, [ICON_CULTURE] культуру и [ICON_FOOD] еду, а также дополнительное [ICON_PRODUCTION] производство, если [COLOR_POSITIVE_TEXT]рядом с двумя[ENDCOLOR] другими эки. Удаляет любые объекты на плитке. Можно построить [COLOR_POSITIVE_TEXT]на территории[ENDCOLOR] гуннов или рядом с ней.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_EKI">
+			<Text>Построить [LINK=IMPROVEMENT_EKI]Эки[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_EKI_HELP">
+			<Text>Создает Эки, который увеличивает производство [ICON_PRODUCTION], культуру [ICON_CULTURE] и еду [ICON_FOOD]. Обеспечивает дополнительное [ICON_PRODUCTION] производство, если [COLOR_POSITIVE_TEXT]рядом с двумя[ENDCOLOR] другими Eki. Удаляет любые объекты на плитке. Должны быть построены на плоских плитках без доступа к пресной воде. Можно построить [COLOR_POSITIVE_TEXT]на территории[ENDCOLOR] гуннов или рядом с ней.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_EKI_REC">
+			<Text>Это увеличит [ICON_PRODUCTION] производство, [ICON_CULTURE] культуру и [ICON_FOOD] еду. Обеспечивает дополнительное [ICON_PRODUCTION] производство, если [COLOR_POSITIVE_TEXT]рядом с двумя[ENDCOLOR] другими Eki. Можно построить [COLOR_POSITIVE_TEXT]на территории[ENDCOLOR] гуннов или рядом с ней.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_SPAIN_HACIENDA">
+			<Text>Гасиенда</Text>
+			<Gender>neuter:a</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_SPAIN_HACIENDA_TEXT">
+			<Text>Гасиенды — это колониальные поместья, построенные испанцами для управления и добычи ресурсов у своих коренных подданных. Гасиенды были основаны на предоставлении собственности и предприятий, а не на строгом предоставлении труда коренных народов, как описано в старой системе Encomienda. Асиенды, как правило, представляли собой большие поместья, но характер работы варьировался от плантаций до добычи полезных ископаемых и фабрик.[NEWLINE][NEWLINE]Владельцев асиенд называли асиендами, но богатые землевладельцы редко посещали свои владения и предпочитали жить в близлежащих городах. Повседневная деятельность Hacienda была обязанностью наемных менеджеров. Некоторые необычайно большие и прибыльные гасиенды были собственностью Римско-католической церкви, что усугубляло напряженность между местными рабочими и надсмотрщиками-христианами.[NEWLINE][NEWLINE]Система гасиенд была отменена в большинстве стран после распада Испанской империи, но со смешанным Результаты. Попытки разделить большие поместья на отдельные владения для фермеров, ведущих натуральное хозяйство, привели к крайней бедности в некоторых странах Южной Америки. Напротив, латиноамериканские и филиппинские гасиенды в основном остались нетронутыми, но без того же правового статуса или разрешений, что и в их колониальном прошлом.[NEWLINE][NEWLINE]Производит [ICON_FOOD] еду, [ICON_PRODUCTION] производит и [ICON_GOLD] золото. Дает дополнительные бонусы за каждый соседний компонент карты:[NEWLINE]+2 [ICON_FOOD] еды за соседний бонусный ресурс,[NEWLINE]+2 [ICON_PRODUCTION] производства за соседний стратегический ресурс,[NEWLINE]+2 [ICON_GOLD] золота за соседний ресурс предметов роскоши. ,[NEWLINE]+2 [ICON_CULTURE] Культура, если она находится рядом с городом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_SPAIN_HACIENDA_HELP">
+			<Text>Нельзя построить рядом с другой гасиендой. Обеспечивает [ICON_FOOD] еду, [ICON_PRODUCTION] производство и [ICON_GOLD] золото. Дает дополнительные бонусы за каждый соседний компонент карты:[NEWLINE]+2 [ICON_FOOD] — дополнительный ресурс,[NEWLINE]+2 [ICON_PRODUCTION] — стратегический ресурс,[NEWLINE]+2 [ICON_GOLD] — ресурс роскоши,[NEWLINE]+2 [ICON_CULTURE] — Город.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_SPAIN_HACIENDA">
+			<Text>Построить [LINK=IMPROVEMENT_SPAIN_HACIENDA]гасиенду[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_SPAIN_HACIENDA_HELP">
+			<Text>Строит гасиенду, которая дает [ICON_FOOD] еды, [ICON_PRODUCTION] производства и [ICON_GOLD] золота.[NEWLINE]Получает [ICON_FOOD] еды за соседний дополнительный ресурс, [ICON_PRODUCTION] производство за соседние стратегические ресурсы, [ICON_GOLD] золото за соседние Ресурсы роскоши и [ICON_CULTURE] культура соседних городов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_SPAIN_HACIENDA_REC">
+			<Text>Это увеличит [ICON_FOOD] еды, [ICON_PRODUCTION] производства и [ICON_GOLD] золота.[NEWLINE]Получит [ICON_CULTURE] культуру из соседних городов и [ICON_FOOD] еды, [ICON_GOLD] золота и [ICON_PRODUCTION] производства из соседних ресурсов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_JFD_MACHU_PICCHU">
+			<Text>Горный город</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_KUNA">
+			<Text>Куна</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_KUNA_TEXT">
+			<Text>«Куна» — это слово майя, обозначающее храм или церковь. Куны майя были похожи по конструкции на зиккураты и пирамиды Евразии. Хотя сами куна — это в основном все, что осталось от этих древних поселений, когда-то они были центром крупных городов. Самая известная из них — Чичен-Ица, зрелище настолько грандиозное, что считается чудом света![NEWLINE][NEWLINE]Куна может быть построена только в лесах или джунглях и не может стоять рядом с другой куной. Дарует [ICON_PEACE] Веру и [ICON_RESEARCH] Науку городу, который работает с тайлом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_KUNA_HELP">
+			<Text>Может быть построен только в лесах или джунглях и не может быть рядом с другой куной. Генерирует [ICON_PEACE] веру и [ICON_RESEARCH] науку.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_KUNA">
+			<Text>Постройте [LINK=IMPROVEMENT_KUNA]куну[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_KUNA_HELP">
+			<Text>Создает куну, которая увеличивает [ICON_RESEARCH] науку и [ICON_PEACE] веру.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_KUNA_REC">
+			<Text>Это повысит [ICON_RESEARCH] науку и [ICON_PEACE] веру.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_IMPROVEMENT_ENCAMPMENT_SHOSHONE">
+			<Text>Лагерь</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT_SHOSHONE_TEXT">
+			<Text>Лагерь можно построить только на плоских тайлах, и никакие два лагеря не могут быть соседними. Он обеспечивает дополнительную [ICON_FOOD] еду, [ICON_PRODUCTION] производство и [ICON_CULTURE] культуру. Лагеря дают небольшой модификатор защиты юнитам, размещенным в нем, и наносят урон ближайшим вражеским юнитам (5), если они заканчивают свой ход в лагере или рядом с ним. Можно построить только на территории шошонов.[NEWLINE][NEWLINE]Типи – это коническая палатка, традиционно сделанная из шкур животных и деревянных шестов. Типи использовались в лагерях кочевых племен Великих равнин в Северной Америке. Типи стереотипно ассоциируются с коренными американцами в Соединенных Штатах в целом, однако коренные американцы из других мест, кроме Великих равнин, в основном использовали другие типы жилищ. Типи прочный, обеспечивает тепло и комфорт зимой, охлаждает летом в жару и сушит во время проливных дождей. Типи можно было быстро разобрать и упаковать, когда племя решило переехать, и можно было быстро реконструировать после поселения на новом месте. Эта мобильность была важна для индейцев равнин с их кочевым образом жизни. Современные чехлы для типи обычно изготавливаются из холста. Современные пользователи типи включают исторических реконструкторов, преданных, вернувшихся на землю, и семьи коренных американцев, посещающие паувау или лагеря, которые хотят сохранить и передать часть своего наследия и традиций.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT_SHOSHONE_HELP">
+			<Text>Лагерь можно построить только на плоских тайлах, и никакие два лагеря не могут быть соседними. Он обеспечивает дополнительную [ICON_FOOD] еду, [ICON_PRODUCTION] производство и [ICON_CULTURE] культуру. Лагеря дают небольшой модификатор защиты юнитам, размещенным в нем, и наносят урон ближайшим вражеским юнитам (5), если они заканчивают свой ход в лагере или рядом с ним. Можно построить только на территории шошонов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE">
+			<Text>Построить [LINK=IMPROVEMENT_ENCAMPMENT_SHOSHONE]лагерь[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE_HELP">
+			<Text>Строит лагерь, который увеличивает количество [ICON_FOOD] еды, [ICON_PRODUCTION] производства и [ICON_CULTURE] культуры, обеспечиваемых этой плиткой. Удаляет любые объекты на плитке. Дает небольшой бонус к защите и наносит урон соседним вражеским юнитам на 5 хитов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE_REC">
+			<Text>Это увеличит количество [ICON_FOOD] еды, [ICON_PRODUCTION] производства и [ICON_CULTURE] культуры, обеспечиваемых этой плиткой. Удаляет любые объекты на плитке. Дает небольшой бонус к защите и наносит легкий урон соседним вражеским юнитам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_SIHEYUAN">
+			<Text>Сихэюань</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_SIHEYUAN_TEXT">
+			<Text>Сихэюань может быть построен только на равнине рядом с городом или рядом с двумя другими Сихэюань, но не может быть построен на ресурсах. Он обеспечивает [ICON_GOLD] золота, [ICON_PRODUCTION] производство, [ICON_RESEARCH] науку и [ICON_CULTURE] культуру. Дает 1 дополнительное золото [ICON_GOLD], [ICON_PRODUCTION] производство, [ICON_RESEARCH] науку и [ICON_CULTURE] культуру при работе в городе, переживающем «День императрицы».[NEWLINE][NEWLINE]Величественный Сихэюань – опора. китайской архитектуры, восходящей к древности. Этот стиль часто называют китайским четырехугольником, и он используется от относительно жилых домов и монастырей до самых величественных дворцов. Запретный город в Пекине спроектирован как огромный Сихэюань. Все сихэюань расположены по оси восток-запад, главный вход обращен на юг. Универсальность этого плана позволяет последовательно выстраивать сихэюань длинными рядами, создавая обширные пригороды во многих крупнейших городах Китая. Узкие переулки между этими рядами Сихэюань известны в северном Китае как хутуны и образуют длинные рыночные улицы, похожие на ближневосточные базары. Недавние изменения в городском планировании и строительстве привели к сносу многих исторических кварталов, но были предприняты скоординированные усилия по сохранению некоторых районов как ценной части китайской культурной самобытности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_SIHEYUAN_HELP">
+			<Text>Сихэюань может быть построен только на равнине рядом с городом или рядом с двумя другими Сихэюань, но не может быть построен на ресурсах. Он обеспечивает [ICON_GOLD] золота, [ICON_PRODUCTION] производство, [ICON_RESEARCH] науку и [ICON_CULTURE] культуру. Дает 1 дополнительное [ICON_GOLD] золото, [ICON_PRODUCTION] производство, [ICON_RESEARCH] науку и [ICON_CULTURE] культуру при работе в городе, переживающем День «Мы любим императрицу».</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_SIHEYUAN">
+			<Text>Построить [LINK=IMPROVEMENT_SIHEYUAN]Сихэюань[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_SIHEYUAN_HELP">
+			<Text>Создает Сихэюань, который увеличивает [ICON_GOLD] золота, [ICON_PRODUCTION] производство, [ICON_RESEARCH] науку и [ICON_CULTURE] культуру, обеспечиваемые этой плиткой. Удаляет любые объекты на плитке. Дает больше урожая, когда в близлежащем городе проходит День «Мы любим императрицу».</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_SIHEYUAN_REC">
+			<Text>Это увеличит [ICON_GOLD] золота, [ICON_PRODUCTION] производство, [ICON_RESEARCH] науку и [ICON_CULTURE] культуру. Удаляет любые объекты на плитке. Дает больше урожая, когда в близлежащем городе проходит День «Мы любим императрицу».</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_HORSE">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Стратегической Монополии:[ENDCOLOR] Юниты получают +10% к [ICON_STRENGTH] боевой мощи при атаке.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_IRON">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Стратегической Монополии:[ENDCOLOR] Юниты получают +10% к [ICON_STRENGTH] боевой мощи при защите.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_COAL">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Стратегической Монополии:[ENDCOLOR] Морские юниты получают +1 [ICON_MOVES] к движению.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_ALUMINUM">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Стратегической Монополии:[ENDCOLOR] Юниты получают +5 ОЗ при лечении.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_OIL">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Стратегической Монополии:[ENDCOLOR] Юниты получают +2 ОО после боя.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_URANIUM">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Стратегической Монополии:[ENDCOLOR] Юниты получают +10% к [ICON_STRENGTH] боевой мощи при атаке.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_GOODY_PRODUCTION">
+			<Text>Вы нашли тайник с припасами, которые увеличивают производство [ICON_PRODUCTION] в ближайшем к вам городе!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_GOLDEN_AGE">
+			<Text>Вы нашли древние реликвии, которые ускорят продвижение вашей цивилизации к [ICON_GOLDEN_AGE] Золотому веку!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_TILES">
+			<Text>Вы находите кочевое племя, которое желает присоединиться к вашей цивилизации, предоставляя вам дополнительные земли вокруг ближайшего города!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_PRODUCTION">
+			<Text>Расходные материалы для [ICON_PRODUCTION] производства в ближайшем к вам городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_GOLDEN_AGE">
+			<Text>Реликвии для [ICON_GOLDEN_AGE] очков Золотого века.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_FREE_TILES">
+			<Text>Племя, дающее вам землю вокруг ближайшего города.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_HEADING4_TITLE">
+			<Text>[COLOR_GREEN]Очки Золотого века[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_HEADING4_BODY">
+			<Text>Руины содержат реликвии, дающие очки Золотого века.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_ADV_QUEST">
+			<Text>Очки Золотого века?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_HEADING4_TITLE">
+			<Text>[COLOR_GREEN]Производство[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_HEADING4_BODY">
+			<Text>В руинах находятся припасы, которые обеспечивают производство в ближайшем к вам городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_ADV_QUEST">
+			<Text>Производство?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_TILES_HEADING4_TITLE">
+			<Text>[COLOR_GREEN]Клетки[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_TILES_HEADING4_BODY">
+			<Text>В руинах есть поселенцы, которые дают бесплатные клетки ближайшему городу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_TILES_ADV_QUEST">
+			<Text>Клетки?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOURCE_YOU_GAIN_GLOBAL">
+			<Text>[COLOR_CYAN]Ваш текущий Бонус Глобальной Монополии:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_YOU_GAIN_GLOBAL_AND_STRATEGIC">
+			<Text>[COLOR_CYAN]Ваши текущие Бонусы Глобальной и Стратегической Монополии:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_YOU_GAIN_STRATEGIC">
+			<Text>[COLOR_CYAN]Ваш текущий Бонус Стратегической Монополии:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_THEY_GAIN_BOTH">
+			<Text>[COLOR_NEGATIVE_TEXT]Их текущие Бонусы Глобальной и Стратегической Монополии:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_THEY_GAIN_GLOBAL">
+			<Text>[COLOR_NEGATIVE_TEXT]Их текущий Бонус Глобальной Монополии:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_THEY_GAIN_STRATEGIC">
+			<Text>[COLOR_NEGATIVE_TEXT]Их текущий Бонус Стратегической Монополии:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_POTENTIAL">
+			<Text>Потенциальный Бонус Глобальной Монополии:[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_POTENTIAL_STRATEGIC">
+			<Text>Потенциальные Бонусы Стратегической и Глобальной Монополии:[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_BREAKDOWN">
+			<Text>Из {2_Total} в мире:[NEWLINE]Прямое владение: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_BREAKDOWN_IMPORTS">
+			<Text>Из {2_Total} в мире:[NEWLINE]Прямое владение: {1_Num}[NEWLINE]Импорт: {3_Import}[NEWLINE]Из городов-государств: {4_CS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HOVER_INFO">
+			<Text>(Наведите курсор на значок или название Корпорации, чтобы узнать подробности.)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_OTHER">
+			<Text>({2_CivName}) {1_Monopoly}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_LOCAL_RESOURCES_CONTROLLED">
+			<Text>Наши потенциальные Монополии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MONOPOLY_GAINED">
+			<Text>Вы владеете более 50% мировых запасов [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR] и, следовательно, являетесь Глобальной Монополией![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MONOPOLY_GAINED">
+			<Text>Глобальная Монополия: [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_MONOPOLY_GAINED">
+			<Text>{3_CivName} {3_CivName: plural 1?владеют; other?владеет;} более 50% мировых запасов [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR] и, следовательно, являются Глобальной Монополией![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_OTHER_PLAYER_MONOPOLY_GAINED">
+			<Text>{2_CivName} {2_CivName: plural 1?имеют; other?имеет;} Глобальную Монополию: [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_MONOPOLY_LOST">
+			<Text>У вас [COLOR_NEGATIVE_TEXT]больше нет[ENDCOLOR] Глобальной Монополии на [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]![NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Потеряно:[ENDCOLOR][NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MONOPOLY_LOST">
+			<Text>Потяряна Глобальная Монополия на [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_YIELD_MONOPOLY_RESOURCE">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор от монополии ресурсов: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_HAPPINESS">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +6 [ICON_HAPPINESS_1] Счастья по всей Империи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_GA_LENGTH">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +25% к продолжительности [ICON_GOLDEN_AGE] Золотого века, +2 [ICON_GOLDEN_AGE] очка Золотого века за клетки ресурсов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_PRODUCTION">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +2 к [ICON_PRODUCTION] производству за клетки ресурсов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_GOLD">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +3 [ICON_GOLD] золота за клетки ресурсов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_FOOD">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +3 [ICON_FOOD] еды за клетки ресурсов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_CULTURE">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +2 [ICON_CULTURE] культуры за клетки ресурсов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_FAITH">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +2 [ICON_PEACE] веры за клетки ресурсов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +2 [ICON_RESEARCH] науки за клетки ресурсов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_PRODUCTION">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +10% [ICON_PRODUCTION] производство во всех принадлежащих городах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_GOLD">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +10% [ICON_GOLD] золота во всех принадлежащих Городах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_FOOD">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +10% [ICON_FOOD] еды во всех принадлежащих Городах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_CULTURE">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +10% [ICON_CULTURE] культуры во всех принадлежащих Городах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_SCIENCE">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +10% [ICON_RESEARCH] науки во всех принадлежащих Городах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_FAITH">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +20% [ICON_PEACE] веры во всех принадлежащих Городах.</Text>
+		</Row>
+		
+		<!-- Strategic Help-->
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_PRODUCTION_ALUMINUM">
+			<Text>Используется мощными юнитами и зданиями поздней игры.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус Стратегической Монополии (25%):[ENDCOLOR] Юниты получают +5 ОЗ при лечении.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус Глобальной Монополии (50%):[ENDCOLOR] +2 [ICON_PRODUCTION] производства за клетки ресурсов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_GOLD_COAL">
+			<Text>Используется мощными юнитами и зданиями в середине игры.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус Стратегической Монополии (25%):[ENDCOLOR] Морские юниты получают +1 [ICON_MOVES] к движению.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус Глобальной Монополии (50%):[ENDCOLOR] +3 [ICON_GOLD] золота за клетки ресурсов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE_OIL">
+			<Text>Используется мощными отрядами и зданиями поздней игры.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус Стратегической Монополии (25%).[ENDCOLOR] Юниты получают +ОО после боя.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус Глобальной Монополии (50%):[ENDCOLOR] +2 [ICON_RESEARCH] науки за клетки ресурсов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE_HORSE">
+			<Text>Используется мощными юнитами.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус Стратегической Монополии (25%):[ENDCOLOR] Юниты получают +10% к [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус Глобальной Монополии (50%):[ENDCOLOR] +2 [ICON_RESEARCH] науки за клетки ресурсов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_PRODUCTION_IRON">
+			<Text>Используется мощными юнитами.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус Стратегической Монополии (25%):[ENDCOLOR] Юниты получают +10% к [ICON_STRENGTH] боевой мощи при защите.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус Глобальной Монополии (50%):[ENDCOLOR] +2 [ICON_PRODUCTION] производство за клетки ресурсов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_SCIENCE_URANIUM">
+			<Text>Используется для создания ужасающего оружия массового уничтожения.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус Стратегической Монополии (25%):[ENDCOLOR] Юниты получают +10% к [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус Глобальной Монополии (50%):[ENDCOLOR] +10% [ICON_RESEARCH] наука во всех принадлежащих вам городах.</Text>
+		</Row>
+
+		<!-- Tooltip for Strategic Monopolies -->
+		<Row Tag="TXT_KEY_NOTIFICATION_STRATEGIC_MONOPOLY_GAINED">
+			<Text>Вы владеете более 25% мировых запасов [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR] и, следовательно, являетесь Стратегической Монополией![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_STRATEGIC_MONOPOLY_GAINED">
+			<Text>Стратегическая Монополия: [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_STRATEGIC_MONOPOLY_GAINED">
+			<Text>{3_CivName} {3_CivName: plural 1?владеют; other?владеет;} более 25% мировых запасов [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR] и, следовательно, {3_CivName: plural 1?являются; other?является;} Стратегической Монополией![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_OTHER_PLAYER_STRATEGIC_MONOPOLY_GAINED">
+			<Text>{2_CivName} {2_CivName: plural 1?владеют; other?владеет;} Стратегической Монополией на [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_STRATEGIC_MONOPOLY_LOST">
+			<Text>У вас [COLOR_NEGATIVE_TEXT]больше нет[ENDCOLOR] Стратегической Монополии на [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]![NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Потеряно:[ENDCOLOR][NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_STRATEGIC_MONOPOLY_LOST">
+			<Text>Потеряна Стратегическая Монополия на [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+		</Row>
+
+		<!-- Tooltip for Monopolies -->
+		<Row Tag="TXT_KEY_FOODMOD_MONOPOLY_RESOURCE">
+			<Text>[NEWLINE][ICON_BULLET][ICON_TRADE_WHITE] Модификатор ресурсных Монополий: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_RESOURCE_MONOPOLY">
+			<Text>+{1_Num}% [ICON_CULTURE] за ресурсные Монополии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_RESOURCE_MONOPOLY">
+			<Text>+{1_Num}% [ICON_PEACE] за ресурсные Монополии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MONOPOLIES_TT">
+			<Text>Глобальные Монополии на ресурсы достигаются, когда вы контролируете более 50% роскошных или стратегических ресурсов. Это значение может превышать 100%, если вы производите больше ресурсов, чем существует на карте. Таким образом, более чем одна цивилизация может иметь глобальную монополию (хотя это довольно редко).</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

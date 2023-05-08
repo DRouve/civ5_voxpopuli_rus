@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/31/2016 12:15:18 AM -->
+<GameData>
+	<Language_ru_RU>
+		<!-- Event System-->
+		<Row Tag="TXT_KEY_TP_HAPPINESS_EVENT">
+			<Text>{1_Happiness} счастья от событий.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED">
+			<Text>Последствия События закончились:[NEWLINE]{1_Event}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED_T">
+			<Text>Событие завершилось.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED_CITY">
+			<Text>Последствия События в {2_City} закончились:[NEWLINE]{1_Event}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED_CITY_T">
+			<Text>Событие в {1_City} завершилось.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CANNOT_TAKE_TT">
+			<Text>[COLOR_WARNING_TEXT]Вы не можете выбрать этот вариант события. Либо вы не соответствуете требованиям, либо его эффекты все еще активны.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_PLAYER_EVENTS">
+			<Text>У вас нет активных Событий Игрока.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_CITY_EVENTS">
+			<Text>У вас нет активных Событий Города.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_RECENT_CITY_EVENTS">
+			<Text>У вас нет недавних Событий Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_RECENT_EVENTS">
+			<Text>У вас нет недавних событий</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RECENT_EVENT_INFORMATION">
+			<Text>События Игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_RECENT_EVENT_INFORMATION">
+			<Text>События Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RECENT_EVENT_TT">
+			<Text>Список всех событий, которые имеют мгновенный эффект (т.е. не требовали выбора от игрока).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RECENT_CHOICE_TT">
+			<Text>Список всех событий, требующих от игрока выбрать вариант.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EVENT_CHOICE_UI">
+			<Text>Ваш выбор:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_CHOICE_RESULT_UI">
+			<Text>Результат:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_PERMANENT">
+			<Text>Постоянный эффект</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_BONUS">
+			<Text>Мгновенное Событие</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_ESPIONAGE_EVENT">
+			<Text>[ICON_SPY] [COLOR_NEGATIVE_TEXT]ШПИОНСКИЕ ДЕЙСТВИЯ[ENDCOLOR] против города[NEWLINE][NEWLINE]Преимущество врага:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_CHOICE_SORT_NAME">
+			<Text>Сортировать по названию события</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_CHOICE_SORT_DURATION">
+			<Text>Сортировать по продолжительности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_CHOICE_SORT_CITY_NAME">
+			<Text>Сортировать по названию города</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_YIELD_FROM_EVENTS">
+			<Text>{1_Num} {2_IconString} от Активных Событий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_EVENTS">
+			<Text>{1_Num} [ICON_CULTURE] от Активных Событий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_EVENTS">
+			<Text>{1_Num} [ICON_PEACE] от Активных Событий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EVENT_MODIFIER">
+			<Text>{1_Num}% {2_Icon} {3_Name} от Активных Событий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HIDE">
+			<Text>Спрятать</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HIDE_TT">
+			<Text>Скрывает окно, но не отменяет событие.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED">
+			<Text>'{3_Event}' не произошло. Ваш выбор:[NEWLINE][NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_T">
+			<Text>'{1_Event}' не произошло.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY">
+			<Text>{4_City}: '{3_Event}' не произошло. Ваш выбор:[NEWLINE][NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_T">
+			<Text>{2_City}: '{1_Event}' не произошло.</Text>
+		</Row>
+		<!-- Espionage Version FAILURE -->
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_ESPIONAGE">
+			<Text>Шпионы {3_CivAdj} [COLOR_POSITIVE_TEXT]провалили[ENDCOLOR] шпионскую миссию в {2_City}: {1_EventChoice}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_T_ESPIONAGE">
+			<Text>В {1_City} сорваны действия шпионов {2_CivAdj}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_ESPIONAGE_UNKNOWN">
+			<Text>Неизвестные иностранные шпионы [COLOR_POSITIVE_TEXT]провалили[ENDCOLOR] шпионскую миссию в {2_City}: {1_EventChoice}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_T_ESPIONAGE_UNKNOWN">
+			<Text>В {1_City} сорваны действия неизвестных иностранных шпионов!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_ESPIONAGE_US">
+			<Text>Наша попытка шпионской миссии в {2_City} провалилась. {1_EventChoice}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_T_ESPIONAGE_US">
+			<Text>Нашим шпионам помешали в {1_City}!</Text>
+		</Row>
+		
+		<!-- Espionage Success -->
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE">
+			<Text>Шпионы {2_CivAdj} [COLOR_NEGATIVE_TEXT]выполнили[ENDCOLOR] шпионскую миссию в {1_City}: {3_MissionResult}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_T_ESPIONAGE">
+			<Text>Шпионам {2_CivAdj} удалось добиться успеха в {1_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_UNKNOWN">
+			<Text>Неизвестные иностранные шпионы [COLOR_NEGATIVE_TEXT]выполнили[ENDCOLOR] шпионскую миссию в {1_City}: {2_MissionResult}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_T_ESPIONAGE_UNKNOWN">
+			<Text>Неизвестные иностранные шпионы преуспели в {1_City}!</Text>
+		</Row>
+		
+
+		<Row Tag="TXT_KEY_CITY_EVENT_TITLE">
+			<Text>Событие в {1_City}: {2_Event}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_MISSION">
+			<Text>[COLOR_POSITIVE_TEXT]Шпионская миссия:[ENDCOLOR] {1_Mission}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_MISSION_COMPLETED">
+			<Text>Шпионская миссия завершена</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HELP">
+			<Text>Новости из [COLOR_POSITIVE_TEXT]{1_City}[ENDCOLOR]:[NEWLINE][NEWLINE]{2_Event}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_FLED_TITLE">
+			<Text>Новости в {1_City}: {2_Event}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLED_HELP">
+			<Text>Наши шпионы доложили в штаб-квартиру в [COLOR_POSITIVE_TEXT]{1_City}[ENDCOLOR] следующее:[NEWLINE][NEWLINE]{2_Event}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_IMPROVEMENT_DESTROYED_EVENT">
+			<Text>{2_Num} {1_Improvement} ограблены возле {3_City} из-за решения по Событию!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_STRATEGIC_RESOURCE_PILLAGED_EVENT">
+			<Text>{2_Num} источников {1_Resource} ограблены возле {3_City} из-за решения по Событию!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_BUILDING_DESTROYED_EVENT">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Building}[ENDCOLOR] уничтожено в {2_City} из-за решения по Событию!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_EVENT">
+			<Text>СДЕЛАТЬ ВЫБОР</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_EVENT_TT">
+			<Text>Произошло Событие с несколькими вариантами исхода, и оно ожидает вашего решения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_EVENT_CHOICE">
+			<Text>Выберите решение в Событии Игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_EVENT_CHOICE_TT">
+			<Text>Произошло Событие с несколькими вариантами исхода, и оно ожидает вашего решения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_EVENT_CHOICE_CITY">
+			<Text>Выберите решение в Событии Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_EVENT_CHOICE_CITY_TT">
+			<Text>Произошло Событие Города с несколькими вариантами исхода, и оно ожидает вашего решения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_PLAYER_EVENTS_LOG">
+			<Text>События Игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CITY_EVENTS_LOG">
+			<Text>События Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_OVERVIEW">
+			<Text>Обзор событий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_INFORMATION">
+			<Text>Решения по Событиям Игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_INFORMATION">
+			<Text>Решения по Событиям Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TURNS_REMAINING">
+			<Text>Ходов осталось: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED">
+			<Text>{3_Value} {2_Icon} {1_Yield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_SPECIALIST">
+			<Text>{2_Yield} {1_Name} Points</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION">
+			<Text>{1_Cost}{2_Yield}{3_City}{4_Turns}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_CITY_HEADER">
+			<Text>{1_Cost}{2_Yield}{3_City}{4_GPP}{5_Turns}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_SPENT">
+			<Text>[NEWLINE]Потрачено: {3_Value} {2_Icon} {1_Yield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_INSTANT">
+			<Text>[NEWLINE]Мгновенно получено: {3_Value} {2_Icon} {1_Yield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_CITY">
+			<Text>[NEWLINE]{3_Value} {2_Icon} {1_Yield} за ход в городе</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_GPP">
+			<Text>[NEWLINE]очков {2_Yield} Великих {1_Name} в городе</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_TURNS">
+			<Text>[NEWLINE]Длительность: {1_Turns} ходов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_YIELD_DURATION">
+			<Text>{1_Num} ходов</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_OTHER_PLAYER_EVENT_ACTIVE">
+			<Text>[NEWLINE] [ICON_BULLET] Результат другого События Игрока блокирует этот вариант</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_NEGATIVE_GPT">
+			<Text>[NEWLINE] [ICON_BULLET] У вас должно быть отрицательное кол-во золота за ход</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_DEBT">
+			<Text>[NEWLINE] [ICON_BULLET] Вы должны быть в долгу</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_YIELDS">
+			<Text>[NEWLINE] [ICON_BULLET] Вам не хватает требуемой доходности, чтобы сделать этот выбор</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_RESOURCE_LOCAL">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется ресурс {1_Desc} возле города</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_IMPROVEMENT">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется улучшение {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_IMPROVEMENT_LOCAL">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется улучшение {1_Desc} возле города</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_BUILDING_CLASS_LOCAL">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется {1_Desc} в городе</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_NO_BUILDING_CLASS_LOCAL">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступно, если {1_Desc} в городе</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_BUILDING_CLASS">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется {1_Desc} в любом городе</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_NO_BUILDING_CLASS">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступно, если {1_Desc} в любом городе</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_WAR_MINOR">
+			<Text>[NEWLINE] [ICON_BULLET] Должен находиться в состоянии войны с городом-государством</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_TERRAIN_NEARBY">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется местность {1_Desc} возле города</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_FEATURE_NEARBY">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется особенность {1_Desc} возле города</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_FEATURE">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется особенность {1_Desc}</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_RESOURCE">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется ресурс {1_Desc}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_COASTAL_CITIES">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется {1_Desc} прибрежный город/города</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_BE_VASSAL">
+			<Text>[NEWLINE] [ICON_BULLET] Должен быть Вассалом</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_VASSAL">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется наличие Вассала</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_HOLY_CITY">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется владение Священным Городом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_HOLY_CITY_LOCAL">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен быть Священным.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_MET_OTHER_CIV">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо встретить другую крупную цивилизацию.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_UNITCLASS_TYPE">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо владеть как минимум {1_Desc} юнитом</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_SUPER_UNHAPPY">
+			<Text>[NEWLINE] [ICON_BULLET] Империя должна быть Очень Несчастна</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_UNHAPPY">
+			<Text>[NEWLINE] [ICON_BULLET] Империя должна быть Несчастна</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_TRADE_SLOT">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется свободная ячейка торговых юнитов</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_OVER_MAX_POPULATION">
+			<Text>[NEWLINE] [ICON_BULLET] Город с населением выше {1_Desc}</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_NOT_ACTIVE_EVENT_CHOICE">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступно из-за активного выбора События Игрока</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_NOT_ACTIVE_EVENT">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступно из-за активного События Игрока</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_ACTIVE_EVENT_CHOICE">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо, чтобы определенный выбор События Игрока был активен.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_ACTIVE_EVENT">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо, чтобы определенное Событие Игрока было активно.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_NATURAL_WONDER">
+			<Text>[NEWLINE] [ICON_BULLET] Рядом должно быть чудо природы</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_MOUNTAIN">
+			<Text>[NEWLINE] [ICON_BULLET] Рядом должны быть Горы</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_TRADE_CONNECTION">
+			<Text>[NEWLINE] [ICON_BULLET] Должен быть связан торговым путем</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_CITY_CONNECTION">
+			<Text>[NEWLINE] [ICON_BULLET] Должен быть связан торговой сетью со столицей</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_WAR_MAJOR">
+			<Text>[NEWLINE] [ICON_BULLET] Должен находиться в состоянии войны с крупной цивилизацией</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_ANY_IDEOLOGY">
+			<Text>[NEWLINE] [ICON_BULLET] Необходима идеалогия</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_SPECIFIC_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо принятие {1_Desc} религии</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_SPECIFIC_STATE_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо основание {1_Desc} религии</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_HOLY_CITY_SPECIFIC">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо владение Священным Городом {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_HOLY_CITY_SPECIFIC_LOCAL">
+			<Text>[NEWLINE] [ICON_BULLET] Должен быть Священным Городом для {1_Desc}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_NO_PLAYER_MAJORITY_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] Город не должен следовать вашей религии большинства</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_PLAYER_MAJORITY_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен следовать вашей религии большинства</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_NO_PLAYER_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] Город не должен следовать основанной/контролируемой вами религией.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_PLAYER_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен следовать основанной/контролируемой вами религии.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_IDEOLOGY">
+			<Text>[NEWLINE] [ICON_BULLET] Необходима идеология {1_Desc}</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_POLICY">
+			<Text>[NEWLINE] [ICON_BULLET] Необходима Социальная политика: {1_Desc} (если указано название института - все политики института должны быть приняты)</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_ANY_PANTHEON">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо, чтобы вашей преобладающей религией был Пантеон</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_ANY_STATE_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] Необходима государственная религия.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_CIV">
+			<Text>[NEWLINE] [ICON_BULLET] Доступно только для цивилизации {1_Desc}</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_POP_LOCAL">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо минимальное население города {1_Desc}</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_CITIES">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо минимум {1_Desc} городов</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_POP_NATIONAL">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо население всей империи {1_Desc}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_OBSOLETE_ERA">
+			<Text>[NEWLINE] [ICON_BULLET] Устаревает после {1_Desc}</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_ERA">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо вступить как минимум в {1_Desc}</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_OBSOLETE_TECH">
+			<Text>[NEWLINE] [ICON_BULLET] Устаревает после изучения технологии {1_Desc}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_TECH">
+			<Text>[NEWLINE] [ICON_BULLET] Необходима технология {1_Desc}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_GARRISON">
+			<Text>[NEWLINE] [ICON_BULLET] Необходим гарнизон в городе</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EVENT_DISABLED_LUA">
+			<Text>[NEWLINE] [ICON_BULLET] Отключено для некоторых условий сценария</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_ANY_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] В городе должна быть религия</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_BE_OCCUPIED">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен быть захвачен</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_BE_RAZING">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен разрушаться</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_BE_PUPPET">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен быть сателлитом</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_BE_WLTKD">
+			<Text>[NEWLINE] [ICON_BULLET] В городе должен проходить [COLOR_POSITIVE_TEXT]День любви к Отчизне[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_BE_RESISTANCE">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен быть в состоянии сопротивления</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_BARBARIANS_ENABLED">
+			<Text>[NEWLINE] [ICON_BULLET] Варвары должны быть включены</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TOO_EARLY_FOR_BARBARIANS">
+			<Text>[NEWLINE] [ICON_BULLET] Варвары ещё не могут заходить на территорию</Text>
+		</Row>
+	
+		<Row Tag="TXT_KEY_NEED_BE_RIVER">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен быть на реке</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_BE_COASTAL">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен быть прибрежным</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_BE_CAPITAL">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен быть столицей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_ONESHOT">
+			<Text>[NEWLINE] [ICON_BULLET] Решение по Событию может быть принято один раз за всю игру</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_ACTIVE">
+			<Text>[NEWLINE] [ICON_BULLET] Решение по Событию уже активно</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_ACTIVE_CITY_EVENT">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется Событие Города, которое в данный момент не активно</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_ACTIVE_CITY_EVENT_CHOICE">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется решение по Событию Города, которое в данный момент не активно</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NO_ACTIVE_CITY_EVENT">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступное активное Событие Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NO_ACTIVE_CITY_EVENT_CHOICE">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступное активное решение по Событию Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NO_ACTIVE_PLAYER_EVENT">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступное активное Событие Игрока</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_NO_ACTIVE_PLAYER_EVENT_CHOICE">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступное активное решение по Событию Игрока</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EVENT_DISABLED_REASONS_HEADER">
+			<Text>[COLOR_NEGATIVE_TEXT]Решение недоступно по следующим причинам:[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PLAYER_EVENT_NOTIFICATION">
+			<Text>[COLOR_POSITIVE_TEXT]Событие Игрока[ENDCOLOR]:[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOTIFICATION">
+			<Text>[COLOR_POSITIVE_TEXT]Событие Города[ENDCOLOR]:[NEWLINE]</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Replace Tag="TXT_KEY_PREVIOUS_ITEM_TT">
+			<Text>Центровать на прошлом объекте</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NEXT_ITEM_TT">
+			<Text>Центровать на следующем объекте</Text>
+		</Replace>
+	</Language_ru_RU>
+</GameData>

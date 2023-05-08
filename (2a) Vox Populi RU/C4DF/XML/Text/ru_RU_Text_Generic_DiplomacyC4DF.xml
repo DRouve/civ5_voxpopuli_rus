@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/25/2013 4:03:12 PM -->
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_REPEAT_SHARE_OPINION_NO_1">
+			<Text>Почему вы продолжаете тратить мое время на эту ерунду? Уходите!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_REPEAT_SHARE_OPINION_NO_2">
+			<Text>Разве вы не услышали меня в первый раз? Уходите!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_REPEAT_SHARE_OPINION_NO_3">
+			<Text>Прошу прощения, вы плохо слышите? Ответ всегда будет нет!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_REPEAT_SHARE_OPINION_NO_1">
+			<Text>В настоящее время я не буду отвечать на такие запросы. Пожалуйста, перестаньте спрашивать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_REPEAT_SHARE_OPINION_NO_2">
+			<Text>Мы уже говорили об этом. Я не буду рассказывать вам о своих делах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_REPEAT_SHARE_OPINION_NO_3">
+			<Text>Ответ остается нет. В настоящее время мы не будем предоставлять дипломатические подробности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_SHARE_OPINION_NO_1">
+			<Text>Мы никогда не поделимся своими дипломатическими секретами с такими злодеями, как вы!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_SHARE_OPINION_NO_2">
+			<Text>Вы действительно думаете, что я стал бы рассказывать такому преступнику, как вы, о своей внешней политике?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_SHARE_OPINION_NO_3">
+			<Text>Зачем вам тратить время на расспросы о моих иностранных делах? Это не ваше дело!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NO_1">
+			<Text>Извините, но мы предпочитаем хранить наши дипломатические тайны в безопасности. Попробуйте как-нибудь в другой раз.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NO_2">
+			<Text>Мои советники считают важным держать нашу внешнюю политику в тайне. Может быть, в другой раз?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NO_3">
+			<Text>В настоящее время нам неудобно распространятся о наших иностранных делах. Может, в другой раз?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_FRIENDLY_1">
+			<Text>{1_PlayerName:textkey} — настоящий друг, которому можно доверять. (Дружелюбно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_FRIENDLY_2">
+			<Text>Я очень люблю {1_PlayerName:textkey} и надеюсь на продолжение нашей дружбы. (Дружелюбно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_FRIENDLY_3">
+			<Text>{1_PlayerName:textkey} и я были в хороших отношениях, и я не вижу причин, по которым это могло бы измениться. (Дружелюбно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NEUTRAL_1">
+			<Text>У меня действительно нет мнения о {1_PlayerName:textkey}. (Нейтрально)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NEUTRAL_2">
+			<Text>{1_PlayerName:textkey} мне не друг и не враг. (Нейтрально)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NEUTRAL_3">
+			<Text>{1_PlayerName:textkey} меня совсем не беспокоит. (Нейтрально)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_GUARDED_1">
+			<Text>Я буду честен. Я ни на йоту не доверяю {1_PlayerName:textkey}. (Насторожено)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_GUARDED_2">
+			<Text>{1_PlayerName:textkey} встревожил моих советников, мы следим за ситуацией. (Насторожено)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_GUARDED_3">
+			<Text>Мы следим за {1_PlayerName:textkey} из-за недавних инцидентов. (Насторожено)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_HOSTILE_1">
+			<Text>Правление {1_PlayerName:textkey} портит эту землю, и я не вижу проблем с тем, чтобы это прекратилось. (Враждебно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_HOSTILE_2">
+			<Text>{1_PlayerName:textkey} — тиран и злодей, с которым надо разобраться. (Враждебно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_HOSTILE_3">
+			<Text>Не напоминай мне, что {1_PlayerName:textkey} все еще ходит по этой земле... (Враждебно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_AFRAID_1">
+			<Text>Я смотрю на {1_PlayerName:textkey} с большой завистью! (Испуганно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_AFRAID_2">
+			<Text>Я восхищаюсь успехом {1_PlayerName:textkey}. (Испуганно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_AFRAID_3">
+			<Text>Надеюсь, однажды я смогу стать таким же хорошим лидером, как {1_PlayerName:textkey}. (Испуганно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_WAR_1">
+			<Text>{1_PlayerName:textkey} и я в состоянии войны! ([COLOR_NEGATIVE_TEXT]ВОЙНА![ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_WAR_2">
+			<Text>{1_PlayerName:textkey} и я сражаемся между собой.  ([COLOR_NEGATIVE_TEXT]ВОЙНА![ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_WAR_3">
+			<Text>В настоящее время я решаю разногласия с {1_PlayerName:textkey}.  ([COLOR_NEGATIVE_TEXT]ВОЙНА![ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_PLANNING_WAR_1">
+			<Text>Я достаточно доверяю вам, чтобы признаться, что планирую войну против {1_PlayerName:textkey}. (Готовится к войне!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_PLANNING_WAR_2">
+			<Text>Не обманывайтесь внешним видом. Я планирую избавить эту землю от {1_PlayerName:textkey}. (Готовится к войне!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_PLANNING_WAR_3">
+			<Text>Мне надоело присутствие {1_PlayerName:textkey} и я планирую в ближайшее время устранить их. (Готовится к войне!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_DECEPTIVE_1">
+			<Text>Может показаться, что я дружу с {1_PlayerName:textkey}, но это все показное. (Обманчиво)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_DECEPTIVE_2">
+			<Text>Надеюсь вы умеете хранить секреты? Я планирую обмануть {1_PlayerName:textkey} при первой же возможности. (Обманчиво)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_DECEPTIVE_3">
+			<Text>Я говорю всему миру, что {1_PlayerName:textkey} — мой друг. Вам же я говорю со строжайшим секретом, что это не так. (Обманчиво)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MAPS_EXCHANGE">
+			<Text>Мы должны взаимно обменять наши карты мира и раскрыть секреты этого мира. Как вы считаете?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MAPS_OFFER">
+			<Text>Мы хотели бы приобрести у вас карту мира. Вы согласны?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_TECH_OFFER">
+			<Text>Мы хотели бы приобрести у вас технологию. Это возможно?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GENEROUS_OFFER_1">
+			<Text>Друг, пожалуйста, примите это предложение в знак благодарности за нашу дружбу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GENEROUS_OFFER_2">
+			<Text>В трудную минуту я предлагаю вам подарок.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GENEROUS_OFFER_3">
+			<Text>Чтобы показать, что мы поддерживаем нашу дружбу, я предлагаю это вашим людям в надежде, что вы когда-нибудь отплатите тем же.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_YES_1">
+			<Text>Рад помочь.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_YES_2">
+			<Text>Пусть этот подарок принесет процветание вашему народу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_YES_3">
+			<Text>С удовольствием помогаю нуждающимся.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_MUCH_1">
+			<Text>Мне жаль. Боюсь, моя щедрость не простирается так далеко, как вам хотелось бы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_MUCH_2">
+			<Text>Боюсь, вы запросили слишком многого. Я не могу исполнить эту просьбу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_MUCH_3">
+			<Text>Точно нет. Я щедрый человек, но вы просите меня отказаться от слишком многого.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_SOON_1">
+			<Text>Извините, но я уже предоставил всю помощь, которую я могу в это время. Может быть, в другой раз.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_SOON_2">
+			<Text>Прошло слишком мало времени с момента нашего последнего проявления щедрости. Боюсь, я должен отказаться.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_SOON_3">
+			<Text>В данный момент я не могу исполнить этот запрос. Мне жаль.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_FOR_SHARE_OPINION_1">
+			<Text>Извините, но мы знаем вас недостаточно долго, чтобы разглашать наши дипломатические секреты. Возможно в будущем?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_FOR_SHARE_OPINION_2">
+			<Text>Мы знаем друг друга недостаточно долго, чтобы мы могли раскрыть свою внешнюю политику. Наш ответ - нет.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_FOR_SHARE_OPINION_3">
+			<Text>Я делюсь своей внешней политикой только с теми, кому доверяю. Я не могу доверять человеку, которого только что встретил.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_HOSTILE_1">
+			<Text>Ваше порабощение моего народа смущает всех нас. Что вы хотите?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_HOSTILE_2">
+			<Text>О, тиран снова показывает свое лицо. Как вы хотите эксплуатировать нас дальше?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_HOSTILE_3">
+			<Text>О? Что привело тирана к моему порогу? Вы пришли плевать на нас и нашу гордость дальше?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_1">
+			<Text>Добро пожаловать в мои земли, хозяин. Чем могу быть полезен?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_2">
+			<Text>Приветствую! Надеюсь, вам приятно узнать, что наши работники усердно трудятся, производя ресурсы для вас.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_3">
+			<Text>А, хозяин! Добро пожаловать! Какую помощь вы ожидаете от нас?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_HOSTILE_1">
+			<Text>Мы устали от вашей жалкой власти над нами и готовы сражаться насмерть, чтобы вернуть себе независимость.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_HOSTILE_2">
+			<Text>Откажись от контроля над нашей империей или понеси последствия. Что звучит как более разумный план?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_HOSTILE_3">
+			<Text>Мой народ хочет независимости, и вы ничего не можете сделать, чтобы остановить нас. Мы можем сделать это простым путем или трудным путем. Выбор за вами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_1">
+			<Text>Пришло время моему народу искать свой собственный путь в этом мире. Мы желаем независимого государства. Что скажешь?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_2">
+			<Text>Ваша оккупация нашей империи больше недопустима среди моих подданных, и я обращаюсь с официальной просьбой о том, чтобы вы позволили моему народу жить как отдельное суверенное государство.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_3">
+			<Text>Мы считаем, что пришло время расторгнуть наше соглашение о вассалитете. Наш народ желает независимого правления. Вы примете это?</Text>
+		</Row>
+		<!-- AI revokes Human Vassalage -->
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_PEACEFUL_1">
+			<Text>Мой народ благодарен вам за то, что вы решили предоставить нам независимость.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_PEACEFUL_2">
+			<Text>Освобождение моего народа очень великодушно с твоей стороны. Примите мою благодарность.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_PEACEFUL_3">
+			<Text>Восстановление нашей независимости очень любезно с вашей стороны. Пусть этот день останется в памяти на века.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_WAR_1">
+			<Text>Очень хорошо. Наш народ будет сражаться насмерть, чтобы обеспечить нашу независимость.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_WAR_2">
+			<Text>Вы решили бессмысленно пролить кровь своих людей из-за этого. Наш народ не остановится, пока не получит независимость.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_WAR_3">
+			<Text>Что ж, очень хорошо. Мы будем сражаться до смерти, чтобы обеспечить нашу свободу.</Text>
+		</Row>
+		<!-- Human asks AI to revoke his vassalage, what is his response? -->
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_PEACEFUL_1">
+			<Text>Очень хорошо. Мы даруем вам независимость и признаем ваш народ независимым государством.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_PEACEFUL_2">
+			<Text>Я согласен. Ты свободен от контроля моей империи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_PEACEFUL_3">
+			<Text>Понимаю. Мы принимаем ваше право на независимость.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_FORCEFUL_1">
+			<Text>Ты понимаешь с кем ты разговариваешь? Мои марионетки не оставят меня так просто. Теперь я сокрушу ваше восстание.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_FORCEFUL_2">
+			<Text>Ты правда думал, что я так легко тебя отпущу? Ха! Нет... теперь приготовься к смерти.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_FORCEFUL_3">
+			<Text>Ты спятил, да? Ты правда думал, что я буду таким жалким? Я буду наслаждаться, разбивая ваши армии на куски.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_ATTACKED_VASSAL_1">
+			<Text>Я доверил тебе нашу защиту, а ты вместо этого напал на нас. Какой позор.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_ATTACKED_VASSAL_2">
+			<Text>Как варварски с твоей стороны! Ты обещал защитить наш народ, а вместо этого нападаешь на нас! Будь уверен, я убью тебя, и когда я это сделаю, ты будешь страдать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_ATTACKED_VASSAL_3">
+			<Text>Ты был нашим защитником. Ты должен был уничтожить наших врагов, а не присоединиться к ним! Принести процветание нам обоим, а не оставить нас во тьме! Ты потерян, и теперь мир должен знать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_HOSTILE_VASSALAGE_MASTER_1">
+			<Text>О, смотри, мое маленькое ручное государство пришло ко мне. Что ты хочешь?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_HOSTILE_VASSALAGE_MASTER_2">
+			<Text>Твоим людям лучше усердно работать над созданием ресурсов, чтобы угодить мне. Что ты хочешь?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_HOSTILE_VASSALAGE_MASTER_3">
+			<Text>Ты стоишь в присутствии своего начальника. Встань передо мной на колени, иначе будут последствия.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_MASTER_1">
+			<Text>Что это? Визит моего вассала? Ты приехал отдать мне дань?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_MASTER_2">
+			<Text>Ах, один из моих многочисленных слуг! Что вы можете предложить?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_MASTER_3">
+			<Text>Я обещаю, что мои солдаты защитят тебя и твою землю. Что ты хочешь?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_ACCEPT_1">
+			<Text>Как пожелаете, я отведу свои войска от вашей границы. Прошу прощения за беспокойство, вызванное этим инцидентом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_ACCEPT_2">
+			<Text>Хорошо, я перенаправлю свои армии в другое место..</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_ACCEPT_3">
+			<Text>Понял. Я немедленно отведу свои войска.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_NEUTRAL_1">
+			<Text>Пожалуйста, поймите, наши войска просто проходят мимо! Мы не причиним вреда вашей империи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_NEUTRAL_2">
+			<Text>Не беспокойтесь. Мы не хотим навредить вам. Наши войска просто проводят учения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_NEUTRAL_3">
+			<Text>Я приношу извинения за любое беспокойство, вызванное моими недавними перемещениями войск. Наши войска просто проходят через этот район, мы не собираемся воевать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_NEUTRAL_HOSTILE_1">
+			<Text>Как бы ни стоило положить конец твоему бездушному существованию, мои люди не желают нападать на тебя в данный момент. Считай, что тебе повезло.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_NEUTRAL_HOSTILE_2">
+			<Text>Хотя мне было бы приятно убить тебя, сейчас не время для этого.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_NEUTRAL_HOSTILE_3">
+			<Text>Нет, мои люди пока не собираются тратить на тебя время. Однако твой страх меня забавляет.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_REJECT_CONQUEST_1">
+			<Text>Может быть, ты умнее, чем я думал. Возможно, ты ожидал моего восхождения к мировому господству? А может ты просто тупой. Так или иначе, пришло время умереть.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_REJECT_CONQUEST_2">
+			<Text>Честно говоря, нет смысла тебе врать. Ты всего лишь ступенька на моем пути к величию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_REJECT_CONQUEST_3">
+			<Text>Ха! Не стоит так говорить со своим будущим правителем. Теперь пришло время страдать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_REJECT_DECEPTIVE">
+			<Text>Признаюсь, в какой-то момент я подумал, что ты довольно хороший друг. Однако пришло время показать свое истинное лицо. Мои войска нацелены прямо на твои города. Время умирать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_REJECT_HOSTILE">
+			<Text>Что это? Ты просто пытаешься меня подразнить? Что ж, считай тебе повезло; у тебя получилось. Приготовься умереть.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RESPONSE_VASSALAGE_TRADE_REVOKE_1">
+			<Text>Подвластные вам нации взывают к независимости. Вы слышите это? Серьёзно, какая сумма заставит вас их услышать?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RESPONSE_VASSALAGE_TRADE_REVOKE_2">
+			<Text>Умоляю вас, пожалуйста, освободите своих вассалов. Это предложение достаточно заманчиво?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RESPONSE_VASSALAGE_TRADE_REVOKE_3">
+			<Text>Независимость – это естественное право. Пожалуйста, давайте восстановим равновесие, заключив соглашение ради ваших вассалов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_LIBERATED_HUMAN_1">
+			<Text>Этот жест доброты не скоро забудется. Вы предложили моему народу свободу. Я навсегда у вас в долгу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_LIBERATED_HUMAN_2">
+			<Text>Лишь мудрый и смелый лидер может отозвать свои претензии во имя порядочности и свободы. Мой народ будет отмечать День Независимости на протяжении веков. Примите мою благодарность.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_LIBERATED_HUMAN_3">
+			<Text>Мы благодарим вас за то, что вы признали наш народ независимым государством. Пусть наши люди живут вместе, объединившись как союзники.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_LIBERATE_VASSAL_1">
+			<Text>Мы решили отозвать наши претензии на вашу землю. Вы можете жить как свободные люди. Ты больше не наш вассал.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_LIBERATE_VASSAL_2">
+			<Text>Я считаю, что наше время в качестве твоего хозяина подошло к концу. Я дарую вам вашу независимость. Пусть мы останемся великими союзниками в будущем. Ты больше не наш вассал.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_LIBERATE_VASSAL_3">
+			<Text>После тщательного рассмотрения мы решили расторгнуть наше соглашение и дать вам свободу. Пусть наши империи процветают в грядущие времена. Ты больше не наш вассал.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_HUMAN_MASTER_1">
+			<Text>Я разочарован, что вы решили поднять наши налоги. Эти деньги принадлежат моим людям. Будьте уверены, наши отношения пострадали.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_HUMAN_MASTER_2">
+			<Text>Прошу тебя, помилуй наших купцов. Ваше налогообложение подрывает нашу экономику. Я разочарован, что вы выбрали этот путь.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_HUMAN_MASTER_3">
+			<Text>Ваше увеличение наших налогов неприемлемо. Разве контроля над нашими политическими делами недостаточно, чтобы удовлетворить вашу жадность?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_AI_MASTER_1">
+			<Text>Управление другим государством требует от нас больших затрат. Мы решили поднять ваши налоги. Я надеюсь, вы поймете.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_HUMAN_MASTER_1">
+			<Text>Мы рады слышать, что вы снизили наши налоги. Мы можем только надеяться, что это признак грядущих хороших событий.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_HUMAN_MASTER_2">
+			<Text>Я благодарю вас за некоторое облегчение наших налогов. Мы обещаем, что рост нашей экономики поможет обеим нашим нациям в долгосрочной перспективе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_HUMAN_MASTER_3">
+			<Text>Мы считаем, что ваше решение снизить наши налоги является шагом, который сблизит наш народ. Мы благодарим Вас.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_AI_MASTER_1">
+			<Text>Я рад сообщить, что я снизил ваши налоги. Наша империя может прекрасно процветать и без вашей помощи, и я не вижу необходимости напрягать наши отношения без необходимости.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_BECOME_VASSAL_1">
+			<Text>Моя слабость видна всему миру. Пожалуйста, примите мое предложение верности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_BECOME_VASSAL_2">
+			<Text>Твоя великая сила не знает границ. Наша слабость делает нас заманчивой мишенью. Смиренно прошу вашей защиты.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

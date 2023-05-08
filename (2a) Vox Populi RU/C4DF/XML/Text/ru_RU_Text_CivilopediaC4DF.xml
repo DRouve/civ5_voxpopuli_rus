@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/5/2013 12:20:29 PM -->
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_ALLOWS_MAP_TRADING">
+			<Text>Позволяет продавать карты мира другим цивилизациям.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALLOWS_TECH_TRADING">
+			<Text>Позволяет продавать технологии другим цивилизациям.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALLOWS_VASSALAGE">
+			<Text>Позволяет сделать цивилизацию соперника вашим вассальным государством.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ABLTY_MAP_TRADING_STRING">
+			<Text>Позволяет торговать картой мира</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ABLTY_TECH_TRADING_STRING">
+			<Text>Позволяет торговать технологиями</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ABLTY_VASSALAGE_STRING">
+			<Text>Позволяет вассалитет</Text>
+		</Row>		
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_MAP_TRADING_TOPIC">
+			<Text>[COLOR_GREEN]Торговля картой мира[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_MAP_TRADING_SUMMARY">
+			<Text>На карте мира цивилизации подробно описаны все острова, океаны, чудеса природы и цивилизации, которые исследователи цивилизации открыли и нанесли на карту. Торговля картой мира цивилизации доступна после открытия военной науки, и она покажет каждую плитку, которую исследовала цивилизация. Карты мира не обеспечивают контакт с иноземными цивилизациями, но они наметят их местоположение и позволят вам встретиться с ними! Ценность карты мира возрастает в зависимости от того, сколько неизведанной земли может открыть вам цивилизация: природные чудеса и ресурсы стоят гораздо больше, чем огромные безликие океаны. Карты мира могут стать дорогими, поэтому обязательно исследуйте мир и получайте доход от открытий!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_MAP_TRADING_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_DIPLOMACY_MAP_TRADING_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_MAP_TRADING_ADVISOR_QUESTION">
+			<Text>Что такое Торговля картой мира?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_TECH_TRADING_TOPIC">
+			<Text>[COLOR_GREEN]Торговля технологиями[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_TECH_TRADING_SUMMARY">
+			<Text>После того, как вы приобрели технологию «Заменяемые детали», вы можете продавать свои технологические открытия другой цивилизации, если у вас есть посольство в их столице.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_TECH_TRADING_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_DIPLOMACY_TECH_TRADING_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_TECH_TRADING_ADVISOR_QUESTION">
+			<Text>Что такое Торговля технологиями?</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_GAME_CONCEPT_SECTION_26">
+			<Text>[COLOR_GREEN]Вассалитет[ENDCOLOR]</Text>
+		</Replace>	
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OVERVIEW_TOPIC">
+			<Text>[COLOR_GREEN]Вассалитет[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OVERVIEW_SUMMARY">
+			<Text>Вассальное соглашение — это соглашение между двумя цивилизациями, в котором одна цивилизация клянется в верности другой цивилизации, становясь их вассалом. В обмен на защиту от других цивилизаций вассал отказывается от своей политической власти, включая право стать лидером Всемирного конгресса и Организации Объединенных Наций и возможность объявлять войну (они следуют за своими хозяевами на войну).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OVERVIEW_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_VASSALAGE_OVERVIEW_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OVERVIEW_ADV_QUEST">
+			<Text>Что такое Вассалитет?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OBTAINING_VASSALS_TOPIC">
+			<Text>[COLOR_GREEN]Получение вассалов[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OBTAINING_VASSALS_SUMMARY">
+			<Text>Вассалов можно получить только после вступления в Средневековье и после того, как цивилизация согласилась стать вашим вассалом. Это соглашение происходит на экране дипломатической торговли. Существует два типа вассалитета: добровольный вассалитет и капитуляция.[NEWLINE][NEWLINE]Добровольный вассалитет покупается господином в мирное время. Слабые цивилизации с большей вероятностью сдадутся в качестве вассалов, если их новый хозяин достаточно силен и достаточно близок, чтобы защитить их. Добровольный вассалитет является соглашением только по выбору, и вассал может покинуть службу своего господина всего через 10 ходов.[NEWLINE][NEWLINE]Капитуляция, также известная как «насильственный вассалитет», наступает после того, как цивилизация потерпела поражение. в войне. В обмен на то, что они останутся в живых, вассал соглашается сдаться своему похитителю. Капитуляция дает господину еще ряд преимуществ. Сдавшаяся цивилизация соглашается простить большинство негативных дипломатических отношений с хозяином и вынуждена оставаться его вассалом до тех пор, пока не будет выполнен ряд условий. Вы можете просмотреть эти условия в обзоре вассалов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OBTAINING_VASSALS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_VASSALAGE_OBTAINING_VASSALS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OBTAINING_VASSALS_ADVISOR_QUESTION">
+			<Text>Как получить вассалов?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_ENDING_VASSALS_TOPIC">
+			<Text>[COLOR_GREEN]Завершение вассалитета[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_ENDING_VASSALS_SUMMARY">
+			<Text>Вассалитет между двумя цивилизациями может быть прекращен различными способами. Хозяин может объявить войну своему вассалу, немедленно положив конец вассалитету между ними. Хозяин может решить освободить своего вассала, немедленно разорвав вассальное соглашение (но также предоставив им очень большой дипломатический модификатор)![NEWLINE][NEWLINE]Вассал также может потребовать независимости от хозяина (после выполнения некоторых условий). Мастер всегда имеет возможность принять или отклонить их просьбу о независимости. В обоих случаях вассальное соглашение немедленно расторгается, но если хозяин отклоняет просьбу о независимости, между двумя цивилизациями немедленно объявляется война. [NEWLINE][NEWLINE]Освобождение вассала и запрос независимости от хозяина доступны через Обзор вассалов. Ознакомьтесь с этим обзором, чтобы узнать о квалификационных требованиях.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_ENDING_VASSALS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_VASSALAGE_ENDING_VASSALS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_ENDING_VASSALS_ADVISOR_QUESTION">
+			<Text>Как покончить с вассалитетом?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_TOPIC">
+			<Text>[COLOR_GREEN]Преимущества вассалитета[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_SUMMARY">
+			<Text>Вассалитет дает хозяину множество преимуществ. Мастер получает бесплатные Открытые границы с вассалом и бесплатный [ICON_DIPLOMAT] Дипломат в столице [ICON_CAPITAL] вассала, процент от [ICON_RESEARCH] науки вассала, [ICON_CULTURE] культуры, [ICON_PEACE] веры. [ICON_RELIGION] Религия хозяина и [ICON_TOURISM] Туризм должны быстрее распространяться на территории его вассала. Вассал вносит небольшой набор юнитов в каждую новую эпоху, вассал вынужден принять идеологию Мастера, и вассал не имеет права принимать у себя Всемирный конгресс или Организацию Объединенных Наций (если вассал не основал его, в этом случае они станут хозяина Всемирного конгресса до тех пор, пока не будет выбран новый хозяин).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_ADVISOR_QUESTION">
+			<Text>Зачем мне получать вассалов?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_TAXES_TOPIC">
+			<Text>[COLOR_GREEN]Налогообложение вассалов[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_TAXES_SUMMARY">
+			<Text>Каждый вассал в команде может облагаться налогом по индивидуальной ставке. Этот налог применяется через Обзор вассалов и доступен сразу после заключения соглашения о вассалитете. Все налоги применяются в начале хода. Налоги вычитаются из валового золота [ICON_GOLD] вассала за ход и делятся поровну между цивилизациями в команде хозяина (если игроков больше одного). Вассальные налоги могут быть установлены с интервалом в 5%, начиная с 0% и заканчивая 25%. Налоги можно устанавливать только по истечении установленного интервала (уведомления рассылаются, когда налоги вассалов готовы, а на значке обзора вассалов отображается число цивилизаций, ожидающих изменения налога).[NEWLINE][NEWLINE]Высокие налоги цивилизация заставит их с большей вероятностью ненавидеть вас и восстать против вас, когда она сможет покончить с вассалитетом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_TAXES_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_VASSALAGE_VASSAL_TAXES_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_TAXES_ADVISOR_QUESTION">
+			<Text>Зачем мне получать вассалов?</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

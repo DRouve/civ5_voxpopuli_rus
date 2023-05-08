@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/6/2016 3:24:06 PM -->
+<GameData>
+	<Language_ru_RU>
+		<!-- Baths -->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION">
+			<Text>Вопрос гигиены</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_HELP">
+			<Text>Поскольку популярность купания продолжает расти, растет и спрос. Граждане вашей империи требуют дополнительных ванн, однако элита и аристократы протестуют против этого, заявляя, что ванны — это роскошь. Вашим консультантам нужен ваш вклад в этот вопрос. Что вы скажете?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_1">
+			<Text>Немытые массы должны оставаться немытыми.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_1_HELP">
+			<Text>Получите бесплатно Великого Человека на выбор.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_2">
+			<Text>Не жалейте средств - люди должны быть чисты!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_2_HELP">
+			<Text>+1 [ICON_HAPPINESS_1] Счастье во всех городах. Все Бани требуют дополнительно 3 [ICON_GOLD] золота.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_3">
+			<Text>Поощряйте людей находить более... творческие способы очищения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_3_HELP">
+			<Text>Акведуки во всех городах: +1 [ICON_CULTURE] культуры.</Text>
+		</Row>		
+		
+		<!-- Rare Crop -->
+		<Row Tag="TXT_KEY_CITY_EVENT_PLANTATION_RARE_CROP_CHOICE_1">
+			<Text>Редкий образец</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PLANTATION_RARE_CROP_CHOICE_1_HELP">
+			<Text>Ваши фермеры обнаружили редкое растение, никогда ранее не встречавшееся на плантации недалеко от города. Ваши исследователи в восторге от его изучения! +{2_InstantYield}.</Text>
+		</Row>
+			
+	</Language_ru_RU>
+		
+</GameData>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/27/2015 4:17:17 PM -->
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_DEBUG_X_Y">
+			<Text>X: {1_Num} / Y: {2_Num} / Опасность клетки: {3_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_HAPPINESS_EXPLANATION">
+			<Text>Это статистика по всей Империи. [ICON_HAPPINESS_1] Счастье нейтрализует [ICON_HAPPINESS_3] несчастье в каждом городе. Несчастье ограничено размером города (кроме Урбанизации!). </Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_LOCAL_RESOURCES_CBP">
+			<Text>Локальные ресурсы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_MISC_RESOURCES">
+			<Text>Другие ресурсы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_GP_RESOURCES">
+			<Text>От Великих Людей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CORP_RESOURCES">
+			<Text>От Корпораций</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_FRANCHISE_RESOURCES">
+			<Text>От франшиз Корпораций</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CS_ALLY_RESOURCES">
+			<Text>От числа союзных городов-государств</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_STRAT_MOD_RESOURCES">
+			<Text>От модификатора стратегических ресурсов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_REL_MOD_RESOURCES">
+			<Text>От модификатора религиозных ресурсов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_DP">
+			<Text>Клятва о защите</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_MARRIAGE">
+			<Text>Свадьба</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_MASTER_OF">
+			<Text> [COLOR_POSITIVE_TEXT]Мастер[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_VASSAL_OF">
+			<Text> [COLOR_POSITIVE_TEXT]Вассал[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WARSCORE_CP">
+			<Text>Военный счёт:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AT_WAR_WITH_CP">
+			<Text> [COLOR_NEGATIVE_TEXT]Воюет с {1_enemy}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CORPSBUILDING_TEXT">
+			<Text>Корпорации</Text>
+		</Row>
+		<!-- Condensed Help Texts -->
+		<Row>
+			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_BUILDING</Tag>
+			<Text>[ICON_GOLD] Золото, потраченное на инвестирование постройки, снижает стоимость их [ICON_PRODUCTION] производства на 50 % (25 % для Чудес Света).</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_UNIT</Tag>
+			<Text>[ICON_GOLD] Юниты, купленные за золото, начинают с половиной ОО [ICON_PRODUCTION] произведенного юнита.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_FAITH</Tag>
+			<Text>[ICON_PEACE] Купить этого юнита или здание за веру.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

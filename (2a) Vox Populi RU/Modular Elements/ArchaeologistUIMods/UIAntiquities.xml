@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_PREVIOUS_ANTIQUITY_TT">
+			<Text>Центровать на прошлой древности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEXT_ANTIQUITY_TT">
+			<Text>Центровать на следующей древности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANTIQUITY_OVERLAY_ANTIQUITIES">
+			<Text>Древности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANTIQUITY_LEGEND_GOODY_HUT">
+			<Text>Древные руины</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANTIQUITY_LEGEND_DIG_SITE">
+			<Text>Участок древности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANTIQUITY_LEGEND_HIDDEN_SITE">
+			<Text>Скрытый участок древности</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

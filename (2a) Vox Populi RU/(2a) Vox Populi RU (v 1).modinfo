@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="32eadbe7-cdbb-4f7e-ae47-2cbd386e7835" version="1">
+  <Properties>
+    <Name>(2a) Vox Populi - перевод</Name>
+    <Teaser>(3.3.1) Перевод на русский</Teaser>
+    <Description>...</Description>
+    <Authors>danrouve@gmail.com</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <MinCompatibleSaveVersion>16</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="16" maxversion="999" title="(2) Vox Populi" />
+  </Dependencies>
+  <References />
+  <Files>
+        <File md5="F4F546C19DFE39C5F4AD17E84D184288" import="0">Balance Changes/Terrain/NewFarmResources_Text.xml</File>
+        <File md5="F4B2D5DFAE17606AEF183D47F9D53BFC" import="0">Balance Changes/Terrain/NewLuxuries_Text.xml</File>
+        <File md5="1D6F721C3024E6344CABCC2227592E11" import="0">Balance Changes/Text/ru_RU/BuildingText.sql</File>
+        <File md5="A4224DF59EC44D009DBAAA21760BA04B" import="0">Balance Changes/Text/ru_RU/CivText.sql</File>
+        <File md5="BB20C970F92E146AF072786CC0A1F23D" import="0">Balance Changes/Text/ru_RU/BuildingText.xml</File>
+        <File md5="9B6260958850F8C2111096754FFFC2C6" import="0">Balance Changes/Text/ru_RU/EspionageEventText.xml</File>
+        <File md5="BE8A95DFB17CAD28CFA1E6E753F50D8C" import="0">Balance Changes/Text/ru_RU/UIShortcutsCivilopedia.xml</File>
+        <File md5="F3CCF771F0A231DC0E38CC30AC56DF7D" import="0">Balance Changes/Text/ru_RU/UnitText.xml</File>
+        <File md5="B1F9391436D84155FFE9B3DA21FC03A0" import="0">Balance Changes/Text/ru_RU/UIText.xml</File>
+        <File md5="ED46B633E374A73B086D6BCFCCBDDA7A" import="0">Balance Changes/Text/ru_RU/TerrainText.xml</File>
+        <File md5="2FBABDF9B63704C27B1B23A4A1A0D61B" import="0">Balance Changes/Text/ru_RU/PromotionText.sql</File>
+        <File md5="586FBABE6542A708D8FF014F5C5F242F" import="0">Balance Changes/Text/ru_RU/PolicyText.sql</File>
+        <File md5="FB157DFCB88BE19FA855057B53532B92" import="0">Balance Changes/Text/ru_RU/UIText.sql</File>
+        <File md5="32ACC8F57AE5AB4349CC5818E0DB9244" import="0">Balance Changes/Text/ru_RU/OtherText.sql</File>
+        <File md5="6E40563A26212F4EE4175893A41C42E9" import="0">Balance Changes/Text/ru_RU/UnitText.sql</File>
+        <File md5="1BCC0345CE3DBE680353A37C1CDEC605" import="0">Balance Changes/Text/ru_RU/ReligionText.sql</File>
+        <File md5="85F0E2492BCB5D3553C227FA218519E4" import="0">Balance Changes/Text/ru_RU/NewText.xml</File>
+        <File md5="46951BAF40A6B5C60B275A6E864D1013" import="0">Balance Changes/Text/ru_RU/TextChanges.sql</File>
+        <File md5="3BAAC39E8F9C13EFD94C831FC875261A" import="0">Balance Changes/Units/PromotionChanges.xml</File>
+        <File md5="9673C39ED8080005A2B11B854BAD3AB4" import="0">C4DF/XML/Text/ru_RU_Text_CivilopediaC4DF.xml</File>
+        <File md5="F95FE6C61C42FE0D629511AFC327818C" import="0">C4DF/XML/Text/ru_RU_Text_Generic_DiplomacyC4DF.xml</File>
+        <File md5="592FA9383146854EB0B1C73491CD9E4D" import="0">C4DF/XML/Text/ru_RU_Text_UIC4DF.xml</File>
+        <File md5="82D50FDD655FDCDD34C59A40E87FF91E" import="0">Compatibility/C4DFCompatibility/C4DFCompatibility.sql</File>
+        <File md5="94863D7E9ED068366807182FC439E215" import="0">Compatibility/Corporations/Text/CorpText_ru_RU.xml</File>
+        <File md5="F2B4529383B3A7F7AEC8F9CA82C9A83C" import="0">Compatibility/Corporations/Text/CorpText_ru_RU.sql</File>
+        <File md5="0ADB58F3DBC820A92DD00ED49EA3BE2F" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ru_RU.sql</File>
+        <File md5="C44788E96BF96666D8D2D42F68A9FD3B" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ru_RU.xml</File>
+        <File md5="60EA7C6B159A67D2D7FB54BC732196D2" import="0">CSD/Buildings/BuildingRules.sql</File>
+        <File md5="116987565D244CF3F9194304ADFC0791" import="0">CSD/Buildings/BuildingText.xml</File>
+        <File md5="1AF3CC2EF9C371DB9E6D2F0525CB70A6" import="0">CSD/Buildings/DiploBuildingText.sql</File>
+        <File md5="F5011F6B6E10394AE1A99280AD3FAC14" import="0">CSD/Gameplay/GameplayText.sql</File>
+        <File md5="C4565E3416EC26ADAAC66FF1ABE58B2B" import="0">CSD/Improvements/Build.xml</File>
+        <File md5="3ADD0DF5B4C6640101CC92A6E1960B95" import="0">CSD/Improvements/ImprovementText.xml</File>
+        <File md5="58BA7B52861BB2343DE47C078DDBDA41" import="0">CSD/Promotions/PromotionText.xml</File>
+        <File md5="87655602BEF1B77BF4EE0A1893649FA5" import="0">CSD/Quests/CityStateQuest.xml</File>
+        <File md5="A8B940DA3B84B9B8D9FDD9AC3EF0518D" import="0">CSD/Resource/Paper.xml</File>
+        <File md5="E8FE68E7A7B1E207173B6DFDA8D36F35" import="0">CSD/Specialist/CivilServant.xml</File>
+        <File md5="C92F62D64C5412F2BF53ECF33B873A44" import="0">CSD/Units/CSD_UnitText.xml</File>
+        <File md5="9DE251AF9D7B981E5C58FA7CA8053680" import="0">CSD/World Congress/Congress.xml</File>
+        <File md5="AFA76FBC8CF1D898D1519584CF0F18CF" import="0">CSD/World Congress/IdeologyChanges.sql</File>
+        <File md5="F4BB850D8D3F95E68FD332F49933B787" import="0">CSD/World Congress/Projects.xml</File>
+        <File md5="A4B7AAE9AEB100FEBEDC9C952300F3C6" import="1">Modular Elements/ArchaeologistUIMods/MiniMapPanel.xml</File>
+        <File md5="9EF6E23A64544A3E38566E8BD5CCCCF9" import="0">Modular Elements/ArchaeologistUIMods/UIAntiquities.xml</File>
+        <File md5="0B9F0CBFA2325D055888381B705FB887" import="0">Modular Elements/Corporations/Text/ru_RU/CorporationOverviewText.xml</File>
+        <File md5="5CEFC7AA2813CABE4A05C5A66D57B45B" import="0">Modular Elements/Corporations/Text/ru_RU/CorpText.xml</File>
+        <File md5="C083847CE6A3DE9C2B4C6ED37B3A807E" import="0">Modular Elements/Events/Text/EventText_ru_RU.xml</File>
+        <File md5="62D0F7DC5E6D94966A6CB8E2B9AEF3DA" import="0">Modular Elements/TradeUIMod/GlobalCityStatesGifts.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Balance Changes/Terrain/NewFarmResources_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Terrain/NewLuxuries_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ru_RU/NewText.xml</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ru_RU/TextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ru_RU/BuildingText.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ru_RU/BuildingText.xml</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ru_RU/CivText.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ru_RU/OtherText.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ru_RU/PolicyText.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ru_RU/PromotionText.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ru_RU/UIText.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ru_RU/UIText.xml</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ru_RU/UnitText.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ru_RU/UnitText.xml</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ru_RU/ReligionText.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ru_RU/TerrainText.xml</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Units/PromotionChanges.xml</UpdateDatabase>
+      <UpdateDatabase>C4DF/XML/Text/ru_RU_Text_CivilopediaC4DF.xml</UpdateDatabase>
+      <UpdateDatabase>C4DF/XML/Text/ru_RU_Text_Generic_DiplomacyC4DF.xml</UpdateDatabase>
+      <UpdateDatabase>C4DF/XML/Text/ru_RU_Text_UIC4DF.xml</UpdateDatabase>
+      <UpdateDatabase>Compatibility/C4DFCompatibility/C4DFCompatibility.sql</UpdateDatabase>
+      <UpdateDatabase>Compatibility/Corporations/Text/CorpText_ru_RU.sql</UpdateDatabase>
+      <UpdateDatabase>Compatibility/Corporations/Text/CorpText_ru_RU.xml</UpdateDatabase>
+      <UpdateDatabase>Compatibility/CSD/CompatibilityText/Compatibility_ru_RU.sql</UpdateDatabase>
+      <UpdateDatabase>Compatibility/CSD/CompatibilityText/Compatibility_ru_RU.xml</UpdateDatabase>
+      <UpdateDatabase>CSD/Buildings/BuildingRules.sql</UpdateDatabase>
+      <UpdateDatabase>CSD/Buildings/BuildingText.xml</UpdateDatabase>
+      <UpdateDatabase>CSD/Buildings/DiploBuildingText.sql</UpdateDatabase>
+      <UpdateDatabase>CSD/Gameplay/GameplayText.sql</UpdateDatabase>
+      <UpdateDatabase>CSD/Improvements/Build.xml</UpdateDatabase>
+      <UpdateDatabase>CSD/Improvements/ImprovementText.xml</UpdateDatabase>
+      <UpdateDatabase>CSD/Promotions/PromotionText.xml</UpdateDatabase>
+      <UpdateDatabase>CSD/Quests/CityStateQuest.xml</UpdateDatabase>
+      <UpdateDatabase>CSD/Resource/Paper.xml</UpdateDatabase>
+      <UpdateDatabase>CSD/Specialist/CivilServant.xml</UpdateDatabase>
+      <UpdateDatabase>CSD/Units/CSD_UnitText.xml</UpdateDatabase>
+      <UpdateDatabase>CSD/World Congress/Congress.xml</UpdateDatabase>
+      <UpdateDatabase>CSD/World Congress/IdeologyChanges.sql</UpdateDatabase>
+      <UpdateDatabase>CSD/World Congress/Projects.xml</UpdateDatabase>
+      <UpdateDatabase>Modular Elements/ArchaeologistUIMods/MiniMapPanel.xml</UpdateDatabase>
+      <UpdateDatabase>Modular Elements/ArchaeologistUIMods/UIAntiquities.xml</UpdateDatabase>
+      <UpdateDatabase>Modular Elements/Corporations/Text/ru_RU/CorporationOverviewText.xml</UpdateDatabase>
+      <UpdateDatabase>Modular Elements/Corporations/Text/ru_RU/CorpText.xml</UpdateDatabase>
+      <UpdateDatabase>Modular Elements/Events/Text/EventText_ru_RU.xml</UpdateDatabase>
+      <UpdateDatabase>Modular Elements/TradeUIMod/GlobalCityStatesGifts.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
