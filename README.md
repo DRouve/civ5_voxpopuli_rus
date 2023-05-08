@@ -1,2 +1,11 @@
-# civ5_voxpopuli_rus
-Civilization 5, Vox Populi - Russian translation
+# Civilization 5, Vox Populi - Russian translation
+Перевод мода для Civilization 5 - Vox Populi - на русский язык.
+Подходит для текущей свежей версии - 3.3.1.
+В большей степени переводилось через Google Translate + вручную. Допущены некоторые вольности в переводе, с радостью приму от вас советы и исправления ошибок.
+
+Установке:
+0) Установить Civilization 5, установить мод Vox Populi
+1) Найти директорию с модами, обычно это С:\Users\имя_пользователя\Documents\My Games\Sid Meier's Civilization 5\MODS
+Там должны быть папки Vox Populi, например **(1) Community Patch**, **(2) Vox Populi**
+2) Добавить папки из архива в эту папку с модами, чтобы **(2) Vox Populi** и **(2a) Vox Populi RU** и остальные папки лежали рядом
+3) После запуска игры выбирать **Модификации**, не забыть отметить добавленные моды
