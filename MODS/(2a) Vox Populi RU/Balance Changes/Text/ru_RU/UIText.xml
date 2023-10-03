@@ -33,7 +33,7 @@
 			<Text>[COLOR_GREEN]Исторические события[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HISTORIC_EVENT_BODY">
-			<Text>Исторические события представляют собой монументальные достижения, которые могут произойти во время игры. Эти события требуют планирования или взаимодействия с пользователем и, таким образом, являются динамической частью приобретения культурного влияния на другие цивилизации. Когда одно из следующих исторических событий завершится, вы получите [ICON_TOURISM] прирост туризма со всеми известными цивилизациями в зависимости от вашей недавней [ICON_CULTURE] культуры и [ICON_TOURISM] результатов туризма:[NEWLINE][NEWLINE][ICON_BULLET] Заработайте [ICON_GREAT_PEOPLE] Великий человек[NEWLINE][ICON_BULLET] Постройте [ICON_GOLDEN_AGE] чудо света[NEWLINE][ICON_BULLET] Выиграйте [ICON_WAR] войну (Warscore 25+)[NEWLINE][ICON_BULLET] Войдите в новую [ICON_RESEARCH] эру[NEWLINE][NEWLINE ] Количество туризма, полученного этими событиями, зависит от вашей культуры и туризма за ход за последние несколько ходов. Значение этого параметра также корректируется в зависимости от количества городов в вашей империи и вашего модификатора туризма с целевой цивилизацией. Наконец, количество получаемого вами туризма также зависит от некоторых социальных политик и идеологических принципов, а также от черт лидера, зданий и количества городов в вашей империи.</Text>
+			<Text>Исторические события представляют собой монументальные достижения, которые могут произойти во время игры. Эти события требуют планирования или взаимодействия с пользователем и, таким образом, являются динамической частью приобретения культурного влияния на другие цивилизации. После завершения одного из следующих исторических событий вы получите [ICON_TOURISM] туризм со всеми известными цивилизациями в зависимости от ваших доходов [ICON_CULTURE] культуры и [ICON_TOURISM] туризма:[NEWLINE][NEWLINE][ICON_BULLET] Появление [ICON_GREAT_PEOPLE] Великого человека[NEWLINE][ICON_BULLET] Постройка [ICON_GOLDEN_AGE] Чуда Света[NEWLINE][ICON_BULLET] Победа в войне [ICON_WAR] (Военный счет 25+)[NEWLINE][ICON_BULLET] Переход в новую [ICON_RESEARCH] Эры [NEWLINE][ICON_BULLET] ] Начало [ICON_GOLDEN_AGE] Золотого века (Искусство)[NEWLINE][ICON_BULLET] Завершение [ICON_RES_ARTIFACTS] / [ICON_RES_HIDDEN_ARTIFACTS] археологических раскопок (Искусство)[NEWLINE][ICON_BULLET] [ICON_INTERNATIONAL_TRADE] Торговля с цивилизациями и городами-государствами (при наличии особых зданий или политики)[NEWLINE][NEWLINE]Количество туризма, полученного в результате этих событий, зависит от дохода вашей культуры и туризма за ход за последние несколько ходов. Значение этого параметра также корректируется в зависимости от количества городов в вашей империи и модификатора туризма целевой цивилизации. Наконец, количество получаемого вами туризма также зависит от некоторых социальных политик и идеологических принципов, а также от черт лидера, зданий и количества городов в вашей империи.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HISTORIC_EVENT_QUEST">
 			<Text>Что такое Историческое событие?</Text>
@@ -213,21 +213,24 @@
 		</Row>
 		
 		<!-- Annexed City States -->
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_ANNEXED_MINORS">
+			<Text>{1_Num} от [ICON_CITY_STATE] захваченных городов-государств.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ANNEXED_MINORS">
-			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от аннексированных городов-государств.</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от захваченных городов-государств.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_FAITH_FROM_ANNEXED_MINORS">
-			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от аннексированных городов-государств.</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от захваченных городов-государств.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ANNEXED_MINORS">
-			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] от аннексированных городов-государств.</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] от захваченных городов-государств.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_HAPPINESS_FROM_ANNEXED_MINORS">
-			<Text>+{1_Num} от аннексированных городов-государств.</Text>
+			<Text>+{1_Num} от захваченных городов-государств.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_NOTIFICATION_ANNEXED_CITY_STATE_UNIT_SPAWN">
-			<Text>Аннексированный город-государство {1_CivName:textkey} дал вам нового Юнита!</Text>
+			<Text>Захваченный город-государство {1_CivName:textkey} дал вам нового Юнита!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ANNEXED_CITY_STATE_UNIT_SPAWN">
 			<Text>Новый Юнит от {1_CivName:textkey}!</Text>
@@ -384,8 +387,11 @@
 		<Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_PERMA_TT">
 			<Text>{1_SpyRank} {2_SpyName} пока не может пытаться совершить переворот в {3_CityName}, потому что у их текущего союзника здесь есть сфера влияния.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_SPY_NUMBER_ELECTION_RIGGINGS">
-			<Text>[COLOR_CYAN]Количество успешно сфальсифицированных выборов с момента последнего переворота: {1_NumElectionsRigged}[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_EO_SPY_RIGGING_COUP_CHANCE_INCREASE">
+			<Text>[COLOR_CYAN]Каждые успешно сфальсифицированные выборы увеличивают шанс переворота на {1_CoupChanceIncrease}%.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_RIGGING_NO_COUP_POSSIBLE">
+			<Text>[COLOR_NEGATIVE_TEXT]Фальсификация выборов не увеличит шанс успешного переворота, т.к. переворот в этом городе-государстве невозможен.[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Feitoria Production Tooltip-->
@@ -1625,6 +1631,13 @@
 
 		<Row Tag="TXT_KEY_MO_SORT_XP">
 			<Text>Сортировать по ОО</Text>
+		</Row>
+		<!-- City Damage Reduction -->
+		<Row Tag="TXT_KEY_PEDIA_DAMAGE_REDUCTION">
+			<Text>Урон -{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DAMAGE_REDUCTION">
+			<Text>Уменьшение урона: +{1_Num}</Text>
 		</Row>
 	</Language_ru_RU>
 	<Language_ru_RU>

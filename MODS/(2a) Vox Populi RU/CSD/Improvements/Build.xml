@@ -6,7 +6,7 @@
 			<Text>Построить [LINK=IMPROVEMENT_EMBASSY]посольство[\LINK]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_EMBASSY">
-			<Text>Юнит исчезнет.[NEWLINE][NEWLINE]Это великое улучшение не может быть построено поверх Стратегических ресурсов или ресурсов Роскоши. Дает [COLOR_POSITIVE_TEXT]1 голос на Всемирном конгрессе[ENDCOLOR] при постройке.</Text>
+			<Text>Юнит исчезнет.[NEWLINE][NEWLINE]Это улучшение Великих Людей не может быть построено поверх Стратегических ресурсов или ресурсов Роскоши. Дает [COLOR_POSITIVE_TEXT]1 голос на Всемирном конгрессе[ENDCOLOR] при постройке. Gain +1 [ICON_RES_PAPER] Бумага.</Text>
 		</Row>
 	</Language_ru_RU>
 </GameData>

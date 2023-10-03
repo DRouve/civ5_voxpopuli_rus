@@ -11,7 +11,7 @@ WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_TT';
 UPDATE Language_ru_RU
 SET Text = '[ICON_TOURISM] Туризм увеличивается на 50% на 20 ходов. Бесплатная социальная политика.'
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP';
-	
+
 UPDATE Language_ru_RU
 SET Text = '[ICON_CULTURE] Культура повышается на 33% на 20 ходов.'
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP';
@@ -37,84 +37,84 @@ WHERE Tag = 'TXT_KEY_CULTURE_TOURISM_HEADING2_TITLE';
 
 -- Capture Popup
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = '[COLOR_POSITIVE_TEXT]Марионетка[ENDCOLOR] приводит к следующему:[NEWLINE][ICON_BULLET] Производит на 80% меньше золота, науки, культуры, туризма и веры, чем обычный город.[NEWLINE][ICON_BULLET] Больше не дает очки великих людей.[ NEWLINE][ICON_BULLET] Вы [COLOR_POSITIVE_TEXT]не можете выбирать, что он производит[ENDCOLOR] и тратить золото в городе.[NEWLINE][ICON_BULLET] Создает 1 [ICON_HAPPINESS_3] несчастья на каждые 4 [ICON_CITIZEN] горожанина в городе.[NEWLINE] [ICON_BULLET] Не увеличивает стоимость социальной политики, технологий или туризма.[NEWLINE][NEWLINE]Если вы выберете этот вариант, позже вы сможете аннексировать город в любой момент.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_PUPPET';
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = '[COLOR_POSITIVE_TEXT]Аннексия[ENDCOLOR] приводит к следующему:[NEWLINE][ICON_BULLET] производит [ICON_HAPPINESS_4] несчастье, равное населению города [ICON_CITIZEN] (пока вы не построите здание суда).[NEWLINE][ICON_BULLET] инвестирует в строительство Здание суда в городе, время строительства которого сокращается как минимум на 50 % (если аннексировано сразу после завоевания).[NEWLINE][ICON_BULLET] Сокращение города пополам [ICON_RESISTANCE] Сопротивление после захвата (если аннексировано сразу после завоевания).'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_ANNEX';
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = '[COLOR_POSITIVE_TEXT]Разрушение[ENDCOLOR] приводит к следующему:[NEWLINE][ICON_BULLET] Город теряет [ICON_CITIZEN] население каждый ход, пока не достигнет нуля и не будет удален из игры.[NEWLINE][ICON_BULLET] Производит [ICON_HAPPINESS_4] несчастье, равное [ICON_CITIZEN] Население города.[NEWLINE][ICON_BULLET] Увеличивает ваш [COLOR_POSITIVE_TEXT]счет войны[ENDCOLOR] каждый раз, когда население уменьшается.[NEWLINE][ICON_BULLET] Дружественные юниты в пределах города исцеляются так же, как если бы они были внутри города ( мародерство).[NEWLINE][ICON_BULLET] Может генерировать [COLOR_NEGATIVE_TEXT]партизан[ENDCOLOR], верных бывшему владельцу (если вы все еще воюете с этим игроком), или варваров каждый ход во время разрушения.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE';
 
 -- Citizen Food Consumption
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] {2_IconString} съедено [ICON_CITIZEN] горожанами'
 WHERE Tag = 'TXT_KEY_YIELD_EATEN_BY_POP';
 
 -- Citizen Food Consumption
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = 'Рабочие'
 WHERE Tag = 'TXT_KEY_CITIES_UNEMPLOYEDCITIZENS_HEADING3_TITLE';
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = 'Безработные граждане приносят небольшой доход по сравнению с другими специалистами, однако вы можете назначить на эту должность столько своих граждан, сколько пожелаете. Их следует, по возможности, назначать на рабочие клетки или превращать в специалистов.'
 WHERE Tag = 'TXT_KEY_SPECIALIST_CITIZEN_STRATEGY';
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = 'Рабочий|Рабочие'
 WHERE Tag = 'TXT_KEY_SPECIALIST_CITIZEN';
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = 'Рабочие'
 WHERE Tag = 'TXT_KEY_CITYVIEW_UNEMPLOYED_TEXT';
 
 -- CSs
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = 'Города-государства можно заставить заплатить большую дань, но применение силы таким образом уменьшит ваше [ICON_INFLUENCE] Влияние на них.'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_TT';
 
 -- Trade Stuff
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = '{1_CivName} обнаружила неизвестные вам технологии ({2_Num}), что дало вам +{4_Num} [ICON_RESEARCH] к науке.[NEWLINE]+{3_Num} [ICON_RESEARCH] к науке на этом маршруте благодаря вашему культурному влиянию на них.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_EXPLAINED';
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = 'Вы обнаружили {1_Num} технологий, неизвестных {2_CivName}, что дало им +{4_Num} [ICON_RESEARCH] науки.[NEWLINE]+{3_Num} [ICON_RESEARCH] науки на этом маршруте из-за их культурного влияния на вас.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_EXPLAINED';
 
 -- CS Gift Stuff
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = '({1_NumHappiness} [ICON_HAPPINESS_1] счастья, {2_Gold} [ICON_GOLD] золота)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_LOST_MERCANTILE';
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = 'Будучи [COLOR_POSITIVE_TEXT]торговым[ENDCOLOR] городом-государством, их рынки предлагают вашим жителям экзотические товары! (+{1_NumHappiness} [ICON_HAPPINESS_1] счастья, +{2_Gold} [ICON_GOLD] золота)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MERCANTILE';
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = 'Будучи [COLOR_POSITIVE_TEXT]торговым[ENDCOLOR] городом-государством, их рынки распространяют торговлю экзотическими товарами по всей вашей империи! (+{1_NumHappiness} [ICON_HAPPINESS_1] счастья, +{2_Gold} [ICON_GOLD] золота)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MERCANTILE';
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = 'Они будут предоставлять меньше юнитов для вашей армии и меньше науки! ({1_Science} [ICON_RESEARCH] Наука)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_LOST_ALLIES_MILITARISTIC';
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = 'Они больше не будут давать вам воинские юниты или науку! ({1_Science} [ICON_RESEARCH] Наука)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_LOST_FRIENDS_MILITARISTIC';
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = 'Будучи [COLOR_POSITIVE_TEXT]милитаристским[ENDCOLOR] городом-государством, они дадут вам военных юнитов и науку. (+{1_Наука} [ICON_RESEARCH] Наука)'
-WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MILITARISTIC';		
+WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MILITARISTIC';
 
-UPDATE Language_ru_RU	
+UPDATE Language_ru_RU
 SET Text = 'Будучи [COLOR_POSITIVE_TEXT]милитаристским[ENDCOLOR] городом-государством, они регулярно будут давать вам военные юниты и науку. (+{1_Наука} [ICON_RESEARCH] Наука)'
-WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MILITARISTIC';		
+WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MILITARISTIC';
 
 -- Change instructions for Ideologies
 
@@ -149,7 +149,7 @@ WHERE Tag = 'TXT_KEY_POLICYSCREEN_IDEOLOGY_NOT_STARTED';
 UPDATE Language_ru_RU
 SET Text = 'Вы вышли за пределы современной эпохи. Идеи современности сейчас пронизывают ваше общество. Ваш народ требует, чтобы вы выбрали идеологию для своей цивилизации.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_ERA';
-	
+
 UPDATE Language_ru_RU
 SET Text = 'Позволяет вашим городам строить [COLOR_POSITIVE_TEXT]атомные бомбы[ENDCOLOR] и [COLOR_POSITIVE_TEXT]ядерные ракеты[ENDCOLOR].[NEWLINE][NEWLINE]Если вы [COLOR_POSITIVE_TEXT]первым[ENDCOLOR] выполните это задание, получите 1 [COLOR_POSITIVE_TEXT]бесплатно [ENDCOLOR] Атомная бомба и [COLOR_POSITIVE_TEXT]бесплатная[ENDCOLOR] исследовательская лаборатория в вашей [ICON_CAPITAL] столице.'
 WHERE Tag = 'TXT_KEY_PROJECT_MANHATTAN_PROJECT_HELP';
@@ -215,7 +215,7 @@ SET Text = 'Позволяет построить Пизанскую башню 
 WHERE Tag = 'TXT_KEY_TECH_CHEMISTRY_HELP';
 
 UPDATE Language_ru_RU
-SET Text = 'Позволяет построить [COLOR_POSITIVE_TEXT]Пушку[ENDCOLOR], мощное осадное орудие эпохи Возрождения, а также [COLOR_POSITIVE_TEXT]Арсенал[ENDCOLOR], усиливающий защиту города.'
+SET Text = 'Позволяет построить [COLOR_POSITIVE_TEXT]Пушку[ENDCOLOR], мощное осадное орудие эпохи Возрождения.'
 WHERE Tag = 'TXT_KEY_TECH_METALLURGY_HELP';
 
 UPDATE Language_ru_RU
@@ -234,13 +234,13 @@ WHERE Tag = 'TXT_KEY_TECH_RIFLING_HELP';
 
 -- Fix Replaceable Parts Text
 UPDATE Language_ru_RU
-SET Text = 'Позволяет построить базовый наземный юнит [COLOR_POSITIVE_TEXT]Стрелок[ENDCOLOR] и [COLOR_POSITIVE_TEXT]военную базу[ENDCOLOR], которые усиливают защиту города.'
+SET Text = 'Позволяет построить базового наземного юнита [COLOR_POSITIVE_TEXT]Стрелок[ENDCOLOR], сильный наземный юнит Современности.'
 WHERE Tag = 'TXT_KEY_TECH_REPLACEABLE_PARTS_HELP';
 
 -- Fix Combustion Text
 
 UPDATE Language_ru_RU
-SET Text = 'Позволяет построить [COLOR_POSITIVE_TEXT]Наземный корабль[ENDCOLOR], невероятно мощную бронированную единицу, способную двигаться после атаки.'
+SET Text = 'Позволяет построить [COLOR_POSITIVE_TEXT]Наземный корабль[ENDCOLOR], невероятно мощный бронированный юнит, способный двигаться после атаки, а также [COLOR_POSITIVE_TEXT]Арсенал[ENDCOLOR], повышающий оборону города.'
 WHERE Tag = 'TXT_KEY_TECH_COMBUSTION_HELP';
 
 -- Fix Plastics Text
@@ -384,12 +384,20 @@ SET Text = 'Позволяет построить [COLOR_POSITIVE_TEXT]Обсе�
 WHERE Tag = 'TXT_KEY_TECH_ASTRONOMY_HELP';
 
 UPDATE Language_ru_RU
-SET Text = 'Позволяет строить [COLOR_POSITIVE_TEXT]Фрегат[ENDCOLOR] и [COLOR_POSITIVE_TEXT]Корвет[ENDCOLOR] — мощные боевые корабли эпохи Возрождения. Также позволяет прибрежным городам строить [COLOR_POSITIVE_TEXT]морской порт[ENDCOLOR], который обеспечивает [ICON_PRODUCTION] производство из морских ресурсов.'
+SET Text = 'Позволяет строить [COLOR_POSITIVE_TEXT]Фрегат[ENDCOLOR] и [COLOR_POSITIVE_TEXT]Корвет[ENDCOLOR] — мощные боевые корабли эпохи Возрождения, а также [COLOR_POSITIVE_TEXT]Бастион[ENDCOLOR], повышающий оборону города. Также позволяет прибрежным городам строить [COLOR_POSITIVE_TEXT]морской порт[ENDCOLOR], который обеспечивает [ICON_PRODUCTION] производство из морских ресурсов.'
 WHERE Tag = 'TXT_KEY_TECH_NAVIGATION_HELP';
 
 UPDATE Language_ru_RU
 SET Text = 'Получите дополнительный торговый путь [ICON_INTERNATIONAL_TRADE]. Открывает [ICON_RES_ALUMINUM] алюминий, ресурс, используемый для многих юнитов поздней игры. Также позволяет городам строить [COLOR_POSITIVE_TEXT]фондовую биржу[ENDCOLOR], здание, повышающее [ICON_GOLD] золото. Также позволяет построить [COLOR_POSITIVE_TEXT]Гидроэлектростанцию[ENDCOLOR], которая увеличивает [ICON_PRODUCTION] производство с клеток рядом с рекой.'
 WHERE Tag = 'TXT_KEY_TECH_ELECTRICITY_HELP';
+
+UPDATE Language_ru_RU
+SET Text = 'Позволяет строительство [COLOR_POSITIVE_TEXT]Телебашни[ENDCOLOR], здания, значительно повышающего доход [ICON_CULTURE] культуры в городе.'
+WHERE Tag = 'TXT_KEY_TECH_RADIO_HELP';
+
+UPDATE Language_ru_RU
+SET Text = 'Увеличивает доход [ICON_TOURISM] туризма во всех городах на 50%, тем самым помогая достичь [ICON_VICTORY_CULTURE] [COLOR_POSITIVE_TEXT]Культурной победы[ENDCOLOR].'
+WHERE Tag = 'TXT_KEY_TECH_INTERNET_HELP';
 
 -- Tech Tree small icon fixes
 
@@ -401,7 +409,7 @@ UPDATE Language_ru_RU
 SET Text = 'Чтобы вырубить леса/джунгли, требуется {1_Turns} ходов.'
 WHERE Tag = 'TXT_KEY_REMOVE_FOREST_JUNGLE_COST_REDUCTION';
 
--- Penicilin and Nanotech 
+-- Penicilin and Nanotech
 
 UPDATE Language_ru_RU
 SET Text = 'Все рабочие получают поощрение [COLOR_POSITIVE_TEXT]Уменьшение выпадения[ENDCOLOR], которое уменьшает количество урона, получаемого ими при очистке Fallout. Позволяет построить [COLOR_POSITIVE_TEXT]морпеха[ENDCOLOR], подразделение, которое специализируется на десантных операциях. Также позволяет построить [COLOR_POSITIVE_TEXT]Медицинскую лабораторию[ENDCOLOR], которая ускоряет [ICON_FOOD] рост ваших городов.'

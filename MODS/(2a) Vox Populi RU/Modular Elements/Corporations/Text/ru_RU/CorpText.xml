@@ -812,7 +812,7 @@
 			<Text>[ICON_RES_WINE] Вино, [ICON_RES_TRUFFLES] Трюфели, [ICON_RES_CITRUS] Цитрусы предоставляют +1 [ICON_FOOD] еды во всех городах с франшизой TwoKay Foods.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_TWOKAY_FOODS">
-			<Text>+3 [ICON_FOOD] Еда, -1 [ICON_HAPPINESS_3] несчастье от всех потребностей и -5% к модификатору размера империи [ICON_CITY_STATE] для каждой глобальной франшизы. +10% [ICON_FOOD] Еда в городе.</Text>
+			<Text>+3 [ICON_FOOD] Еда за каждую Глобальную монополию. +10% к [ICON_FOOD] еде в городе. -1 [ICON_HAPPINESS_3] несчастье от всех потребностей. -5% к модификатору [ICON_CITY_STATE] размера империи во всех городах.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TWOKAY_FOODS">
 			<Text>[ICON_INTERNATIONAL_TRADE] Торговые Пути в иностранные города с франшизой TwoKay Foods дают +10% [ICON_FOOD] еды в исходный город.</Text>

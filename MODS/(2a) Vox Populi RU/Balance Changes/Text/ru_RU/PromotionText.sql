@@ -2,7 +2,7 @@
 
  -- added Hovering Unit
 	UPDATE Language_ru_RU
-	SET Text = 'Юнит может пройти через Горы.'
+	SET Text = 'Юнит может пересекать Горы, а также может пересекать клетки Воды без погрузки. Не может атаковать на [COLOR_NEGATIVE_TEXT]клетках Океана[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_HOVERING_UNIT_HELP';
 
  -- added Withdraw Before Melee
@@ -32,7 +32,7 @@
 
  -- added Statue Of Zeus Promotion
 	UPDATE Language_ru_RU
-	SET Text = '+15% [ICON_STRENGTH] к боевой мощи при атаке [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].'
+	SET Text = '+25% [ICON_STRENGTH] к боевой мощи при атаке [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_STATUE_ZEUS_HELP';
 
  -- added 1 Extra Movement
@@ -600,8 +600,8 @@
 	WHERE Tag = 'TXT_KEY_PROMOTION_HELI_AMBUSH_2';
 
 	INSERT INTO Language_ru_RU (Tag, Text)
-	VALUES	('TXT_KEY_PROMOTION_HELI_AMBUSH_1_HELP', '+25% к [ICON_STRENGTH] боевой мощи против [COLOR_POSITIVE_TEXT]Бронетанковых юнитов[ENDCOLOR].'),
-			('TXT_KEY_PROMOTION_HELI_AMBUSH_2_HELP', '+25% к [ICON_STRENGTH] боевой мощи против [COLOR_POSITIVE_TEXT]Бронетанковых юнитов[ENDCOLOR].');
+	VALUES	('TXT_KEY_PROMOTION_HELI_AMBUSH_1_HELP', '+50% к [ICON_STRENGTH] боевой мощи против [COLOR_POSITIVE_TEXT]Бронетанковых юнитов[ENDCOLOR].'),
+			('TXT_KEY_PROMOTION_HELI_AMBUSH_2_HELP', '+50% к [ICON_STRENGTH] боевой мощи против [COLOR_POSITIVE_TEXT]Бронетанковых юнитов[ENDCOLOR].');
 
 	UPDATE Language_ru_RU
 	SET Text = 'Охотник на орлов'

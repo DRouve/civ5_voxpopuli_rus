@@ -35,7 +35,7 @@
 			<Text>Эпона, Великая Кобыла</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_NUADA">
-			<Text>+15% [ICON_GOLD] золота и [ICON_RESEARCH] науки из «We Love the King Days». +3 [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_GOLDEN_AGE] очков Золотого века за каждый уникальный ресурс роскоши в Империи и за каждый активный [ICON_INTERNATIONAL_TRADE] торговый путь в город или из города. +5 [ICON_GOLD] Золота из Зала Сейлид.</Text>
+			<Text>+15% [ICON_GOLD] золота и [ICON_RESEARCH] науки от «Дней любви к Отчизне». +3 [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_GOLDEN_AGE] очков Золотого века за каждый уникальный ресурс роскоши в Империи и за каждый активный [ICON_INTERNATIONAL_TRADE] торговый путь в город или из города. +5 [ICON_GOLD] золота от Зала Сейлид.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_NUADA_SHORT">
 			<Text>Нуада, Серебряная Рука</Text>
@@ -96,7 +96,7 @@
 			<Text>Искусство</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Искусство[ENDCOLOR] преобразует 25% производства [ICON_PRODUCTION] этого города в культуру [ICON_CULTURE] и снижает потребность в культуре [ICON_CULTURE] на 25%.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Искусство[ENDCOLOR] преобразует 25% производства [ICON_PRODUCTION] этого города в культуру [ICON_CULTURE] и снижает [ICON_CULTURE] Скуку на 25%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_STRATEGY">
 			<Text>Инвестирование производства в искусство — это хороший способ повысить отдачу от вашей Цивилизации, либо чтобы захватить следующую политику, либо отсрочить победу в Туризме. Также уменьшает скуку.</Text>
@@ -116,7 +116,7 @@
 			<Text>Сельское хозяйство</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Сельское хозяйство[ENDCOLOR] превращает 25% [ICON_PRODUCTION] производства этого города в [ICON_FOOD] продукты питания и снижает основные потребности [ICON_FOOD]/[ICON_PRODUCTION] на 25%.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Сельское хозяйство[ENDCOLOR] превращает 25% [ICON_PRODUCTION] производства этого города в [ICON_FOOD] пищу и снижает [ICON_FOOD] и [ICON_PRODUCTION] Бедствия на 25%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_STRATEGY">
 			<Text>Инвестирование производства в сельское хозяйство — хороший способ ускорить рост вашего города, что может быть полезно, если вы отстаете в технологиях или вам просто нужны большие города. Также уменьшает дистресс.</Text>

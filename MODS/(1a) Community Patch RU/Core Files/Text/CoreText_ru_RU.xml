@@ -6640,6 +6640,9 @@
 		<Row Tag="TXT_KEY_PRODMOD_SPIES">
 			<Text>[NEWLINE][ICON_BULLET]Модификатор активных шпионов: {1_Num}%</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_YIELD_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор от особенности: {1_Num}%</Text>
+		</Row>
 
 		<!-- Lua for Buildings -->
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_LOCAL_FEATURE">
@@ -6706,39 +6709,12 @@
 		<Row Tag="TXT_KEY_POP_CSTATE_RECENTLY_LIBERATED">
 			<Text>Недавно освобожден</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED">
-			<Text>После должного рассмотрения и множества предупреждений {1_CSName} считает, что ваши вооруженные силы больше не в состоянии выполнять обещанное вами [COLOR_POSITIVE_TEXT]Обещание о защите[ENDCOLOR]. В результате ваше обещание о защите {1_CSName} было [COLOR_NEGATIVE_TEXT]аннулировано[ENDCOLOR].</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_SHORT">
-			<Text>Клятва о защите аннулирована {1_CSName}!</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING">
-			<Text>Ваш военный советник предупреждает, что [COLOR_POSITIVE_TEXT]Клятва защиты[ENDCOLOR], которую вы дали {1_CSName}, может быть аннулирована из-за ослабления вашей военной мощи. Повысьте свой военный рейтинг на {3_Num}% за [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] ходов, чтобы выполнить это обещание!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_SHORT">
-			<Text>Предупреждение о статусе Клятвы о защите!</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER">
-			<Text>Если вы не улучшите свой военный рейтинг на {3_Num}% в течение {2_Num} ходов, [COLOR_POSITIVE_TEXT]Клятва защиты[ENDCOLOR], которую вы дали {1_CSName}, будет аннулирована!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_SHORT">
-			<Text>Клятва о защите под угрозой рассторжения!</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED">
-			<Text>Ваш военный статус в мире и/или альянсе и/или торговых путях с {1_CSName} восстановлены, поэтому ваша [COLOR_POSITIVE_TEXT]Клятва о защите[ENDCOLOR] перед {1_CSName} снова в безопасности.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED_SHORT">
-			<Text>Клятва о защите сохранена.</Text>
-		</Row>
 
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_RECENT_BROKEN_TT">
-			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET]Поскольку вы нарушили предыдущее обещание, вы должны подождать еще {1_Turns} ходов, чтобы дать обещание.[ENDCOLOR]</Text>
+			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] Поскольку вы нарушили предыдущее обещание, вы должны подождать еще {1_Turns} ходов, чтобы дать клятву.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_MORE_MILITARY_TT">
-			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] Необходимо иметь не менее 60% от наибольшей военной мощи в мире. Ваша армия имеет рейтинг {1_Num}% от наибольшей военной мощи.[ENDCOLOR]</Text>
+			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] Необходимо иметь как минимум медианную военную мощь в мире. Ваша армия должна быть на {1_Num}% сильнее, чтобы дать клятву.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_ALLIES_TT">
@@ -6764,36 +6740,58 @@
 			<Text>[ENDCOLOR][NEWLINE][NEWLINE]Рядом с одним из этих атрибутов должен быть [ICON_CHECKBOX]:</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED">
+			<Text>Ваш военный статус в мире и/или альянсе и/или торговых путях с {1_CSName} восстановлены, поэтому ваша [COLOR_POSITIVE_TEXT]Клятва о защите[ENDCOLOR] перед {1_CSName} снова в безопасности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED_SHORT">
+			<Text>Клятва о защите сохранена.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_SHORT">
+			<Text>Клятва о защите аннулирована {1_CSName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_SHORT">
+			<Text>Предупреждение о статусе Клятвы о защите!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_SHORT">
+			<Text>Клятва о защите под угрозой рассторжения!</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_INFLUENCE">
 			<Text>Из-за того, что {1_CSName} злится на вас, они больше не видят смысла в вашей [COLOR_POSITIVE_TEXT]Клятве о защите[ENDCOLOR]. В результате ваша Клятве о защите {1_CSName} была [COLOR_NEGATIVE_TEXT]аннулирована[ENDCOLOR].</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_SHORT_INFLUENCE">
-			<Text>Клятва о защите {1_CSName} аннулирована!</Text>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_MILITARY_AND_DISTANCE">
+			<Text>После надлежащего рассмотрения и множества предупреждений {1_CSName} считает, что большое расстояние и ваша ослабевающая военная мощь делают вас неспособными выполнить [COLOR_POSITIVE_TEXT]Клятву о защите[ENDCOLOR], которую вы дали. В результате ваша Клятва о защите {1_CSName} была [COLOR_NEGATIVE_TEXT]аннулирована[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_MILITARY_AND_DISTANCE">
+			<Text>Ваш военный советник предупреждает, что [COLOR_POSITIVE_TEXT]Клятва о защите[ENDCOLOR], которую вы дали {1_CSName}, может быть аннулирована из-за расстояния и вашей ослабевающей военной мощи. Станьте Союзником с {1_CSName} или убедитесь, что вы находитесь в пределах досягаемости торгового пути и увеличьте военную мощь на {3_Num}% в течение [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] ходов, чтобы обещание осталось в силе!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_MILITARY_AND_DISTANCE">
+			<Text>Если вы не вступите в Союз с {1_CSName} или не убедитесь, что ваши города находятся в пределах торгового пути и не успеете увеличить вашу военную мощь на {3_Num}% до того, как пройдет {2_Num} ходов, [COLOR_POSITIVE_TEXT]Клятва о защите[ENDCOLOR], которую вы дали {1_CSName}, будет аннулирована!</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_OPTIONAL">
-			<Text>После надлежащего рассмотрения и множества предупреждений {1_CSName} считает, что большие расстояния делают вас неспособными выполнить [COLOR_POSITIVE_TEXT]Клятву о защите[ENDCOLOR], которую вы дали. В результате ваша Клятва о защите {1_CSName} была [COLOR_NEGATIVE_TEXT]аннулирована[ENDCOLOR].</Text>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_MILITARY">
+			<Text>После надлежащего рассмотрения и множества предупреждений {1_CSName} считает, что ваша армия неспособна выполнить [COLOR_POSITIVE_TEXT]Клятву о защите[ENDCOLOR], которую вы дали. В результате ваша Клятва о защите {1_CSName} была [COLOR_NEGATIVE_TEXT]аннулирована[ENDCOLOR].</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_SHORT_OPTIONAL">
-			<Text>Клятва о защите {1_CSName} аннулирована!</Text>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING">
+			<Text>Ваш военный советник предупреждает, что [COLOR_POSITIVE_TEXT]Клятва защиты[ENDCOLOR], которую вы дали {1_CSName}, может быть аннулирована из-за ослабления вашей военной мощи. Повысьте свой военный рейтинг на {3_Num}% за [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] ходов, чтобы выполнить это обещание!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER">
+			<Text>Если вы не улучшите свой военный рейтинг на {3_Num}% в течение {2_Num} ходов, [COLOR_POSITIVE_TEXT]Клятва защиты[ENDCOLOR], которую вы дали {1_CSName}, будет аннулирована!</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_OPTIONAL">
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_DISTANCE">
+			<Text>После надлежащего рассмотрения и множества предупреждений {1_CSName} считает, что большое расстояние делает вас неспособными выполнить [COLOR_POSITIVE_TEXT]Клятву о защите[ENDCOLOR], которую вы дали. В результате ваша Клятва о защите {1_CSName} была [COLOR_NEGATIVE_TEXT]аннулирована[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_DISTANCE">
 			<Text>Ваш военный советник предупреждает, что [COLOR_POSITIVE_TEXT]Клятва о защите[ENDCOLOR], которую вы дали {1_CSName}, может быть аннулирована из-за расстояния. Станьте Союзником с {1_CSName} или убедитесь, что вы находитесь в пределах досягаемости торгового пути в течение [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] ходов, чтобы обещание осталось в силе!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_SHORT_OPTIONAL">
-			<Text>Предупреждение о статусе Клятвы о защите!</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_OPTIONAL">
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_DISTANCE">
 			<Text>Если вы не вступите в Союз с {1_CSName} или не убедитесь, что ваши города находятся в пределах торгового пути до того, как пройдет {2_Num} ходов, [COLOR_POSITIVE_TEXT]Клятва о защите[ENDCOLOR], которую вы дали {1_CSName}, будет аннулирована!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_SHORT_OPTIONAL">
-			<Text>Клятва о защите под угрозой!</Text>
-		</Row>
 
-		
+
 
 		<!-- LUA for Warscore -->
 		<Row Tag="TXT_KEY_WAR_SCORE">
@@ -6939,7 +6937,6 @@
 			<Text>{1_Build}: {2_Turns} ход(ов) необходимо</Text>
 		</Row>
 
-
 		<!-- Plague for JFD-->
 		<Row Tag="TXT_KEY_UNIT_PLAGUE_TRANSFER">
 			<Text>Заразная чума распространилась от вашего {1_Unit} к их {2_Unit} во время боя!</Text>
@@ -6998,6 +6995,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_NUM_POPULATION_LOCAL_NEEDED_LABEL">
 			<Text>Необходимо населения текущего города: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (Имеется: {2_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_DAMAGE_REDUCTION_LABEL">
+			<Text>Уменьшение урона:</Text>
 		</Row>
 
 		<!-- Great Person Progress -->
