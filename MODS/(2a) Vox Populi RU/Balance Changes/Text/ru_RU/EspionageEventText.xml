@@ -29,6 +29,12 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SELECT_FOCUS_HELP">
 			<Text>Ваша недавно созданная шпионская сеть требует миссии. На чем бы вы хотели, чтобы они сосредоточились?</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ESTABLISH_SURVEILLANCE">
+			<Text>Отложить выбор миссии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ESTABLISH_SURVEILLANCE_HELP">
+			<Text>Выбор миссии откладывается. На следующий ход экран выбора миссии появится снова. </Text>
+		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_TOURISM">
 			<Text>Саботаж местный [ICON_TOURISM] Туризм</Text>
 		</Row>
@@ -104,7 +110,7 @@
 			<Text>Расширьте [ICON_SPY] наблюдение в городе</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_REVEAL_AREA_HELP">
-			<Text>Увеличьте количество ячеек, видимых вокруг целевого города, на {5_Turns}.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
+			<Text>Увеличить количество клеток, видимых вокруг целевого города, на {5_Turns} после окончания миссии.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_PLAYER_YIELD_BASIC">

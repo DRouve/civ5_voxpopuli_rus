@@ -43,12 +43,12 @@
 			<Text>Двойное [ICON_MOVES] движение в клетках Пустыни.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Только для варваров.[ENDCOLOR]</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_COAST_WALKER">
+		<!--<Row Tag="TXT_KEY_PROMOTION_COAST_WALKER">
 			<Text>Береговые ходоки</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COAST_WALKER_HELP">
 			<Text>Позволяет погружаться на борт.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Только для варваров.[ENDCOLOR]</Text>
-		</Row>
+		</Row>-->
 
 		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER">
 			<Text>Холмовые ходоки</Text>
@@ -221,7 +221,7 @@
 
 	<!-- Imperialism -->
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST">
-			<Text>Железнобокий</Text>
+			<Text>Банзай!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST_HELP">
 			<Text>[ICON_STRENGTH] Боевая мощь увеличивается с получаемым уроном.</Text>
@@ -280,7 +280,7 @@
 <!-- Unit Free Promotions -->
 	<!-- Atatlist -->
 		<Row Tag="TXT_KEY_PROMOTION_ATLATL_ATTACK">
-			<Text>Удар Атлатля</Text>
+			<Text>Меткость</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATLATL_ATTACK_HELP">
 			<Text>+33% к [ICON_RANGE_STRENGTH] боевой мощи дальнего боя при нападении на [COLOR_POSITIVE_TEXT]раненых юнитов[ENDCOLOR].</Text>
@@ -367,7 +367,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HEAVY_SHIP_HELP">
 			<Text>+25% к [ICON_STRENGTH] боевой мощи при нападении.[NEWLINE]+25% к [ICON_STRENGTH] боевой мощи при нападении на [COLOR_POSITIVE_TEXT]Города[ENDCOLOR].</Text>
-		</Row>	
+		</Row>
 	<!-- Slinger -->
 		<Row Tag="TXT_KEY_PROMOTION_SLINGER">
 			<Text>Сотрясающие удары</Text>
@@ -771,7 +771,7 @@
 			<Text>Пиратство</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PIRACY_HELP">
-			<Text>Даёт 100% от [ICON_STRENGTH] боевой мощи побежденных вражеских юнитов в виде [ICON_GOLD] золота.[NEWLINE]50% шанс выйти из ближнего боя.</Text>
+			<Text>Даёт 100% от [ICON_STRENGTH] боевой мощи побежденных вражеских юнитов в виде [ICON_GOLD] золота.[NEWLINE]Крадёт [ICON_GOLD] золото, равное 100% урона, нанесенного Городу (максимум: [ICON_STRENGTH] боевая мощь Города x 10).</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BREACHER">
@@ -812,7 +812,7 @@
 			<Text>Блокада</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4_HELP">
-			<Text>+25% к [ICON_STRENGTH] боевой мощи при защите от всех [COLOR_POSITIVE_TEXT]атак дальнего боя[ENDCOLOR].[NEWLINE]Крадёт [ICON_GOLD] золото, равное 100% урона, нанесенного Городу (максимум: [ICON_STRENGTH] боевая мощь Города x 10).</Text>
+			<Text>+25% к [ICON_STRENGTH] боевой мощи при защите от всех [COLOR_POSITIVE_TEXT]атак дальнего боя[ENDCOLOR].[NEWLINE]50% шанс выйти из ближнего боя.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4">
@@ -1037,7 +1037,7 @@
 			<Text>Первопроходец</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PIONEER_STRATEGY">
-			<Text>Используйте этот юнит для строительства новых городов. Он не может защитить себя, поэтому сопровождайте его боевой единицей. При основании города, построенные пионерами, начинают с 3 горожан, претендуют на дополнительную территорию и автоматически получают следующий набор зданий:[NEWLINE][NEWLINE][ICON_BULLET] Совет[NEWLINE][ICON_BULLET] Зернохранилище[NEWLINE][ICON_BULLET] Рынок[ NEWLINE][ICON_BULLET] Памятник[NEWLINE][ICON_BULLET] Храм[NEWLINE][ICON_BULLET] Казармы[NEWLINE][ICON_BULLET] Водяная мельница (если применимо)[NEWLINE][ICON_BULLET] Библиотека[NEWLINE][ICON_BULLET] Кузница[NEWLINE][ ICON_BULLET] Хорошо (если применимо)[NEWLINE][NEWLINE]Примечание: бонусы за строительство зданий из веток полиса Прогресс и Промышленность не распространяются на здания, построенные первопроходцами!</Text>
+			<Text>Используйте этот юнит для строительства новых городов. Он не может защитить себя, поэтому сопровождайте его боевой единицей. При основании города, построенные пионерами, начинают с 3 горожан, претендуют на дополнительную территорию и автоматически получают следующий набор зданий:[NEWLINE][NEWLINE][ICON_BULLET] Амбар[NEWLINE][ICON_BULLET] Арена[NEWLINE][ICON_BULLET] Библиотека[NEWLINE][ICON_BULLET] Водяная мельница (если применимо)[NEWLINE][ICON_BULLET] Дом травника[NEWLINE][ICON_BULLET] Казармы[NEWLINE][ICON_BULLET] Колодец (если применимо)[NEWLINE][ICON_BULLET] Кузница[NEWLINE][ICON_BULLET] Монумент[NEWLINE][ICON_BULLET] Охотничий домик[NEWLINE][ICON_BULLET] Рынок[NEWLINE][ICON_BULLET] Святилище[NEWLINE][ICON_BULLET] Совет старейшин[NEWLINE][NEWLINE]Примечание: бонусы за строительство зданий из веток социальной политики Прогресс и Промышленность не распространяются на здания, построенные первопроходцами!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_PIONEER_TEXT">
 			<Text>Первопроходец — это все люди в истории, которые мигрировали, чтобы присоединиться к заселению и освоению новых территорий. Этот термин особенно относится к тем, кто собирался заселить любую территорию, которая ранее не была заселена или освоена европейским или американским обществом, хотя эта территория могла быть заселена или использовалась коренными народами. Концепция и идеалы первопроходцев намного предшествовали миграции в части Соединенных Штатов, которые сейчас называются Западными, поскольку многие места, которые сейчас считаются Востоком, также были заселены пионерами с побережья. Например, Дэниел Бун, ключевая фигура американской истории, поселился в Кентукки, когда та «Темная и кровавая земля» еще была неосвоена. Одним из важных событий в западном поселении стал Закон о приусадебных участках, который предоставил официальное законодательство, регулирующее процесс поселения.</Text>
@@ -1050,7 +1050,7 @@
 			<Text>Колонист</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_COLONIST_STRATEGY">
-			<Text>Используйте этот юнит для строительства новых городов. Он не может защитить себя, поэтому сопровождайте его боевой единицей. При основании города, построенные колонистами, начинают с 5 горожан, претендуют на дополнительную территорию и автоматически получают следующий набор зданий:[NEWLINE][NEWLINE][ICON_BULLET] Совет[NEWLINE][ICON_BULLET] Зернохранилище[NEWLINE][ICON_BULLET] Рынок[ NEWLINE][ICON_BULLET] Памятник[NEWLINE][ICON_BULLET] Храм[NEWLINE][ICON_BULLET] Казармы[NEWLINE][ICON_BULLET] Водяная мельница (если применимо)[NEWLINE][ICON_BULLET] Библиотека[NEWLINE][ICON_BULLET] Кузница[NEWLINE][ ICON_BULLET] Колодец (если применимо)[NEWLINE][ICON_BULLET] Ветряная мельница[NEWLINE][ICON_BULLET] Гавань[NEWLINE][ICON_BULLET] Маяк[NEWLINE][ICON_BULLET] Амфитеатр[NEWLINE][ICON_BULLET] Храм[NEWLINE][ICON_BULLET] Мастерская[ NEWLINE][NEWLINE]Примечание: бонусы за строительство зданий из веток политики Прогресс и Промышленность не распространяются на здания, построенные Колонистами!</Text>
+			<Text>Используйте этот юнит для строительства новых городов. Он не может защитить себя, поэтому сопровождайте его боевой единицей. При основании города, построенные колонистами, начинают с 5 горожан, претендуют на дополнительную территорию и автоматически получают следующий набор зданий:[NEWLINE][NEWLINE][ICON_BULLET] Амбар[NEWLINE][ICON_BULLET] Амфитеатр[NEWLINE][ICON_BULLET] Библиотека[NEWLINE][ICON_BULLET] Ветряная мельница[NEWLINE][ICON_BULLET] Водяная мельница (если применимо)[NEWLINE][ICON_BULLET] Гавань[NEWLINE][ICON_BULLET] Казармы[NEWLINE][ICON_BULLET] Колодец (если применимо)[NEWLINE][ICON_BULLET] Кузница[NEWLINE][ICON_BULLET] Мастерская[NEWLINE][ICON_BULLET] Маяк[NEWLINE][ICON_BULLET] Монумент[NEWLINE][ICON_BULLET] Рынок[NEWLINE][ICON_BULLET] Святилище[NEWLINE][ICON_BULLET] Совет старейшин[NEWLINE][ICON_BULLET] Храм[NEWLINE][NEWLINE]Примечание: бонусы за строительство зданий из веток политики Прогресс и Промышленность не распространяются на здания, построенные Колонистами!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_COLONIST_TEXT">
 			<Text>
@@ -1083,7 +1083,7 @@
 			<Text>Путешествие открытий</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY_HELP">
-			<Text>Если отряд находится на принадлежащей вам территории, этот приказ израсходует отряд, предоставив вам две бесплатные копии ресурса роскоши, которого нет на этой карте. Эти ресурсы не будут отображаться на карте, но их можно будет продать другим цивилизациям. Также увеличивает ваше военное снабжение на 2.</Text>
+			<Text>Если юнит находится на принадлежащей вам территории, этот приказ израсходует юнита, предоставив вам две [COLOR_POSITIVE_TEXT]бесплатные[ENDCOLOR] копии случайного ресурса Роскоши, отдавая приоритет тем, которые недоступны на этой карте и не принадлежат никому в данный момент.[NEWLINE][NEWLINE]Эти ресурсы не будут отображаться на карте и не засчитываются в пользу Монополии если их нет на карте, но их можно будет продать другим цивилизациям. Также увеличивает [ICON_WAR] лимит военных юнитов на 1.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY_HELP_DISABLED">
 			<Text>Юнит должен находиться на принадлежащей территории, чтобы использовать эту способность.</Text>
@@ -1121,6 +1121,6 @@
             <Text>Восстанавливает 10 ОЗ после победы над вражеским юнитом.</Text>
         </Row>
 
-		
+
 	</Language_ru_RU>
 </GameData>

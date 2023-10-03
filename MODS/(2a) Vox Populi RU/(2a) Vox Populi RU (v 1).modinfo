@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="32eadbe7-cdbb-4f7e-ae47-2cbd386e7835" version="1">
+<Mod id="32eadbe7-cdbb-4f7e-ae47-2cbd386e7835" version="2">
   <Properties>
     <Name>(2a) Vox Populi - перевод</Name>
-    <Teaser>(3.3.1) Перевод на русский</Teaser>
+    <Teaser>(3.4.2) Перевод на русский</Teaser>
     <Description>...</Description>
     <Authors>danrouve@gmail.com</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>0</AffectsSavedGames>
-    <MinCompatibleSaveVersion>16</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>2</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>

@@ -1,5 +1,5 @@
 --Tourism Early Boosts
-
+/*
 UPDATE Language_ru_RU
 SET Text = 'Позволяет построить [COLOR_POSITIVE_TEXT]Телевышку[ENDCOLOR], здание, которое значительно увеличивает [ICON_CULTURE] культуру города и увеличивает [ICON_TOURISM] туризм во всех городах на 15%.'
 WHERE Tag = 'TXT_KEY_TECH_RADIO_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
@@ -7,7 +7,7 @@ WHERE Tag = 'TXT_KEY_TECH_RADIO_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='
 UPDATE Language_ru_RU
 SET Text = 'Позволяет построить [COLOR_POSITIVE_TEXT]Боевой вертолет[ENDCOLOR], боевую единицу, специализирующуюся на борьбе с вражескими танками. Увеличивает [ICON_TOURISM] туризм во всех городах на 15%.'
 WHERE Tag = 'TXT_KEY_TECH_COMPUTERS_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
-
+*/
 UPDATE Language_ru_RU
 SET Text = 'Значительно увеличивает [ICON_TOURISM] туризм по всей империи.'
 WHERE Tag = 'TXT_KEY_DOUBLE_TOURISM' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );

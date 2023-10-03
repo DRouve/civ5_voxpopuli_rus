@@ -330,6 +330,14 @@
 		<Row Tag="TXT_KEY_NEED_UNHAPPY">
 			<Text>[NEWLINE] [ICON_BULLET] Империя должна быть Несчастна</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_NEED_ENEMY_SUPER_UNHAPPY">
+			<Text>[NEWLINE] [ICON_BULLET] Выбранная Цивилизация должна быть Очень Несчастна</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NEED_ENEMY_UNHAPPY">
+			<Text>[NEWLINE] [ICON_BULLET] Выбранная Цивилизация должна быть Несчастна</Text>
+		</Row>
 		
 		<Row Tag="TXT_KEY_NEED_TRADE_SLOT">
 			<Text>[NEWLINE] [ICON_BULLET] Требуется свободная ячейка торговых юнитов</Text>

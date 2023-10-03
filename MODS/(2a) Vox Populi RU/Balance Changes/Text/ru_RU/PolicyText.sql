@@ -108,7 +108,7 @@ UPDATE Language_ru_RU
 SET Text = '[COLOR_POSITIVE_TEXT]Полицейское государство[ENDCOLOR]: +3 к [ICON_HAPPINESS_1] настроению в городе от Суда, +1 к [ICON_HAPPINESS_1] настроению в городе от Полицейских Участков. Суд строится в два раза быстрее.'
 WHERE Tag = 'TXT_KEY_POLICY_POLICE_STATE_HELP';
 
--- Third Alternative 
+-- Third Alternative
 UPDATE Language_ru_RU
 SET Text = '[COLOR_POSITIVE_TEXT]Третья альтернатива[ENDCOLOR]: Количество производимых Стратегических Ресурсов увеличено на 100%. Уменьшает [ICON_GOLD] стоимость содержания Юнитов на 25%.'
 WHERE Tag = 'TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP';
@@ -181,7 +181,7 @@ WHERE Tag = 'TXT_KEY_POLICY_ECONOMIC_UNION_HELP';
 
 -- Media Culture
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Медиакультура[ENDCOLOR]:  +25% к [ICON_TOURISM] Туризму и +1 [ICON_HAPPINESS_1] счастье в городах с Телебашней. +20% к [ICON_CULTURE] культуре от Стадионов.'
+SET Text = '[COLOR_POSITIVE_TEXT]Медиакультура[ENDCOLOR]: +25% к [ICON_TOURISM] Туризму и +1 [ICON_HAPPINESS_1] счастье в городах с Телебашней. +20% к [ICON_CULTURE] культуре от Стадионов.'
 WHERE Tag = 'TXT_KEY_POLICY_MEDIA_CULTURE_HELP';
 
 -- Treaty Organization
@@ -191,7 +191,7 @@ WHERE Tag = 'TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP';
 
 -- Finest Hour
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Их звездный час[ENDCOLOR]: Все города получают +1 ячейку для Авиационного Юнита и +33% к [ICON_STRENGTH] Мощи. +25% к [ICON_PRODUCTION] производству Авиационных Юнитов во всех городах, даёт возможность производить [COLOR_YELLOW]Бомбардировщик B17[ENDCOLOR].'
+SET Text = '[COLOR_POSITIVE_TEXT]Их звездный час[ENDCOLOR]: Все города получают +2 ячейки для авиационных юнитов. Каждый авиационных юнит, размещённый в городе, повышает [ICON_STRENGTH] оборону города на 3. Позволяет производство [COLOR_YELLOW]Бомбардировщика B17[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_POLICY_THEIR_FINEST_HOUR_HELP';
 
 -- Universal Suffrage
@@ -360,7 +360,7 @@ WHERE Tag = 'TXT_KEY_AESTHETICS_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Искусство[ENDCOLOR] позволяет максимализировать потенциал [ICON_GREAT_WORK] Шедевров и [ICON_GOLDEN_AGE] Золотого Века.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Искусства даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] [ICON_GREAT_PEOPLE] Великие Писатели, Художники и Музыканты появляются на 25% быстрее.[NEWLINE][ICON_BULLET] +10% к [ICON_CULTURE] культуре во всех городах во время [ICON_GOLDEN_AGE] Золотого Века.[NEWLINE][ICON_BULLET] +100% [ICON_PRODUCTION] к скорости постройки Гильдий.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Искусства даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] +2 очка [ICON_GOLDEN_AGE] Золотого Века и +1 [ICON_RESEARCH] науки в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик в Искусстве даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Лувр[ENDCOLOR]. [NEWLINE][ICON_BULLET] Завершение Археологических Раскопок или начало [ICON_GOLDEN_AGE] Золотого Века генерирует [ICON_TOURISM] Туризм со всеми известными державами. [NEWLINE][ICON_BULLET] Позволяет видеть Скрытые Места Древности; Памятные места (созданные Археологами) дают +3 [ICON_RESEARCH] науки и очка [ICON_GOLDEN_AGE] Золотого Века. [NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_MUSICIAN] Великих Музыкантов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Искусство[ENDCOLOR] позволяет максимализировать потенциал [ICON_GREAT_WORK] Шедевров и [ICON_GOLDEN_AGE] Золотого Века.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Искусства даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Великие [ICON_GREAT_WRITER] Писатели, [ICON_GREAT_ARTIST] Художники и [ICON_GREAT_MUSICIAN] Музыканты появляются на 25% быстрее.[NEWLINE][ICON_BULLET] +10% к [ICON_CULTURE] культуре во время [ICON_GOLDEN_AGE] Золотого Века.[NEWLINE][ICON_BULLET] +100% к [ICON_PRODUCTION] скорости постройки Гильдий.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Искусства даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] +2 [ICON_GOLDEN_AGE] очка Золотого Века и +1 [ICON_RESEARCH] наука в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик в Искусстве даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Лувр[ENDCOLOR]. [NEWLINE][ICON_BULLET] Завершение Археологических Раскопок или начало [ICON_GOLDEN_AGE] Золотого Века начинает (или усиляет имеющееся) [COLOR_POSITIVE_TEXT]Историческое событие[ENDCOLOR][ICON_TOURISM] со всеми известными державами. [NEWLINE][ICON_BULLET] Позволяет видеть [ICON_RES_HIDDEN_ARTIFACTS] Скрытые Места Древности.[NEWLINE][ICON_BULLET]+3 [ICON_RESEARCH] науки и [ICON_GOLDEN_AGE] очка Золотого Века от Достопримечательностей. [NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_MUSICIAN] Великих Музыкантов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP';
 
 UPDATE Language_ru_RU
@@ -373,7 +373,7 @@ SET Text = 'Гуманизм'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_CENTERS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Гуманизм[ENDCOLOR][NEWLINE][ICON_GREAT_WORK] Шедевры литературы дают +3 очка [ICON_GOLDEN_AGE] Золотого Века. Количество очков [ICON_GOLDEN_AGE] Золотого Века, необходимое для старта [ICON_GOLDEN_AGE] Золотого Века уменьшено на 25%. +1 [ICON_HAPPINESS_1] счастье от всех Гильдий.'
+SET Text = '[COLOR_POSITIVE_TEXT]Гуманизм[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_GOLDEN_AGE] очка Золотого Века от [ICON_GREAT_WORK] Шедевров литературы.[NEWLINE][ICON_BULLET]Количество [ICON_GOLDEN_AGE] очков Золотого Века, необходимое для начала [ICON_GOLDEN_AGE] Золотого Века уменьшено на 25%.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от всех Гильдий.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_CENTERS_HELP';
 
 UPDATE Language_ru_RU
@@ -386,7 +386,7 @@ SET Text = 'Изысканность'
 WHERE Tag = 'TXT_KEY_POLICY_FINE_ARTS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Изысканность[ENDCOLOR][NEWLINE][ICON_GREAT_WORK] Шедевры искусства дают +2 [ICON_CULTURE] культуры. +1 [ICON_CULTURE] культуры от специалистов. В каждом городе 1 специалист не производит [ICON_HAPPINESS_3] несчастья из-за Урбанизации'
+SET Text = '[COLOR_POSITIVE_TEXT]Изысканность[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] культуры от [ICON_GREAT_WORK] Шедевров искусства.[NEWLINE][ICON_BULLET]В каждом городе 1 специалист не производит [ICON_HAPPINESS_3] несчастья из-за Урбанизации.[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] культуры от специалистов.'
 WHERE Tag = 'TXT_KEY_POLICY_FINE_ARTS_HELP';
 
 UPDATE Language_ru_RU
@@ -399,7 +399,7 @@ SET Text = 'Наследие'
 WHERE Tag = 'TXT_KEY_POLICY_FLOURISHING_OF_ARTS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Наследие[ENDCOLOR][NEWLINE][ICON_GREAT_WORK] Шедевры музыки дают +4 [ICON_GOLD] золота. +4 к очкам [ICON_TOURISM] Туризма и [ICON_GOLDEN_AGE] Золотого Века от Университетов. 25% [ICON_CULTURE] культуры от Чудес Света и клеток прибавляется к значению [ICON_TOURISM] Туризма города.'
+SET Text = '[COLOR_POSITIVE_TEXT]Наследие[ENDCOLOR][NEWLINE][ICON_BULLET]+4 [ICON_GOLD] золота от [ICON_GREAT_WORK] Шедевров музыки.[NEWLINE][ICON_BULLET]+4 к [ICON_TOURISM] Туризму и [ICON_GOLDEN_AGE] очкам Золотого Века от Университетов.[NEWLINE][ICON_BULLET]25% [ICON_CULTURE] культуры от Чудес Света и клеток прибавляется к значению [ICON_TOURISM] Туризма города.'
 WHERE Tag = 'TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP';
 
 UPDATE Language_ru_RU
@@ -412,7 +412,7 @@ SET Text = 'Национальное достояние'
 WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Национальное достояние[ENDCOLOR][NEWLINE][ICON_GREAT_WORK] Артефакты дают +2 к [ICON_RESEARCH] науке. Возле столицы появляется [ICON_GREAT_PEOPLE] Великий Человек на ваш выбор. +250 [ICON_GOLD] золота после постройки Чуда Света (в зависимости от Эры).'
+SET Text = '[COLOR_POSITIVE_TEXT]Национальное достояние[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] науки от [ICON_GREAT_WORK] Артефактов.[NEWLINE][ICON_BULLET]Возле столицы появляется [ICON_GREAT_PEOPLE] Великий Человек на ваш выбор.[NEWLINE][ICON_BULLET]+250 [ICON_GOLD] золота после постройки Чуда Света (в зависимости от Эры).'
 WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP';
 
 UPDATE Language_ru_RU
@@ -421,7 +421,7 @@ WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS_TEXT';
 
 -- Cultural Exchange
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Культурный обмен[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] счастье за каждые 3 [ICON_GREAT_WORK] Шедевра в городе. Модификатор [ICON_TOURISM] Туризма за [COLOR_POSITIVE_TEXT]Открытые Границы[ENDCOLOR] с другими Цивилизациями увеличен на 10%. +2 [ICON_CULTURE] культуры и [ICON_PRODUCTION] производства от Амфитеатров и Оперы.'
+SET Text = '[COLOR_POSITIVE_TEXT]Культурный обмен[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье за каждые 3 [ICON_GREAT_WORK] Шедевра в городе.[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] культуры и [ICON_PRODUCTION] производства от Амфитеатров и Оперы.[NEWLINE][ICON_BULLET]+10% к модификатору [ICON_TOURISM] Туризма за [COLOR_POSITIVE_TEXT]Открытые Границы[ENDCOLOR] с другими Цивилизациями.'
 WHERE Tag = 'TXT_KEY_POLICY_ETHICS_HELP';
 
 --------------------
@@ -442,7 +442,7 @@ WHERE Tag = 'TXT_KEY_COMMERCE_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Индустрия[ENDCOLOR] даёт бонусы империям, сфокусированным на [ICON_GOLD] золоте [ICON_PRODUCTION] производстве.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Индустрии даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +2 [ICON_INTERNATIONAL_TRADE] Торговых Пути.[NEWLINE][ICON_BULLET] -5% [ICON_GOLD] золота требуется для покупки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Индустрии даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] -5% [ICON_GOLD] золота требуется для покупки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Индустрии даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Бродвей[ENDCOLOR]. [NEWLINE][ICON_BULLET] +3 [ICON_HAPPINESS_1] настроения за каждый уникальный ресурс Роскоши в наличии. [NEWLINE][ICON_BULLET] Специалисты дают +2 [ICON_PRODUCTION] производства и [ICON_GOLD] золота.[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_MERCHANT] Великих Торговцев за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Индустрия[ENDCOLOR] даёт бонусы империям, сфокусированным на [ICON_GOLD] золоте и [ICON_PRODUCTION] производстве.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Индустрии даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +2 [ICON_INTERNATIONAL_TRADE] Торговых Пути.[NEWLINE][ICON_BULLET] -5% [ICON_GOLD] золота требуется для покупки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Индустрии даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] -5% [ICON_GOLD] золота требуется для покупки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Индустрии даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Бродвей[ENDCOLOR]. [NEWLINE][ICON_BULLET] +3 [ICON_HAPPINESS_1] счастья за каждый уникальный ресурс Роскоши в наличии. [NEWLINE][ICON_BULLET] +2 [ICON_PRODUCTION] производства и [ICON_GOLD] золота от специалистов.[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_MERCHANT] Великих Торговцев за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_COMMERCE_HELP';
 
 UPDATE Language_ru_RU
@@ -455,7 +455,7 @@ SET Text = 'Разделение труда'
 WHERE Tag = 'TXT_KEY_POLICY_TRADE_UNIONS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Разделение труда[ENDCOLOR][NEWLINE]+100% к [ICON_PRODUCTION] скорости производства Вокзалов и Морских портов. Кузницы, Ветряные Мельницы, Мастерские, Фабрики, Вокзалы и Морские порты дают +3% [ICON_PRODUCTION] производства и [ICON_GOLD] золота.'
+SET Text = '[COLOR_POSITIVE_TEXT]Разделение труда[ENDCOLOR][NEWLINE][ICON_BULLET]+3% [ICON_PRODUCTION] производства и [ICON_GOLD] золота от Кузниц, Ветряных Мельниц, Мастерских, Фабрик, Вокзалов и Морских портов.[NEWLINE][ICON_BULLET]+100% к [ICON_PRODUCTION] скорости производства Вокзалов и Морских портов.'
 WHERE Tag = 'TXT_KEY_POLICY_TRADE_UNIONS_HELP';
 
 UPDATE Language_ru_RU
@@ -468,7 +468,7 @@ SET Text = 'Беспошлинная торговля'
 WHERE Tag = 'TXT_KEY_POLICY_CARAVANS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Беспошлинная торговля[ENDCOLOR][NEWLINE]Великие Торговцы появляются на 50% быстрее. +5 [ICON_GOLD] золота от Международных [ICON_INTERNATIONAL_TRADE] Торговых Путей. -2 [ICON_HAPPINESS_3] несчастья от [ICON_GOLD] Бедности во всех городах.'
+SET Text = '[COLOR_POSITIVE_TEXT]Беспошлинная торговля[ENDCOLOR][NEWLINE][ICON_BULLET]+50% к скорости появления Великих Торговцев.[NEWLINE][ICON_BULLET]+5 [ICON_GOLD] золота от Международных [ICON_INTERNATIONAL_TRADE] Торговых Путей.[NEWLINE][ICON_BULLET]-2 [ICON_HAPPINESS_3] несчастья от [ICON_GOLD] Бедности во всех городах.'
 WHERE Tag = 'TXT_KEY_POLICY_CARAVANS_HELP';
 
 UPDATE Language_ru_RU
@@ -477,17 +477,17 @@ WHERE Tag = 'TXT_KEY_POLICY_CARAVANS_TEXT';
 
 -- Mercantilism
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Меркантилизм[ENDCOLOR][NEWLINE]Города получают +10 [ICON_RESEARCH] науки при постройке зданий (в зависимости от Эры). Рынки, Караван-сараи, Таможни, Банки и Биржи дают +3% [ICON_RESEARCH] науки и [ICON_CULTURE] культуры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Меркантилизм[ENDCOLOR][NEWLINE][ICON_BULLET]+3% [ICON_RESEARCH] науки и [ICON_CULTURE] культуры от Рынков, Караван-сараев, Таможень, Банков и Бирж.[NEWLINE][ICON_BULLET]Города получают +10 [ICON_RESEARCH] науки при постройке зданий (в зависимости от Эры).'
 WHERE Tag = 'TXT_KEY_POLICY_MERCANTILISM_HELP';
 
 -- Entrepreneurship
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Предпринимательство[ENDCOLOR][NEWLINE]+25% к эффекту при мгновенном использовании [ICON_GREAT_MERCHANT] Великого Торговца или [ICON_GREAT_ENGINEER] Великого Инженера. +1 [ICON_GOLD] золота и +2 [ICON_PRODUCTION] производства за каждую Шахту, Каменоломню и Лесопилку, +1 [ICON_HAPPINESS_1] счастье от Мастерских.'
+SET Text = '[COLOR_POSITIVE_TEXT]Предпринимательство[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от Мастерских.[NEWLINE][ICON_BULLET]+2 [ICON_PRODUCTION] производства и +1 [ICON_GOLD] золота за каждую Шахту, Каменоломню и Лесопилку.[NEWLINE][ICON_BULLET]+25% к эффекту при мгновенном использовании [ICON_GREAT_MERCHANT] Великого Торговца или [ICON_GREAT_ENGINEER] Великого Инженера. '
 WHERE Tag = 'TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP';
 
 --Protectionism
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Протекционизм[ENDCOLOR][NEWLINE] Инвестиции [ICON_GOLD] золота в постройку зданий уменьшает их стоимость [ICON_PRODUCTION] производства на дополнительные 10%. Доходы от Международных [ICON_INTERNATIONAL_TRADE] Торговых Путей увеличены на 33%. +10% [ICON_FOOD] еды и [ICON_RESEARCH] науки в городах во время "Дня Любви к Отечеству."'
+SET Text = '[COLOR_POSITIVE_TEXT]Протекционизм[ENDCOLOR][NEWLINE][ICON_BULLET]Инвестиции [ICON_GOLD] золота в постройку зданий уменьшает их стоимость [ICON_PRODUCTION] производства на дополнительные 10%. [NEWLINE][ICON_BULLET]+33% к доходам от внутренних [ICON_INTERNATIONAL_TRADE] Торговых Путей. [NEWLINE][ICON_BULLET]+10% [ICON_FOOD] еды и [ICON_RESEARCH] науки в городах во время [COLOR_POSITIVE_TEXT]"Дня Любви к Отечеству."[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_POLICY_PROTECTIONISM_HELP';
 
 --------------------
@@ -508,7 +508,7 @@ WHERE Tag = 'TXT_KEY_EXPLORATION_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Империализм[ENDCOLOR] улучшает способность распространять империю при помощи военной мощи, отчасти при помощи морского (а позже и воздушного) превосходства.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Империализма даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +1 [ICON_MOVES] передвижение для Юнитов Флота, Погруженных на корабль Юнитов и [ICON_GREAT_GENERAL] Великих Генералов, а также +1 радиус обзора для Пехоты (ближний бой), Разведки, Флота (ближний бой) и Огнестрельных Юнитов. [NEWLINE][ICON_BULLET] +10% [ICON_PRODUCTION] производства для Военных Юнитов, -10% [ICON_GOLD] золота требуется для улучшения Юнитов.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Империализма даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +5% [ICON_PRODUCTION] производства для Военных Юнитов, -5% [ICON_GOLD] золота требуется для улучшения Юнитов.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Империализма даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет строительство [COLOR_POSITIVE_TEXT]Пентагон[ENDCOLOR]. [NEWLINE][ICON_BULLET] Каждый размещённый в городе Юнит Авиации увеличивает [ICON_STRENGTH] Мощь города на 3 и уменьшает [ICON_HAPPINESS_3] недовольство от Нужд на 3%.[NEWLINE][ICON_BULLET] Все Морские Юниты получают повышение [COLOR_POSITIVE_TEXT]Железнобокий[ENDCOLOR] (мощь увеличивается по мере получения урона).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_ADMIRAL] Великих Адмиралов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Империализм[ENDCOLOR] улучшает способность распространять империю при помощи военной мощи, отчасти при помощи морского (а позже и воздушного) превосходства.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Империализма даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +1 [ICON_MOVES] передвижение для Юнитов Флота, Погруженных на корабль Юнитов и [ICON_GREAT_GENERAL] Великих Генералов, а также +1 радиус обзора для Пехоты (ближний бой), Разведки, Флота (ближний бой) и Огнестрельных Юнитов. [NEWLINE][ICON_BULLET] +10% [ICON_PRODUCTION] производства для Военных Юнитов, -10% [ICON_GOLD] золота требуется для улучшения Юнитов.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Империализма даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +5% [ICON_PRODUCTION] производства для Военных Юнитов, -5% [ICON_GOLD] золота требуется для улучшения Юнитов.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Империализма даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет строительство чуда [COLOR_POSITIVE_TEXT]Пентагон[ENDCOLOR]. [NEWLINE][ICON_BULLET] Все Морские и Авиационные Юниты получают повышение [COLOR_POSITIVE_TEXT]Банзай![ENDCOLOR] (мощь увеличивается по мере получения урона).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_ADMIRAL] Великих Адмиралов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP';
 
 -- Maritime Infrastructure (now Martial Law)
@@ -517,7 +517,7 @@ SET Text = 'Военное положение'
 WHERE Tag = 'TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Военное положение[ENDCOLOR][NEWLINE]Штрафы к доходам в [ICON_PUPPET] городах-сателлитах уменьшены до 60% (вместо 80%). Жандармерия даёт +1 [ICON_HAPPINESS_1] счастье; гарнизоны больше не расходуют [ICON_GOLD] золото.'
+SET Text = '[COLOR_POSITIVE_TEXT]Военное положение[ENDCOLOR][NEWLINE][ICON_BULLET]Гарнизоны в городах больше не расходуют [ICON_GOLD] золото.[NEWLINE][ICON_BULLET]Жандармерия даёт +1 [ICON_HAPPINESS_1] счастье и +4 [ICON_CULTURE] культуры.[NEWLINE][ICON_BULLET]Штрафы к доходам в [ICON_PUPPET] городах-сателлитах уменьшены до 60% (вместо изначальных 80%).'
 WHERE Tag = 'TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_HELP';
 
 UPDATE Language_ru_RU
@@ -530,7 +530,7 @@ SET Text = 'Эксплуатация'
 WHERE Tag = 'TXT_KEY_POLICY_MERCHANT_NAVY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Эксплуатация[ENDCOLOR][NEWLINE]Фермы, Лагеря и Плантации дают +2 [ICON_FOOD] еды и +1 [ICON_PRODUCTION] производство. Все клетки Океана, Побережья и Озера дают +1 [ICON_RESEARCH] науки и [ICON_PRODUCTION] производства. Военные Юниты могут быть улучшены на территориях Вассалов или дружественных [ICON_CITY_STATE] Городов-государств.'
+SET Text = '[COLOR_POSITIVE_TEXT]Эксплуатация[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_FOOD] еды и +1 [ICON_PRODUCTION] производство от Ферм, Лагерей и Плантаций. [NEWLINE][ICON_BULLET]+1 [ICON_RESEARCH] науки и [ICON_PRODUCTION] производства от клеток Океана, Побережья и Озера.'
 WHERE Tag = 'TXT_KEY_POLICY_MERCHANT_NAVY_HELP';
 
 UPDATE Language_ru_RU
@@ -543,7 +543,7 @@ SET Text = 'Полковая система'
 WHERE Tag = 'TXT_KEY_POLICY_NAVIGATION_SCHOOL';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Полковая система[ENDCOLOR][NEWLINE]Скорость появления [ICON_GREAT_GENERAL] Великих Полководцев и [ICON_GREAT_ADMIRAL] Великих Адмиралов на 33% быстрее. Боевая аура Великих Полководцев и Великих Адмиралов, увеличивающая [ICON_STRENGTH] боевую мощь, усилена на 10%, её радиус увеличен на 1 клетку.'
+SET Text = '[COLOR_POSITIVE_TEXT]Полковая система[ENDCOLOR][NEWLINE][ICON_BULLET]+33% к скорости появления [ICON_GREAT_GENERAL] Великих Полководцев и [ICON_GREAT_ADMIRAL] Великих Адмиралов.[NEWLINE][ICON_BULLET][ICON_GREAT_GENERAL] Великие Полководцы и [ICON_GREAT_ADMIRAL] Великие Адмиралы получают повышение [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BETTER_LEADERSHIP}[ENDCOLOR] (+10% к бонусу боевой мощи от [COLOR_POSITIVE_TEXT]Лидерства[ENDCOLOR], +1 к радиусу действия).[NEWLINE][ICON_BULLET]+2 копии уникальных ресурсов Роскоши при использовании способности [ICON_GREAT_ADMIRAL] Великого Адмирала "Путешествие открытий".[NEWLINE][ICON_BULLET]Военные Юниты могут быть улучшены на территориях Вассалов или дружественных [ICON_CITY_STATE] Городов-государств.'
 WHERE Tag = 'TXT_KEY_POLICY_NAVIGATION_SCHOOL_HELP';
 
 UPDATE Language_ru_RU
@@ -556,7 +556,7 @@ SET Text = 'Колониализм'
 WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Колониализм[ENDCOLOR][NEWLINE]Каждый уникальный модификатор Глобальной Монополии увеличен на дополнительные 10% (если бонус в процентах; иначе +3). Казармы, Оружейная, Военная Академия, Форт и Цитадель дают +2 [ICON_RESEARCH] науки и +1 [ICON_CULTURE] культуры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Колониализм[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] науки и +1 [ICON_CULTURE] культуры от Казарм, Оружейных, Военных Академий, Фортов и Цитаделей.[NEWLINE][ICON_BULLET]Каждый уникальный модификатор Глобальной Монополии увеличен на дополнительные 10% (если бонус в процентах; иначе +3). '
 WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION_HELP';
 
 UPDATE Language_ru_RU
@@ -569,7 +569,7 @@ SET Text = 'Колониальная миссия'
 WHERE Tag = 'TXT_KEY_POLICY_TREASURE_FLEETS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Колониальная миссия[ENDCOLOR][NEWLINE]+75 [ICON_GOLD] золота при захвате города (в зависимости от Эры и [ICON_CITIZEN] населения города). Захваченные города сохраняют все здания. [ICON_PUPPET] Города-сателлиты и города, в которых есть Суд, получают +10% [ICON_PRODUCTION] производства для зданий, а также дополнительные +10% [ICON_PRODUCTION] производства за разницу между вашей текущей Эрой и Эрой здания.'
+SET Text = '[COLOR_POSITIVE_TEXT]Колониальная миссия[ENDCOLOR][NEWLINE][ICON_BULLET]Захваченные города сохраняют все здания.[NEWLINE][ICON_BULLET]+75 [ICON_GOLD] золота при захвате города (в зависимости от Эры и [ICON_CITIZEN] населения города).[NEWLINE][ICON_BULLET][ICON_PUPPET] Города-сателлиты и города, в которых есть Суд, получают +10% к скорости [ICON_PRODUCTION] постройки зданий, а также дополнительные +10% [ICON_PRODUCTION] производства за разницу между вашей текущей Эрой и Эрой здания.'
 WHERE Tag = 'TXT_KEY_POLICY_TREASURE_FLEETS_HELP';
 
 UPDATE Language_ru_RU
@@ -594,7 +594,7 @@ WHERE Tag = 'TXT_KEY_HONOR_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Авторитет[ENDCOLOR] принесёт большую пользу воинственным и экспансионистским цивилизациям.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Авторитета даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +25% к боевой мощи против Варваров и уведомления о появлении Лагеря Варваров на разведанной территории. [NEWLINE][ICON_BULLET] +25 [ICON_CULTURE] культуры при очистке Лагеря Варваров (в зависимости от Эры). [NEWLINE][ICON_BULLET] При убийстве Юнита даёт [ICON_CULTURE] культуру, равную 100% его [ICON_STRENGTH] Мощи.[NEWLINE][ICON_BULLET] +1 [ICON_PRODUCTION] производство в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Авторитета даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +1 [ICON_PRODUCTION] производство в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Авторитета даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Альгамбра[ENDCOLOR]. [NEWLINE][ICON_BULLET] Не-денежные доходы при требовании дани у Городов-государств увеличены на 25%.[NEWLINE][ICON_BULLET] Бонусы политики "Империум" (при расширении границ городов) удвоены.[NEWLINE][ICON_BULLET] Позволяет покупку [COLOR_YELLOW]Вольных Компаний[ENDCOLOR], [COLOR_YELLOW]Иностранных Легионов[ENDCOLOR] и [COLOR_YELLOW]Наёмников[ENDCOLOR] (если изучены требуемые ими Технологии).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_GENERAL] Великих Генералов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Авторитет[ENDCOLOR] принесёт большую пользу воинственным и экспансионистским цивилизациям.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Авторитета даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +25% к боевой мощи против Варваров и уведомления о появлении Лагеря Варваров на разведанной территории. [NEWLINE][ICON_BULLET] +25 [ICON_CULTURE] культуры при очистке Лагеря Варваров (в зависимости от Эры). [NEWLINE][ICON_BULLET] При убийстве Юнита даёт [ICON_CULTURE] культуру, равную 100% его [ICON_STRENGTH] Мощи.[NEWLINE][ICON_BULLET] +1 [ICON_PRODUCTION] производство в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Авторитета даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +1 [ICON_PRODUCTION] производство в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Авторитета даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Альгамбра[ENDCOLOR]. [NEWLINE][ICON_BULLET] Позволяет покупку [COLOR_YELLOW]Вольных Компаний[ENDCOLOR], [COLOR_YELLOW]Иностранных Легионов[ENDCOLOR] и [COLOR_YELLOW]Наёмников[ENDCOLOR] (если изучены требуемые ими Технологии).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_GENERAL] Великих Генералов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_HONOR_HELP';
 
 UPDATE Language_ru_RU
@@ -607,7 +607,7 @@ SET Text = 'Дань'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIOR_CODE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Дань[ENDCOLOR][NEWLINE]Бесплатный Поселенец появляется возле [ICON_CAPITAL] столицы. Не-денежные доходы при требовании Большой Дани у Городов-государств увеличены на 25%.'
+SET Text = '[COLOR_POSITIVE_TEXT]Дань[ENDCOLOR][NEWLINE]Возле [ICON_CAPITAL] столицы появляется бесплатный [COLOR_POSITIVE_TEXT]Поселенец[ENDCOLOR].[NEWLINE][ICON_BULLET]+25% (+50% если были приняты все политики ветви {TXT_KEY_POLICY_BRANCH_HONOR}) к не-денежным доходам при требовании большой дани у [ICON_CITY_STATE] Городов-государств.'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIOR_CODE_HELP';
 
 UPDATE Language_ru_RU
@@ -620,7 +620,7 @@ SET Text = 'Империум'
 WHERE Tag = 'TXT_KEY_POLICY_DISCIPLINE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Империум[ENDCOLOR][NEWLINE]Города получают 20 [ICON_GOLD] золота и [ICON_PRODUCTION] производства при расширении границ (в зависимости от Эры). +40 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры при основании или захвате городов (в зависимости от Эры). Бонус при захвате также зависит от [ICON_CITIZEN] населения города.'
+SET Text = '[COLOR_POSITIVE_TEXT]Империум[ENDCOLOR][NEWLINE][ICON_BULLET]Города получают 20 (40 если были приняты все политики ветви {TXT_KEY_POLICY_BRANCH_HONOR}) [ICON_PRODUCTION] производства и [ICON_GOLD] золота при расширении границ (в зависимости от Эры). [NEWLINE][ICON_BULLET]+40 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры при основании или захвате городов (в зависимости от Эры). Бонус при захвате также зависит от [ICON_CITIZEN] населения города.'
 WHERE Tag = 'TXT_KEY_POLICY_DISCIPLINE_HELP';
 
 UPDATE Language_ru_RU
@@ -633,7 +633,7 @@ SET Text = 'Господство'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_TRADITION';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Господство[ENDCOLOR][NEWLINE]Убийство Военного Юнита даёт [ICON_RESEARCH] науку, равную 100% его [ICON_STRENGTH] боевой мощи. Пехота (ближний бой), Разведка, Наездники (ближний бой), Флот (ближний бой), Пороховые и Бронированные Юниты восстанавливают 15 ОЗ после убийства Военного Юнита. Прибавка к [ICON_SILVER_FIST] лимиту военных юнитов от населения увеличена на 10%.'
+SET Text = '[COLOR_POSITIVE_TEXT]Господство[ENDCOLOR][NEWLINE][ICON_BULLET]Все юниты ближнего боя получают повышение [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_KILL_HEAL}[ENDCOLOR] (юнит исцеляет 15 ОЗ после победы над вражеским юнитом).[NEWLINE][ICON_BULLET]Убийство военных юнитов даёт [ICON_RESEARCH] науку, равную 100% их [ICON_STRENGTH] боевой мощи. [NEWLINE][ICON_BULLET]+10% к прибавке к [ICON_SILVER_FIST] лимиту военных юнитов от [ICON_CITIZEN] населения.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_TRADITION_HELP';
 
 UPDATE Language_ru_RU
@@ -646,7 +646,7 @@ SET Text = 'Милитаризм'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_CASTE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Милитаризм[ENDCOLOR][NEWLINE]Каждый город с Казармами даёт +1 [ICON_HAPPINESS_1] счастья и +2 [ICON_CULTURE] культуры. [ICON_GOLD] Стоимость обслуживания юнитов уменьшена на 15%, дорог - на 50%.'
+SET Text = '[COLOR_POSITIVE_TEXT]Милитаризм[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] счастья и +2 [ICON_CULTURE] культуры от Казарм.[NEWLINE][ICON_BULLET]-15% к [ICON_GOLD] стоимости обслуживания юнитов.[NEWLINE][ICON_BULLET]-50% к [ICON_GOLD] стоимости обслуживания дорог.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_CASTE_HELP';
 
 UPDATE Language_ru_RU
@@ -659,7 +659,7 @@ SET Text = 'Честь'
 WHERE Tag = 'TXT_KEY_POLICY_PROFESSIONAL_ARMY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Честь[ENDCOLOR][NEWLINE]Юниты получают +10% к [ICON_STRENGTH] боевой мощи. Бесплатные военные юниты появляются возле городов с населением, впервые кратным 10 [ICON_CITIZEN] гражданам (или появятся в будущем, если город сейчас слишком мал). [ICON_WAR] Усталость от войны уменьшена на 25%.'
+SET Text = '[COLOR_POSITIVE_TEXT]Честь[ENDCOLOR][NEWLINE][ICON_BULLET]Все военные юниты получают повышение [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_HONOR_BONUS}[ENDCOLOR] (+10% к [ICON_STRENGTH] боевой мощи).[NEWLINE][ICON_BULLET]Бесплатные военные юниты появляются возле городов с населением, впервые кратным 10 [ICON_CITIZEN] гражданам (или появятся в будущем, если город сейчас слишком мал).[NEWLINE][ICON_BULLET]-25% к [ICON_WAR] Усталости от войны.'
 WHERE Tag = 'TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP';
 
 UPDATE Language_ru_RU
@@ -689,7 +689,7 @@ WHERE Tag = 'TXT_KEY_POLICY_BRANCH_LIBERTY';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Прогресс[ENDCOLOR] подходит для цивилизаций, желающих крепкого развития инфраструктуры и науки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Прогресса даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +20 [ICON_RESEARCH] науки когда [ICON_CITIZEN] гражданин рождается в [ICON_CAPITAL] столице (в зависимости от Эры).[NEWLINE][ICON_BULLET] +15 [ICON_RESEARCH] науки за каждого [ICON_CITIZEN] гражданина, уже имеющегося в [ICON_CAPITAL] столице (в зависимости от Эры). [NEWLINE][ICON_BULLET] +15 [ICON_CULTURE] культуры когда Технология изучена (в зависимости от Эры).[NEWLINE][ICON_BULLET] +15 [ICON_CULTURE] культуры за каждую уже изученную Технологию (независимо от Эры).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Прогресса даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] Дополнительные +15 [ICON_CULTURE] культуры когда Технология изучена (в зависимости от Эры).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Прогресса даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Запретный дворец[ENDCOLOR]. [NEWLINE][ICON_BULLET] +25 [ICON_GOLD] золота когда [ICON_CITIZEN] гражданин рождается в любом городе (в зависимости от Эры).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_WRITER] Великих Писателей за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Прогресс[ENDCOLOR] подходит для цивилизаций, желающих крепкого развития инфраструктуры и науки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Прогресса даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +20 [ICON_RESEARCH] науки когда [ICON_CITIZEN] горожанин рождается в [ICON_CAPITAL] столице и +15 [ICON_RESEARCH] науки за каждого [ICON_CITIZEN] горожанина, уже имеющегося в [ICON_CAPITAL] столице (в зависимости от Эры). [NEWLINE][ICON_BULLET] +15 [ICON_CULTURE] культуры когда Технология изучена (в зависимости от Эры), и дополнительные +15 [ICON_CULTURE] культуры за каждую уже изученную Технологию (независимо от Эры).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Прогресса даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] Дополнительные +15 [ICON_CULTURE] культуры когда Технология изучена (в зависимости от Эры).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Прогресса даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Запретный дворец[ENDCOLOR]. [NEWLINE][ICON_BULLET] +25 [ICON_GOLD] золота когда [ICON_CITIZEN] горожанин рождается в любом городе (в зависимости от Эры).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_WRITER] Великих Писателей за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_LIBERTY_HELP';
 
 UPDATE Language_ru_RU
@@ -702,7 +702,7 @@ SET Text = 'Организация'
 WHERE Tag = 'TXT_KEY_POLICY_COLLECTIVE_RULE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Организация[ENDCOLOR][NEWLINE]+1 [ICON_MOVES] скорость передвижения всех Гражданских Юнитов. Поселенцы, Рабочие и Торговые Юниты создаются на 25% быстрее. +3 [ICON_PRODUCTION] производства в каждом городе.'
+SET Text = '[COLOR_POSITIVE_TEXT]Организация[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_PRODUCTION] производство в каждом городе.[NEWLINE][ICON_BULLET]+25% к скорости [ICON_PRODUCTION] подготовки Поселенцев, Рабочих и Торговых юнитов.[NEWLINE][ICON_BULLET]+1 к [ICON_MOVES] движению для всех Гражданских юнитов. '
 WHERE Tag = 'TXT_KEY_POLICY_COLLECTIVE_RULE_HELP';
 
 UPDATE Language_ru_RU
@@ -715,7 +715,7 @@ SET Text = 'Свобода'
 WHERE Tag = 'TXT_KEY_POLICY_CITIZENSHIP';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Свобода[ENDCOLOR][NEWLINE]Возле [ICON_CAPITAL] столицы появляется Рабочий.[NEWLINE]+3 [ICON_GOLD] золота в каждом городе. +25% к скорости улучшения клеток.'
+SET Text = '[COLOR_POSITIVE_TEXT]Свобода[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_GOLD] золота в каждом городе.[NEWLINE][ICON_BULLET]+25% к скорости улучшения клеток.[NEWLINE][ICON_BULLET]Возле [ICON_CAPITAL] столицы появляется Рабочий.'
 WHERE Tag = 'TXT_KEY_POLICY_CITIZENSHIP_HELP';
 
 UPDATE Language_ru_RU
@@ -728,7 +728,7 @@ SET Text = 'Экспертиза'
 WHERE Tag = 'TXT_KEY_POLICY_REPUBLIC';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Экспертиза[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] к производству зданий. Города получают +10 [ICON_CULTURE] культуры когда завершают строительство зданий (в зависимости от Эры).'
+SET Text = '[COLOR_POSITIVE_TEXT]Экспертиза[ENDCOLOR][NEWLINE][ICON_BULLET]+15% к скорости [ICON_PRODUCTION] постройки зданий.[NEWLINE][ICON_BULLET]Города получают +10 [ICON_CULTURE] культуры когда завершают строительство зданий (в зависимости от Эры).'
 WHERE Tag = 'TXT_KEY_POLICY_REPUBLIC_HELP';
 
 UPDATE Language_ru_RU
@@ -741,7 +741,7 @@ SET Text = 'Равенство'
 WHERE Tag = 'TXT_KEY_POLICY_REPRESENTATION';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Равенство[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] счастье в каждом городе, +1 [ICON_HAPPINESS_1] счастье в городе за каждые 15 [ICON_CITIZEN] граждан. -1 [ICON_HAPPINESS_3] несчастья от [ICON_FOOD] и [ICON_PRODUCTION] Бедствия, [ICON_GOLD] Бедности, [ICON_RESEARCH] Безграмотности и [ICON_CULTURE] Скуки во всех городах.'
+SET Text = '[COLOR_POSITIVE_TEXT]Равенство[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье в каждом городе и +1 [ICON_HAPPINESS_1] счастье в городе за каждые 15 [ICON_CITIZEN] горожан.[NEWLINE][ICON_BULLET]-1 [ICON_HAPPINESS_3] несчастье от [ICON_FOOD] и [ICON_PRODUCTION] Бедствий, [ICON_GOLD] Бедности, [ICON_RESEARCH] Безграмотности и [ICON_CULTURE] Скуки во всех городах.'
 WHERE Tag = 'TXT_KEY_POLICY_REPRESENTATION_HELP';
 
 UPDATE Language_ru_RU
@@ -754,7 +754,7 @@ SET Text = 'Братство'
 WHERE Tag = 'TXT_KEY_POLICY_MERITOCRACY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Братство[ENDCOLOR][NEWLINE]+3 [ICON_FOOD] еды в каждом городе, +3 [ICON_RESEARCH] науки от [ICON_CONNECTED] Торговой сети.'
+SET Text = '[COLOR_POSITIVE_TEXT]Братство[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_FOOD] еды в каждом городе.[NEWLINE][ICON_BULLET]+3 [ICON_RESEARCH] науки от [ICON_CONNECTED] Торговой сети.'
 WHERE Tag = 'TXT_KEY_POLICY_MERITOCRACY_HELP';
 
 UPDATE Language_ru_RU
@@ -801,7 +801,7 @@ WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_TEXT';
 
 -- Consulates
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Консульства[ENDCOLOR][NEWLINE]+1 [ICON_DIPLOMAT] делегат в Мировом Конгрессе за каждые 8 изначально существовавших Городов-государств. По окончанию [ICON_INTERNATIONAL_TRADE] Торгового Пути в город-государство, получите [ICON_TOURISM] прирост туризма со всеми известными цивилизациями.'
+SET Text = '[COLOR_POSITIVE_TEXT]Консульства[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_DIPLOMAT] делегат в Мировом Конгрессе за каждые 8 изначально существовавших [ICON_CITY_STATE] Городов-государств. [NEWLINE][ICON_BULLET]После завершения [ICON_INTERNATIONAL_TRADE] торгового пути с [ICON_CITY_STATE] городом-государством, инициируется (или усиливается существующее) [COLOR_POSITIVE_TEXT]Историческое событие[ENDCOLOR] со всеми известными цивилизациями.'
 WHERE Tag = 'TXT_KEY_POLICY_CONSULATES_HELP';
 
 -- Scholasticism (now Shadow Networks)
@@ -810,7 +810,7 @@ SET Text = 'Теневая сеть'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Теневая сеть[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]Дружественные[ENDCOLOR] Города-государства дают 25% от генерируемой ими [ICON_RESEARCH] науки. +3% [ICON_CULTURE] культуры в [ICON_CAPITAL] столице за каждого активного [ICON_SPY] шпиона или [ICON_DIPLOMAT] дипломата (максимум 30%). +1 [ICON_RESEARCH] науки от специалистов, +3 [ICON_RESEARCH] науки от Жандармерий и Полицейских Участков.'
+SET Text = '[COLOR_POSITIVE_TEXT]Теневая сеть[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Дружественные[ENDCOLOR] Города-государства дают 25% от производимой ими [ICON_RESEARCH] науки. [NEWLINE][ICON_BULLET]+3% [ICON_CULTURE] культуры в [ICON_CAPITAL] столице за каждого активного [ICON_SPY] шпиона или [ICON_DIPLOMAT] дипломата (максимум 30%). [NEWLINE][ICON_BULLET]+3 [ICON_RESEARCH] науки от Жандармерий и Полицейских Участков.[NEWLINE][ICON_BULLET]+1 [ICON_RESEARCH] науки от специалистов.'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM_HELP';
 
 UPDATE Language_ru_RU
@@ -823,7 +823,7 @@ SET Text = 'Обменные рынки'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_DIPLOMACY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Обменные рынки[ENDCOLOR][NEWLINE]Ресурсы в Городах-государствах засчитываются для определения Монополии. +1 [ICON_INTERNATIONAL_TRADE] Торговый Путь, +1 [ICON_HAPPINESS_1] счастья за каждый активный [ICON_INTERNATIONAL_TRADE] Торговый Путь.'
+SET Text = '[COLOR_POSITIVE_TEXT]Обменные рынки[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_INTERNATIONAL_TRADE] Торговый Путь.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье за каждый активный [ICON_INTERNATIONAL_TRADE] Торговый Путь.[NEWLINE][ICON_BULLET]Ресурсы в Городах-государствах засчитываются для определения Монополии.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP';
 
 UPDATE Language_ru_RU
@@ -836,7 +836,7 @@ SET Text = 'Торговая конфедерация'
 WHERE Tag = 'TXT_KEY_POLICY_MERCHANT_CONFEDERACY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Торговая конфедерация[ENDCOLOR][NEWLINE]+25% доход от [ICON_INTERNATIONAL_TRADE] Торговых Путей. [ICON_INTERNATIONAL_TRADE] Торговые Пути в Города-государства дают +1 [ICON_INFLUENCE] Влияние за ход за каждый Торговый Маршрут с данным Городом-Государством (максимум +5).'
+SET Text = '[COLOR_POSITIVE_TEXT]Торговая конфедерация[ENDCOLOR][NEWLINE][ICON_BULLET]+25% доходы от [ICON_INTERNATIONAL_TRADE] Торговых Путей с другими цивилизациями.[NEWLINE][ICON_BULLET][ICON_INTERNATIONAL_TRADE] Торговые Пути в Города-государства дают +1 [ICON_INFLUENCE] влияние за ход за каждый Торговый Маршрут с данным Городом-Государством (максимум +5).'
 WHERE Tag = 'TXT_KEY_POLICY_MERCHANT_CONFEDERACY_HELP';
 
 UPDATE Language_ru_RU
@@ -861,12 +861,12 @@ WHERE Tag = 'TXT_KEY_PIETY_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Верность[ENDCOLOR] подходит для империй, нацеленных на [ICON_RELIGION] Религию, [ICON_PRODUCTION] производство и [ICON_FOOD] пищу.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Верности даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] Даёт возможность приобретать Монастыри за [ICON_PEACE] веру (+2 [ICON_PEACE] вера, +3 [ICON_FOOD] еда, +3 [ICON_RESEARCH] наука).[NEWLINE][ICON_BULLET] -25% стоимость [ICON_PEACE] веры для приобретения зданий, Миссионеров и Инквизиторов.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Верности даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +1 [ICON_FOOD] еда и [ICON_STRENGTH] Мощь в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Верности даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Красный Форт[ENDCOLOR].[NEWLINE][ICON_BULLET] Модификатор [ICON_TOURISM] Туризма для [COLOR_POSITIVE_TEXT]Распространённой Религии[ENDCOLOR] увеличен на 25%.[NEWLINE][ICON_BULLET] Города, распространяющие вашу преобладающую [ICON_RELIGION] Религию дают +3 [ICON_RESEARCH] науки, [ICON_PEACE] веры, [ICON_PRODUCTION] производства и [ICON_CULTURE] культуры.[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_ARTIST] Великих Творцов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Верность[ENDCOLOR] подходит для империй, нацеленных на [ICON_RELIGION] Религию, [ICON_PRODUCTION] производство и [ICON_FOOD] пищу.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Верности даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] Даёт возможность приобретать Монастыри за [ICON_PEACE] веру (+3 [ICON_FOOD] еда, +3 [ICON_RESEARCH] наука, +2 [ICON_PEACE] вера).[NEWLINE][ICON_BULLET] -25% стоимость [ICON_PEACE] веры для приобретения зданий, Миссионеров и Инквизиторов.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Верности даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +1 [ICON_FOOD] еда и [ICON_STRENGTH] Мощь в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Верности даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Красный Форт[ENDCOLOR].[NEWLINE][ICON_BULLET] +25% к модификатору [ICON_TOURISM] Туризма за [COLOR_POSITIVE_TEXT]общую религию[ENDCOLOR].[NEWLINE][ICON_BULLET] Города, исповедующие вашу преобладающую [ICON_RELIGION] религию дают +3 [ICON_RESEARCH] науки, [ICON_PEACE] веры, [ICON_PRODUCTION] производства и [ICON_CULTURE] культуры.[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_ARTIST] Великих Творцов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PIETY_HELP';
 
 -- Organized Religion
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Организованная религия[ENDCOLOR][NEWLINE]+50% давления во всех ближайших городах без вашей преобладающей [ICON_RELIGION] Религии, +1 [ICON_PEACE] веры от [ICON_CITIZEN] Специалистов.'
+SET Text = '[COLOR_POSITIVE_TEXT]Организованная религия[ENDCOLOR][NEWLINE][ICON_BULLET]+50% к религиозному давлению во всех ближайших городах без вашей преобладающей [ICON_RELIGION] религии.[NEWLINE][ICON_BULLET]+1 [ICON_PEACE] веры от [ICON_CITIZEN] Специалистов.'
 WHERE Tag = 'TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP';
 
 -- Mandate of Heaven (now Nobility)
@@ -875,7 +875,7 @@ SET Text = 'Дворянство'
 WHERE Tag = 'TXT_KEY_POLICY_MANDATE_OF_HEAVEN';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Дворянство[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] настроение, +2 [ICON_GOLD] золота от Замков, +2 [ICON_GOLD] золота от Оружейных. +100% [ICON_PRODUCTION] скорость постройки Замков и Оружейных.'
+SET Text = '[COLOR_POSITIVE_TEXT]Дворянство[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] настроение, +2 [ICON_GOLD] золота от Замков.[NEWLINE][ICON_BULLET]+2 [ICON_GOLD] золота от Оружейных.[NEWLINE][ICON_BULLET]+100% к скорости [ICON_PRODUCTION] постройки Замков и Оружейных.'
 WHERE Tag = 'TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP';
 
 UPDATE Language_ru_RU
@@ -888,7 +888,7 @@ SET Text = 'Божественное право'
 WHERE Tag = 'TXT_KEY_POLICY_THEOCRACY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Божественное право[ENDCOLOR][NEWLINE]25% от [ICON_HAPPINESS_1] счастья каждого города прибавляется к [ICON_CULTURE] культуре этого города каждый ход. -2 [ICON_HAPPINESS_3] несчастья от [ICON_CULTURE] Скуки во всех городах.'
+SET Text = '[COLOR_POSITIVE_TEXT]Божественное право[ENDCOLOR][NEWLINE][ICON_BULLET]25% от [ICON_HAPPINESS_1] счастья каждого города прибавляется к [ICON_CULTURE] культуре этого города каждый ход.[NEWLINE][ICON_BULLET]-2 [ICON_HAPPINESS_3] несчастья от [ICON_CULTURE] Скуки во всех городах.'
 WHERE Tag = 'TXT_KEY_POLICY_THEOCRACY_HELP';
 
 UPDATE Language_ru_RU
@@ -901,7 +901,7 @@ SET Text = 'Вотчины'
 WHERE Tag = 'TXT_KEY_POLICY_REFORMATION';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Вотчины[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] производство, скорость расширения границ города удвоена во время "Дня любви к Отчизне". +1 [ICON_HAPPINESS_1] счастья за каждые 10 Военных Юнитов в Империи.'
+SET Text = '[COLOR_POSITIVE_TEXT]Вотчины[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастья за каждые 10 военных юнитов в Империи.[NEWLINE][ICON_BULLET]+15% к [ICON_PRODUCTION] производству и +100% к скорости [ICON_CULTURE_LOCAL] расширения границ города во время "Дня любви к Отчизне".'
 WHERE Tag = 'TXT_KEY_POLICY_REFORMATION_HELP';
 
 UPDATE Language_ru_RU
@@ -914,7 +914,7 @@ SET Text = 'Крепостное право'
 WHERE Tag = 'TXT_KEY_POLICY_FREE_RELIGION';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Крепостное право[ENDCOLOR][NEWLINE]Пастбища дают +2 [ICON_PRODUCTION] производства и +1 [ICON_GOLD] золота. +1 [ICON_CULTURE] культуры в городах за каждых 4 [ICON_CITIZEN] граждан-неспециалистов. +33% доход от Международных [ICON_INTERNATIONAL_TRADE] Торговых Путей.'
+SET Text = '[COLOR_POSITIVE_TEXT]Крепостное право[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] культуры в городах за каждых 4 [ICON_CITIZEN] граждан-неспециалистов.[NEWLINE][ICON_BULLET]+2 [ICON_PRODUCTION] производства и +1 [ICON_GOLD] золото от Пастбищ.[NEWLINE][ICON_BULLET]+33% доход от внутренних [ICON_INTERNATIONAL_TRADE] Торговых Путей.'
 WHERE Tag = 'TXT_KEY_POLICY_FREE_RELIGION_HELP';
 
 UPDATE Language_ru_RU
@@ -941,7 +941,7 @@ WHERE Tag = 'TXT_KEY_RATIONALISM_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Рационализм[ENDCOLOR] нацелен на максимализацию [ICON_FOOD] пищи и [ICON_RESEARCH] науки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Рационализма дает:[ENDCOLOR][NEWLINE][ICON_BULLET] +3 [ICON_RESEARCH] науки и +2 [ICON_PRODUCTION] производство от всех Стратегических ресурсов.[NEWLINE][ICON_BULLET] +5% [ICON_RESEARCH] науки, -1 [ICON_HAPPINESS_3] недовольство от всех Потребностей во всех городах.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Рационализма даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +2% [ICON_RESEARCH] науки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Рационализма даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Блетчли Парк[ENDCOLOR]. [NEWLINE][ICON_BULLET] +33% скорость появления [ICON_GREAT_SCIENTIST] Великих Учёных во всех городах. [NEWLINE][ICON_BULLET] -1 [ICON_HAPPINESS_3] недовольство от всех Потребностей во всех городах. [NEWLINE][ICON_BULLET] +25% [ICON_FOOD] пищи во всех городах.[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_SCIENTIST] Великих Учёных при помощи [ICON_PEACE] веры начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Рационализм[ENDCOLOR] нацелен на максимализацию [ICON_FOOD] пищи и [ICON_RESEARCH] науки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Рационализма дает:[ENDCOLOR][NEWLINE][ICON_BULLET] +3 [ICON_RESEARCH] науки и +2 [ICON_PRODUCTION] производство от всех Стратегических ресурсов.[NEWLINE][ICON_BULLET] +5% [ICON_RESEARCH] науки, -1 [ICON_HAPPINESS_3] недовольство от всех Потребностей во всех городах.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Рационализма даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +2% [ICON_RESEARCH] науки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Рационализма даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Блетчли Парк[ENDCOLOR]. [NEWLINE][ICON_BULLET] +33% к скорости появления [ICON_GREAT_SCIENTIST] Великих Учёных во всех городах. [NEWLINE][ICON_BULLET] -1 [ICON_HAPPINESS_3] недовольство от всех Потребностей во всех городах. [NEWLINE][ICON_BULLET] +25% [ICON_FOOD] пищи во всех городах.[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_SCIENTIST] Великих Учёных при помощи [ICON_PEACE] веры начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP';
 
 -- Humanism (now Enlightenment)
@@ -950,7 +950,7 @@ SET Text = 'Просвещение'
 WHERE Tag = 'TXT_KEY_POLICY_HUMANISM';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Просвещение[ENDCOLOR][NEWLINE]Бесплатная технология. +10% [ICON_RESEARCH] науки во время [ICON_GOLDEN_AGE] Золотого Века. +1 [ICON_HAPPINESS_1] счастье от Университетов.'
+SET Text = '[COLOR_POSITIVE_TEXT]Просвещение[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Бесплатная[ENDCOLOR] технология. [NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от Университетов.[NEWLINE][ICON_BULLET]+10% к [ICON_RESEARCH] науке во время [ICON_GOLDEN_AGE] Золотого Века.'
 WHERE Tag = 'TXT_KEY_POLICY_HUMANISM_HELP';
 
 UPDATE Language_ru_RU
@@ -963,7 +963,7 @@ SET Text = 'Права человека'
 WHERE Tag = 'TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Права человека[ENDCOLOR][NEWLINE]+1 [ICON_FOOD] еда в городе за каждых 2 [ICON_CITIZEN] граждан-неспециалистов. +2 [ICON_PRODUCTION] производство и [ICON_GOLD] золото от Деревни.'
+SET Text = '[COLOR_POSITIVE_TEXT]Права человека[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_FOOD] еда в городе за каждых 2 [ICON_CITIZEN] граждан-неспециалистов. [NEWLINE][ICON_BULLET]+2 [ICON_PRODUCTION] производство и [ICON_GOLD] золото от Деревни.'
 WHERE Tag = 'TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP';
 
 UPDATE Language_ru_RU
@@ -976,7 +976,7 @@ SET Text = 'Научная революция'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Научная революция[ENDCOLOR][NEWLINE]Позволяет строительство [COLOR_POSITIVE_TEXT]Обсерваторий[ENDCOLOR] во всех городах. +2 [ICON_RESEARCH] науки от клеток Джунглей и Снега, +3% [ICON_RESEARCH] науки в городе за каждый [ICON_GREAT_WORK] Шедевр (максимум 20%).'
+SET Text = '[COLOR_POSITIVE_TEXT]Научная революция[ENDCOLOR][NEWLINE][ICON_BULLET]Позволяет строительство [COLOR_POSITIVE_TEXT]Обсерваторий[ENDCOLOR] (+6 [ICON_RESEARCH] науки, +1 [ICON_RESEARCH] науки за Горы поблизости, 1 специалист-ученый).[NEWLINE][ICON_BULLET]+3% к [ICON_RESEARCH] науке в городе за каждый [ICON_GREAT_WORK] Шедевр (максимум 20%).[NEWLINE][ICON_BULLET]+2 к [ICON_RESEARCH] науке от клеток Джунглей и Снега.'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM_HELP';
 
 UPDATE Language_ru_RU
@@ -989,7 +989,7 @@ SET Text = 'Эмпиризм'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Эмпиризм[ENDCOLOR][NEWLINE]Увеличивает защиту от [ICON_SPY] шпионов на 34% во всех городах. Специалисты потребляют на 1 [ICON_FOOD] еду меньше (минимум 1).'
+SET Text = '[COLOR_POSITIVE_TEXT]Эмпиризм[ENDCOLOR][NEWLINE][ICON_BULLET]Специалисты потребляют на 1 [ICON_FOOD] еду меньше (минимум 1).[NEWLINE][ICON_BULLET]+34% к защите от [ICON_SPY] шпионов во всех городах.'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_HELP';
 
 UPDATE Language_ru_RU
@@ -998,7 +998,7 @@ WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_TEXT';
 
 -- Free Thought
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Свобода мысли[ENDCOLOR][NEWLINE]+25% доходности от использования [ICON_GREAT_SCIENTIST] Великих Учёных; [ICON_GREAT_ADMIRAL] Великие Адмиралы: +2 копии уникальных ресурсов Роскоши при использовании способности "Мгновенный доход". -5 [ICON_HAPPINESS_3] несчастья от Религиозного Волнения во всех городах.'
+SET Text = '[COLOR_POSITIVE_TEXT]Свобода мысли[ENDCOLOR][NEWLINE][ICON_BULLET]-5 [ICON_HAPPINESS_3] несчастья от религиозных волнений во всех городах.[NEWLINE][ICON_BULLET]+25% доходности от использования [ICON_GREAT_SCIENTIST] Великих Учёных.'
 WHERE Tag = 'TXT_KEY_POLICY_FREE_THOUGHT_HELP';
 
 --------------------
@@ -1011,7 +1011,7 @@ WHERE Tag = 'TXT_KEY_TRADITION_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Традиция[ENDCOLOR] нацелена на создание Великих Людей и постройку внушительной столицы.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Традиции даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +2 [ICON_FOOD] еды, [ICON_CITIZEN] гражданина и [ICON_HAPPINESS_1] настроения в [ICON_CAPITAL] столице. [NEWLINE][ICON_BULLET] +1 [ICON_CULTURE] культура в столице за каждых 2 [ICON_CITIZEN] граждан. [NEWLINE][ICON_BULLET] +5% [ICON_FOOD] еды во всех городах.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Традиции даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +3% [ICON_FOOD] еды во всех городах, +1 [ICON_RESEARCH] науки в [ICON_CAPITAL] столице.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Традиции даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Университет Санкоре[ENDCOLOR]. [NEWLINE][ICON_BULLET] +1 [ICON_FOOD] еда и [ICON_PRODUCTION] производство от всех построек Великих Людей (торговый пост, академия и т.д.) и Памятных мест (строится Археологами).[NEWLINE][ICON_BULLET] В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]Тронная комната[ENDCOLOR] (+10% ко всему, 1 специалист-музыкант, 1 [ICON_GREAT_WORK] ячейка Шедевра музыки, +1 дальность обработки клеток городом).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_ENGINEER] Великих Инженеров за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Традиция[ENDCOLOR] нацелена на создание Великих Людей и постройку внушительной столицы.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Традиции даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +2 [ICON_FOOD] еды, [ICON_CITIZEN] гражданина и [ICON_HAPPINESS_1] настроения в [ICON_CAPITAL] столице. [NEWLINE][ICON_BULLET] +1 [ICON_CULTURE] культура в [ICON_CAPITAL] столице за каждые 2 [ICON_CITIZEN] горожанина. [NEWLINE][ICON_BULLET] +5% [ICON_FOOD] еды во всех городах.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Традиции даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +3% [ICON_FOOD] еды во всех городах, +1 [ICON_RESEARCH] науки в [ICON_CAPITAL] столице.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Традиции даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Университет Санкоре[ENDCOLOR]. [NEWLINE][ICON_BULLET] +1 [ICON_FOOD] еда и [ICON_PRODUCTION] производство от всех построек Великих Людей и Достопримечательностей.[NEWLINE][ICON_BULLET] В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]Тронная комната[ENDCOLOR] (+10% ко всему, +1 дальность обработки клеток городом, 1 [ICON_GREAT_WORK] ячейка Шедевра музыки, 1 специалист-музыкант).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_ENGINEER] Великих Инженеров за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_TRADITION_HELP';
 
 -- Aristocracy (now Justice)
@@ -1020,7 +1020,7 @@ SET Text = 'Юстиция'
 WHERE Tag = 'TXT_KEY_POLICY_ARISTOCRACY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Юстиция[ENDCOLOR][NEWLINE]Города получают +1 [ICON_PRODUCTION] производство, города с гарнизонами получают +25% к [ICON_RANGE_STRENGTH] дальнему урону. В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Королевская гауптвахта[ENDCOLOR] (1 специалист-инженер, +2 [ICON_STRENGTH] Защита, +50 ОЗ, cнабжение войск (лимит армии), генерируемое за счёт [ICON_CITIZEN] населения, увеличено на 20%, +3 [ICON_PRODUCTION] производство).'
+SET Text = '[COLOR_POSITIVE_TEXT]Юстиция[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] производство во всех городах.[NEWLINE][ICON_BULLET]Города с гарнизонами получают +25% к [ICON_RANGE_STRENGTH] дальнему урону.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Королевская гауптвахта[ENDCOLOR] (+3 [ICON_PRODUCTION] производство, +2 [ICON_STRENGTH] Защита, +50 ОЗ, +20% к прибавке к [ICON_SILVER_FIST] лимиту армии за счёт [ICON_CITIZEN] населения, 1 специалист-инженер).'
 WHERE Tag = 'TXT_KEY_POLICY_ARISTOCRACY_HELP';
 
 UPDATE Language_ru_RU
@@ -1033,7 +1033,7 @@ SET Text = 'Суверенность'
 WHERE Tag = 'TXT_KEY_POLICY_OLIGARCHY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Суверенность[ENDCOLOR][NEWLINE]Стоимость [ICON_CULTURE] культуры для расширения города уменьшена на 20% (экспоненциально) во всех городах. В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Придворная часовная[ENDCOLOR] (1 специалист-художник, 1 ячейка [ICON_GREAT_WORK] Шедевров искусства, +3 [ICON_PEACE] вера).'
+SET Text = '[COLOR_POSITIVE_TEXT]Суверенность[ENDCOLOR][NEWLINE][ICON_BULLET]Стоимость [ICON_CULTURE] культуры для расширения города уменьшена на 20% (экспоненциально) во всех городах.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Придворная часовная[ENDCOLOR] (+3 [ICON_PEACE] вера, 1 ячейка [ICON_GREAT_WORK] Шедевров искусства, 1 специалист-художник).'
 WHERE Tag = 'TXT_KEY_POLICY_OLIGARCHY_HELP';
 
 UPDATE Language_ru_RU
@@ -1046,7 +1046,7 @@ SET Text = 'Величие'
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Величие[ENDCOLOR][NEWLINE]Специалисты в [ICON_CAPITAL] столице потребляют в 2 раза меньше [ICON_FOOD] еды. В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Государственное казначейство[ENDCOLOR] (1 специалист-коммерсант, +4 [ICON_GOLD] золото, +25% [ICON_GREAT_PEOPLE] скорость появления Великих Людей в городе).'
+SET Text = '[COLOR_POSITIVE_TEXT]Величие[ENDCOLOR][NEWLINE][ICON_BULLET]Специалисты в [ICON_CAPITAL] столице потребляют в 2 раза меньше [ICON_FOOD] еды. [NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Государственное казначейство[ENDCOLOR] (+4 [ICON_GOLD] золото, +25% [ICON_GREAT_PEOPLE] скорость появления Великих Людей в городе, 1 специалист-коммерсант).'
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY_HELP';
 
 UPDATE Language_ru_RU
@@ -1059,7 +1059,7 @@ SET Text = 'Великолепие'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Великолепие[ENDCOLOR][NEWLINE]Использование Великого Человека дает 50 [ICON_CULTURE] культуры (в зависимости от текущей Эры). В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Дворцовый сад[ENDCOLOR] (1 специалист-писатель, 1 ячейка [ICON_GREAT_WORK] Шедевров литературы, +5 [ICON_FOOD] еды; Монументы, Сады и Бани дают +2 [ICON_CULTURE] культуры в каждом городе).'
+SET Text = '[COLOR_POSITIVE_TEXT]Великолепие[ENDCOLOR][NEWLINE][ICON_BULLET]Использование Великого Человека дает 50 [ICON_CULTURE] культуры (в зависимости от Эры). [NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Дворцовый сад[ENDCOLOR] (+5 [ICON_FOOD] еды, 1 ячейка [ICON_GREAT_WORK] Шедевров литературы, Монументы, Сады и Бани дают +2 [ICON_CULTURE] культуры в каждом городе; 1 специалист-писатель).'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE_HELP';
 
 UPDATE Language_ru_RU
@@ -1072,7 +1072,7 @@ SET Text = 'Обряд'
 WHERE Tag = 'TXT_KEY_POLICY_LEGALISM';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Обряд[ENDCOLOR][NEWLINE]Национальные чудеса, которые требуют постройки других зданий, дают +1 [ICON_HAPPINESS_1] счастье. В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Придворный астролог[ENDCOLOR] (1 специалист-ученый, +3 [ICON_RESEARCH] наука; Дом писаря, Охотничий домик и Дом травника дают +1 [ICON_RESEARCH] науки в каждом городе).'
+SET Text = '[COLOR_POSITIVE_TEXT]Обряд[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от Национальных чудес, которые требуют постройки других зданий.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Придворный астролог[ENDCOLOR] (+3 [ICON_RESEARCH] наука, Дом писаря, Охотничий домик и Дом травника дают +1 [ICON_RESEARCH] науки в каждом городе; 1 специалист-ученый).'
 WHERE Tag = 'TXT_KEY_POLICY_LEGALISM_HELP';
 
 UPDATE Language_ru_RU

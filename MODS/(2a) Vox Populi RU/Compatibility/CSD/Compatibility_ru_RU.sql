@@ -100,11 +100,11 @@ WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP';
 
 -- Philanthropy
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Иностранная служба[ENDCOLOR][NEWLINE]Получите 1 [ICON_SPY] шпиона (плюс один шпион за каждые 10 [ICON_CITY_STATE] городов-государств, если когда-либо существовало не менее 20 городов-государств). +1 к каждому Стратегическому ресурсу за каждые три поддерживаемых вами Альянса города-государства. Зарабатывайте [ICON_DIPLOMAT] Great Diplomats на 50 % быстрее и получайте +50 % к наградам за выполнение заданий города-государства.'
+SET Text = '[COLOR_POSITIVE_TEXT]Иностранная служба[ENDCOLOR][NEWLINE][ICON_BULLET]Получите 1 [ICON_SPY] шпиона (дополнительно +1 шпион за каждые 10 [ICON_CITY_STATE] городов-государств, если когда-либо существовало не менее 20 городов-государств).[NEWLINE][ICON_BULLET][ICON_DIPLOMAT] Великие Дипломаты появляются на 50% быстрее.[NEWLINE][ICON_BULLET]+50% к наградам за выполнение заданий [ICON_CITY_STATE] городов-государств.[NEWLINE][ICON_BULLET]+1 к каждому Стратегическому ресурсу за каждые три Союзных города-государства.'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_HELP';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Рынки обмена[ENDCOLOR][NEWLINE]Ресурсы городов-государств учитываются в глобальных монополиях. +1 [ICON_INTERNATIONAL_TRADE] Торговый путь и +1 [ICON_HAPPINESS_1] счастья за каждый активный [ICON_INTERNATIONAL_TRADE] Торговый путь. [ICON_TOURISM] Модификатор туризма для [COLOR_POSITIVE_TEXT]торговых путей[ENDCOLOR] увеличен на 15%.'
+SET Text = '[COLOR_POSITIVE_TEXT]Рынки обмена[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_INTERNATIONAL_TRADE] Торговый путь.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье за каждый активный [ICON_INTERNATIONAL_TRADE] Торговый путь.[NEWLINE][ICON_BULLET]Ресурсы городов-государств учитываются в глобальных монополиях.[NEWLINE][ICON_BULLET]+15% к модификатору [ICON_TOURISM] туризма для [COLOR_POSITIVE_TEXT]Торговых путей[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP';
 
 UPDATE Language_ru_RU
