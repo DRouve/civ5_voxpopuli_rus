@@ -265,7 +265,7 @@
 			<Text>Правила приза</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PRIZE_RULES_HELP">
-			<Text>Даёт [ICON_GOLD] золото в столице после победы над вражеским юнитом. +20% к [ICON_STRENGTH] боевой мощи против юнитов с [COLOR_POSITIVE_TEXT]ОЗ 50% или ниже[ENDCOLOR].</Text>
+			<Text>При победе над вражеским юнитом даёт [ICON_GOLD] золото (100% от [ICON_STRENGTH] боевой мощи побеждённого вражеского юнита). +20% к [ICON_STRENGTH] боевой мощи против юнитов с [COLOR_POSITIVE_TEXT]ОЗ 50% или ниже[ENDCOLOR].</Text>
 		</Row>
 
 	<!-- Order -->
@@ -386,7 +386,7 @@
 			<Text>Дар Фараона</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENSLAVEMENT_HELP">
-			<Text>Город, создавший этого юнита получает [ICON_PRODUCTION] производство при победе над вражеским юнитом.</Text>
+			<Text>Город, создавший этого юнита получает [ICON_PRODUCTION] производство при победе над вражеским юнитом (150% от [ICON_STRENGTH] боевой мощи вражеского юнита).</Text>
 		</Row>
 
 	<!-- Commando -->

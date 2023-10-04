@@ -151,7 +151,7 @@ WHERE Tag = 'TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP';
 
 -- Capitalism
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Капитализм[ENDCOLOR]: 2 [ICON_CITIZEN] специалиста в каждом городе дают +1 к [ICON_HAPPINESS_1] счастью вместо -1 [ICON_HAPPINESS_3] несчастья от Урбанизации. Специалисты дают +1 [ICON_GOLD] золото.'
+SET Text = '[COLOR_POSITIVE_TEXT]Капитализм[ENDCOLOR]: 2 [ICON_CITIZEN] специалиста в каждом городе дают +1 к [ICON_HAPPINESS_1] счастью вместо -1 [ICON_HAPPINESS_3] несчастья от Урбанизации. Специалисты дают +1 [ICON_GOLD] золото и [ICON_RESEARCH] науку.'
 WHERE Tag = 'TXT_KEY_POLICY_CAPITALISM_HELP';
 
 -- Open Society (Avant Garde)
@@ -166,7 +166,7 @@ WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP';
 
 -- Covert Action
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Подтасовка[ENDCOLOR]: Повышен шанс фальсификации выборов и переворотов в Городах-государствах. +1 [ICON_SPY] шпион (если по крайней мере 20 [ICON_CITY_STATE] Городов-государств существовало - +1 шпион за каждые 10).'
+SET Text = '[COLOR_POSITIVE_TEXT]Подтасовка[ENDCOLOR]: Повышен шанс фальсификации выборов и переворотов в Городах-государствах (совершаются две попытки). +1 [ICON_SPY] шпион (если по крайней мере 20 [ICON_CITY_STATE] Городов-государств существовало - +1 шпион за каждые 10).'
 WHERE Tag = 'TXT_KEY_POLICY_COVERT_ACTION_HELP';
 
 -- Creative Expression
@@ -205,7 +205,7 @@ SET Text = 'Самоопределение'
 WHERE Tag = 'TXT_KEY_POLICY_URBANIZATION';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Самоопределение[ENDCOLOR]: Освобождение города даёт 15 ОО всем юнитам, 50 [ICON_INFLUENCE] влияния со всеми Городами-государствами и 40 [ICON_RESEARCH] науки (в зависимости от Эры и [ICON_CITIZEN] населения города). Освобождённый город получает Арсенал и 6 Юнитов.'
+SET Text = '[COLOR_POSITIVE_TEXT]Самоопределение[ENDCOLOR]: Освобождение города (в том числе удаление сферы влияния другой цивилизации на город-государство посредством завоевания) даёт 15 ОО всем юнитам, 50 [ICON_INFLUENCE] влияния со всеми Городами-государствами и 40 [ICON_RESEARCH] науки (в зависимости от Эры и [ICON_CITIZEN] населения города). Освобождённый город получает Арсенал и 6 Юнитов.'
 WHERE Tag = 'TXT_KEY_POLICY_URBANIZATION_HELP';
 
 UPDATE Language_ru_RU
@@ -232,7 +232,7 @@ WHERE Tag = 'TXT_KEY_POLICY_VOLUNTEER_ARMY_TEXT';
 
 -- Space Procurements
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Космические закупки[ENDCOLOR]: Даёт возможность инвестировать [ICON_GOLD] золото в детали Космического Аппарата. Космические Фабрики строятся в 2 раза быстрее. +10% к [ICON_RESEARCH] науке от Исследовательских Лабораторий.'
+SET Text = '[COLOR_POSITIVE_TEXT]Космические закупки[ENDCOLOR]: Даёт возможность инвестировать [ICON_GOLD] золото в детали Космического Аппарата. Космические Фабрики строятся в 2 раза быстрее. +20% к [ICON_RESEARCH] науке от Исследовательских Лабораторий.'
 WHERE Tag = 'TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP';
 
 --------------------
@@ -517,7 +517,7 @@ SET Text = 'Военное положение'
 WHERE Tag = 'TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Военное положение[ENDCOLOR][NEWLINE][ICON_BULLET]Гарнизоны в городах больше не расходуют [ICON_GOLD] золото.[NEWLINE][ICON_BULLET]Жандармерия даёт +1 [ICON_HAPPINESS_1] счастье и +4 [ICON_CULTURE] культуры.[NEWLINE][ICON_BULLET]Штрафы к доходам в [ICON_PUPPET] городах-сателлитах уменьшены до 60% (вместо изначальных 80%).'
+SET Text = '[COLOR_POSITIVE_TEXT]Военное положение[ENDCOLOR][NEWLINE][ICON_BULLET]Гарнизоны в городах больше не расходуют [ICON_GOLD] золото.[NEWLINE][ICON_BULLET]Жандармерия даёт +1 [ICON_HAPPINESS_1] счастье и +4 [ICON_CULTURE] культуры.[NEWLINE][ICON_BULLET]-20% к доходам в [ICON_PUPPET] городах-сателлитах.'
 WHERE Tag = 'TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_HELP';
 
 UPDATE Language_ru_RU
@@ -607,7 +607,7 @@ SET Text = 'Дань'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIOR_CODE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Дань[ENDCOLOR][NEWLINE]Возле [ICON_CAPITAL] столицы появляется бесплатный [COLOR_POSITIVE_TEXT]Поселенец[ENDCOLOR].[NEWLINE][ICON_BULLET]+25% (+50% если были приняты все политики ветви {TXT_KEY_POLICY_BRANCH_HONOR}) к не-денежным доходам при требовании большой дани у [ICON_CITY_STATE] Городов-государств.'
+SET Text = '[COLOR_POSITIVE_TEXT]Дань[ENDCOLOR][NEWLINE]Возле [ICON_CAPITAL] столицы появляется бесплатный [COLOR_POSITIVE_TEXT]Поселенец[ENDCOLOR].[NEWLINE][ICON_BULLET]+25% ([COLOR_YELLOW]+50% если были приняты все политики ветви {TXT_KEY_POLICY_BRANCH_HONOR}[ENDCOLOR]) к не-денежным доходам при требовании большой дани у [ICON_CITY_STATE] Городов-государств.'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIOR_CODE_HELP';
 
 UPDATE Language_ru_RU
@@ -620,7 +620,7 @@ SET Text = 'Империум'
 WHERE Tag = 'TXT_KEY_POLICY_DISCIPLINE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Империум[ENDCOLOR][NEWLINE][ICON_BULLET]Города получают 20 (40 если были приняты все политики ветви {TXT_KEY_POLICY_BRANCH_HONOR}) [ICON_PRODUCTION] производства и [ICON_GOLD] золота при расширении границ (в зависимости от Эры). [NEWLINE][ICON_BULLET]+40 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры при основании или захвате городов (в зависимости от Эры). Бонус при захвате также зависит от [ICON_CITIZEN] населения города.'
+SET Text = '[COLOR_POSITIVE_TEXT]Империум[ENDCOLOR][NEWLINE][ICON_BULLET]Города получают 20 ([COLOR_YELLOW]40 если были приняты все политики ветви {TXT_KEY_POLICY_BRANCH_HONOR}[ENDCOLOR]) [ICON_PRODUCTION] производства и [ICON_GOLD] золота при расширении границ (в зависимости от Эры). [NEWLINE][ICON_BULLET]+40 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры при основании или захвате городов (в зависимости от Эры). Бонус при захвате также зависит от [ICON_CITIZEN] населения города.'
 WHERE Tag = 'TXT_KEY_POLICY_DISCIPLINE_HELP';
 
 UPDATE Language_ru_RU
@@ -866,7 +866,7 @@ WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PIETY_HELP';
 
 -- Organized Religion
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Организованная религия[ENDCOLOR][NEWLINE][ICON_BULLET]+50% к религиозному давлению во всех ближайших городах без вашей преобладающей [ICON_RELIGION] религии.[NEWLINE][ICON_BULLET]+1 [ICON_PEACE] веры от [ICON_CITIZEN] Специалистов.'
+SET Text = '[COLOR_POSITIVE_TEXT]Организованная религия[ENDCOLOR][NEWLINE][ICON_BULLET]+50% к религиозному давлению из городов, где ваша [COLOR_POSITIVE_TEXT]основная религия[ENDCOLOR] является вашей [ICON_RELIGION] религией большинства, по отношению ко всем ближайшим городам без вашей [COLOR_POSITIVE_TEXT]преобладающей религии[ENDCOLOR].[NEWLINE][ICON_BULLET]+1 [ICON_PEACE] веры от [ICON_CITIZEN] Специалистов.'
 WHERE Tag = 'TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP';
 
 -- Mandate of Heaven (now Nobility)

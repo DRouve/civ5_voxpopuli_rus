@@ -277,14 +277,14 @@
 
 		<!-- CSD -->
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT">
-			<Text>Ваш {1_UnitType} увеличил ваше влияние [ICON_INFLUENCE] в {3_CivShortDesc} на [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] и уменьшил влияние всех основных цивилизаций, известных городу-государству, на такую ​​же величину!</Text>
+			<Text>Ваш {1_UnitType} увеличил ваше влияние [ICON_INFLUENCE] в {3_CivShortDesc} на [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] и уменьшил влияние всех основных цивилизаций, известных городу-государству, на такую ​​же величину! Ваше минимальное [ICON_INFLUENCE] влияние на город-государство также увеличено на [COLOR_POSITIVE_TEXT]{4_Num}[ENDCOLOR]!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_SUMMARY">
 			<Text>Миссия вашего {1_UnitType} выполнена!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_OTHER">
-			<Text>{1_UnitType} увеличил влияние {4_OwnerAdj} [ICON_INFLUENCE] в {3_CivShortDesc} на [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] и уменьшил ваше [ICON_INFLUENCE] влияние в городе-государстве на такую ​​же величину!</Text>
+			<Text>{1_UnitType} увеличил влияние {4_OwnerAdj} [ICON_INFLUENCE] в {3_CivShortDesc} на [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] и уменьшил ваше [ICON_INFLUENCE] влияние в городе-государстве на такую ​​же величину! Их минимальное [ICON_INFLUENCE] влияние на город-государство также увеличено на [COLOR_NEGATIVE_TEXT]{5_Num}[ENDCOLOR]!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_OTHER_SUMMARY">
 			<Text>Зарубежный {1_UnitType} успешно выполнил миссию!</Text>
@@ -1619,6 +1619,18 @@
 		</Row>
 		<Row Tag="TXT_KEY_RO_WR_TOTAL_FOLLOWERS">
 			<Text>Последователи</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RO_WR_YEAR_FOUNDED">
+			<Text>Основано</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RO_WR_OWNED_CITIES">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] от всех городов исповедует {2_Name}.[NEWLINE][NEWLINE]{3_Num} ваших городов исповедует {4_Name} в качестве [ICON_RELIGION] Преобладающей Религии. Они составляют [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR] от Преобладающей Религии ваших городов. Эти города также составляют [COLOR_POSITIVE_TEXT]{6_Num}%[ENDCOLOR] от числа городов с религией {7_Name} в качестве Преобладающей Религии.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RO_WR_OWNED_FOLLOWERS">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] от мирового населения исповедует {2_Name}.[NEWLINE][NEWLINE]{3_Num} ваших [ICON_CITIZEN] граждан исповедует {4_Name}. Они составляют [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR] от вашего [ICON_CITIZEN] населения. Они также составляют [COLOR_POSITIVE_TEXT]{6_Num}%[ENDCOLOR] от мирового количества последователей религии {7_Name}.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_RO_TAB_MAP">
