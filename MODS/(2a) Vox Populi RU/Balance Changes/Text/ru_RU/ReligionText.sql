@@ -50,7 +50,7 @@ SET Text = 'Бог просторов'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+34% к скорости роста границ городов. Получайте 20 [ICON_PEACE] веры и 10 [ICON_PRODUCTION] производства каждый раз, когда город естественным образом расширяет свои границы (в зависимости от скорости игры).'
+SET Text = '+34% к скорости [ICON_CULTURE_LOCAL] расширения границ городов. Получайте 20 [ICON_PEACE] веры и 10 [ICON_PRODUCTION] производства каждый раз, когда город естественным образом расширяет свои границы (в зависимости от скорости игры).'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS';
 
 

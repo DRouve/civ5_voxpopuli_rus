@@ -949,3 +949,30 @@ WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_PLEDGES_TO_PROTECT';
 UPDATE Language_ru_RU
 SET Text = 'Уже был напуган в этот ход'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_VERY_RECENTLY';
+
+-- Victory Panel
+INSERT INTO Language_ru_RU (Tag, Text)
+VALUES  ('TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_VASSALIZE_YOU', ' {1_PlayerName} контролирует вас как Вассала.'),
+	('TXT_KEY_VP_DIPLO_TT_YOU_VASSALIZE_OTHER_PLAYER', ' Вы контролируете {1_CivName} как Вассала.'),
+	('TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_VASSALIZE_OTHER_PLAYER', ' {1_PlayerName} контролирует {2_CivName} как Вассала.'),
+	('TXT_KEY_VP_DIPLO_TT_UNMET_PLAYER_VASSALIZE_UNMET_PLAYER', ' Неизвестный игрок контролирует другую неизвестную цивилизацию как Вассала.'),
+	('TXT_KEY_VP_DIPLO_CAPITALS_TEAM_LEADING_TT', 'Команда {1_Team} контролирует {2_num} исходных [ICON_CAPITAL] столиц/Вассалов.'),
+	('TXT_KEY_VP_DIPLO_CAPITALS_ACTIVE_PLAYER_LEADING_TT', 'Вы лидируете, контролируя {1_num} исходных [ICON_CAPITAL] столиц/Вассалов.'),
+	('TXT_KEY_VP_DIPLO_CAPITALS_PLAYER_LEADING_TT', '{1_player} контролирует {2_num} исходных [ICON_CAPITAL] столиц/Вассалов.'),
+	('TXT_KEY_VP_DIPLO_CAPITALS_UNMET_PLAYER_LEADING_TT', 'Неизвестный игрок контролирует {1_num} исходных [ICON_CAPITAL] столиц/Вассалов.'),
+	('TXT_KEY_VP_DIPLO_TT_MINOR_PLAYER_CONTROLS_CAPITAL_ALLY', 'Город-государство {1_Name} контролирует {2_Num}. Они отдают Город своему Союзнику. Разрушьте их союз или отберите у них [ICON_CAPITAL] столицу![NEWLINE][NEWLINE]'),
+	('TXT_KEY_VP_DIPLO_TT_MINOR_PLAYER_CONTROLS_CAPITAL_VASSAL_ALLY', 'Город-государство {1_Name} контролирует {2_Num}. Они отдают Город Хозяину своего Союзника. Разрушьте их союз, освободите их союзника или отберите у них [ICON_CAPITAL] столицу![NEWLINE][NEWLINE]'),
+	('TXT_KEY_VP_DIPLO_TT_MINOR_PLAYER_CONTROLS_CAPITAL_NO_ALLY', 'Город-государство {1_Name} контролирует {2_Num}. В данный момент у них нет Союзника. Вступите с ними в союз или отберите у них [ICON_CAPITAL] столицу![NEWLINE][NEWLINE]'),
+	('TXT_KEY_VP_DIPLO_TT_MINOR_VASSAL_CONTROLS_CAPITAL', '{1_Name} контролирует {2_Num}. Они отдают Город своему Хозяину. Освободите их или отберите у них [ICON_CAPITAL] столицу![NEWLINE][NEWLINE]');
+UPDATE Language_ru_RU
+SET Text = '{1_Team} надо [COLOR_POSITIVE_TEXT]{2_num}[ENDCOLOR] исходных [ICON_CAPITAL] столиц/Вассалов для победы!'
+WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_TEAM_LEADING';
+UPDATE Language_ru_RU 
+SET Text = 'Контролируйте ещё [COLOR_POSITIVE_TEXT]{1_num}[ENDCOLOR] исходных [ICON_CAPITAL] столиц/Вассалов для победы!' 
+WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_ACTIVE_PLAYER_LEADING';
+UPDATE Language_ru_RU 
+SET Text = '{1_player} необходимо [COLOR_POSITIVE_TEXT]{2_num}[ENDCOLOR] исходных [ICON_CAPITAL] столиц/Вассалов для победы!' 
+WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_PLAYER_LEADING';
+UPDATE Language_ru_RU 
+SET Text = 'Неизвестному игроку необходимо [COLOR_POSITIVE_TEXT]{1_num}[ENDCOLOR] исходных [ICON_CAPITAL] столиц/Вассалов для победы!' 
+WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_UNMET_PLAYER_LEADING';

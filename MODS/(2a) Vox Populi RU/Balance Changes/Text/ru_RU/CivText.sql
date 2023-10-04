@@ -25,7 +25,7 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_B17';
 -- Arabia
 --------------------
 UPDATE Language_ru_RU
-SET Text = 'После завершения [ICON_INTERNATIONAL_TRADE] торгового пути с другой цивилизацией, инициируется (или усиливается существующее) Историческое событие, производя [ICON_TOURISM] туризм для указанной цивилизации и треть этого значения для остальных цивилизаций.[NEWLINE][NEWLINE] +50% дальность наземных торговых путей. Входящие [ICON_INTERNATIONAL_TRADE] торговые пути приносят +1 [ICON_GOLD] золота для города и +1 [ICON_GOLD] золота для владельца торгового пути.[NEWLINE][NEWLINE]Поблизости [ICON_RES_SPICES] Корица: +1 [ICON_FOOD] еды, + 1 [ICON_PRODUCTION] производство.[NEWLINE]Поблизости [ICON_RES_SUGAR] Сахар: +1 [ICON_FOOD] еды, +1 [ICON_GOLD] золота.'
+SET Text = 'После завершения [ICON_INTERNATIONAL_TRADE] торгового пути с другой цивилизацией, инициируется (или усиливается существующее) Историческое событие, производя [ICON_TOURISM] туризм для указанной цивилизации и треть этого значения для остальных цивилизаций.[NEWLINE][NEWLINE] +50% дальность [ICON_CARAVAN] наземных торговых путей. Входящие [ICON_INTERNATIONAL_TRADE] торговые пути приносят +1 [ICON_GOLD] золота для города и +1 [ICON_GOLD] золота для владельца торгового пути.[NEWLINE][NEWLINE]Поблизости [ICON_RES_SPICES] Корица: +1 [ICON_FOOD] еды, + 1 [ICON_PRODUCTION] производство.[NEWLINE]Поблизости [ICON_RES_SUGAR] Сахар: +1 [ICON_FOOD] еды, +1 [ICON_GOLD] золота.'
 WHERE Tag = 'TXT_KEY_BUILDING_BAZAAR_HELP';
 
 UPDATE Language_ru_RU
@@ -296,7 +296,7 @@ WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER';
 -- England
 --------------------
 UPDATE Language_ru_RU
-SET Text = '+1 к [ICON_MOVES] движению морских и погруженных юнитов. -25% к [ICON_GOLD] стоимости обслуживания морских юнитов . Сопротивление шпионам увеличено на 25% во всех городах. [ICON_SPY] Шпионы считаются на один ранг выше текущего. Начинает игру со [ICON_SPY] шпионом.'
+SET Text = '+1 к [ICON_MOVES] движению морских и погруженных юнитов. -25% к [ICON_GOLD] стоимости обслуживания морских юнитов. Сопротивление шпионам увеличено на 25% во всех городах. [ICON_SPY] Шпионы на 10% эффективнее и считаются на один ранг выше текущего. Начинает игру со [ICON_SPY] шпионом.'
 WHERE Tag = 'TXT_KEY_TRAIT_OCEAN_MOVEMENT';
 
 UPDATE Language_ru_RU
@@ -339,7 +339,7 @@ SET Text = 'Мехал Сефари составляют костяк эфиоп
 WHERE Tag = 'TXT_KEY_UNIT_MEHAL_SEFARI_STRATEGY';
 
 INSERT INTO Language_ru_RU (Tag, Text)
-VALUES ('TXT_KEY_BUILDING_STELE_HELP', 'Рост границ в этом городе на 34% быстрее. +25% [ICON_PEACE] веры во время [ICON_GOLDEN_AGE] Золотого века.');
+VALUES ('TXT_KEY_BUILDING_STELE_HELP', '+34% к скорости [ICON_CULTURE_LOCAL] расширения границ города. +25% [ICON_PEACE] веры во время [ICON_GOLDEN_AGE] Золотого века.');
 
 --------------------
 -- France
@@ -937,7 +937,7 @@ WHERE Tag = 'TXT_KEY_BUILD_MOAI_HELP';
 -- Portugal
 --------------------
 UPDATE Language_ru_RU
-SET Text = 'Фейтория может быть построена рабочими на вашей земле или Нау (при помощи "Экзотический груз") на земле города-государства. Каждый дает уникальный набор преимуществ.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Рабочий:[ENDCOLOR] Клетка получает [ICON_PRODUCTION] производство и [ICON_GOLD] золото, соседние клетки Побережья и Озера получают +1 [ICON_GOLD] золото, а соседние Рыбацкие лодки получают +1 [ICON_PRODUCTION] производство.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Нау:[ENDCOLOR] Предоставляет копию каждого типа ресурса роскоши, принадлежащего городу-государству, но эту копию нельзя продать. [ICON_INTERNATIONAL_TRADE] Торговые пути к этому городу-государству дают дополнительное [ICON_PRODUCTION] производство и [ICON_FOOD] еду в зависимости от вашего [ICON_GOLD] дохода в золоте от торгового пути [ICON_INTERNATIONAL_TRADE] и ваших отношений с городом-государством (т.е. Нейтральный/Дружественный/Союзный).[NEWLINE][NEWLINE]Помимо этого бонуса, Фейтория обеспечивает обзор своей клетки и всех клеток в радиусе 2, а также дает бонус к защите +25%. Может быть построен только португальцами, только на побережье, не может быть построена рядом с другой Фейторией и не может быть построен на ресурсе.'
+SET Text = 'Соседние клетки Побережья и Озера дают +1 [ICON_GOLD] золото, а соседние Рыбацкие Лодки — +1 [ICON_PRODUCTION] производства.[NEWLINE][NEWLINE]Могут быть построены Нау (с помощью способности [COLOR_POSITIVE_TEXT]Экзотический груз[ENDCOLOR]) на территории города-государства. Предоставляет непродаваемую копию каждого типа ресурсов Роскоши, принадлежащих данному городу-государству. [ICON_INTERNATIONAL_TRADE] Торговые пути в этот город-государство дают [ICON_FOOD] еду и [ICON_PRODUCTION] производство в зависимости от количества [ICON_GOLD] золота, полученного в результате [ICON_INTERNATIONAL_TRADE] Торгового пути и отношений с городом-государством (Нейтральное/Дружественныое/Союзное).[NEWLINE][NEWLINE]Также Фейтория обеспечивает видимость всех клеток в радиусе 2 и дает +25% бонуса к защите. Можно построить только на клетках Побережья. Невозможно построить рядом с другой Фейторией и на клетках без ресурсов.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FEITORIA_HELP';
 
 UPDATE Language_ru_RU
@@ -953,7 +953,7 @@ SET Text = 'Военно-морской юнит ближнего боя, кот
 WHERE Tag = 'TXT_KEY_UNIT_HELP_PORTUGUESE_NAU';
 
 UPDATE Language_ru_RU
-SET Text = 'Когда торговый юнит перемещается, вы получаете 4 [ICON_RESEARCH] науки, [ICON_GOLD] золота, [ICON_GREAT_ADMIRAL] очков Великих Адмиралов (для грузовых кораблей) и [ICON_GREAT_GENERAL] очков Великих Полководцев (для караванов) в зависимости от Эры.'
+SET Text = 'Когда торговый юнит перемещается, вы получаете 4 [ICON_RESEARCH] науки, [ICON_GOLD] золота, [ICON_GREAT_ADMIRAL] очков Великих Адмиралов ([ICON_CARGO_SHIP]) и [ICON_GREAT_GENERAL] очков Великих Полководцев ([ICON_CARAVAN]) в зависимости от Эры.'
 WHERE Tag = 'TXT_KEY_TRAIT_EXTRA_TRADE';
 
 UPDATE Language_ru_RU
@@ -968,7 +968,7 @@ WHERE Tag = 'TXT_KEY_MISSION_SELL_EXOTIC_GOODS_HELP';
 -- Rome
 --------------------
 UPDATE Language_ru_RU
-SET Text = '+30% к [ICON_DEFENSE] боевой мощи против [ICON_CITY_STATE] Городов-государств. Завоеванные города-государства дают награды, как если бы они были [COLOR_POSITIVE]Союзными[ENDCOLOR]. +15% к скорости [ICON_PRODUCTION] постройки зданий в [ICON_CAPITAL] столице.'
+SET Text = '+30% к [ICON_STRENGTH] боевой мощи против [ICON_CITY_STATE] Городов-государств. Завоеванные города-государства дают награды, как если бы они были [COLOR_POSITIVE]Союзными[ENDCOLOR]. +15% к скорости [ICON_PRODUCTION] постройки зданий в [ICON_CAPITAL] столице.'
 WHERE Tag = 'TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER';
 
 UPDATE Language_ru_RU

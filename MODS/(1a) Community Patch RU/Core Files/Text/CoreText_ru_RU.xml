@@ -5717,22 +5717,22 @@
 			<Text>Брак между {@2_MinorCivName} и {@1_CivName}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE_TT_1">
-			<Text>Прекрасная принцесса {@1_CivName} вышла замуж за дворянина {@2_MinorCivName}. Имея дипломатические отношения, объединенные браком, {@2_MinorCivName} предоставляет {@1_CivName} дополнительного делегата на Всемирном конгрессе, повышает скорость появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и их [ICON_INFLUENCE] влияние на город-государство медленнее уменьшается.</Text>
+			<Text>Прекрасная принцесса {@1_CivName} вышла замуж за дворянина {@2_MinorCivName}. Имея дипломатические отношения, объединенные браком, {@2_MinorCivName} предоставляет {@1_CivName} дополнительного делегата на Всемирном конгрессе, повышает скорость появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и увеличивает их минимальное [ICON_INFLUENCE] влияние на город-государство на 200.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE_TT_2">
-			<Text>Прекрасный принц {@1_CivName} женился на дворянке {@2_MinorCivName}. Имея дипломатические отношения, объединенные браком, {@2_MinorCivName} предоставляет {@1_CivName} дополнительного делегата на Всемирном конгрессе, повышает скорость появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и их [ICON_INFLUENCE] влияние на город-государство медленнее уменьшается.</Text>
+			<Text>Прекрасный принц {@1_CivName} женился на дворянке {@2_MinorCivName}. Имея дипломатические отношения, объединенные браком, {@2_MinorCivName} предоставляет {@1_CivName} дополнительного делегата на Всемирном конгрессе, повышает скорость появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и увеличивает их минимальное [ICON_INFLUENCE] влияние на город-государство на 200.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_MARRIED_VOTES">
 			<Text>[NEWLINE][ICON_BULLET]{1_Num} от Дипломатических браков</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_TT">
-			<Text>Вы можете потратить {1_BuyoutCost} [ICON_GOLD] золота, чтобы заключить дипломатический брак с этим городом-государством. Это дает: дополнительного делегата на Всемирном конгрессе, +15% к скорости появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и [ICON_INFLUENCE] влияние на город-государство больше не ослабевает.[NEWLINE][NEWLINE] Это может быть выполнено только один раз для каждого города-государства, а стоимость [ICON_GOLD] золота увеличивается с каждым дипломатическим браком.</Text>
+			<Text>Вы можете потратить {1_BuyoutCost} [ICON_GOLD] золота, чтобы заключить дипломатический брак с этим городом-государством. Это дает: дополнительного делегата на Всемирном конгрессе, +15% к скорости появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и минимальное [ICON_INFLUENCE] влияние на город-государство увеличивается на 200.[NEWLINE][NEWLINE] Это может быть выполнено только один раз для каждого города-государства, а стоимость [ICON_GOLD] золота увеличивается с каждым дипломатическим браком.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_TT">
-			<Text>Вы можете потратить {2_BuyoutCost} [ICON_GOLD] золота, чтобы заключить дипломатический брак с этим городом-государством. Это дает: дополнительного делегата на Всемирном конгрессе, +15% к скорости появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и [ICON_INFLUENCE] влияние на город-государство больше не ослабевает.[NEWLINE][NEWLINE] Это может быть выполнено только один раз для каждого города-государства, а стоимость [ICON_GOLD] золота увеличивается с каждым дипломатическим браком.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Вы должны состоять в Союзе с ними на {1_NumTurns} ходов и иметь {2_BuyoutCost} [ICON_GOLD] золота, чтобы выполнить это действие.[ENDCOLOR]</Text>
+			<Text>Вы можете потратить {2_BuyoutCost} [ICON_GOLD] золота, чтобы заключить дипломатический брак с этим городом-государством. Это дает: дополнительного делегата на Всемирном конгрессе, +15% к скорости появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и минимальное [ICON_INFLUENCE] влияние на город-государство увеличивается на 200.[NEWLINE][NEWLINE] Это может быть выполнено только один раз для каждого города-государства, а стоимость [ICON_GOLD] золота увеличивается с каждым дипломатическим браком.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Вы должны состоять в Союзе с ними на {1_NumTurns} ходов и иметь {2_BuyoutCost} [ICON_GOLD] золота, чтобы выполнить это действие.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_ALLY_TT">
-			<Text>Вы можете потратить {3_BuyoutCost} [ICON_GOLD] золота, чтобы заключить дипломатический брак с этим городом-государством. Это дает: дополнительного делегата на Всемирном конгрессе, +15% к скорости появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и [ICON_INFLUENCE] влияние на город-государство больше не ослабевает.[NEWLINE][NEWLINE] Это может быть выполнено только один раз для каждого города-государства, а стоимость [ICON_GOLD] золота увеличивается с каждым дипломатическим браком.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Вы должны состоять в Союзе на {1_NumTurns} ходов (сейчас: {2_TurnsAllied} ходов) и иметь {3_BuyoutCost} [ICON_GOLD] золота, чтобы выполнить это действие.[ENDCOLOR]</Text>
+			<Text>Вы можете потратить {3_BuyoutCost} [ICON_GOLD] золота, чтобы заключить дипломатический брак с этим городом-государством. Это дает: дополнительного делегата на Всемирном конгрессе, +15% к скорости появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и минимальное [ICON_INFLUENCE] влияние на город-государство увеличивается на 200.[NEWLINE][NEWLINE] Это может быть выполнено только один раз для каждого города-государства, а стоимость [ICON_GOLD] золота увеличивается с каждым дипломатическим браком.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Вы должны состоять в Союзе на {1_NumTurns} ходов (сейчас: {2_TurnsAllied} ходов) и иметь {3_BuyoutCost} [ICON_GOLD] золота, чтобы выполнить это действие.[ENDCOLOR]</Text>
 		</Row>
 		
 		<!-- Venice Tooltip -->
@@ -6672,6 +6672,19 @@
 			<Text>Проблемы с безопасностью в связи с недавней попыткой государственного переворота рассеялись, и безопасность в {1_City} возвращается к норме. [COLOR_POSITIVE_TEXT]В этом городе-государстве снова возможны перевороты[ENDCOLOR].</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_UNKNOWN_SUCCESS_S">
+			<Text>Иностранный переворот в {1_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_UNKNOWN_SUCCESS">
+			<Text>Неизвестная цивилизация устроила переворот в {1_CityName}, изгнала сторонников {2_CivAdj} и поставила своих сторонников в правительство, чтобы стать новым союзником города-государства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_UNKNOWN_FAILURE_S">
+			<Text>Иностранный переворот в {1_CityName} провалился</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_UNKNOWN_FAILURE">
+			<Text>Неизвестная цивилизация предприняла попытку государственного переворота в {1_CityName}, но не смогла свергнуть сторонников {2_CivAdj}, состоящих в союзе с городом-государством.</Text>
+		</Row>
+
 		<!-- Text for 3rd Party Brokering -->
 		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_WAR">
 			<Text>Ваша разведывательная служба сообщает, что {1_PlayerName} подкупил {2_CivName}, чтобы начать войну с вами! Эта информация была передана вашим союзникам.</Text>
@@ -7533,20 +7546,12 @@
 		<Row Tag="TXT_KEY_POTENTIAL_BREAKDOWN_POSITIVE">
 			<Text>[COLOR_POSITIVE_TEXT]Положительные свойства[ENDCOLOR][NEWLINE] [ICON_BULLET] [ICON_CULTURE] Политика и чудеса (+{1_Num}%)[NEWLINE] [ICON_BULLET] [ICON_CITIZEN] Местные постройки (+{2_Num}%)[NEWLINE] [ICON_BULLET] [ICON_SPY ] Контрразведка (+{3_Num}%)</Text>
 		</Row>
-		
-		<Row Tag="TXT_KEY_CITY_DEFENSIVE_BONUSES_AGAINST">
-			<Text>[NEWLINE]  [ICON_BULLET]Наши шпионы [ICON_SPY] работают: на [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% медленнее.</Text>
-		</Row>
 
 		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY">
 			<Text>[COLOR_POSITIVE_TEXT][NEWLINE]Вероятность поимки вражеских шпионов увеличена на {1_Num}% из-за Социальных политик.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_AGAINST">
 			<Text>[COLOR_NEGATIVE_TEXT][NEWLINE]Шанс поймать наших шпионов увеличен на {1_Num}% из-за Социальных политик.[ENDCOLOR]</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_POTENTIAL">
-			<Text>[COLOR_POSITIVE_TEXT]Возможные исходы при защите:[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_SPY_INTRIGUE_DISCOVERED">
@@ -7570,67 +7575,6 @@
 
 		<Row Tag="TXT_KEY_ESPIONAGE_MISSION_BASE_DURATION">
 			<Text>Базовая продолжительность миссии: {1_Num} Turns</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SPY_POWER">
-			<Text>[COLOR_POSITIVE_TEXT]Общая шпионская сила в этом городе:[ENDCOLOR] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SPY_POWER_MODIFIER">
-			<Text>[NEWLINE]  [ICON_BULLET] Модификатор шпионской силы: [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_SECURITY_MODIFIER">
-			<Text>[NEWLINE]  [ICON_BULLET] Модификатор сопротивления города: [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_BASE_POWER">
-			<Text>Базовая шпионская сила: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_GAMESPEED_NEGATIVE_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_STAR] Скорость игры: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_GAMESPEED_POSITIVE_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_STAR] Скорость игры: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_OUR_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_STAR] Чудеса и Социальные политики: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_SPY] Модификатор ранга шпиона: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_OB">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_INTERNATIONAL_TRADE] Открытые границы: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_INFLUENCE">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_TOURISM] Культурное влияние на них: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_RESISTANCE_MOD_POSITIVE">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_SPY] Шпионское сопротивление: [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_RESISTANCE_MOD_NEGATIVE">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_SPY] Шпионское сопротивление: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_POLICY_POSITIVE">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_CULTURE] Меньше Социальных политик, чем у нас: [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_POLICY_NEGATIVE">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_CULTURE] Больше Социальных политик, чем у нас: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_TECH_POSITIVE">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_RESEARCH] Меньше Технологий, чем у нас: [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_TECH_NEGATIVE">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_RESEARCH] Больше Технологий, чем у нас: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_REPEAT">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_SPY] Предыдущие шпионские миссии: [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETAIL_SPY_WONDERCONSTRUCT_POSITIVE">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_SPY] Постройка Чуда: [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETAIL_SPY_WONDERCONSTRUCT_NEGATIVE">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_SPY] Постройка Чуда: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_SECURITY">
-			<Text>[COLOR_NEGATIVE_TEXT]Общее сопротивление города против наших шпионов: {1_Num}[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_RELIGOUS_PRESSURE">
