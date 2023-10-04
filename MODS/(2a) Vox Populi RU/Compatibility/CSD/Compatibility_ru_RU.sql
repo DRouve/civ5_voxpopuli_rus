@@ -92,12 +92,6 @@ UPDATE Language_ru_RU
 SET Text = '+1 [ICON_RES_PAPER] Бумага. +20% [ICON_PRODUCTION] Производство дипломатических юнитов в этом городе. Все дипломатические подразделения получают повышение [COLOR_POSITIVE_TEXT]Дипломатическая неприкосновенность[ENDCOLOR].[NEWLINE][NEWLINE]Стоимость [ICON_PRODUCTION] производства и [ICON_CITIZEN] требования к населению увеличиваются в зависимости от количества ваших городов.'
 WHERE Tag = 'TXT_KEY_BUILDING_FOREIGN_OFFICE_HELP';
 
--- Merchant Mission
-
-UPDATE Language_ru_RU
-SET Text = 'Если отряд находится на территории города-государства, с которым вы не воюете, этот приказ израсходует этого юнита.[COLOR_POSITIVE_TEXT] Есть три отряда, способных выполнять эту миссию, каждый со своими способностями:[ENDCOLOR][NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Дипломатические подразделения:[ENDCOLOR] Получите [ICON_INFLUENCE] влияние в городе-государстве в зависимости от повышения отряда.[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Великие дипломаты:[ENDCOLOR] получите большое количество [ICON_INFLUENCE ] Влияние на город-государство и [ICON_INFLUENCE] всех других основных цивилизаций, известных этому городу-государству, будет уменьшено на этот город-государство на ту же величину. Получите 1 [ICON_RES_PAPER] бумаги.[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Великий торговец:[ENDCOLOR] Получите большое количество [ICON_GOLD] золота и мгновенный "We Love the King Day" во всех принадлежащих вам городах с увеличением на 1 ход за каждый принадлежащий вам город. Это действие поглотит единицу.'
-WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP';
-
 -- Philanthropy
 UPDATE Language_ru_RU
 SET Text = '[COLOR_POSITIVE_TEXT]Иностранная служба[ENDCOLOR][NEWLINE][ICON_BULLET]Получите 1 [ICON_SPY] шпиона (дополнительно +1 шпион за каждые 10 [ICON_CITY_STATE] городов-государств, если когда-либо существовало не менее 20 городов-государств).[NEWLINE][ICON_BULLET][ICON_DIPLOMAT] Великие Дипломаты появляются на 50% быстрее.[NEWLINE][ICON_BULLET]+50% к наградам за выполнение заданий [ICON_CITY_STATE] городов-государств.[NEWLINE][ICON_BULLET]+1 к каждому Стратегическому ресурсу за каждые три Союзных города-государства.'

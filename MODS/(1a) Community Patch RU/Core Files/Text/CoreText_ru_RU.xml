@@ -20,6 +20,9 @@
 		<Row Tag="TXT_KEY_TOP_PANEL_ITR_GOLDEN_AGE_POINTS_YIELD_TT">
 			<Text>{1_Num} [ICON_GOLDEN_AGE] очков Золотого Века</Text>
 		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_TURNS_UNTIL_GOLDEN_AGE">
+			<Text>Следующий Золотой Век: {1_Num} ход(ов)</Text>
+		</Row>
 		<Row Tag="TXT_KEY_GOLDEN_AGE_POINTS_FROM_TRADE_ROUTES">
 			<Text>{1_perTurn:number "#.##"} [ICON_GOLDEN_AGE] от торговых путей с этим городом</Text>
 		</Row>
@@ -78,7 +81,7 @@
 			<Text>Удалить сферу влияния</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_REMOVE_SPHERE">
-			<Text>Удаляет сферу влияния, размещенную на {1_CivName}. Город будет возвращен Городу-государству, но они все равно будут злиться на вас.</Text>
+			<Text>Удаляет сферу влияния, размещенную на {1_CivName}. Город будет возвращен Городу-государству и ваше [ICON_INFLUENCE] влияние с ними будет сброшено до 0. Штраф за разжигание войн из-за удаления сферы влияния не будет наложен.</Text>
 		</Row>
 
 		<!-- Tourism Bonus Turns for Tooltip -->

@@ -968,7 +968,7 @@ WHERE Tag = 'TXT_KEY_MISSION_SELL_EXOTIC_GOODS_HELP';
 -- Rome
 --------------------
 UPDATE Language_ru_RU
-SET Text = '+30% к [ICON_STRENGTH] боевой мощи против Городов-государств. Завоеванные города-государства дают награды, как если бы они были Союзными. +15% к скорости [ICON_PRODUCTION] постройки зданий в [ICON_CAPITAL] столице.'
+SET Text = '+30% к [ICON_DEFENSE] боевой мощи против [ICON_CITY_STATE] Городов-государств. Завоеванные города-государства дают награды, как если бы они были [COLOR_POSITIVE]Союзными[ENDCOLOR]. +15% к скорости [ICON_PRODUCTION] постройки зданий в [ICON_CAPITAL] столице.'
 WHERE Tag = 'TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER';
 
 UPDATE Language_ru_RU

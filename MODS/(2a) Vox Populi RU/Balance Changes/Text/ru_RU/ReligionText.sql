@@ -329,8 +329,7 @@ SET Text = 'Используйте [ICON_PEACE] веру для покупки �
 WHERE Tag = 'TXT_KEY_BELIEF_SWORD_PLOWSHARES';
 
 INSERT INTO Language_ru_RU (Tag, Text)
-SELECT 'TXT_KEY_BUILDING_CHURCH_TOOLTIP', '+4 [ICON_PEACE] вера, +2 [ICON_CULTURE] культура[NEWLINE]1 ячейка [ICON_GREAT_WORK] Шедевра музыки[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_CHURCH_HELP}';
-
+SELECT 'TXT_KEY_BUILDING_CHURCH_TOOLTIP', '+4 [ICON_PEACE] вера, +2 [ICON_CULTURE] культура[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_CHURCH_HELP}';
 
 -- Cooperation (formerly Peace Gardens)
 UPDATE Language_ru_RU
@@ -395,7 +394,7 @@ SET Text = 'Можно построить только в городах, исп
 WHERE Tag = 'TXT_KEY_BUILDING_MOSQUE_STRATEGY';
 
 INSERT INTO Language_ru_RU (Tag, Text)
-SELECT 'TXT_KEY_BUILDING_MOSQUE_TOOLTIP', '+3 [ICON_PEACE] вера[NEWLINE]+2 [ICON_RESEARCH]наука[NEWLINE]1 [ICON_GREAT_WORK] ячейка Шедевра литературы[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_MOSQUE_HELP}';
+SELECT 'TXT_KEY_BUILDING_MOSQUE_TOOLTIP', '+3 [ICON_PEACE] вера[NEWLINE]+2 [ICON_RESEARCH]наука[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_MOSQUE_HELP}';
 
 
 -- Orders (formerly Religious Center)
@@ -421,7 +420,7 @@ SET Text = 'Можно построить только в городах, исп
 WHERE Tag = 'TXT_KEY_BUILDING_PAGODA_STRATEGY';
 
 INSERT INTO Language_ru_RU (Tag, Text)
-SELECT 'TXT_KEY_BUILDING_PAGODA_TOOLTIP', '1 [ICON_GREAT_WORK] ячейка Шедевра искусства[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_PAGODA_HELP}';
+SELECT 'TXT_KEY_BUILDING_PAGODA_TOOLTIP', '+2 [ICON_PEACE] вера[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_PAGODA_HELP}';
 
 
 -- Scholarship (formerly Choral Music)
@@ -444,7 +443,7 @@ SET Text = 'Используйте [ICON_PEACE] веру для покупки �
 WHERE Tag = 'TXT_KEY_BELIEF_MONASTERIES';
 
 INSERT INTO Language_ru_RU (Tag, Text)
-SELECT 'TXT_KEY_BUILDING_STUPA_TOOLTIP', '+3 [ICON_PEACE] вера[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_STUPA_HELP}';
+SELECT 'TXT_KEY_BUILDING_STUPA_TOOLTIP', '+3 [ICON_PEACE] вера[NEWLINE]+3 [ICON_GOLDEN_AGE] очки Золотого Века[NEWLINE]+5 [ICON_TOURISM] туризм[NEWLINE]+1 [ICON_HAPPINESS_1] счастье[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_STUPA_HELP}';
 
 
 -- Synagogues (formerly Holy Warriors)
@@ -457,7 +456,7 @@ SET Text = 'Используйте [ICON_PEACE] веру для покупки �
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_WARRIORS';
 
 INSERT INTO Language_ru_RU (Tag, Text)
-SELECT 'TXT_KEY_BUILDING_SYNAGOGUE_TOOLTIP', '+2 [ICON_PEACE] вера[NEWLINE]+3 [ICON_PRODUCTION] производство[NEWLINE]1 [ICON_GREAT_WORK] ячейка Шедевра литературы[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_SYNAGOGUE_HELP}';
+SELECT 'TXT_KEY_BUILDING_SYNAGOGUE_TOOLTIP', '+2 [ICON_PEACE] вера[NEWLINE]+3 [ICON_PRODUCTION] производство[NEWLINE]{TXT_KEY_BUILDING_SYNAGOGUE_HELP}';
 
 
 -- Thrift (formerly Feed the World)

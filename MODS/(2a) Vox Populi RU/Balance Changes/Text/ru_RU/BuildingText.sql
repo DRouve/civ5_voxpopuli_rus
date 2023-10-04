@@ -236,7 +236,7 @@ SET Text = 'Ветряная мельница — это здание эпохи
 WHERE Tag = 'TXT_KEY_BUILDING_WINDMILL_STRATEGY';
 
 UPDATE Language_ru_RU
-SET Text = 'Все городские процессы на 10% эффективнее преобразовывают [ICON_PRODUCTION] производство в доход.[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] производства, [ICON_GOLD] золота и [ICON_FOOD] еды за каждую клетку Озера и клетки рядом с рекой.[NEWLINE][NEWLINE]Для постройки требуется 1 [ICON_RES_ALUMINUM] Алюминий. Город должен быть построен рядом с рекой. В городе не должно быть какой-либо электростанции.'
+SET Text = 'Все городские процессы на 10% эффективнее преобразовывают [ICON_PRODUCTION] производство в доход.[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] производства, [ICON_RESEARCH] науки и [ICON_FOOD] еды за каждую клетку Озера и клетки рядом с рекой.[NEWLINE][NEWLINE]Для постройки требуется 1 [ICON_RES_ALUMINUM] Алюминий. Город должен быть построен рядом с рекой. В городе не должно быть какой-либо электростанции.'
 WHERE Tag = 'TXT_KEY_BUILDING_HYDRO_PLANT_HELP';
 
 UPDATE Language_ru_RU

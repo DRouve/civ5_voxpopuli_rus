@@ -29,10 +29,6 @@ SET Text = 'Провести дипломатическую миссию'
 WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
 UPDATE Language_ru_RU
-SET Text = 'Если отряд находится на территории города-государства, с которым вы не воюете, этот приказ расходует отряд.[NEWLINE][NEWLINE]Если юнит - Великий Дипломат, вы получите большое количество [ICON_INFLUENCE] влияния в городе-государстве и [ICON_INFLUENCE] влияние всех других крупных цивилизаций (известных этому городу-государству) на него будет уменьшено на такую ​​же величину.[NEWLINE][NEWLINE] Если юнит - Великий Торговец, вы получите большую сумму [ICON_GOLD] золота и мгновенное событие «День любви к Отечеству» во всех принадлежащих вам городах. После этого действия юнит исчезнет.'
-WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
-
-UPDATE Language_ru_RU
 SET Text = 'Вы получили {1_Num} [ICON_GOLD] золота и {2_Num} [ICON_INFLUENCE] влияния от дипломатической миссии!'
 WHERE Tag = 'TXT_KEY_MERCHANT_RESULT' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
@@ -93,6 +89,3 @@ WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_LOSING_FORMAL' AND EXISTS (S
 UPDATE Language_ru_RU
 SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL} На данный момент вы лидируете с [COLOR_POSITIVE_TEXT]{1_PlayerScore} новыми последователями'
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_WINNING_FORMAL' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
-
-
-
