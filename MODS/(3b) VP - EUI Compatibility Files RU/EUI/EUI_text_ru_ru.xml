@@ -434,16 +434,16 @@
 			<Text>XBuilt инициирует выбор Идеологии {1}</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTESEADISTANCEMODIFIER">
-			<Text>Модификатор дальности морского Торгового Пути {1}%</Text>
+			<Text>[ICON_CARGO_SHIP] Модификатор дальности морского Торгового Пути {1}%</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTESEAGOLDBONUS">
-			<Text>Бонус к золоту морского Торгового Пути {1}</Text>
+			<Text>[ICON_CARGO_SHIP] Бонус к золоту морского Торгового Пути {1}</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTELANDDISTANCEMODIFIER">
-			<Text>Модификатор дальности наземного Торгового Пути {1}%</Text>
+			<Text>[ICON_CARAVAN] Модификатор дальности наземного Торгового Пути {1}%</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTELANDGOLDBONUS">
-			<Text>Бонус к золоту наземного Торгового Пути {1}</Text>
+			<Text>[ICON_CARAVAN] Бонус к золоту наземного Торгового Пути {1}</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_CITYSTATETRADEROUTEPRODUCTIONMODIFIER">
 			<Text>Модификатор производства Торгового Пути к город-государство {1}%</Text>

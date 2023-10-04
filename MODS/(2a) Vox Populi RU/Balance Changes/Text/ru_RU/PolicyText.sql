@@ -105,7 +105,7 @@ WHERE Tag = 'TXT_KEY_POLICY_NATIONALISM_TEXT';
 
 -- Police State
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Полицейское государство[ENDCOLOR]: +3 к [ICON_HAPPINESS_1] настроению в городе от Суда, +1 к [ICON_HAPPINESS_1] настроению в городе от Полицейских Участков. Суд строится в два раза быстрее.'
+SET Text = '[COLOR_POSITIVE_TEXT]Полицейское государство[ENDCOLOR]: +3 к [ICON_HAPPINESS_1] настроению в городе от Суда, +1 к [ICON_HAPPINESS_1] настроению в городе от Полицейских Участков. Суд строится в два раза быстрее. Длительность выполнения миссий иностранными шпионами увеличена на 2 хода во всех городах.'
 WHERE Tag = 'TXT_KEY_POLICY_POLICE_STATE_HELP';
 
 -- Third Alternative
@@ -166,7 +166,7 @@ WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP';
 
 -- Covert Action
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Подтасовка[ENDCOLOR]: Повышен шанс фальсификации выборов и переворотов в Городах-государствах (совершаются две попытки). +1 [ICON_SPY] шпион (если по крайней мере 20 [ICON_CITY_STATE] Городов-государств существовало - +1 шпион за каждые 10).'
+SET Text = '[COLOR_POSITIVE_TEXT]Подтасовка[ENDCOLOR]: Повышен шанс фальсификации выборов и переворотов в Городах-государствах (совершаются две попытки). +1 [ICON_SPY] шпион (если по крайней мере 20 [ICON_CITY_STATE] Городов-государств существовало - +1 шпион за каждые 10). Длительность выполнения миссий вашими шпионами уменьшена на 2 хода.'
 WHERE Tag = 'TXT_KEY_POLICY_COVERT_ACTION_HELP';
 
 -- Creative Expression
@@ -256,7 +256,7 @@ WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP';
 
 -- Double Agents
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Двойные агенты[ENDCOLOR]: +3 [ICON_SPY] шпиона (если по крайней мере 20 [ICON_CITY_STATE] Городов-государств существовало - +1 шпион за каждые 10). Удваивается шанс поимки вашими шпионами вражеских шпионов в принадлежащих вам городах.'
+SET Text = '[COLOR_POSITIVE_TEXT]Двойные агенты[ENDCOLOR]: +3 [ICON_SPY] шпиона (если по крайней мере 20 [ICON_CITY_STATE] Городов-государств существовало - +1 шпион за каждые 10). Удваивается шанс поимки вашими шпионами вражеских шпионов в принадлежащих вам городах. Длительность выполнения миссий вашими шпионами уменьшена на 1 ход, а иностранными шпионами - увеличена на 1 ход во всех ваших городах.'
 WHERE Tag = 'TXT_KEY_POLICY_DOUBLE_AGENTS_HELP';
 
 -- Hero of the People
@@ -792,7 +792,7 @@ SET Text = 'Дипломатическая служба'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Дипломатическая служба[ENDCOLOR][NEWLINE]Даёт 1 [ICON_SPY] шпиона (если по крайней мере 20 [ICON_CITY_STATE] Городов-государств существовало - +1 шпион за каждые 10). Награда за задания Городов-государств увеличена на 50%. Модификатор [ICON_TOURISM] Туризма за [COLOR_POSITIVE_TEXT]Торговые Пути[ENDCOLOR] увеличен на 15%.'
+SET Text = '[COLOR_POSITIVE_TEXT]Дипломатическая служба[ENDCOLOR][NEWLINE][ICON_BULLET]Даёт 1 [ICON_SPY] шпиона (если по крайней мере 20 [ICON_CITY_STATE] Городов-государств существовало - +1 шпион за каждые 10).[NEWLINE][ICON_BULLET]Длительность выполнения миссий вашими шпионами уменьшена на 1 ход.[NEWLINE][ICON_BULLET]Награда за задания Городов-государств увеличена на 50%.'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_HELP';
 
 UPDATE Language_ru_RU
@@ -810,7 +810,7 @@ SET Text = 'Теневая сеть'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Теневая сеть[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Дружественные[ENDCOLOR] Города-государства дают 25% от производимой ими [ICON_RESEARCH] науки. [NEWLINE][ICON_BULLET]+3% [ICON_CULTURE] культуры в [ICON_CAPITAL] столице за каждого активного [ICON_SPY] шпиона или [ICON_DIPLOMAT] дипломата (максимум 30%). [NEWLINE][ICON_BULLET]+3 [ICON_RESEARCH] науки от Жандармерий и Полицейских Участков.[NEWLINE][ICON_BULLET]+1 [ICON_RESEARCH] науки от специалистов.'
+SET Text = '[COLOR_POSITIVE_TEXT]Теневая сеть[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Дружественные[ENDCOLOR] Города-государства дают 25% от производимой ими [ICON_RESEARCH] науки. [NEWLINE][ICON_BULLET]+3% [ICON_CULTURE] культуры в [ICON_CAPITAL] столице за каждого активного [ICON_SPY] шпиона или [ICON_DIPLOMAT] дипломата (максимум 30%). [NEWLINE][ICON_BULLET]Длительность выполнения миссий вашими шпионами уменьшена на 1 ход.[NEWLINE][ICON_BULLET]+3 [ICON_RESEARCH] науки от Жандармерий и Полицейских Участков.[NEWLINE][ICON_BULLET]+1 [ICON_RESEARCH] науки от специалистов.'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM_HELP';
 
 UPDATE Language_ru_RU
@@ -989,7 +989,7 @@ SET Text = 'Эмпиризм'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Эмпиризм[ENDCOLOR][NEWLINE][ICON_BULLET]Специалисты потребляют на 1 [ICON_FOOD] еду меньше (минимум 1).[NEWLINE][ICON_BULLET]+34% к защите от [ICON_SPY] шпионов во всех городах.'
+SET Text = '[COLOR_POSITIVE_TEXT]Эмпиризм[ENDCOLOR][NEWLINE][ICON_BULLET]Специалисты потребляют на 1 [ICON_FOOD] еду меньше (минимум 1).[NEWLINE][ICON_BULLET]+34% к защите от [ICON_SPY] шпионов во всех городах.[NEWLINE][ICON_BULLET]Длительность выполнения миссий иностранными шпионами увеличена на 2 хода в ваших городах.[NEWLINE][ICON_BULLET]'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_HELP';
 
 UPDATE Language_ru_RU

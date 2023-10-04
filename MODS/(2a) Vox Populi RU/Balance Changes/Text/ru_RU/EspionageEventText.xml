@@ -39,25 +39,25 @@
 			<Text>Саботаж местный [ICON_TOURISM] Туризм</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_TOURISM_HELP">
-			<Text>Шпион получает 75% от [ICON_TOURISM] туризма целевого города каждый ход на протяжении всей миссии. По завершении Шпион крадет весь собранный [ICON_TOURISM] туризм.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
+			<Text>По завершению миссии вы каждый ход получаете [ICON_TOURISM] туризм, украденный у данного игрока (длительность: {5_Turns}). Количество туризма, украденного за ход, составляет 75% от среднего дохода [ICON_TOURISM] туризма в городе за ход, пока шпион выполнял миссию.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_SCIENCE">
 			<Text>Проникнуть в [ICON_RESEARCH] научные объекты</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_SCIENCE_HELP">
-			<Text>Шпион собирает 50% результатов [ICON_RESEARCH] науки целевого города каждый ход на протяжении всей миссии. По завершении шпион крадет всю собранную [ICON_RESEARCH] науку.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
+			<Text>По завершению миссии вы каждый ход получаете [ICON_RESEARCH] науку, украденную у данного игрока (длительность: {5_Turns}). Количество науки, украденной за ход, составляет 50% от среднего дохода [ICON_RESEARCH] науки в городе за ход, пока шпион выполнял миссию.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_GOLD">
 			<Text>Украсть [ICON_GOLD] золото из казны</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_GOLD_HELP">
-			<Text>Шпион собирает 50% золота [ICON_GOLD] целевого города каждый ход на протяжении всей миссии. По завершении шпион крадет все собранное [ICON_GOLD] золота.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
+			<Text>По завершению миссии вы каждый ход получаете [ICON_GOLD] золото, украденное у данного игрока (длительность: {5_Turns}). Количество золота, украденного за ход, составляет 50% от среднего дохода [ICON_GOLD] золота в городе за ход, пока шпион выполнял миссию.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_FAITH">
 			<Text>Украсть [ICON_PEACE] религиозные реликвии</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_FAITH_HELP">
-			<Text>Шпион получает 75% от [ICON_PEACE] веры целевого города каждый ход на протяжении всей миссии. По завершении шпион крадет всю собранную [ICON_PEACE] веру.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
+			<Text>По завершению миссии вы каждый ход получаете [ICON_FAITH] веру, украденную у данного игрока (длительность: {5_Turns}). Количество веры, украденной за ход, составляет 75% от среднего дохода [ICON_FAITH] веры в городе за ход, пока шпион выполнял миссию.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES">
 			<Text>Радикализовать сельских жителей [ICON_CITIZEN]</Text>
@@ -78,7 +78,7 @@
 			<Text>В Целевом городе: -1 [ICON_RESEARCH] Наука от ученых; -1 [ICON_GOLD] золота у торговцев; -1 [ICON_PRODUCTION] Производство инженеров; -1 [ICON_CULTURE] Культура от музыкантов, художников и писателей. {7_PlayerEventEffect}.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_BENEFIT">
-			<Text>[COLOR_POSITIVE_TEXT]Ваше преимущество:[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Ваше преимущество: [ENDCOLOR]</Text>
 		</Row>
 		Ваше преимущество:
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_MILITARY_GARRISON">
@@ -164,16 +164,31 @@
 			<Text>[COLOR_POSITIVE_TEXT]Расчетная продолжительность миссии:[ENDCOLOR] {1_Num} ходов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_PAST">
-			<Text>[COLOR_POSITIVE_TEXT]Общая сумма украденного:[ENDCOLOR] {1_Yield}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Украдено:[ENDCOLOR] {1_Yield} за ход (длительность: {2_Turns})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_PAST_ENEMY">
-			<Text>[COLOR_NEGATIVE_TEXT]Общая сумма украденного:[ENDCOLOR] {1_Yield}</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]Украдено:[ENDCOLOR] {1_Yield} за ход (длительность: {2_Turns})</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_PRESENT">
-			<Text>Подготовка к краже: {1_Yield} собрано.</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ACTIVE">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Yield} украдено за ход[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ACTIVE_ENEMY">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Yield} украдено за ход[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SIPHON_EVENT_ENDED">
+			<Text>Действие шпионской миссии против {2_Civ} завершилось: кража {1_MissionResult} за ход.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SIPHON_EVENT_ENDED_T">
+			<Text>Действие шпионской миссии завершилось.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SIPHON_EVENT_ENDED_ENEMY">
+			<Text>Действие иностранной шпионской миссии против вас завершилось: кража {1_MissionResult} за ход</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SIPHON_EVENT_ENDED_ENEMY_T">
+			<Text>Действие иностранной шпионской миссии завершилось.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ESTIMATED">
-			<Text>[COLOR_POSITIVE_TEXT]Предполагаемая общая сумма кражи:[ENDCOLOR] {1_Yield}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Предполагаемая сумма кражи:[ENDCOLOR] {1_Yield} за ход (длительность: {2_Turns})</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SUCCESS">
@@ -198,6 +213,14 @@
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EXTRA_SIGHT_EVENT_HAS_ENDED_CITY_T">
 			<Text>Бонус видимости за шпионаж в {1_City} закончился.</Text>
+		</Row>
+
+		<!-- Mission Durations -->
+		<Row Tag="TXT_KEY_SPY_DURATION_LEVEL_MODIFIER">
+			<Text>[NEWLINE]  [ICON_BULLET] Модификатор ранга шпиона: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_DURATION_TRAIT_MODIFIER">
+			<Text>[NEWLINE]  [ICON_BULLET] Модификатор особенностей игрока: {1_Num}%</Text>
 		</Row>
 		
 	</Language_ru_RU>

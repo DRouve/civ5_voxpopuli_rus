@@ -94,7 +94,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_FOREIGN_OFFICE_HELP';
 
 -- Philanthropy
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Иностранная служба[ENDCOLOR][NEWLINE][ICON_BULLET]Получите 1 [ICON_SPY] шпиона (дополнительно +1 шпион за каждые 10 [ICON_CITY_STATE] городов-государств, если когда-либо существовало не менее 20 городов-государств).[NEWLINE][ICON_BULLET][ICON_DIPLOMAT] Великие Дипломаты появляются на 50% быстрее.[NEWLINE][ICON_BULLET]+50% к наградам за выполнение заданий [ICON_CITY_STATE] городов-государств.[NEWLINE][ICON_BULLET]+1 к каждому Стратегическому ресурсу за каждые три Союзных города-государства.'
+SET Text = '[COLOR_POSITIVE_TEXT]Иностранная служба[ENDCOLOR][NEWLINE][ICON_BULLET]Получите 1 [ICON_SPY] шпиона (дополнительно +1 шпион за каждые 10 [ICON_CITY_STATE] городов-государств, если когда-либо существовало не менее 20 городов-государств).[NEWLINE][ICON_BULLET]Длительность выполнения миссий вашими шпионами уменьшена на 1 ход.[NEWLINE][ICON_BULLET][ICON_DIPLOMAT] Великие Дипломаты появляются на 50% быстрее.[NEWLINE][ICON_BULLET]+50% к наградам за выполнение заданий [ICON_CITY_STATE] городов-государств.[NEWLINE][ICON_BULLET]+1 к каждому Стратегическому ресурсу за каждые три Союзных города-государства.'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_HELP';
 
 UPDATE Language_ru_RU

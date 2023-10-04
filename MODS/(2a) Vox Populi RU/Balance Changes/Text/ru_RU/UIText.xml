@@ -228,6 +228,32 @@
 		<Row Tag="TXT_KEY_TP_HAPPINESS_FROM_ANNEXED_MINORS">
 			<Text>+{1_Num} от захваченных городов-государств.</Text>
 		</Row>
+
+		<!-- Espionage Events -->
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_ESPIONAGE_INCOMING">
+			<Text>{1_Num} от [ICON_SPY] шпионской деятельности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_ESPIONAGE_OUTGOING">
+			<Text>{1_Num} от [ICON_SPY] шпионской деятельности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ESPIONAGE_POSITIVE">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от шпионской деятельности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ESPIONAGE_NEGATIVE">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от шпионской деятельности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_FAITH_FROM_ESPIONAGE_POSITIVE">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от шпионской деятельности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_FAITH_FROM_ESPIONAGE_NEGATIVE">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от шпионской деятельности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ESPIONAGE_POSITIVE">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] от шпионской деятельности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ESPIONAGE_NEGATIVE">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH] от шпионской деятельности.</Text>
+		</Row>
 		
 		<Row Tag="TXT_KEY_NOTIFICATION_ANNEXED_CITY_STATE_UNIT_SPAWN">
 			<Text>Захваченный город-государство {1_CivName:textkey} дал вам нового Юнита!</Text>
@@ -392,6 +418,35 @@
 		</Row>
 		<Row Tag="TXT_KEY_EO_SPY_RIGGING_NO_COUP_POSSIBLE">
 			<Text>[COLOR_NEGATIVE_TEXT]Фальсификация выборов не увеличит шанс успешного переворота, т.к. переворот в этом городе-государстве невозможен.[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS">
+			<Text>Активные эффекты шпионской деятельности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_START_TURN">
+			<Text>Ход начала</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_END_TURN">
+			<Text>Ход окончания</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_TARGET">
+			<Text>Цель</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_SPY_OWNER">
+			<Text>Владелец шпиона</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_EFFECT">
+			<Text>Эффект</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NO_SPY_MISSIONS_ACTIVE">
+			<Text>Нет активных эффектов шпионской деятельности</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_MISSION_TURN_MODIFIER_FRIENDLY">
+			<Text>Наши здания и социальные политики: -{1_Num} {1_Num: plural 1?ход; other?ходов;}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_MISSION_TURN_MODIFIER_ENEMY">
+			<Text>Вражеские здания и социальные политики: +{1_Num} {1_Num: plural 1?ход; other?ходов;}</Text>
 		</Row>
 
 		<!-- Feitoria Production Tooltip-->
