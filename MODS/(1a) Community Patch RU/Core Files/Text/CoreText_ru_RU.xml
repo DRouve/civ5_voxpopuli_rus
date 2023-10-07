@@ -2775,6 +2775,9 @@
 		<Row Tag="TXT_KEY_PEDIA_IMPROVEMENT_RESOURCE_CBP_LABEL">
 			<Text>Доход улучшения:</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PEDIA_YIELDPERERA_LABEL">
+			<Text>Доход за Эру:</Text>
+		</Row>
 
 		<!-- Score Text -->
 		<Row Tag="TXT_KEY_REPLAY_DATA_TOURISMPERTURN">
@@ -3497,7 +3500,7 @@
 		<Row Tag="TXT_KEY_WARMONGER_HATE_MINIMAL">
 			<Text> (Они игнорируют большинство разжигателей войны.)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_WARMONGER_HATE_AZTECS">
+		<Row Tag="TXT_KEY_WARMONGER_HATE_BLOODTHIRSTY">
 			<Text> (Они кровожадные поджигатели войны!)</Text>
 		</Row>
 		
@@ -3787,6 +3790,11 @@
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_BULLIED_BY_SOMEONE">
 			<Text>Наши дипломаты сообщают, что {2_Civ} недавно угрожали {1_CS}!</Text>
+		</Row>
+
+		<!-- Bully popup texts -->
+		<Row Tag="TXT_KEY_MISC_BULLIED_POPUP">
+			<Text>ЗАПУГАН:</Text>
 		</Row>
 		
 		<!-- ADDITIONS TO EXISTING DIPLOMACY TEXTS -->
@@ -6591,7 +6599,13 @@
 
 		<!-- Tooltips for Growth Modifiers -->
 		<Row Tag="TXT_KEY_FOODMOD_EATEN_FOOD">
-			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_FOOD] потреблено [ICON_CITIZEN] гражданами</Text>
+			<Text>[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_FOOD] потреблено [ICON_CITIZEN] гражданами</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOODMOD_EXCESS_FOOD_POSITIVE">
+			<Text>[NEWLINE][ICON_BULLET]Излишки: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_FOOD] (до модификаторов)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOODMOD_EXCESS_FOOD_NEGATIVE">
+			<Text>[NEWLINE][ICON_BULLET]Нехватка: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_FOOD] (до модификаторов)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FOODMOD_PUPPET">
 			<Text>[NEWLINE][ICON_BULLET][ICON_PUPPET] Модификатор сателлита: {1_Num}%</Text>
@@ -6617,16 +6631,16 @@
 
 		<!-- Tooltips for Standard Base Modifiers -->
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_BUILDINGS">
-			<Text>[NEWLINE][ICON_BULLET]Модификатор Золотого века (здания): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Модификатор [ICON_GOLDEN_AGE] Золотого века (здания): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_POLICIES">
-			<Text>[NEWLINE][ICON_BULLET]Модификатор Золотого века (соц. политика): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Модификатор [ICON_GOLDEN_AGE] Золотого века (соц. политика): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_RELIGION">
-			<Text>[NEWLINE][ICON_BULLET]Модификатор Золотого века (верования): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Модификатор [ICON_GOLDEN_AGE] Золотого века (верования): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_TRAITS">
-			<Text>[NEWLINE][ICON_BULLET]Модификатор Золотого века (особенности цивилизации): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Модификатор [ICON_GOLDEN_AGE] Золотого века (особенности цивилизации): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_WLTKD">
 			<Text>[NEWLINE][ICON_BULLET]Модификатор "Дня любви к Отчизне": {1_Num}%</Text>
@@ -7367,7 +7381,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_WONDER_COST_INCREASE_METRIC">
-			<Text>Дополнительная стоимость [ICON_PRODUCTION] производства из-за уже имеющихся Чудес света: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].[NEWLINE][ICON_PRODUCTION] Показатель увеличения производственных затрат:[NEWLINE][ICON_BULLET] Чудеса той же эпохи: [COLOR_POSITIVE_TEXT]25 %.[ENDCOLOR][NEWLINE][ICON_BULLET] Чудеса предыдущей эпохи: [COLOR_POSITIVE_TEXT]15%[ENDCOLOR].[NEWLINE][ICON_BULLET] Чудеса двух предыдущих эпох: [COLOR_POSITIVE_TEXT]10%.[ENDCOLOR][NEWLINE] [ICON_BULLET] Примечание. Чудеса на три или более эры раньше не учитываются при расчете стоимости.</Text>
+			<Text>Дополнительная стоимость [ICON_PRODUCTION] производства из-за уже имеющихся Чудес света: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].[NEWLINE][ICON_PRODUCTION] Показатель увеличения производственных затрат:[NEWLINE][ICON_BULLET] Чудеса той же эпохи: [COLOR_POSITIVE_TEXT]25 %.[ENDCOLOR][NEWLINE][ICON_BULLET] Чудеса предыдущей эпохи: [COLOR_POSITIVE_TEXT]15%[ENDCOLOR].[NEWLINE][ICON_BULLET] Чудеса двух предыдущих эпох: [COLOR_POSITIVE_TEXT]10%.[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS">

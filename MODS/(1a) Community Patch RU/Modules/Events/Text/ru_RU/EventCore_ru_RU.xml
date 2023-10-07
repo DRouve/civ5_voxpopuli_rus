@@ -4,7 +4,7 @@
 	<Language_ru_RU>
 		<!-- Event System-->
 		<Row Tag="TXT_KEY_TP_HAPPINESS_EVENT">
-			<Text>{1_Happiness} счастья от событий.</Text>
+			<Text>{1_Happiness} от событий.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED">
 			<Text>Последствия События закончились:[NEWLINE]{1_Event}</Text>

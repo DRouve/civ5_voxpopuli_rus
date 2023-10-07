@@ -64,7 +64,7 @@ WHERE Tag = 'TXT_KEY_CITYVIEW_FOCUS_AVOID_GROWTH_TT';
 
 -- All Growth Modifier Tooltips with Icons
 UPDATE Language_ru_RU
-SET Text = '[NEWLINE][ICON_BULLET][ICON_CONNECTED] Модификатор Империи: {1_Num}%'
+SET Text = '[NEWLINE][ICON_BULLET][ICON_CONNECTED] Модификатор Империи от социальных политик и другого: {1_Num}%'
 WHERE Tag = 'TXT_KEY_FOODMOD_PLAYER';
 
 UPDATE Language_ru_RU
@@ -896,7 +896,7 @@ SET Text = 'Вы осудили лидера, с которым они подп�
 WHERE Tag = 'TXT_KEY_DIPLO_HUMAN_DENOUNCED_FRIEND';
 
 UPDATE Language_ru_RU
-SET Text = 'Мы осудили одних и тех же лидеров!'
+SET Text = 'Вы осудили одного из их врагов!'
 WHERE Tag = 'TXT_KEY_DIPLO_MUTUAL_ENEMY';
 
 UPDATE Language_ru_RU

@@ -90,5 +90,14 @@
 				[ICON_BULLET][COLOR_CYAN]Режим массированного удара[ENDCOLOR]: [COLOR_YELLOW]SHIFT+RCLICK[ENDCOLOR] на противнике будет наносить авиаудар по боевой единице в целевом гексе до тех пор, пока все самолеты не атакуют или цель не будет уничтожена. В порядке атаки предпочтение отдается самолетам с более высокой боеспособностью, а ничья нарушается уровнем юнита. Самолет, который может атаковать дважды, сделает это до того, как следующий самолет начнет атаку. [NEWLINE]
 			</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PREFERSTARTBIAS_LABEL">
+			<Text>Регион основания (предпочитаемый):</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PRIORITYSTARTBIAS_LABEL">
+			<Text>Регион основания (приоритетный):</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_AVOIDSTARTBIAS_LABEL">
+			<Text>Регион основания (нежелательный):</Text>
+		</Row>
 	</Language_ru_RU>
 </GameData>

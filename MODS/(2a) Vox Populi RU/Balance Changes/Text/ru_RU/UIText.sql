@@ -950,6 +950,133 @@ UPDATE Language_ru_RU
 SET Text = 'Уже был напуган в этот ход'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_VERY_RECENTLY';
 
+-- Quest Changes
+UPDATE Language_ru_RU
+SET Text = 'Они хотят, чтобы вы открыли сухопутный или морской торговый путь в их город.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE_FORMAL';
+UPDATE Language_ru_RU
+SET Text = 'Мы хотим, чтобы вы открыли торговый путь.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE';
+-- City-State
+UPDATE Language_ru_RU
+SET Text = Text 
+	|| '[NEWLINE][NEWLINE]Модификаторы наград за задания:'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+' || (SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_FRIENDLY') || '%[ENDCOLOR] наград от всех заданий [ICON_CITY_STATE] городов-государств.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_FRIENDLY_TT';
+UPDATE Language_ru_RU
+SET Text = Text 
+	|| '[NEWLINE][NEWLINE]Модификаторы наград за задания:'
+	|| '[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]' || (SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_HOSTILE') || '%[ENDCOLOR] наград от всех заданий [ICON_CITY_STATE] городов-государств.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_HOSTILE_TT';
+UPDATE Language_ru_RU
+SET Text = Text 
+	|| '[NEWLINE][NEWLINE]Модификаторы наград за задания:'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_CULTURE_IRRATIONAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_CULTURE] культура.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_TOURISM_IRRATIONAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_TOURISM] туризм.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GAP_IRRATIONAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GOLDEN_AGE] очки Золотого Века.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GPP_IRRATIONAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GREAT_PEOPLE] очки Великих Людей в [ICON_CAPITAL] столице.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_IRRATIONAL_TT';
+UPDATE Language_ru_RU
+SET Text = Text 
+	|| '[NEWLINE][NEWLINE]Модификаторы наград за задания:'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_FOOD_NEUTRAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_FOOD] еда.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_CULTURE_NEUTRAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_CULTURE] культура.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_FAITH_NEUTRAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_PEACE] вера.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GPP_NEUTRAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GREAT_PEOPLE] очки Великих Людей в [ICON_CAPITAL] столице.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GPP_GLOBAL_NEUTRAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GREAT_PEOPLE] очки Великих Людей во всех городах.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_NEUTRAL_TT';
+UPDATE Language_ru_RU
+SET Text = Text 
+	|| '[NEWLINE][NEWLINE]Модификаторы наград за задания:'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_CULTURE_CULTURED')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_CULTURE] культура.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_TOURISM_CULTURED')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_TOURISM] туризм.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GAP_CULTURED')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GOLDEN_AGE] очки Золотого Века.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GENERAL_POINTS_CULTURED')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GREAT_GENERAL] очки Великих Полководцев.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_ADMIRAL_POINTS_CULTURED')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GREAT_ADMIRAL] очки Великих Флотоводцев.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GPP_CULTURED')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GREAT_PEOPLE] очки Великих Людей в [ICON_CAPITAL] столице.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GPP_GLOBAL_CULTURED')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GREAT_PEOPLE] очки Великих Людей во всех городах.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_CULTURED_TT';
+UPDATE Language_ru_RU
+SET Text = Text 
+	|| '[NEWLINE][NEWLINE]Модификаторы наград за задания:'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_FOOD_MARITIME')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_FOOD] еда.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GOLD_MARITIME')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GOLD] золото.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_ADMIRAL_POINTS_MARITIME')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GREAT_ADMIRAL] очки Великих Флотоводцев.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_MARITIME_TT';
+UPDATE Language_ru_RU
+SET Text = Text 
+	|| '[NEWLINE][NEWLINE]Модификаторы наград за задания:'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_FOOD_MERCANTILE')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_FOOD] еда.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GOLD_MERCANTILE')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GOLD] золото.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_MERCANTILE_TT';
+UPDATE Language_ru_RU
+SET Text = Text 
+	|| '[NEWLINE][NEWLINE]Модификаторы наград за задания:'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_PRODUCTION_MILITARISTIC')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_PRODUCTION] производство.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_TOURISM_MILITARISTIC')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_TOURISM] туризм.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GENERAL_POINTS_MILITARISTIC')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GREAT_GENERAL] очки Великих Полководцев.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_EXPERIENCE_MILITARISTIC')/100.0 AS NUMERIC) || 'x[ENDCOLOR] опыт.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_MILITARISTIC_NO_UU_TT';
+UPDATE Language_ru_RU
+SET Text = Text 
+	|| '[NEWLINE][NEWLINE]Модификаторы наград за задания:'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_PRODUCTION_MILITARISTIC')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_PRODUCTION] производство.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_TOURISM_MILITARISTIC')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_TOURISM] туризщ.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GENERAL_POINTS_MILITARISTIC')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GREAT_GENERAL] очки Великих Полководцев.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_EXPERIENCE_MILITARISTIC')/100.0 AS NUMERIC) || 'x[ENDCOLOR] опыт.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_MILITARISTIC_TT';
+UPDATE Language_ru_RU
+SET Text = Text 
+	|| '[NEWLINE][NEWLINE]Модификаторы наград за задания:'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_SCIENCE_RELIGIOUS')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_RESEARCH] наука.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_FAITH_RELIGIOUS')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_PEACE] вера.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GAP_RELIGIOUS')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GOLDEN_AGE] очки Золотого Века.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GPP_GLOBAL_RELIGIOUS')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GREAT_PEOPLE] очки Великих Людей во всех городах.'
+	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_EXPERIENCE_RELIGIOUS')/100.0 AS NUMERIC) || 'x[ENDCOLOR] опыт.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_RELIGIOUS_TT';
+INSERT INTO Language_ru_RU (Tag, Text)
+VALUES	('TXT_KEY_CITY_STATE_CULTURED_TT_ANNEXED', 'Завоеванный [COLOR_POSITIVE_TEXT]Культурный[ENDCOLOR] город-государство подарит вам дары [ICON_CULTURE] культуры, что позволит вам быстрее получать социальные политики.'),
+	('TXT_KEY_CITY_STATE_MILITARISTIC_NO_UU_TT_ANNEXED', 'Завоеванный [COLOR_POSITIVE_TEXT]Милитаристский[ENDCOLOR] город-государство время от времени будет дарить вам передовых военных юнитов.'),
+	('TXT_KEY_CITY_STATE_MILITARISTIC_TT_ANNEXED', 'Завоеванный [COLOR_POSITIVE_TEXT]Милитаристский[ENDCOLOR] город-государство время от времени будет дарить вам передовых военных юнитов.[NEWLINE][NEWLINE]Им известны секреты подготовки такого юнита, как [COLOR_POSITIVE_TEXT]{@1_UniqueUnitName}[ENDCOLOR]. Если вами изучена [COLOR_CYAN]{@2_PrereqTech}[ENDCOLOR], они предоставят этого юнита в качестве дара.'),
+	('TXT_KEY_CITY_STATE_MARITIME_TT_ANNEXED', 'Завоеванный [COLOR_POSITIVE_TEXT]Морской[ENDCOLOR] город-государство значительно увеличит запасы [ICON_FOOD] пищи в вашей [ICON_CAPITAL] столице и во всех ваших городах.'),
+	('TXT_KEY_CITY_STATE_MERCANTILE_TT_ANNEXED', 'Завоеванный [COLOR_POSITIVE_TEXT]Торговый[ENDCOLOR] город-государство обеспечит дополнительное [ICON_HAPPINESS_1] счастье в вашей империи, а также производит особые ресурсы Роскоши, которые нельзя получить другим способом.'),
+	('TXT_KEY_CITY_STATE_RELIGIOUS_TT_ANNEXED', 'Завоеванный [COLOR_POSITIVE_TEXT]Религиозный[ENDCOLOR] город-государство повысит вашу [ICON_PEACE] веру, позволяя вам расширить возможности своей религии новыми верованиями и юнитами.');
+	
+-- Culture Overview
+INSERT INTO Language_ru_RU (Tag, Text)
+VALUES  ('TXT_KEY_CO_TAB_HISTORIC_EVENTS', ' Исторические события'),
+	('TXT_KEY_CO_HISTORIC_EVENTS_HEADER', ' Исторические события'),
+	('TXT_KEY_CO_CULTURE_OUTPUT', 'Текущий доход [ICON_CULTURE] культуры: '),
+	('TXT_KEY_CO_HISTORIC_EVENTS_COUNTER', 'Общее количество достигнутых исторических событий: '),
+	('TXT_KEY_CO_CULTURE_OUTPUT_TT', 'Доля [ICON_CULTURE] культуры, созданная за ход, и мгновенный доход [ICON_CULTURE] культуры, полученной за предыдущие 10 ходов, влияют на количество [ICON_TOURISM] туризма, полученного в результате [COLOR_POSITIVE_TEXT]Исторических событий[ENDCOLOR].'),
+	('TXT_KEY_CO_TOURISM_OUTPUT_TT', '[ICON_TOURISM] Туризм, генерируемый за ход, и мгновенный доход в виде [ICON_TOURISM] туризма, полученный за предыдущие 10 ходов, влияет на количество туризма, полученного в результате [COLOR_POSITIVE_TEXT]Исторических событий[ENDCOLOR].'),
+	('TXT_KEY_CO_HISTORIC_EVENTS_COUNTER_TT', 'Это количество [COLOR_POSITIVE_TEXT]Исторических событий[ENDCOLOR] всех типов, которых ваша Цивилизация достигла!'),
+	('TXT_KEY_CO_HISTORIC_EVENTS_HEADER_TT', 'Это список [COLOR_POSITIVE_TEXT]Исторических событий[ENDCOLOR], доступных вам для достижения. Вы можете разблокировать и другие при помощи постройки зданий или принятием Социальных Политик.'),
+	('TXT_KEY_CO_HISTORIC_EVENTS_TOURISM_HEADER_TT', 'Это количество [ICON_TOURISM] туризма, которое вы получите от этого [COLOR_POSITIVE_TEXT]Исторического события[ENDCOLOR] ко всем известным цивилизациям, если не указано иное!'),
+	('TXT_KEY_CO_HISTORIC_EVENT_ERA_CHANGE', '[ICON_RESEARCH] Смена Эры'),
+	('TXT_KEY_CO_HISTORIC_EVENT_WORLD_WONDER', '[ICON_WONDER] Постройка Чуда Света'),
+	('TXT_KEY_CO_HISTORIC_EVENT_GREAT_PERSON', '[ICON_GREAT_PEOPLE] Появление Великого Человека'),
+	('TXT_KEY_CO_HISTORIC_EVENT_WON_WAR', '[ICON_WAR] Благоприятный мирный договор'),
+	('TXT_KEY_CO_HISTORIC_EVENT_GOLDEN_AGE', '[ICON_GOLDEN_AGE] Вступление в Золотой Век'),
+	('TXT_KEY_CO_HISTORIC_EVENT_DIG', '[ICON_RES_ARTIFACTS] Археологические раскопки'),
+	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_LAND', '[ICON_CARAVAN] Торговля с крупным городом'), --Also Unused kinda it uses City Name
+	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_SEA', '[ICON_CARGO_SHIP] Торговля с крупным городом'), --Also Unused kinda it uses City Name
+	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_CS', '[ICON_CARAVAN]/[ICON_CARGO_SHIP] Торговля с [ICON_CITY_STATE] городом-государством'),
+	('TXT_KEY_CO_HISTORIC_EVENT_CITY_FOUND_CAPITAL', 'Основание столицы ([ICON_CAPITAL])'), --Unused
+	('TXT_KEY_CO_HISTORIC_EVENT_ERA_CHANGE_TT', 'Каждая смена [ICON_RESEARCH] Эры станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!'),
+	('TXT_KEY_CO_HISTORIC_EVENT_WORLD_WONDER_TT', 'Каждое построенное [ICON_WONDER] Чудо Света станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!'),
+	('TXT_KEY_CO_HISTORIC_EVENT_GREAT_PERSON_TT', 'Каждое появление [ICON_GREAT_PEOPLE] Великого Человека в вашей Цивилизации станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!'),
+	('TXT_KEY_CO_HISTORIC_EVENT_WON_WAR_TT', 'Каждый [ICON_PEACE] благоприятный мирный договор ([COLOR_POSITIVE_TEXT]Военный счет 25+[ENDCOLOR]), который вы заключите, станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!'),
+	('TXT_KEY_CO_HISTORIC_EVENT_GOLDEN_AGE_TT', 'Каждое ваше вступление в [ICON_GOLDEN_AGE] Золотой Век станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!'),
+	('TXT_KEY_CO_HISTORIC_EVENT_DIG_TT', 'Каждые проведённые [ICON_RES_ARTIFACTS] археологическим раскопки станут [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!'),
+	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_LAND_TT', 'Каждый завершенный [ICON_CARAVAN] наземный Торговый путь из [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] в иностранный крупный город станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]! Данное количество будет отправлено ​​целевой крупной цивилизации, треть будет отправлена ​​всем остальным цивилизациям.'),
+	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_SEA_TT', 'Каждый завершенный [ICON_CARGO_SHIP] морской Торговый путь из [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] в иностранный крупный город станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]! Данное количество будет отправлено ​​целевой крупной цивилизации, треть будет отправлена ​​всем остальным цивилизациям.'),
+	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_CS_TT', 'Каждый завершенный [ICON_INTERNATIONAL_TRADE] Торговый путь (наземный или морской) с [ICON_CITY_STATE] городом-государством станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]! В отличие от торговли с иностранным крупным городом, это количество будет отправлено ​​всем остальным цивилизациям в одинаковом количестве.'),
+	('TXT_KEY_CO_HISTORIC_EVENT_CITY_FOUND', 'Основание города'), --Unused
+	('TXT_KEY_CO_HISTORIC_EVENT_CITY_CONQUEST', 'Завоевание города'), --Unused
+	('TXT_KEY_CO_HISTORIC_EVENT_PLAYER_TURNS_PASSED', 'Течение времени'), --Unused
+	('TXT_KEY_CO_HISTORIC_EVENT_AI_TURNS_PASSED', 'Течение времени'); --Unused
+
 -- Victory Panel
 INSERT INTO Language_ru_RU (Tag, Text)
 VALUES  ('TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_VASSALIZE_YOU', ' {1_PlayerName} контролирует вас как Вассала.'),

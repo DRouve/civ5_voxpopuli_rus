@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="32eadbe7-cdbb-4f7e-ae47-2cbd386e7835" version="4">
+<Mod id="32eadbe7-cdbb-4f7e-ae47-2cbd386e7835" version="5">
   <Properties>
     <Name>(2a) Vox Populi - перевод</Name>
-    <Teaser>(3.6.2) Перевод на русский</Teaser>
+    <Teaser>(3.7.12) Перевод на русский</Teaser>
     <Description>...</Description>
     <Authors>danrouve@gmail.com</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -63,6 +63,7 @@
         <File md5="9DE251AF9D7B981E5C58FA7CA8053680" import="0">CSD/World Congress/Congress.xml</File>
         <File md5="AFA76FBC8CF1D898D1519584CF0F18CF" import="0">CSD/World Congress/IdeologyChanges.sql</File>
         <File md5="F4BB850D8D3F95E68FD332F49933B787" import="0">CSD/World Congress/Projects.xml</File>
+        <File md5="BD217466EFD5DEEDA01919C0C958EEE3" import="0">Mapscripts/mapscripts_ru_ru.xml</File>
         <File md5="A4B7AAE9AEB100FEBEDC9C952300F3C6" import="1">Modular Elements/ArchaeologistUIMods/MiniMapPanel.xml</File>
         <File md5="9EF6E23A64544A3E38566E8BD5CCCCF9" import="0">Modular Elements/ArchaeologistUIMods/UIAntiquities.xml</File>
         <File md5="0B9F0CBFA2325D055888381B705FB887" import="0">Modular Elements/Corporations/Text/ru_RU/CorporationOverviewText.xml</File>

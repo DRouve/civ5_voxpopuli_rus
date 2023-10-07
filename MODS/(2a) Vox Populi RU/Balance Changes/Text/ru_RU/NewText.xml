@@ -47,7 +47,7 @@
 			<Text>Цернуннос, рогатый олень</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_LUGH">
-			<Text>+2 [ICON_CULTURE] Культура, [ICON_RESEARCH] Наука, [ICON_FOOD] Еда и [ICON_GOLD] Золото в городах со специалистом. +10% [ICON_PRODUCTION] Производство Чудес. +3 [ICON_PRODUCTION] Производство Зала Сейлид.</Text>
+			<Text>+2 [ICON_CULTURE] Культура, [ICON_RESEARCH] Наука, [ICON_FOOD] Еда и [ICON_GOLD] Золото в городах со специалистом. +10% к скорости [ICON_PRODUCTION] постройки [ICON_WONDER] Чудес Света. +3 [ICON_PRODUCTION] Производство Зала Сейлид.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_LUGH_SHORT">
 			<Text>Луг, Искусный</Text>
