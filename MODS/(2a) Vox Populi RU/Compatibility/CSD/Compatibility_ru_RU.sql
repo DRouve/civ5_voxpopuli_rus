@@ -53,7 +53,7 @@ SET Text = 'Специалисты дают следующие преимуще�
 WHERE Tag = 'TXT_KEY_CITIES_BENEFITSSPECIALISTS_HEADING3_BODY';
 
 UPDATE Language_ru_RU
-SET Text = '+1 [ICON_RES_PAPER] бумага и 1 [COLOR_POSITIVE_TEXT]бесплатный[ENDCOLOR] эмиссар. +10% [ICON_PRODUCTION] Производство дипломатических юнитов в этом городе.[NEWLINE][NEWLINE]+1 [ICON_FOOD] еды в городе за каждый Дружественный [ICON_CITY_STATE] город-государство и +1 [ICON_PEACE] веры за каждоый Союзный.'
+SET Text = '+1 [ICON_RES_PAPER] бумага и 1 [COLOR_POSITIVE_TEXT]бесплатный[ENDCOLOR] эмиссар. +10% [ICON_PRODUCTION] Производство дипломатических юнитов в этом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Дружественный[ENDCOLOR] [ICON_CITY_STATE] Город-государство: +1 [ICON_FOOD] еда за каждый.[NEWLINE][COLOR_CYAN]Союзный[ENDCOLOR] [ICON_CITY_STATE] Город-государство: +1 [ICON_FOOD] еда и +1 [ICON_PEACE] вера за каждый '
 WHERE Tag = 'TXT_KEY_BUILDING_COURT_SCRIBE_HELP';
 
 UPDATE Language_ru_RU

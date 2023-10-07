@@ -380,7 +380,7 @@ SET Text = 'Мастерство'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_ART_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Специалисты получают +1 [ICON_GOLDEN_AGE] очко Золотого века и +1 к их основному доходу ([ICON_RESEARCH]/[ICON_GOLD]/[ICON_PRODUCTION]/[ICON_CULTURE]).'
+SET Text = 'Специалисты дают +1 [ICON_GOLDEN_AGE] очко Золотого века и +1 к их основному доходу ([ICON_RESEARCH] учёный, [ICON_GOLD] торговец/госслужащий, [ICON_PRODUCTION] инженер, [ICON_CULTURE] писатель/художник/музыкант).'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_ART';
 
 

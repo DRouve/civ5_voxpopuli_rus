@@ -43,7 +43,7 @@ WHERE Tag = 'TXT_KEY_POLICY_FORTIFIED_BORDERS_HELP';
 
 -- Futurism
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Футуризм[ENDCOLOR]: Бонус к [ICON_TOURISM] Туризму от Исторических событий увеличен на 20%. +2 к [ICON_CULTURE] культуре от Шедевров. +50 к [ICON_TOURISM] Туризму при захвате города впервые (в зависимости от Эры и размера города).'
+SET Text = '[COLOR_POSITIVE_TEXT]Футуризм[ENDCOLOR]: Увеличивает [ICON_TOURISM] Туризм, полученный от [COLOR_POSITIVE_TEXT]Исторических событий[ENDCOLOR], инициированных Дворцом. +2 к [ICON_CULTURE] культуре от Шедевров. +50 к [ICON_TOURISM] Туризму при захвате города впервые (в зависимости от Эры и размера города).'
 WHERE Tag = 'TXT_KEY_POLICY_FUTURISM_HELP';
 
 -- Industrial Espionage (now Lebensraum)
@@ -199,7 +199,7 @@ UPDATE Language_ru_RU
 SET Text = '[COLOR_POSITIVE_TEXT]Всеобщее избирательное право[ENDCOLOR]: Начинается [ICON_GOLDEN_AGE] Золотой Век, [ICON_GOLDEN_AGE] Золотой Век длится на 50% дольше. Города получают +1 [ICON_HAPPINESS_1] счастье.'
 WHERE Tag = 'TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE_HELP';
 
--- Urbanization (now Self-Determination)
+-- Urbanization (now Self Determination)
 UPDATE Language_ru_RU
 SET Text = 'Самоопределение'
 WHERE Tag = 'TXT_KEY_POLICY_URBANIZATION';
@@ -214,7 +214,7 @@ WHERE Tag = 'TXT_KEY_POLICY_URBANIZATION_TEXT';
 
 -- New Deal
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Новый курс[ENDCOLOR]: Достопримечательности (созданные Археологами) и улучшения, созданные Великими Людьми, получают +6 к соответствующей выработке и +2 к [ICON_TOURISM] Туризму.'
+SET Text = '[COLOR_POSITIVE_TEXT]Новый курс[ENDCOLOR]: Достопримечательности и улучшения, созданные Великими Людьми, получают +6 к соответствующей выработке ([ICON_PRODUCTION] Заводской комплекс/Цитадель, [ICON_GOLD] Торговый городок, [ICON_RESEARCH] Академия, [ICON_CULTURE] Посольство, [ICON_PEACE] Священное место, [ICON_TOURISM] Достопримечательность) и +2 к [ICON_TOURISM] Туризму.'
 WHERE Tag = 'TXT_KEY_POLICY_NEW_DEAL_HELP';
 
 -- Volunteer Army (now Draft Registration)
@@ -295,7 +295,7 @@ SET Text = 'Коммунизм'
 WHERE Tag = 'TXT_KEY_POLICY_SKYSCRAPERS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Коммунизм[ENDCOLOR]: Стоимость инвестиций [ICON_GOLD] золота при постройке зданий уменьшена на 25%. +20% к [ICON_PRODUCTION] постройке Чудес.'
+SET Text = '[COLOR_POSITIVE_TEXT]Коммунизм[ENDCOLOR]: Стоимость инвестиций [ICON_GOLD] золота при постройке зданий уменьшена на 25%. +20% к скорости [ICON_PRODUCTION] постройки [ICON_WONDER] Чудес.'
 WHERE Tag = 'TXT_KEY_POLICY_SKYSCRAPERS_HELP';
 
 UPDATE Language_ru_RU
@@ -317,7 +317,7 @@ WHERE Tag = 'TXT_KEY_POLICY_SOCIALIST_REALISM_TEXT';
 
 -- Worker's Faculties
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Рабочие факультеты[ENDCOLOR]: Фабрики увеличивают [ICON_RESEARCH] науку города на 10%. +5 [COLOR_POSITIVE_TEXT]бесплатных[ENDCOLOR] Фабрик, все новые Фабрики строятся в 2 раза быстрее.'
+SET Text = '[COLOR_POSITIVE_TEXT]Рабочие факультеты[ENDCOLOR]: Фабрики увеличивают [ICON_RESEARCH] науку города на 10%. +100% к скорости [ICON_PRODUCTION] постройки Фабрики; +5 [COLOR_POSITIVE_TEXT]бесплатных[ENDCOLOR] Фабрик в Империи.'
 WHERE Tag = 'TXT_KEY_POLICY_WORKERS_FACULTIES_HELP';
 
 -- Young Pioneers (now Great Leap Forward)
@@ -373,7 +373,7 @@ SET Text = 'Гуманизм'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_CENTERS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Гуманизм[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_GOLDEN_AGE] очка Золотого Века от [ICON_GREAT_WORK] Шедевров литературы.[NEWLINE][ICON_BULLET]Количество [ICON_GOLDEN_AGE] очков Золотого Века, необходимое для начала [ICON_GOLDEN_AGE] Золотого Века уменьшено на 25%.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от всех Гильдий.'
+SET Text = '[COLOR_POSITIVE_TEXT]Гуманизм[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_GOLDEN_AGE] очка Золотого Века от [ICON_VP_GREATWRITING] Шедевров литературы.[NEWLINE][ICON_BULLET]Количество [ICON_GOLDEN_AGE] очков Золотого Века, необходимое для начала [ICON_GOLDEN_AGE] Золотого Века уменьшено на 25%.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от всех Гильдий.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_CENTERS_HELP';
 
 UPDATE Language_ru_RU
@@ -386,7 +386,7 @@ SET Text = 'Изысканность'
 WHERE Tag = 'TXT_KEY_POLICY_FINE_ARTS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Изысканность[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] культуры от [ICON_GREAT_WORK] Шедевров искусства.[NEWLINE][ICON_BULLET]В каждом городе 1 специалист не производит [ICON_HAPPINESS_3] несчастья из-за Урбанизации.[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] культуры от специалистов.'
+SET Text = '[COLOR_POSITIVE_TEXT]Изысканность[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] культуры от [ICON_VP_GREATART] Шедевров искусства.[NEWLINE][ICON_BULLET]В каждом городе 1 специалист не производит [ICON_HAPPINESS_3] несчастья из-за Урбанизации.[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] культуры от специалистов.'
 WHERE Tag = 'TXT_KEY_POLICY_FINE_ARTS_HELP';
 
 UPDATE Language_ru_RU
@@ -399,7 +399,7 @@ SET Text = 'Наследие'
 WHERE Tag = 'TXT_KEY_POLICY_FLOURISHING_OF_ARTS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Наследие[ENDCOLOR][NEWLINE][ICON_BULLET]+4 [ICON_GOLD] золота от [ICON_GREAT_WORK] Шедевров музыки.[NEWLINE][ICON_BULLET]+4 к [ICON_TOURISM] Туризму и [ICON_GOLDEN_AGE] очкам Золотого Века от Университетов.[NEWLINE][ICON_BULLET]25% [ICON_CULTURE] культуры от Чудес Света и клеток прибавляется к значению [ICON_TOURISM] Туризма города.'
+SET Text = '[COLOR_POSITIVE_TEXT]Наследие[ENDCOLOR][NEWLINE][ICON_BULLET]+4 [ICON_GOLD] золота от [ICON_VP_GREATMUSIC] Шедевров музыки.[NEWLINE][ICON_BULLET]+4 к [ICON_TOURISM] Туризму и [ICON_GOLDEN_AGE] очкам Золотого Века от Университетов.[NEWLINE][ICON_BULLET]25% [ICON_CULTURE] культуры от [ICON_WONDER] Чудес Света и клеток прибавляется к значению [ICON_TOURISM] Туризма города.'
 WHERE Tag = 'TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP';
 
 UPDATE Language_ru_RU
@@ -412,7 +412,7 @@ SET Text = 'Национальное достояние'
 WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Национальное достояние[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] науки от [ICON_GREAT_WORK] Артефактов.[NEWLINE][ICON_BULLET]Возле столицы появляется [ICON_GREAT_PEOPLE] Великий Человек на ваш выбор.[NEWLINE][ICON_BULLET]+250 [ICON_GOLD] золота после постройки Чуда Света (в зависимости от Эры).'
+SET Text = '[COLOR_POSITIVE_TEXT]Национальное достояние[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] науки от [ICON_VP_ARTIFACT] Артефактов.[NEWLINE][ICON_BULLET]Возле столицы появляется [ICON_GREAT_PEOPLE] Великий Человек на ваш выбор.[NEWLINE][ICON_BULLET]+250 [ICON_GOLD] золота после постройки [ICON_WONDER] Чуда Света (в зависимости от Эры).'
 WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP';
 
 UPDATE Language_ru_RU
@@ -779,7 +779,7 @@ WHERE Tag = 'TXT_KEY_PATRONAGE_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Управление[ENDCOLOR] увеличивает преимущества от [ICON_INTERNATIONAL_TRADE] Торговых Путей, [ICON_CITY_STATE] Городов-государств, [ICON_SPY] шпионов и [ICON_DIPLOMAT] Мирового Конгресса.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Управления даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] +1 ко всему в [ICON_CAPITAL] столице за каждые 20 [ICON_CITIZEN] граждан в Империи.[NEWLINE][ICON_BULLET] +1 [ICON_GOLD] золото в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Управления даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +10% [ICON_INFLUENCE] Влияния от Торговых Миссий, +1 [ICON_GOLD] золото в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Управления даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Вестминстерский дворец[ENDCOLOR]. [NEWLINE][ICON_BULLET] Каждая сессия Мирового Конгресса даёт 5 [ICON_CULTURE] культуры, [ICON_RESEARCH] науки и [ICON_GOLD] золота за каждого вашего [ICON_DIPLOMAT] делегата (в зависимости от текущей Эры).[NEWLINE][ICON_BULLET] Чудеса Света требуют на 1 политику меньше за каждые 3 союзных Города-государства.'
+SET Text = '[COLOR_POSITIVE_TEXT]Управление[ENDCOLOR] увеличивает преимущества от [ICON_INTERNATIONAL_TRADE] Торговых Путей, [ICON_CITY_STATE] Городов-государств, [ICON_SPY] шпионов и [ICON_DIPLOMAT] Мирового Конгресса.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Управления даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] +1 ко всему в [ICON_CAPITAL] столице за каждые 20 [ICON_CITIZEN] граждан в Империи.[NEWLINE][ICON_BULLET] +1 [ICON_GOLD] золото в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Управления даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +10% [ICON_INFLUENCE] Влияния от Торговых Миссий, +1 [ICON_GOLD] золото в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Управления даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Вестминстерский дворец[ENDCOLOR]. [NEWLINE][ICON_BULLET] Каждая сессия Мирового Конгресса даёт 5 [ICON_CULTURE] культуры, [ICON_RESEARCH] науки и [ICON_GOLD] золота за каждого вашего [ICON_DIPLOMAT] делегата (в зависимости от текущей Эры).[NEWLINE][ICON_BULLET] [ICON_WONDER] Чудеса Света требуют на 1 политику меньше за каждые 3 союзных Города-государства.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP';
 
 UPDATE Language_ru_RU
@@ -976,7 +976,7 @@ SET Text = 'Научная революция'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Научная революция[ENDCOLOR][NEWLINE][ICON_BULLET]Позволяет строительство [COLOR_POSITIVE_TEXT]Обсерваторий[ENDCOLOR] (+6 [ICON_RESEARCH] науки, +1 [ICON_RESEARCH] науки за Горы поблизости, 1 специалист-ученый).[NEWLINE][ICON_BULLET]+3% к [ICON_RESEARCH] науке в городе за каждый [ICON_GREAT_WORK] Шедевр (максимум 20%).[NEWLINE][ICON_BULLET]+2 к [ICON_RESEARCH] науке от клеток Джунглей и Снега.'
+SET Text = '[COLOR_POSITIVE_TEXT]Научная революция[ENDCOLOR][NEWLINE][ICON_BULLET]Позволяет строительство [COLOR_POSITIVE_TEXT]Обсерваторий[ENDCOLOR] (+6 [ICON_RESEARCH] науки, +1 [ICON_RESEARCH] науки за Горы поблизости, 2 ячейки [ICON_VP_SCIENTIST] ученого).[NEWLINE][ICON_BULLET]+3% к [ICON_RESEARCH] науке в городе за каждый [ICON_GREAT_WORK] Шедевр (максимум 20%).[NEWLINE][ICON_BULLET]+2 к [ICON_RESEARCH] науке от клеток Джунглей и Снега.'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM_HELP';
 
 UPDATE Language_ru_RU
@@ -1011,7 +1011,7 @@ WHERE Tag = 'TXT_KEY_TRADITION_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Традиция[ENDCOLOR] нацелена на создание Великих Людей и постройку внушительной столицы.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Традиции даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +2 [ICON_FOOD] еды, [ICON_CITIZEN] гражданина и [ICON_HAPPINESS_1] настроения в [ICON_CAPITAL] столице. [NEWLINE][ICON_BULLET] +1 [ICON_CULTURE] культура в [ICON_CAPITAL] столице за каждые 2 [ICON_CITIZEN] горожанина. [NEWLINE][ICON_BULLET] +5% [ICON_FOOD] еды во всех городах.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Традиции даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +3% [ICON_FOOD] еды во всех городах, +1 [ICON_RESEARCH] науки в [ICON_CAPITAL] столице.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Традиции даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Университет Санкоре[ENDCOLOR]. [NEWLINE][ICON_BULLET] +1 [ICON_FOOD] еда и [ICON_PRODUCTION] производство от всех построек Великих Людей и Достопримечательностей.[NEWLINE][ICON_BULLET] В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]Тронная комната[ENDCOLOR] (+10% ко всему, +1 дальность обработки клеток городом, 1 [ICON_GREAT_WORK] ячейка Шедевра музыки, 1 специалист-музыкант).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_ENGINEER] Великих Инженеров за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Традиция[ENDCOLOR] нацелена на создание Великих Людей и постройку внушительной столицы.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Традиции даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +2 [ICON_FOOD] еды, [ICON_CITIZEN] гражданина и [ICON_HAPPINESS_1] настроения в [ICON_CAPITAL] столице. [NEWLINE][ICON_BULLET] +1 [ICON_CULTURE] культура в [ICON_CAPITAL] столице за каждые 2 [ICON_CITIZEN] горожанина. [NEWLINE][ICON_BULLET] +5% [ICON_FOOD] еды во всех городах.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Традиции даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +3% [ICON_FOOD] еды во всех городах, +1 [ICON_RESEARCH] науки в [ICON_CAPITAL] столице.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Традиции даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Университет Санкоре[ENDCOLOR]. [NEWLINE][ICON_BULLET] +1 [ICON_FOOD] еда и [ICON_PRODUCTION] производство от всех построек Великих Людей и Достопримечательностей.[NEWLINE][ICON_BULLET] В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]Тронная комната[ENDCOLOR] (+10% ко всему, +1 дальность обработки клеток городом, 1 [ICON_VP_GREATMUSIC] ячейка Шедевра музыки, 1 ячейка [ICON_VP_MUSICIAN] музыканта).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_ENGINEER] Великих Инженеров за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_TRADITION_HELP';
 
 -- Aristocracy (now Justice)
@@ -1020,7 +1020,7 @@ SET Text = 'Юстиция'
 WHERE Tag = 'TXT_KEY_POLICY_ARISTOCRACY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Юстиция[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] производство во всех городах.[NEWLINE][ICON_BULLET]Города с гарнизонами получают +25% к [ICON_RANGE_STRENGTH] дальнему урону.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Королевская гауптвахта[ENDCOLOR] (+3 [ICON_PRODUCTION] производство, +2 [ICON_STRENGTH] Защита, +50 ОЗ, +20% к прибавке к [ICON_SILVER_FIST] лимиту армии за счёт [ICON_CITIZEN] населения, 1 специалист-инженер).'
+SET Text = '[COLOR_POSITIVE_TEXT]Юстиция[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] производство во всех городах.[NEWLINE][ICON_BULLET]Города с гарнизонами получают +25% к [ICON_RANGE_STRENGTH] дальнему урону.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Королевская гауптвахта[ENDCOLOR] (+3 [ICON_PRODUCTION] производство, +2 [ICON_STRENGTH] Защита, +50 ОЗ, +20% к прибавке к [ICON_SILVER_FIST] лимиту армии за счёт [ICON_CITIZEN] населения, 1 ячейка [ICON_VP_ENGINEER] инженера).'
 WHERE Tag = 'TXT_KEY_POLICY_ARISTOCRACY_HELP';
 
 UPDATE Language_ru_RU
@@ -1033,7 +1033,7 @@ SET Text = 'Суверенность'
 WHERE Tag = 'TXT_KEY_POLICY_OLIGARCHY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Суверенность[ENDCOLOR][NEWLINE][ICON_BULLET]Стоимость [ICON_CULTURE] культуры для расширения города уменьшена на 20% (экспоненциально) во всех городах.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Придворная часовная[ENDCOLOR] (+3 [ICON_PEACE] вера, 1 ячейка [ICON_GREAT_WORK] Шедевров искусства, 1 специалист-художник).'
+SET Text = '[COLOR_POSITIVE_TEXT]Суверенность[ENDCOLOR][NEWLINE][ICON_BULLET]Стоимость [ICON_CULTURE] культуры для расширения города уменьшена на 20% (экспоненциально) во всех городах.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Придворная часовная[ENDCOLOR] (+3 [ICON_PEACE] вера, 1 ячейка [ICON_GREAT_WORK] Шедевров искусства или Артефактов, 1 ячейка [ICON_VP_ARTIST] художника).'
 WHERE Tag = 'TXT_KEY_POLICY_OLIGARCHY_HELP';
 
 UPDATE Language_ru_RU
@@ -1046,7 +1046,7 @@ SET Text = 'Величие'
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Величие[ENDCOLOR][NEWLINE][ICON_BULLET]Специалисты в [ICON_CAPITAL] столице потребляют в 2 раза меньше [ICON_FOOD] еды. [NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Государственное казначейство[ENDCOLOR] (+4 [ICON_GOLD] золото, +25% [ICON_GREAT_PEOPLE] скорость появления Великих Людей в городе, 1 специалист-коммерсант).'
+SET Text = '[COLOR_POSITIVE_TEXT]Величие[ENDCOLOR][NEWLINE][ICON_BULLET]Специалисты в [ICON_CAPITAL] столице потребляют в 2 раза меньше [ICON_FOOD] еды. [NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Государственное казначейство[ENDCOLOR] (+4 [ICON_GOLD] золото, +25% [ICON_GREAT_PEOPLE] скорость появления Великих Людей в городе, 1 ячейка [ICON_VP_MERCHANT] коммерсанта).'
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY_HELP';
 
 UPDATE Language_ru_RU
@@ -1059,7 +1059,7 @@ SET Text = 'Великолепие'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Великолепие[ENDCOLOR][NEWLINE][ICON_BULLET]Использование Великого Человека дает 50 [ICON_CULTURE] культуры (в зависимости от Эры). [NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Дворцовый сад[ENDCOLOR] (+5 [ICON_FOOD] еды, 1 ячейка [ICON_GREAT_WORK] Шедевров литературы, Монументы, Сады и Бани дают +2 [ICON_CULTURE] культуры в каждом городе; 1 специалист-писатель).'
+SET Text = '[COLOR_POSITIVE_TEXT]Великолепие[ENDCOLOR][NEWLINE][ICON_BULLET]Использование Великого Человека дает 50 [ICON_CULTURE] культуры (в зависимости от Эры). [NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Дворцовый сад[ENDCOLOR] (+5 [ICON_FOOD] еды, 1 ячейка [ICON_VP_GREATWRITING] Шедевров литературы, Монументы, Сады и Бани дают +2 [ICON_CULTURE] культуры в каждом городе; 1 ячейка [ICON_VP_WRITER] писателя).'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE_HELP';
 
 UPDATE Language_ru_RU
@@ -1072,7 +1072,7 @@ SET Text = 'Обряд'
 WHERE Tag = 'TXT_KEY_POLICY_LEGALISM';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Обряд[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от Национальных чудес, которые требуют постройки других зданий.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Придворный астролог[ENDCOLOR] (+3 [ICON_RESEARCH] наука, Дом писаря, Охотничий домик и Дом травника дают +1 [ICON_RESEARCH] науки в каждом городе; 1 специалист-ученый).'
+SET Text = '[COLOR_POSITIVE_TEXT]Обряд[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от Национальных чудес, которые требуют постройки других зданий.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Придворный астролог[ENDCOLOR] (+3 [ICON_RESEARCH] наука, Дом писаря, Охотничий домик и Дом травника дают +1 [ICON_RESEARCH] науки в каждом городе; 1 ячейка [ICON_VP_SCIENTIST] ученого).'
 WHERE Tag = 'TXT_KEY_POLICY_LEGALISM_HELP';
 
 UPDATE Language_ru_RU

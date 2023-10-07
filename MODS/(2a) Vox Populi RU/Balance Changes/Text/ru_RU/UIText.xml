@@ -7,7 +7,7 @@
 			<Text>[COLOR_GREEN]Масштабирование дохода с Эрой[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_CITIES_YIELDS_SCALING_WITH_ERA_SUMMARY">
-			<Text>Многие доходности, особенно из политик, убеждений и зданий, утверждают, что они [COLOR_POSITIVE_TEXT] «зависят от Эры»[ENDCOLOR]. Это означает, что по ходу игры указанные значения доходности увеличиваются линейно в зависимости от текущей эпохи:[NEWLINE]1x в Древнюю и Классическую эпохи[NEWLINE]2x в Средневековье[NEWLINE]3x в эпоху Возрождения. [NEWLINE]4 раза в индустриальную эпоху.[NEWLINE]5 раз в современную эпоху.[NEWLINE]6 раз в атомную эпоху.[NEWLINE]7 раз в информационную эпоху.</Text>
+			<Text>Многие доходности, особенно из политик, убеждений и зданий, утверждают, что они [COLOR_POSITIVE_TEXT] «зависят от Эры»[ENDCOLOR]. Это означает, что по ходу игры указанные значения доходности увеличиваются линейно в зависимости от текущей эпохи:[NEWLINE]1x в Древнюю и Классическую эпохи[NEWLINE]2x в Средневековье[NEWLINE]3x в эпоху Возрождения. [NEWLINE]4 раза в индустриальную эпоху.[NEWLINE]5 раз в современную эпоху.[NEWLINE]6 раз в атомную эпоху.[NEWLINE]7 раз в информационную эпоху.[NEWLINE][NEWLINE]В особых случаях, например, при игре за Корею, они могут меняться только в нечетные Эры или начинают зависеть начиная только с определенной Эры и следовать формату, основанному на текущей Эре, например: [NEWLINE]1x в древней/классической эпохе.[NEWLINE]2x в эпоху Средневековья/Возрождения.[NEWLINE]3x в эпоху индустриального/современного времени.[NEWLINE]4x в эпоху атома/информации.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_CITIES_YIELDS_SCALING_WITH_ERA_DESCRIPTION">
 			<Text>{TXT_KEY_CONCEPT_CITIES_YIELDS_SCALING_WITH_ERA_TOPIC}</Text>
@@ -33,7 +33,7 @@
 			<Text>[COLOR_GREEN]Исторические события[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HISTORIC_EVENT_BODY">
-			<Text>Исторические события представляют собой монументальные достижения, которые могут произойти во время игры. Эти события требуют планирования или взаимодействия с пользователем и, таким образом, являются динамической частью приобретения культурного влияния на другие цивилизации. После завершения одного из следующих исторических событий вы получите [ICON_TOURISM] туризм со всеми известными цивилизациями в зависимости от ваших доходов [ICON_CULTURE] культуры и [ICON_TOURISM] туризма:[NEWLINE][NEWLINE][ICON_BULLET] Появление [ICON_GREAT_PEOPLE] Великого человека[NEWLINE][ICON_BULLET] Постройка [ICON_GOLDEN_AGE] Чуда Света[NEWLINE][ICON_BULLET] Победа в войне [ICON_WAR] (Военный счет 25+)[NEWLINE][ICON_BULLET] Переход в новую [ICON_RESEARCH] Эры [NEWLINE][ICON_BULLET] ] Начало [ICON_GOLDEN_AGE] Золотого века (Искусство)[NEWLINE][ICON_BULLET] Завершение [ICON_RES_ARTIFACTS] / [ICON_RES_HIDDEN_ARTIFACTS] археологических раскопок (Искусство)[NEWLINE][ICON_BULLET] [ICON_INTERNATIONAL_TRADE] Торговля с цивилизациями и городами-государствами (при наличии особых зданий или политики)[NEWLINE][NEWLINE]Количество туризма, полученного в результате этих событий, зависит от дохода вашей культуры и туризма за ход за последние несколько ходов. Значение этого параметра также корректируется в зависимости от количества городов в вашей империи и модификатора туризма целевой цивилизации. Наконец, количество получаемого вами туризма также зависит от некоторых социальных политик и идеологических принципов, а также от черт лидера, зданий и количества городов в вашей империи.</Text>
+			<Text>Исторические события представляют собой монументальные достижения, которые могут произойти во время игры. Эти события требуют планирования или взаимодействия с пользователем и, таким образом, являются динамической частью приобретения культурного влияния на другие цивилизации. После завершения одного из следующих исторических событий вы получите [ICON_TOURISM] туризм со всеми известными цивилизациями в зависимости от ваших доходов [ICON_CULTURE] культуры и [ICON_TOURISM] туризма:[NEWLINE][NEWLINE][ICON_BULLET] Появление [ICON_GREAT_PEOPLE] Великого человека[NEWLINE][ICON_BULLET] Постройка [ICON_WONDER] Чуда Света[NEWLINE][ICON_BULLET] Победа в войне [ICON_WAR] (Военный счет 25+)[NEWLINE][ICON_BULLET] Переход в новую [ICON_RESEARCH] Эры [NEWLINE][ICON_BULLET] ] Начало [ICON_GOLDEN_AGE] Золотого века (Искусство)[NEWLINE][ICON_BULLET] Завершение [ICON_RES_ARTIFACTS] / [ICON_RES_HIDDEN_ARTIFACTS] археологических раскопок (Искусство)[NEWLINE][ICON_BULLET] [ICON_CARAVAN] Торговля с цивилизациями (Караван-сарай)[NEWLINE][ICON_BULLET] [ICON_CARGO_SHIP] Торговля с цивилизациями (Гавань)[NEWLINE][ICON_BULLET] [ICON_CARAVAN]/[ICON_CARGO_SHIP] Торговля с городом-государством (только при принятии требуемой Социальной Политики)[NEWLINE][NEWLINE]Количество туризма, полученного в результате этих событий, зависит от дохода вашей культуры и туризма за ход за последние несколько ходов. Значение этого параметра также корректируется в зависимости от количества городов в вашей империи и модификатора туризма целевой цивилизации. Наконец, количество получаемого вами туризма также зависит от некоторых социальных политик и идеологических принципов, а также от черт лидера, зданий и количества городов в вашей империи.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HISTORIC_EVENT_QUEST">
 			<Text>Что такое Историческое событие?</Text>
@@ -347,7 +347,7 @@
 
 		<!-- Aesthetics -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_POLICY_AESTHETICS">
-			<Text>{1_Num} [ICON_TOURISM] Туризм от Чудес Света</Text>
+			<Text>{1_Num} [ICON_TOURISM] Туризм от [ICON_WONDER] Чудес Света</Text>
 		</Row>
 
 		<!--<Row Tag="TXT_KEY_CO_CITY_TOURISM_CAPITAL_PENALTY">
@@ -395,7 +395,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP">
-			<Text>Количество военных юнитов: {2_Num}[NEWLINE]Текущий лимит: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]Уменьшение максимального лимита от Усталости от войны: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Базовые значения лимита:[NEWLINE]  [ICON_BULLET]+{4_Num} от имеющихся [ICON_CITY_STATE] городов[NEWLINE]  [ICON_BULLET]+{3_Num} от общего количества [ICON_CITIZEN] населения[NEWLINE]  [ICON_BULLET]+{5_Num} от [ICON_CHECKBOX] уровня сложности[NEWLINE]  [ICON_BULLET]+{10_Num} от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] Великих Людей[NEWLINE][NEWLINE][NEWLINE]Уменьшение лимита:[NEWLINE]  [ICON_BULLET] -{8_Num} от [ICON_RESEARCH] уровня Технологий[NEWLINE]  [ICON_BULLET] -{7_Num} от [ICON_WAR] Усталости от войны[NEWLINE][NEWLINE]Стоимость [ICON_GOLD]/[ICON_PEACE] военных юнитов увеличена на {9_Num}% из-за [ICON_WAR] Усталости от войны.[NEWLINE]</Text>
+			<Text>Количество военных юнитов: {11_Num} ({2_Num} лимита использовано){2_Num}[NEWLINE]Суммарный лимит: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]Уменьшение максимального лимита от Усталости от войны: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Базовые значения лимита:[NEWLINE]  [ICON_BULLET]+{4_Num} от имеющихся [ICON_CITY_STATE] городов[NEWLINE]  [ICON_BULLET]+{3_Num} от общего количества [ICON_CITIZEN] населения[NEWLINE]  [ICON_BULLET]+{5_Num} от [ICON_CHECKBOX] уровня сложности[NEWLINE]  [ICON_BULLET]+{10_Num} от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] Великих Людей[NEWLINE][NEWLINE][NEWLINE]Уменьшение лимита:[NEWLINE]  [ICON_BULLET] -{8_Num} от [ICON_RESEARCH] уровня Технологий[NEWLINE]  [ICON_BULLET] -{7_Num} от [ICON_WAR] Усталости от войны[NEWLINE][NEWLINE]Стоимость [ICON_GOLD]/[ICON_PEACE] военных юнитов увеличена на {9_Num}% из-за [ICON_WAR] Усталости от войны.[NEWLINE]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_EXPENDED_SUPPLY">
@@ -700,6 +700,20 @@
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT_UA_CARNAVAL">
 			<Text>Добавление этого ресурса к вашей торговой сети заставит этот город праздновать карнавал, который увеличивает [ICON_FOOD] рост и уменьшает [ICON_HAPPINESS_3] несчастье!</Text>
+		</Row>
+
+		<!-- Deny Quest Influence -->
+		<Row Tag="TXT_KEY_CITY_STATE_DISABLED_QUEST_INFLUENCE_YES_TT">
+			<Text>В настоящее время вы отказываетесь получать [ICON_INFLUENCE] влияние за выполнение заданий для [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]. Вы можете изменить свою позицию и позволить снова получать [ICON_INFLUENCE] Влияние за выполнение заданий.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DISABLED_QUEST_INFLUENCE_NO_TT">
+			<Text>Вы можете отказаться получать [ICON_INFLUENCE] влияние за выполнение заданий для [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]. Это позволит избежать политических последствий со стороны других цивилизаций, когда они увидят, что вы боретесь за [ICON_INFLUENCE] влияние этого города-государства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DISABLED_QUEST_INFLUENCE_YES">
+			<Text>Включить получение [ICON_INFLUENCE] влияния за выполнение заданий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DISABLED_QUEST_INFLUENCE_NO">
+			<Text>Отключить получение [ICON_VP_NOINFLUENCE] влияния за выполнение заданий</Text>
 		</Row>
 
 		<!-- Bully Metric Values -->
@@ -1522,7 +1536,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILD_COST_REDUCTION">
-			<Text>{1_Build} требует {2_Turns} ход(ов) для завершения.</Text>
+			<Text>{2_Turns}% ход(ов) для {1_Build}.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ATTEMPTED_LAST_SESSION">
@@ -1635,11 +1649,14 @@
 		<Row Tag="TXT_KEY_AIR_PATROL_BOMBED_GROUND_TARGETS">
 			<Text>Ваш {@1_UnitName} не встретил сопротивления и атаковал воздушные и противовоздушные подразделения противника на земле!</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITY_SAPPED">
+			<Text>Город [ICON_VP_SAPPED] истощён на [COLOR_POSITIVE_TEXT]{1_Turns}[ENDCOLOR] ходов. Это имеет тот же эффект, что и [ICON_BLOCKADED] Блокада, но для ее эффекта не требуется наличие поблизости вражеского юнита!</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CITY_MINED">
-			<Text>Глубоководное шахтное поле присутствует</Text>
+			<Text>Вражеский флот и высадившиеся на воду юниты расходуют все очки [ICON_MOVES] передвижения при входе на водную территорию, принадлежащую этому городу. Юниты, заканчивающие свой ход на клетках Океана, принадлежащих этому городу, получают [COLOR_NEGATIVE_TEXT]5 урона[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_HAS_AIRPORT">
-			<Text>Имеется Аэропорт</Text>
+			<Text>Позволяет [COLOR_POSITIVE_TEXT]переброску по воздуху[ENDCOLOR] в этот город или из него. Увеличено число авиационных юнитов города. Авиационные юниты противника получают 10 [ICON_STRENGTH] урона во время авиаударов по городу.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_AUTOMATE_PRODUCTION_TT">
 			<Text>Автоматизировать производство для этого города.</Text>
@@ -1669,7 +1686,10 @@
 			<Text>Военная мощь</Text>
 		</Row>
 	<!-- UI - Religion Spread -->
-			<Row Tag="TXT_KEY_RO_WR_TOTAL_CITIES">
+		<Row Tag="TXT_KEY_RELIGION_CHOOSER_ADVISOR_RECOMMENDATION">
+			<Text>[COLOR_POSITIVE_TEXT]Ваш советник рекомендует данное верование.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_WR_TOTAL_CITIES">
 			<Text>Города</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_WR_TOTAL_FOLLOWERS">

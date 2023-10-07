@@ -406,7 +406,7 @@ SET Text = 'Вырубка лесов/джунглей: +{1_Num}[ICON_PRODUCTION
 WHERE Tag = 'TXT_KEY_ABLTY_TECH_BOOST_CHOP';
 
 UPDATE Language_ru_RU
-SET Text = 'Чтобы вырубить леса/джунгли, требуется {1_Turns} ходов.'
+SET Text = '{1_Turns}% ход(ов) для вырубки Леса/Джунглей.'
 WHERE Tag = 'TXT_KEY_REMOVE_FOREST_JUNGLE_COST_REDUCTION';
 
 -- Penicilin and Nanotech

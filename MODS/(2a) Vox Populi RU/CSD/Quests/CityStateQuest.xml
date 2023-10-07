@@ -47,7 +47,7 @@
 			<Text>Мы хотим, чтобы вы отправили нам {1_UnitName}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GIFT_SPECIFIC_UNIT">
-			<Text>Лидеры {@2_CivName} хотят усилить свои армии. {1_UnitName} искупит свое имперское величие, а вместе с ним и благосклонность этого города-государства.</Text>
+			<Text>Лидеры {@2_CivName} хотят усилить свои армии. Отправив им {1_UnitName} они искупят свое имперское величие и заслужат благосклонность этого города-государства.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GIFT_SPECIFIC_UNIT">
 			<Text>{@2_CivName} жаждет {1_UnitName}</Text>
