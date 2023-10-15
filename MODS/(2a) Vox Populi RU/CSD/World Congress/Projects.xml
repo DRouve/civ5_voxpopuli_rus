@@ -41,7 +41,7 @@
 			<Text>Мастер флота</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_3_HELP">
-			<Text>Чудо Гранд-канал появляется в [ICON_CAPITAL] столице. (+1 [COLOR_POSITIVE_TEXT]дополнительный[ENDCOLOR] [ICON_INTERNATIONAL_TRADE] Торговый Путь. Предоставляет всем военно-морским юнитам, кроме подводных лодок и авианосцев, повышение [COLOR_POSITIVE_TEXT]Флот сокровищ[ENDCOLOR], которое дает +10% к [ICON_STRENGTH] боевой мощи при атаке, +1 Зрение и способность ремонтироваться [COLOR_POSITIVE_TEXT]за пределами дружественной территории[ENDCOLOR].)</Text>
+			<Text>Чудо Гранд-канал появляется в [ICON_CAPITAL] столице. (+1 [COLOR_POSITIVE_TEXT]дополнительный[ENDCOLOR] [ICON_INTERNATIONAL_TRADE] Торговый Путь. Предоставляет всем военно-морским юнитам, кроме подводных лодок и авианосцев, повышение [COLOR_POSITIVE_TEXT]Флот сокровищ[ENDCOLOR], которое дает +10% к [ICON_STRENGTH] боевой мощи при атаке, +1 к [ICON_VP_VISION] обзору и способность ремонтироваться [COLOR_POSITIVE_TEXT]за пределами дружественной территории[ENDCOLOR].)</Text>
 		</Row>
 		<!-- Wargames -->
 		<Row Tag="TXT_KEY_PROCESS_WARGAMES">

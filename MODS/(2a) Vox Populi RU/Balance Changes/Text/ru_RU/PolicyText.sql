@@ -166,7 +166,7 @@ WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP';
 
 -- Covert Action
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Подтасовка[ENDCOLOR]: Повышен шанс фальсификации выборов и переворотов в Городах-государствах (совершаются две попытки). +1 [ICON_SPY] шпион (если по крайней мере 20 [ICON_CITY_STATE] Городов-государств существовало - +1 шпион за каждые 10). Длительность выполнения миссий вашими шпионами уменьшена на 2 хода.'
+SET Text = '[COLOR_POSITIVE_TEXT]Подтасовка[ENDCOLOR]: Повышен шанс фальсификации выборов и переворотов в Городах-государствах (совершаются две попытки). +100 [ICON_VP_SPY_POINTS] очков Шпионажа. Длительность выполнения миссий вашими шпионами уменьшена на 2 хода.'
 WHERE Tag = 'TXT_KEY_POLICY_COVERT_ACTION_HELP';
 
 -- Creative Expression
@@ -244,19 +244,35 @@ UPDATE Language_ru_RU
 SET Text = '[COLOR_POSITIVE_TEXT]Академия Наук[ENDCOLOR]: -2 [ICON_HAPPINESS_3] несчастья от [ICON_RESEARCH] Безграмотности во всех городах, +100% к [ICON_PRODUCTION] постройке Исследовательских Лабораторий, +5 [COLOR_POSITIVE_TEXT]бесплатных[ENDCOLOR] Исследовательских Лабораторий. Исследовательские Лаборатории дают дополнительные +2 [ICON_RESEARCH] науки.'
 WHERE Tag = 'TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP';
 
--- Cultural Revolution
+-- Cultural Revolution (now Socialist Realism)
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Культурная Революция[ENDCOLOR]: +34% к [ICON_TOURISM] Туризму от цивилизаций с другими Идеалогиями, +5 к [ICON_TOURISM] Туризму от всех [ICON_GREAT_WORK] Шедевров. Шпионы выполняют миссии в 2 раза быстрее.'
+SET Text = 'Социалистический Реализм'
+WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_REVOLUTION';
+
+UPDATE Language_ru_RU
+SET Text = '[COLOR_POSITIVE_TEXT]Социалистический Реализм[ENDCOLOR]: Открывает Пропаганду (конверсия 15% [ICON_PRODUCTION] производства в [ICON_TOURISM] туризм). +25% [ICON_TOURISM] Туризм к другим цивилизациям, принявших догмату Порядка. +4 [ICON_PRODUCTION] производство от всех [ICON_GREAT_WORK] Шедевров.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP';
 
--- Dictatorship of the Proletariat
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Диктатура пролетариата[ENDCOLOR]: +50% к [ICON_TOURISM] Туризму от цивилизаций с показателем [ICON_HAPPINESS_1] счастья ниже, чем у вас. +1 [ICON_HAPPINESS_1] счастье от Фабрик.'
+SET Text = 'Движение социалистического реализма, стиль «реалистического выражения», зародившийся в Советской России и ставший доминирующим в коммунистических странах по всему миру, способствовал торжеству социализма через искусство, фотографию, кино и общественные памятники. Наряду с социалистическим классическим стилем архитектуры, социалистический реализм был единственным одобренным партией стилем общественного искусства в Советском Союзе в течение шестидесяти лет. Возникшие в результате драматические и минималистские памятники рассматривались как мощные пропагандистские инструменты в продвижении диктатуры пролетариата и физическом проявлении коммунистических убеждений.'
+WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_REVOLUTION_TEXT';
+
+-- Dictatorship of the Proletariat (now Cultural Revolution)
+UPDATE Language_ru_RU
+SET Text = 'Культурная революция'
+WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT';
+
+UPDATE Language_ru_RU
+SET Text = '[COLOR_POSITIVE_TEXT]Культурная революция[ENDCOLOR]: +25% [ICON_TOURISM] туризм с цивилизациями с меньшим уровнем [ICON_HAPPINESS_1] настроения. +1 к [ICON_HAPPINESS_1] настроению от Фабрик.'
 WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP';
+
+UPDATE Language_ru_RU
+SET Text = 'Великая пролетарская культурная революция — общественное движение, проводившееся с 1966 по 1976 год в Китайской Народной Республике. Культурная революция, начатая Мао Цзэдуном и Коммунистической партией, была направлена ​​на перевоспитание простых людей путем устранения или подавления капиталистических, традиционных и религиозных элементов, посредством арестов и насилия, если это необходимо. Культурная борьба охватила все уровни общества: студентов, военных, партийных и городских рабочих, задерживая возвращение Китая в мировые дела на десятилетия.'
+WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_TEXT';
 
 -- Double Agents
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Двойные агенты[ENDCOLOR]: +3 [ICON_SPY] шпиона (если по крайней мере 20 [ICON_CITY_STATE] Городов-государств существовало - +1 шпион за каждые 10). Удваивается шанс поимки вашими шпионами вражеских шпионов в принадлежащих вам городах. Длительность выполнения миссий вашими шпионами уменьшена на 1 ход, а иностранными шпионами - увеличена на 1 ход во всех ваших городах.'
+SET Text = '[COLOR_POSITIVE_TEXT]Двойные агенты[ENDCOLOR]: +300 [ICON_VP_SPY_POINTS] очков Шпионажа. Удваивается шанс поимки вашими шпионами вражеских шпионов в принадлежащих вам городах. Длительность выполнения миссий вашими шпионами уменьшена на 1 ход, а иностранными шпионами - увеличена на 1 ход во всех ваших городах.'
 WHERE Tag = 'TXT_KEY_POLICY_DOUBLE_AGENTS_HELP';
 
 -- Hero of the People
@@ -274,14 +290,22 @@ UPDATE Language_ru_RU
 SET Text = '[COLOR_POSITIVE_TEXT]Пионеры космоса[ENDCOLOR]: Бесплатный Великий Инженер и Великий Учёный. Части космического аппарата можно закончить Великим Инженером; использование [ICON_GREAT_PEOPLE] Великого Человека даёт 100 [ICON_RESEARCH] науки (в зависимости от Эры). Ускорение [ICON_PRODUCTION] производства Великими Инженерами на 50% эффективнее.'
 WHERE Tag = 'TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS_HELP';
 
--- Party Leadership
+-- Party Leadership (now Dictatorship of the Proletariat)
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Партийное руководство[ENDCOLOR]: +7 [ICON_FOOD] еда, [ICON_RESEARCH] наука, [ICON_GOLD] золото и [ICON_CULTURE] культура в каждом городе.'
+SET Text = 'Диктатура пролетариата'
+WHERE Tag = 'TXT_KEY_POLICY_PARTY_LEADERSHIP';
+
+UPDATE Language_ru_RU
+SET Text = '[COLOR_POSITIVE_TEXT]Диктатура пролетариата[ENDCOLOR]: +7 [ICON_FOOD] еда, [ICON_RESEARCH] наука, [ICON_GOLD] золото и [ICON_CULTURE] культура в каждом городе.'
 WHERE Tag = 'TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP';
+
+UPDATE Language_ru_RU
+SET Text = 'В марксистской социально-политической теории диктатура пролетариата относится к социальному государству, в котором рабочий класс имеет прямой контроль над политической властью; «Диктатура» в данном случае относится не к общему определению, а скорее к тому, что целый социальный класс контролирует нацию. Лишены ли избирательных прав капиталисты или другие лица при таком политическом порядке, зависело, по мнению Маркса и Энгельса, от конкретных обстоятельств того времени. Установление такого политического порядка может повлечь, а может и не повлечь за собой насилие; но какими бы ни были средства, в конце концов пролетариат вытеснит буржуазию.'
+WHERE Tag = 'TXT_KEY_POLICY_PARTY_LEADERSHIP_TEXT';
 
 -- Patriotic War
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Отечественная война[ENDCOLOR]: Пехота получает +20% к [ICON_STRENGTH] боевой мощи будучи в городе или рядом с ним. При захвате города впервые все Военные Юниты полностью излечены. Можно строить [COLOR_YELLOW]T-34[ENDCOLOR].'
+SET Text = '[COLOR_POSITIVE_TEXT]Отечественная война[ENDCOLOR]: Пехота получает +20% к [ICON_STRENGTH] боевой мощи будучи в городе или рядом с ним. При захвате города впервые все Военные Юниты в радиусе 3 клеток от города полностью излечены. Можно строить [COLOR_YELLOW]T-34[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_POLICY_PATRIOTIC_WAR_HELP';
 
 -- Resettlement
@@ -326,7 +350,7 @@ SET Text = 'Большой скачок вперед'
 WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Большой скачок вперед[ENDCOLOR]: +2 бесплатные Технологии.'
+SET Text = '[COLOR_POSITIVE_TEXT]Большой скачок вперед[ENDCOLOR]: Даёт бесплатную Технологию. Шпионы выполняют миссии в два раза быстрее. +1 [ICON_RESEARCH] наука в городах за каждых 3 [ICON_CITIZEN] горожан-неспециалистов.'
 WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS_HELP';
 
 UPDATE Language_ru_RU
@@ -360,7 +384,7 @@ WHERE Tag = 'TXT_KEY_AESTHETICS_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Искусство[ENDCOLOR] позволяет максимализировать потенциал [ICON_GREAT_WORK] Шедевров и [ICON_GOLDEN_AGE] Золотого Века.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Искусства даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Великие [ICON_GREAT_WRITER] Писатели, [ICON_GREAT_ARTIST] Художники и [ICON_GREAT_MUSICIAN] Музыканты появляются на 25% быстрее.[NEWLINE][ICON_BULLET] +10% к [ICON_CULTURE] культуре во время [ICON_GOLDEN_AGE] Золотого Века.[NEWLINE][ICON_BULLET] +100% к [ICON_PRODUCTION] скорости постройки Гильдий.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Искусства даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] +2 [ICON_GOLDEN_AGE] очка Золотого Века и +1 [ICON_RESEARCH] наука в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик в Искусстве даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Лувр[ENDCOLOR]. [NEWLINE][ICON_BULLET] Завершение Археологических Раскопок или начало [ICON_GOLDEN_AGE] Золотого Века начинает (или усиляет имеющееся) [COLOR_POSITIVE_TEXT]Историческое событие[ENDCOLOR][ICON_TOURISM] со всеми известными державами. [NEWLINE][ICON_BULLET] Позволяет видеть [ICON_RES_HIDDEN_ARTIFACTS] Скрытые Места Древности.[NEWLINE][ICON_BULLET]+3 [ICON_RESEARCH] науки и [ICON_GOLDEN_AGE] очка Золотого Века от Достопримечательностей. [NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_MUSICIAN] Великих Музыкантов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Искусство[ENDCOLOR] позволяет максимализировать потенциал [ICON_GREAT_WORK] Шедевров и [ICON_GOLDEN_AGE] Золотого Века.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Искусства даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Великие [ICON_GREAT_WRITER] Писатели, [ICON_GREAT_ARTIST] Художники и [ICON_GREAT_MUSICIAN] Музыканты появляются на 25% быстрее.[NEWLINE][ICON_BULLET]+10% к [ICON_CULTURE] культуре во время [ICON_GOLDEN_AGE] Золотого Века.[NEWLINE][ICON_BULLET]+100% к [ICON_PRODUCTION] скорости постройки Гильдий.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Искусства даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_RESEARCH] наука в каждом городе.[NEWLINE][ICON_BULLET]20% от излишков [ICON_HAPPINESS_1] настроения каждого города добавляется в качестве [ICON_GOLDEN_AGE] очков Золотого Века.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик в Искусстве даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Лувр[ENDCOLOR]. [NEWLINE][ICON_BULLET] Завершение Археологических Раскопок или начало [ICON_GOLDEN_AGE] Золотого Века начинает (или усиляет имеющееся) [COLOR_POSITIVE_TEXT]Историческое событие[ENDCOLOR][ICON_TOURISM] со всеми известными державами. [NEWLINE][ICON_BULLET] Позволяет видеть [ICON_RES_HIDDEN_ARTIFACTS] Скрытые Места Древности.[NEWLINE][ICON_BULLET]+3 [ICON_RESEARCH] науки и [ICON_GOLDEN_AGE] очка Золотого Века от Достопримечательностей. [NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_MUSICIAN] Великих Музыкантов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP';
 
 UPDATE Language_ru_RU
@@ -373,7 +397,7 @@ SET Text = 'Гуманизм'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_CENTERS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Гуманизм[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_GOLDEN_AGE] очка Золотого Века от [ICON_VP_GREATWRITING] Шедевров литературы.[NEWLINE][ICON_BULLET]Количество [ICON_GOLDEN_AGE] очков Золотого Века, необходимое для начала [ICON_GOLDEN_AGE] Золотого Века уменьшено на 25%.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от всех Гильдий.'
+SET Text = '[COLOR_POSITIVE_TEXT]Гуманизм[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_PEACE] вера от [ICON_VP_GREATWRITING] Шедевров литературы.[NEWLINE][ICON_BULLET]Количество [ICON_GOLDEN_AGE] очков Золотого Века, необходимое для начала [ICON_GOLDEN_AGE] Золотого Века уменьшено на 25%.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от всех Гильдий.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_CENTERS_HELP';
 
 UPDATE Language_ru_RU
@@ -399,7 +423,7 @@ SET Text = 'Наследие'
 WHERE Tag = 'TXT_KEY_POLICY_FLOURISHING_OF_ARTS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Наследие[ENDCOLOR][NEWLINE][ICON_BULLET]+4 [ICON_GOLD] золота от [ICON_VP_GREATMUSIC] Шедевров музыки.[NEWLINE][ICON_BULLET]+4 к [ICON_TOURISM] Туризму и [ICON_GOLDEN_AGE] очкам Золотого Века от Университетов.[NEWLINE][ICON_BULLET]25% [ICON_CULTURE] культуры от [ICON_WONDER] Чудес Света и клеток прибавляется к значению [ICON_TOURISM] Туризма города.'
+SET Text = '[COLOR_POSITIVE_TEXT]Наследие[ENDCOLOR][NEWLINE][ICON_BULLET]+4 [ICON_GOLD] золота от [ICON_VP_GREATMUSIC] Шедевров музыки.[NEWLINE][ICON_BULLET]+50% ко всем [ICON_TOURISM]/[ICON_CULTURE] тематическим бонусам.[NEWLINE][ICON_BULLET]25% [ICON_CULTURE] культуры от [ICON_WONDER] Чудес Света и клеток прибавляется к значению [ICON_TOURISM] Туризма города.'
 WHERE Tag = 'TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP';
 
 UPDATE Language_ru_RU
@@ -421,7 +445,7 @@ WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS_TEXT';
 
 -- Cultural Exchange
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Культурный обмен[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье за каждые 3 [ICON_GREAT_WORK] Шедевра в городе.[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] культуры и [ICON_PRODUCTION] производства от Амфитеатров и Оперы.[NEWLINE][ICON_BULLET]+10% к модификатору [ICON_TOURISM] Туризма за [COLOR_POSITIVE_TEXT]Открытые Границы[ENDCOLOR] с другими Цивилизациями.'
+SET Text = '[COLOR_POSITIVE_TEXT]Культурный обмен[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье за каждые 3 [ICON_GREAT_WORK] Шедевра в городе.[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] культуры и [ICON_PRODUCTION] производства от Амфитеатров, Галерей и Оперы.[NEWLINE][ICON_BULLET]+10% к модификатору [ICON_TOURISM] Туризма за [COLOR_POSITIVE_TEXT]Открытые Границы[ENDCOLOR] с другими Цивилизациями.'
 WHERE Tag = 'TXT_KEY_POLICY_ETHICS_HELP';
 
 --------------------
@@ -442,7 +466,7 @@ WHERE Tag = 'TXT_KEY_COMMERCE_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Индустрия[ENDCOLOR] даёт бонусы империям, сфокусированным на [ICON_GOLD] золоте и [ICON_PRODUCTION] производстве.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Индустрии даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +2 [ICON_INTERNATIONAL_TRADE] Торговых Пути.[NEWLINE][ICON_BULLET] -5% [ICON_GOLD] золота требуется для покупки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Индустрии даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] -5% [ICON_GOLD] золота требуется для покупки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Индустрии даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Бродвей[ENDCOLOR]. [NEWLINE][ICON_BULLET] +3 [ICON_HAPPINESS_1] счастья за каждый уникальный ресурс Роскоши в наличии. [NEWLINE][ICON_BULLET] +2 [ICON_PRODUCTION] производства и [ICON_GOLD] золота от специалистов.[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_MERCHANT] Великих Торговцев за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Индустрия[ENDCOLOR] даёт бонусы империям, сфокусированным на [ICON_GOLD] золоте и [ICON_PRODUCTION] производстве.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Индустрии даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +2 [ICON_INTERNATIONAL_TRADE] Торговых Пути.[NEWLINE][ICON_BULLET] -5% [ICON_INVEST] золота требуется для покупки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Индустрии даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] -5% [ICON_INVEST] золота требуется для покупки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Индустрии даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Бродвей[ENDCOLOR]. [NEWLINE][ICON_BULLET] +3 [ICON_HAPPINESS_1] счастья за каждый уникальный ресурс Роскоши в наличии. [NEWLINE][ICON_BULLET] +2 [ICON_PRODUCTION] производства и [ICON_GOLD] золота от специалистов.[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_MERCHANT] Великих Торговцев за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_COMMERCE_HELP';
 
 UPDATE Language_ru_RU
@@ -487,7 +511,7 @@ WHERE Tag = 'TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP';
 
 --Protectionism
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Протекционизм[ENDCOLOR][NEWLINE][ICON_BULLET]Инвестиции [ICON_GOLD] золота в постройку зданий уменьшает их стоимость [ICON_PRODUCTION] производства на дополнительные 10%. [NEWLINE][ICON_BULLET]+33% к доходам от внутренних [ICON_INTERNATIONAL_TRADE] Торговых Путей. [NEWLINE][ICON_BULLET]+10% [ICON_FOOD] еды и [ICON_RESEARCH] науки в городах во время [COLOR_POSITIVE_TEXT]"Дня Любви к Отечеству."[ENDCOLOR]'
+SET Text = '[COLOR_POSITIVE_TEXT]Протекционизм[ENDCOLOR][NEWLINE][ICON_BULLET]Инвестиции [ICON_INVEST] золота в постройку зданий уменьшает их стоимость [ICON_PRODUCTION] производства на дополнительные 10%. [NEWLINE][ICON_BULLET]+33% к доходам от внутренних [ICON_INTERNATIONAL_TRADE] Торговых Путей. [NEWLINE][ICON_BULLET]+10% [ICON_FOOD] еды и [ICON_RESEARCH] науки в городах во время [COLOR_POSITIVE_TEXT]"Дня Любви к Отечеству."[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_POLICY_PROTECTIONISM_HELP';
 
 --------------------
@@ -508,7 +532,7 @@ WHERE Tag = 'TXT_KEY_EXPLORATION_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Империализм[ENDCOLOR] улучшает способность распространять империю при помощи военной мощи, отчасти при помощи морского (а позже и воздушного) превосходства.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Империализма даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +1 [ICON_MOVES] передвижение для Юнитов Флота, Погруженных на корабль Юнитов и [ICON_GREAT_GENERAL] Великих Генералов, а также +1 радиус обзора для Пехоты (ближний бой), Разведки, Флота (ближний бой) и Огнестрельных Юнитов. [NEWLINE][ICON_BULLET] +10% [ICON_PRODUCTION] производства для Военных Юнитов, -10% [ICON_GOLD] золота требуется для улучшения Юнитов.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Империализма даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +5% [ICON_PRODUCTION] производства для Военных Юнитов, -5% [ICON_GOLD] золота требуется для улучшения Юнитов.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Империализма даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет строительство чуда [COLOR_POSITIVE_TEXT]Пентагон[ENDCOLOR]. [NEWLINE][ICON_BULLET] Все Морские и Авиационные Юниты получают повышение [COLOR_POSITIVE_TEXT]Банзай![ENDCOLOR] (мощь увеличивается по мере получения урона).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_ADMIRAL] Великих Адмиралов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Империализм[ENDCOLOR] улучшает способность распространять империю при помощи военной мощи, отчасти при помощи морского (а позже и воздушного) превосходства.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Империализма даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET]+1 [ICON_MOVES] передвижение для Юнитов Флота, Погруженных на корабль Юнитов и [ICON_GREAT_GENERAL] Великих Генералов, а также +1 радиус обзора для Пехоты (ближний бой), Разведки, Флота (ближний бой) и Огнестрельных Юнитов. [NEWLINE][ICON_BULLET]+10% [ICON_PRODUCTION] производства для Военных Юнитов, -10% [ICON_GOLD] золота требуется для улучшения Юнитов.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Империализма даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET]+5% [ICON_PRODUCTION] производства для Военных Юнитов, -5% [ICON_GOLD] золота требуется для улучшения Юнитов.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Империализма даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Позволяет строительство чуда [COLOR_POSITIVE_TEXT]Пентагон[ENDCOLOR]. [NEWLINE][ICON_BULLET]Все Морские и Авиационные Юниты получают повышение [COLOR_POSITIVE_TEXT]Банзай![ENDCOLOR] (мощь увеличивается по мере получения урона).[NEWLINE][ICON_BULLET]Позволяет покупку [ICON_GREAT_ADMIRAL] Великих Адмиралов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP';
 
 -- Maritime Infrastructure (now Martial Law)
@@ -594,7 +618,7 @@ WHERE Tag = 'TXT_KEY_HONOR_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Авторитет[ENDCOLOR] принесёт большую пользу воинственным и экспансионистским цивилизациям.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Авторитета даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +25% к боевой мощи против Варваров и уведомления о появлении Лагеря Варваров на разведанной территории. [NEWLINE][ICON_BULLET] +25 [ICON_CULTURE] культуры при очистке Лагеря Варваров (в зависимости от Эры). [NEWLINE][ICON_BULLET] При убийстве Юнита даёт [ICON_CULTURE] культуру, равную 100% его [ICON_STRENGTH] Мощи.[NEWLINE][ICON_BULLET] +1 [ICON_PRODUCTION] производство в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Авторитета даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +1 [ICON_PRODUCTION] производство в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Авторитета даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Альгамбра[ENDCOLOR]. [NEWLINE][ICON_BULLET] Позволяет покупку [COLOR_YELLOW]Вольных Компаний[ENDCOLOR], [COLOR_YELLOW]Иностранных Легионов[ENDCOLOR] и [COLOR_YELLOW]Наёмников[ENDCOLOR] (если изучены требуемые ими Технологии).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_GENERAL] Великих Генералов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Авторитет[ENDCOLOR] принесёт большую пользу воинственным и экспансионистским цивилизациям.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Авторитета даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET]+25% к боевой мощи против Варваров и уведомления о появлении Лагеря Варваров на разведанной территории. [NEWLINE][ICON_BULLET]+25 [ICON_CULTURE] культуры при уничтожении Лагеря Варваров (в зависимости от Эры). [NEWLINE][ICON_BULLET]При убийстве Юнита даёт [ICON_CULTURE] культуру, равную 100% его [ICON_STRENGTH] Мощи.[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] производство в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Авторитета даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] производство в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Авторитета даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Позволяет построить [COLOR_POSITIVE_TEXT]Альгамбра[ENDCOLOR]. [NEWLINE][ICON_BULLET]Позволяет покупку [COLOR_YELLOW]Вольных Компаний[ENDCOLOR], [COLOR_YELLOW]Иностранных Легионов[ENDCOLOR] и [COLOR_YELLOW]Наёмников[ENDCOLOR] (если изучены требуемые ими Технологии).[NEWLINE][ICON_BULLET]Позволяет покупку [ICON_GREAT_GENERAL] Великих Полководцев за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_HONOR_HELP';
 
 UPDATE Language_ru_RU
@@ -607,7 +631,7 @@ SET Text = 'Дань'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIOR_CODE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Дань[ENDCOLOR][NEWLINE]Возле [ICON_CAPITAL] столицы появляется бесплатный [COLOR_POSITIVE_TEXT]Поселенец[ENDCOLOR].[NEWLINE][ICON_BULLET]+25% ([COLOR_YELLOW]+50% если были приняты все политики ветви {TXT_KEY_POLICY_BRANCH_HONOR}[ENDCOLOR]) к не-денежным доходам при требовании большой дани у [ICON_CITY_STATE] Городов-государств.'
+SET Text = '[COLOR_POSITIVE_TEXT]Дань[ENDCOLOR][NEWLINE]Возле [ICON_CAPITAL] столицы появляется бесплатный [COLOR_POSITIVE_TEXT]Поселенец[ENDCOLOR].[NEWLINE][ICON_BULLET]При требовании дани [ICON_CAPITAL] столица получает [ICON_CULTURE] культуру, равную 25% ([COLOR_YELLOW]50% если были приняты все политики ветви {TXT_KEY_POLICY_BRANCH_HONOR}[ENDCOLOR]) от суммы истребованного золота у [ICON_CITY_STATE] Городов-государств.'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIOR_CODE_HELP';
 
 UPDATE Language_ru_RU
@@ -689,7 +713,7 @@ WHERE Tag = 'TXT_KEY_POLICY_BRANCH_LIBERTY';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Прогресс[ENDCOLOR] подходит для цивилизаций, желающих крепкого развития инфраструктуры и науки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Прогресса даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +20 [ICON_RESEARCH] науки когда [ICON_CITIZEN] горожанин рождается в [ICON_CAPITAL] столице и +15 [ICON_RESEARCH] науки за каждого [ICON_CITIZEN] горожанина, уже имеющегося в [ICON_CAPITAL] столице (в зависимости от Эры). [NEWLINE][ICON_BULLET] +15 [ICON_CULTURE] культуры когда Технология изучена (в зависимости от Эры), и дополнительные +15 [ICON_CULTURE] культуры за каждую уже изученную Технологию (независимо от Эры).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Прогресса даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] Дополнительные +15 [ICON_CULTURE] культуры когда Технология изучена (в зависимости от Эры).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Прогресса даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Запретный дворец[ENDCOLOR]. [NEWLINE][ICON_BULLET] +25 [ICON_GOLD] золота когда [ICON_CITIZEN] горожанин рождается в любом городе (в зависимости от Эры).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_WRITER] Великих Писателей за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Прогресс[ENDCOLOR] подходит для цивилизаций, желающих крепкого развития инфраструктуры и науки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Прогресса даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET]+20 [ICON_RESEARCH] науки когда [ICON_CITIZEN] горожанин рождается в [ICON_CAPITAL] столице и +15 [ICON_RESEARCH] науки за каждого [ICON_CITIZEN] горожанина, уже имеющегося в [ICON_CAPITAL] столице (в зависимости от Эры). [NEWLINE][ICON_BULLET]+15 [ICON_CULTURE] культуры когда Технология изучена (в зависимости от Эры), и дополнительные +15 [ICON_CULTURE] культуры за каждую уже изученную Технологию (независимо от Эры).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Прогресса даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET]Дополнительные +15 [ICON_CULTURE] культуры когда Технология изучена (в зависимости от Эры).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Прогресса даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Позволяет построить [COLOR_POSITIVE_TEXT]Запретный дворец[ENDCOLOR]. [NEWLINE][ICON_BULLET]+25 [ICON_GOLD] золота когда [ICON_CITIZEN] горожанин рождается в любом городе (в зависимости от Эры).[NEWLINE][ICON_BULLET]Позволяет покупку [ICON_GREAT_WRITER] Великих Писателей за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_LIBERTY_HELP';
 
 UPDATE Language_ru_RU
@@ -702,7 +726,7 @@ SET Text = 'Организация'
 WHERE Tag = 'TXT_KEY_POLICY_COLLECTIVE_RULE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Организация[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_PRODUCTION] производство в каждом городе.[NEWLINE][ICON_BULLET]+25% к скорости [ICON_PRODUCTION] подготовки Поселенцев, Рабочих и Торговых юнитов.[NEWLINE][ICON_BULLET]+1 к [ICON_MOVES] движению для всех Гражданских юнитов. '
+SET Text = '[COLOR_POSITIVE_TEXT]Организация[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_PRODUCTION] производство в каждом городе.[NEWLINE][ICON_BULLET]+25% к скорости [ICON_PRODUCTION] подготовки Рабочих и Торговых юнитов.[NEWLINE][ICON_BULLET]+1 к [ICON_MOVES] движению Рабочих. '
 WHERE Tag = 'TXT_KEY_POLICY_COLLECTIVE_RULE_HELP';
 
 UPDATE Language_ru_RU
@@ -779,7 +803,7 @@ WHERE Tag = 'TXT_KEY_PATRONAGE_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Управление[ENDCOLOR] увеличивает преимущества от [ICON_INTERNATIONAL_TRADE] Торговых Путей, [ICON_CITY_STATE] Городов-государств, [ICON_SPY] шпионов и [ICON_DIPLOMAT] Мирового Конгресса.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Управления даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] +1 ко всему в [ICON_CAPITAL] столице за каждые 20 [ICON_CITIZEN] граждан в Империи.[NEWLINE][ICON_BULLET] +1 [ICON_GOLD] золото в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Управления даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +10% [ICON_INFLUENCE] Влияния от Торговых Миссий, +1 [ICON_GOLD] золото в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Управления даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Вестминстерский дворец[ENDCOLOR]. [NEWLINE][ICON_BULLET] Каждая сессия Мирового Конгресса даёт 5 [ICON_CULTURE] культуры, [ICON_RESEARCH] науки и [ICON_GOLD] золота за каждого вашего [ICON_DIPLOMAT] делегата (в зависимости от текущей Эры).[NEWLINE][ICON_BULLET] [ICON_WONDER] Чудеса Света требуют на 1 политику меньше за каждые 3 союзных Города-государства.'
+SET Text = '[COLOR_POSITIVE_TEXT]Управление[ENDCOLOR] увеличивает преимущества от [ICON_INTERNATIONAL_TRADE] Торговых Путей, [ICON_CITY_STATE] Городов-государств, [ICON_SPY] шпионов и [ICON_DIPLOMAT] Мирового Конгресса.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Управления даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]+1 ко всем доходам в [ICON_CAPITAL] столице за каждые 20 [ICON_CITIZEN] граждан в Империи.[NEWLINE][ICON_BULLET]+1 [ICON_GOLD] золото в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Управления даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET]+10% [ICON_INFLUENCE] Влияния от {TXT_KEY_POP_CSTATE_GIFT_GOLD}, +1 [ICON_GOLD] золото в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Управления даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Позволяет построить [COLOR_POSITIVE_TEXT]Вестминстерский дворец[ENDCOLOR]. [NEWLINE][ICON_BULLET]Каждая сессия Мирового Конгресса даёт 5 [ICON_CULTURE] культуры, [ICON_RESEARCH] науки и [ICON_GOLD] золота за каждого вашего [ICON_DIPLOMAT] делегата (в зависимости от текущей Эры).[NEWLINE][ICON_BULLET][ICON_WONDER] Чудеса Света требуют на 1 политику меньше за каждые 3 союзных Города-государства.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP';
 
 UPDATE Language_ru_RU
@@ -792,7 +816,7 @@ SET Text = 'Дипломатическая служба'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Дипломатическая служба[ENDCOLOR][NEWLINE][ICON_BULLET]Даёт 1 [ICON_SPY] шпиона (если по крайней мере 20 [ICON_CITY_STATE] Городов-государств существовало - +1 шпион за каждые 10).[NEWLINE][ICON_BULLET]Длительность выполнения миссий вашими шпионами уменьшена на 1 ход.[NEWLINE][ICON_BULLET]Награда за задания Городов-государств увеличена на 50%.'
+SET Text = '[COLOR_POSITIVE_TEXT]Дипломатическая служба[ENDCOLOR][NEWLINE][ICON_BULLET]Даёт 100 [ICON_VP_SPY_POINTS] очков Шпионажа.[NEWLINE][ICON_BULLET]Длительность выполнения миссий вашими шпионами уменьшена на 1 ход.[NEWLINE][ICON_BULLET]Награда за задания Городов-государств увеличена на 50%.'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_HELP';
 
 UPDATE Language_ru_RU
@@ -810,7 +834,7 @@ SET Text = 'Теневая сеть'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Теневая сеть[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Дружественные[ENDCOLOR] Города-государства дают 25% от производимой ими [ICON_RESEARCH] науки. [NEWLINE][ICON_BULLET]+3% [ICON_CULTURE] культуры в [ICON_CAPITAL] столице за каждого активного [ICON_SPY] шпиона или [ICON_DIPLOMAT] дипломата (максимум 30%). [NEWLINE][ICON_BULLET]Длительность выполнения миссий вашими шпионами уменьшена на 1 ход.[NEWLINE][ICON_BULLET]+3 [ICON_RESEARCH] науки от Жандармерий и Полицейских Участков.[NEWLINE][ICON_BULLET]+1 [ICON_RESEARCH] науки от специалистов.'
+SET Text = '[COLOR_POSITIVE_TEXT]Теневая сеть[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Дружественные[ENDCOLOR] Города-государства дают 25% от производимой ими [ICON_RESEARCH] науки. [NEWLINE][ICON_BULLET]+3% [ICON_CULTURE] культуры в [ICON_CAPITAL] столице за каждые 100 [ICON_VP_SPY_POINTS] очков Шпионажа когда-либо накопленные (максимум 30%). [NEWLINE][ICON_BULLET]Длительность выполнения миссий вашими шпионами уменьшена на 1 ход.[NEWLINE][ICON_BULLET]+3 [ICON_RESEARCH] науки от Жандармерий и Полицейских Участков.[NEWLINE][ICON_BULLET]+1 [ICON_RESEARCH] науки от специалистов.'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM_HELP';
 
 UPDATE Language_ru_RU
@@ -861,7 +885,7 @@ WHERE Tag = 'TXT_KEY_PIETY_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Верность[ENDCOLOR] подходит для империй, нацеленных на [ICON_RELIGION] Религию, [ICON_PRODUCTION] производство и [ICON_FOOD] пищу.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Верности даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] Даёт возможность приобретать Монастыри за [ICON_PEACE] веру (+3 [ICON_FOOD] еда, +3 [ICON_RESEARCH] наука, +2 [ICON_PEACE] вера).[NEWLINE][ICON_BULLET] -25% стоимость [ICON_PEACE] веры для приобретения зданий, Миссионеров и Инквизиторов.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Верности даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +1 [ICON_FOOD] еда и [ICON_STRENGTH] Мощь в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Верности даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Красный Форт[ENDCOLOR].[NEWLINE][ICON_BULLET] +25% к модификатору [ICON_TOURISM] Туризма за [COLOR_POSITIVE_TEXT]общую религию[ENDCOLOR].[NEWLINE][ICON_BULLET] Города, исповедующие вашу преобладающую [ICON_RELIGION] религию дают +3 [ICON_RESEARCH] науки, [ICON_PEACE] веры, [ICON_PRODUCTION] производства и [ICON_CULTURE] культуры.[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_ARTIST] Великих Творцов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Верность[ENDCOLOR] подходит для империй, нацеленных на [ICON_RELIGION] Религию, [ICON_PRODUCTION] производство и [ICON_FOOD] пищу.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Верности даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET]Даёт возможность приобретать Монастыри за [ICON_PEACE] веру (+3 [ICON_FOOD] еда, +3 [ICON_RESEARCH] наука, +2 [ICON_PEACE] вера).[NEWLINE][ICON_BULLET]-25% стоимость [ICON_PEACE] веры для приобретения зданий, Миссионеров и Инквизиторов.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Верности даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET]+1 [ICON_FOOD] еда и [ICON_STRENGTH] боевая мощь в каждом городе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Верности даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET]Позволяет построить [COLOR_POSITIVE_TEXT]Красный Форт[ENDCOLOR].[NEWLINE][ICON_BULLET]+25% к модификатору [ICON_TOURISM] Туризма за [COLOR_POSITIVE_TEXT]общую религию[ENDCOLOR].[NEWLINE][ICON_BULLET]Города, исповедующие вашу преобладающую [ICON_RELIGION] религию дают +3 [ICON_RESEARCH] науки, [ICON_PEACE] веры, [ICON_PRODUCTION] производства и [ICON_CULTURE] культуры.[NEWLINE][ICON_BULLET]Позволяет покупку [ICON_GREAT_ARTIST] Великих Творцов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PIETY_HELP';
 
 -- Organized Religion
@@ -941,7 +965,7 @@ WHERE Tag = 'TXT_KEY_RATIONALISM_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Рационализм[ENDCOLOR] нацелен на максимализацию [ICON_FOOD] пищи и [ICON_RESEARCH] науки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Рационализма дает:[ENDCOLOR][NEWLINE][ICON_BULLET] +3 [ICON_RESEARCH] науки и +2 [ICON_PRODUCTION] производство от всех Стратегических ресурсов.[NEWLINE][ICON_BULLET] +5% [ICON_RESEARCH] науки, -1 [ICON_HAPPINESS_3] недовольство от всех Потребностей во всех городах.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Рационализма даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +2% [ICON_RESEARCH] науки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Рационализма даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Блетчли Парк[ENDCOLOR]. [NEWLINE][ICON_BULLET] +33% к скорости появления [ICON_GREAT_SCIENTIST] Великих Учёных во всех городах. [NEWLINE][ICON_BULLET] -1 [ICON_HAPPINESS_3] недовольство от всех Потребностей во всех городах. [NEWLINE][ICON_BULLET] +25% [ICON_FOOD] пищи во всех городах.[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_SCIENTIST] Великих Учёных при помощи [ICON_PEACE] веры начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Рационализм[ENDCOLOR] нацелен на максимализацию [ICON_FOOD] пищи и [ICON_RESEARCH] науки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Рационализма дает:[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_RESEARCH] науки и +2 [ICON_PRODUCTION] производство от всех Стратегических ресурсов.[NEWLINE][ICON_BULLET]+5% [ICON_RESEARCH] науки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Рационализма даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET]+2% [ICON_RESEARCH] науки.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Рационализма даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Позволяет построить [COLOR_POSITIVE_TEXT]Блетчли Парк[ENDCOLOR]. [NEWLINE][ICON_BULLET]-1 [ICON_HAPPINESS_3] недовольство от всех Потребностей во всех городах.[NEWLINE][ICON_BULLET]+34% к защите от [ICON_SPY] шпионской деятельности во все городах. [NEWLINE][ICON_BULLET]Длительность выполнения миссий вражескими шпионами в ваших городах увеличена на 2 хода.[NEWLINE][ICON_BULLET]Позволяет покупку [ICON_GREAT_SCIENTIST] Великих Учёных при помощи [ICON_PEACE] веры начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP';
 
 -- Humanism (now Enlightenment)
@@ -950,24 +974,24 @@ SET Text = 'Просвещение'
 WHERE Tag = 'TXT_KEY_POLICY_HUMANISM';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Просвещение[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Бесплатная[ENDCOLOR] технология. [NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от Университетов.[NEWLINE][ICON_BULLET]+10% к [ICON_RESEARCH] науке во время [ICON_GOLDEN_AGE] Золотого Века.'
+SET Text = '[COLOR_POSITIVE_TEXT]Просвещение[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Бесплатная[ENDCOLOR] технология. [NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от Университетов.'
 WHERE Tag = 'TXT_KEY_POLICY_HUMANISM_HELP';
 
 UPDATE Language_ru_RU
 SET Text = 'Эпоха Просвещения (или просто Просвещение или Эпоха Разума) — это период времени, когда произошли культурные и социальные изменения, в которых упор делался на разум, анализ и индивидуализм, а не на традиционные способы мышления. Инициированный философами, начиная с конца 17-го века в Западной Европе, процесс изменений подпитывался добровольными организациями людей, которые были привержены улучшению общества. Эти люди собирались в кофейнях, салонах и масонских ложах. Институты, глубоко укоренившиеся в обществе, такие как религия и правительство, начали подвергаться сомнению, и больший упор был сделан на способы реформирования общества с помощью терпимости, науки и скептицизма.'
 WHERE Tag = 'TXT_KEY_POLICY_HUMANISM_TEXT';
 
--- Scientific Revolution (now Rights of Man)
+-- Scientific Revolution (now Empiricism)
 UPDATE Language_ru_RU
-SET Text = 'Права человека'
+SET Text = 'Эмпиризм'
 WHERE Tag = 'TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Права человека[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_FOOD] еда в городе за каждых 2 [ICON_CITIZEN] граждан-неспециалистов. [NEWLINE][ICON_BULLET]+2 [ICON_PRODUCTION] производство и [ICON_GOLD] золото от Деревни.'
+SET Text = '[COLOR_POSITIVE_TEXT]Эмпиризм[ENDCOLOR][NEWLINE][ICON_BULLET]Все граждане потребляют на 1 [ICON_FOOD] еду меньше, чем обычно (минимум 1).[NEWLINE][ICON_BULLET]+25% к [ICON_FOOD] росту во всех городах.[NEWLINE][ICON_BULLET]+3% к [ICON_RESEARCH] науке за каждый имеющийся в городе [ICON_GREAT_WORK] Шедевр (до 20%).'
 WHERE Tag = 'TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP';
 
 UPDATE Language_ru_RU
-SET Text = 'Декларация была составлена ​​генералом Лафайетом, Томасом Джефферсоном и Оноре Мирабо. Под влиянием доктрины «естественного права» права человека считаются универсальными: действительными во все времена и в любом месте, относящимися к самой человеческой природе. Он стал основой для нации свободных людей, одинаково защищенных законом. Он включен в начало конституций Четвертой французской республики (1946 г.) и Пятой республики (1958 г.) и действует до сих пор. Вдохновленная философами Просвещения, Декларация стала основным заявлением о ценностях Французской революции и оказала большое влияние на развитие свободы и демократии в Европе и во всем мире.'
+SET Text = 'Эмпиризм — это теория, которая утверждает, что знание приходит только или главным образом из чувственного опыта. Эмпиризм, один из нескольких взглядов на эпистемологию, изучение человеческого знания, наряду с рационализмом и скептицизмом, подчеркивает роль опыта и свидетельств, особенно чувственного опыта, в формировании идей, а не понятия врожденных идей или традиций; Однако эмпирики могут утверждать, что традиции (или обычаи) возникают из-за связей предыдущего чувственного опыта.'
 WHERE Tag = 'TXT_KEY_POLICY_SCIENTIFICREVOLUTION_TEXT';
 
 -- Secularism (now Scientific Revolution)
@@ -976,29 +1000,29 @@ SET Text = 'Научная революция'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Научная революция[ENDCOLOR][NEWLINE][ICON_BULLET]Позволяет строительство [COLOR_POSITIVE_TEXT]Обсерваторий[ENDCOLOR] (+6 [ICON_RESEARCH] науки, +1 [ICON_RESEARCH] науки за Горы поблизости, 2 ячейки [ICON_VP_SCIENTIST] ученого).[NEWLINE][ICON_BULLET]+3% к [ICON_RESEARCH] науке в городе за каждый [ICON_GREAT_WORK] Шедевр (максимум 20%).[NEWLINE][ICON_BULLET]+2 к [ICON_RESEARCH] науке от клеток Джунглей и Снега.'
+SET Text = '[COLOR_POSITIVE_TEXT]Научная революция[ENDCOLOR][NEWLINE][ICON_BULLET]Позволяет строительство [COLOR_POSITIVE_TEXT]Обсерваторий[ENDCOLOR] (+6 [ICON_RESEARCH] науки, +1 [ICON_RESEARCH] науки за Горы поблизости, 2 ячейки [ICON_VP_SCIENTIST] ученого).[NEWLINE][ICON_BULLET]+2 к [ICON_RESEARCH] науке от клеток Джунглей и Снега.'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM_HELP';
 
 UPDATE Language_ru_RU
 SET Text = 'Научная революция — это период, когда быстрое развитие человеческих знаний или технологий переворачивает нынешнее мировоззрение, что приводит к еще большему прогрессу в мышлении и знаниях. Большая часть Европы пережила научную революцию в 16 веке, после публикации работы Николая Коперника «О вращении небесных сфер» и Андреаса Везалия «О ткани человеческого тела в семи книгах». Оба использовали современные (на тот период) научные методы для изучения частей окружающего мира и опровергали неверные научные теории, некоторые из которых восходят к древним грекам. После успеха этих книг открылись шлюзы, и ученые стали внимательно изучать все вокруг, а человеческие знания в последующие века росли в геометрической прогрессии.'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM_TEXT';
 
--- Sovereignty (now Empiricism)
+-- Sovereignty (now Rights of Man)
 UPDATE Language_ru_RU
-SET Text = 'Эмпиризм'
+SET Text = 'Права человека'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Эмпиризм[ENDCOLOR][NEWLINE][ICON_BULLET]Специалисты потребляют на 1 [ICON_FOOD] еду меньше (минимум 1).[NEWLINE][ICON_BULLET]+34% к защите от [ICON_SPY] шпионов во всех городах.[NEWLINE][ICON_BULLET]Длительность выполнения миссий иностранными шпионами увеличена на 2 хода в ваших городах.[NEWLINE][ICON_BULLET]'
+SET Text = '[COLOR_POSITIVE_TEXT]Права человека[ENDCOLOR][NEWLINE][ICON_BULLET]-1 [ICON_HAPPINESS_3] Несчастье от всех потребностей во всех городах.[NEWLINE][ICON_BULLET]+2 [ICON_PRODUCTION] производство и [ICON_GOLD] золото от Деревень.[NEWLINE][ICON_BULLET]+10% к [ICON_RESEARCH] науке во время [ICON_GOLDEN_AGE] Золотого века.'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_HELP';
 
 UPDATE Language_ru_RU
-SET Text = 'Эмпиризм — это теория, утверждающая, что знание исходит только или главным образом из чувственного опыта. Один из нескольких взглядов на эпистемологию, изучающую человеческое знание, наряду с рационализмом и скептицизмом, эмпиризм подчеркивает роль опыта и свидетельств, особенно чувственного опыта, в формировании идей, а не представления о врожденных идеях или традициях; Однако эмпирики могут утверждать, что традиции (или обычаи) возникают из-за отношений предыдущего чувственного опыта.'
+SET Text = 'Декларацию подготовили генерал Лафайет, Томас Джефферсон и Оноре Мирабо. Под влиянием доктрины «естественных прав» права человека считаются универсальными: действительными во все времена и в любом месте и относящимися к самой человеческой природе. Это стало основой для нации свободных людей, в равной степени защищенных законом. Он включен в начало конституций как Четвертой Французской республики (1946 г.), так и Пятой республики (1958 г.) и действует до сих пор. Вдохновленная философами Просвещения, Декларация стала основным заявлением ценностей Французской революции и оказала большое влияние на развитие свободы и демократии в Европе и во всем мире.'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_TEXT';
 
 -- Free Thought
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Свобода мысли[ENDCOLOR][NEWLINE][ICON_BULLET]-5 [ICON_HAPPINESS_3] несчастья от религиозных волнений во всех городах.[NEWLINE][ICON_BULLET]+25% доходности от использования [ICON_GREAT_SCIENTIST] Великих Учёных.'
+SET Text = '[COLOR_POSITIVE_TEXT]Свобода мысли[ENDCOLOR][NEWLINE][ICON_BULLET]-5 [ICON_HAPPINESS_3] несчастья от религиозных волнений во всех городах.[NEWLINE][ICON_BULLET]+25% доходности от использования [ICON_GREAT_SCIENTIST] Великих Учёных.[NEWLINE][ICON_BULLET]+33% к скорости появления [ICON_GREAT_SCIENTIST] Великих Учёных.'
 WHERE Tag = 'TXT_KEY_POLICY_FREE_THOUGHT_HELP';
 
 --------------------
@@ -1011,7 +1035,7 @@ WHERE Tag = 'TXT_KEY_TRADITION_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Традиция[ENDCOLOR] нацелена на создание Великих Людей и постройку внушительной столицы.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Традиции даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +2 [ICON_FOOD] еды, [ICON_CITIZEN] гражданина и [ICON_HAPPINESS_1] настроения в [ICON_CAPITAL] столице. [NEWLINE][ICON_BULLET] +1 [ICON_CULTURE] культура в [ICON_CAPITAL] столице за каждые 2 [ICON_CITIZEN] горожанина. [NEWLINE][ICON_BULLET] +5% [ICON_FOOD] еды во всех городах.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Традиции даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET] +3% [ICON_FOOD] еды во всех городах, +1 [ICON_RESEARCH] науки в [ICON_CAPITAL] столице.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Традиции даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Университет Санкоре[ENDCOLOR]. [NEWLINE][ICON_BULLET] +1 [ICON_FOOD] еда и [ICON_PRODUCTION] производство от всех построек Великих Людей и Достопримечательностей.[NEWLINE][ICON_BULLET] В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]Тронная комната[ENDCOLOR] (+10% ко всему, +1 дальность обработки клеток городом, 1 [ICON_VP_GREATMUSIC] ячейка Шедевра музыки, 1 ячейка [ICON_VP_MUSICIAN] музыканта).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_ENGINEER] Великих Инженеров за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Традиция[ENDCOLOR] нацелена на создание Великих Людей и постройку внушительной столицы.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Традиции даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET]+2 [ICON_FOOD] еды, [ICON_CITIZEN] гражданина и [ICON_HAPPINESS_1] настроения в [ICON_CAPITAL] столице.[NEWLINE][ICON_BULLET] +1 [ICON_CULTURE] культура в [ICON_CAPITAL] столице за каждые 2 [ICON_CITIZEN] горожанина. [NEWLINE][ICON_BULLET]+5% [ICON_FOOD] еды во всех городах.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Традиции даёт:[ENDCOLOR] [NEWLINE][ICON_BULLET]+3% [ICON_FOOD] еды во всех городах, +1 [ICON_RESEARCH] науки в [ICON_CAPITAL] столице.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Традиции даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Позволяет построить [COLOR_POSITIVE_TEXT]Университет Санкоре[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [ICON_FOOD] еда и [ICON_PRODUCTION] производство от всех построек Великих Людей и [ICON_RES_ARTIFACTS] Достопримечательностей.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]Тронная комната[ENDCOLOR] (+10% ко всем доходам, +1 дальность обработки клеток городом, 1 [ICON_VP_GREATMUSIC] ячейка Шедевра музыки, 1 ячейка [ICON_VP_MUSICIAN] музыканта).[NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_ENGINEER] Великих Инженеров за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_TRADITION_HELP';
 
 -- Aristocracy (now Justice)
@@ -1046,7 +1070,7 @@ SET Text = 'Величие'
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Величие[ENDCOLOR][NEWLINE][ICON_BULLET]Специалисты в [ICON_CAPITAL] столице потребляют в 2 раза меньше [ICON_FOOD] еды. [NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Государственное казначейство[ENDCOLOR] (+4 [ICON_GOLD] золото, +25% [ICON_GREAT_PEOPLE] скорость появления Великих Людей в городе, 1 ячейка [ICON_VP_MERCHANT] коммерсанта).'
+SET Text = '[COLOR_POSITIVE_TEXT]Величие[ENDCOLOR][NEWLINE][ICON_BULLET]Специалисты в [ICON_CAPITAL] столице потребляют в 2 раза меньше [ICON_FOOD] еды. [NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Дворцовый сад[ENDCOLOR] (+5 [ICON_FOOD] еда, +25% [ICON_GREAT_PEOPLE] скорость появления Великих Людей в городе, -2 [ICON_HAPPINESS_3] недовольства от [ICON_URBANIZATION] Урбанизации, 1 ячейка для [ICON_GREAT_WORK] Шедевра литературы, 1 ячейка [ICON_VP_WRITER] писателя).'
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY_HELP';
 
 UPDATE Language_ru_RU
@@ -1059,7 +1083,7 @@ SET Text = 'Великолепие'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Великолепие[ENDCOLOR][NEWLINE][ICON_BULLET]Использование Великого Человека дает 50 [ICON_CULTURE] культуры (в зависимости от Эры). [NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Дворцовый сад[ENDCOLOR] (+5 [ICON_FOOD] еды, 1 ячейка [ICON_VP_GREATWRITING] Шедевров литературы, Монументы, Сады и Бани дают +2 [ICON_CULTURE] культуры в каждом городе; 1 ячейка [ICON_VP_WRITER] писателя).'
+SET Text = '[COLOR_POSITIVE_TEXT]Великолепие[ENDCOLOR][NEWLINE][ICON_BULLET]Использование Великого Человека дает 50 [ICON_CULTURE] культуры (в зависимости от Эры). [NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Государственное казначейство[ENDCOLOR] (+4 [ICON_GOLD] золото, Монументы, Сады и Бани дают +2 [ICON_CULTURE] культуры в каждом городе; 1 ячейка [ICON_VP_MERCHANT] коммерсанта).'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE_HELP';
 
 UPDATE Language_ru_RU
@@ -1072,7 +1096,7 @@ SET Text = 'Обряд'
 WHERE Tag = 'TXT_KEY_POLICY_LEGALISM';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Обряд[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от Национальных чудес, которые требуют постройки других зданий.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Придворный астролог[ENDCOLOR] (+3 [ICON_RESEARCH] наука, Дом писаря, Охотничий домик и Дом травника дают +1 [ICON_RESEARCH] науки в каждом городе; 1 ячейка [ICON_VP_SCIENTIST] ученого).'
+SET Text = '[COLOR_POSITIVE_TEXT]Обряд[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от Национальных чудес, которые требуют постройки других зданий.[NEWLINE][ICON_BULLET]+25% к скорости [ICON_PRODUCTION] постройки Национальных чудес, которые требуют постройки других зданий.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Придворный астролог[ENDCOLOR] (+3 [ICON_RESEARCH] наука, Дом писаря, Коптильня и Дом травника дают +1 [ICON_RESEARCH] науки в каждом городе; 1 ячейка [ICON_VP_SCIENTIST] ученого).'
 WHERE Tag = 'TXT_KEY_POLICY_LEGALISM_HELP';
 
 UPDATE Language_ru_RU
