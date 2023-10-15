@@ -1641,12 +1641,8 @@
 			<Text>Модификатор дальнего боя</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_EMPIRE_PROXIMITY">
-			<Text>Близость Империи</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_FRIENDS">
-			<Text>Есть друзья</Text>
+		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_NO_CAPITAL">
+			<Text>Нет столицы</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_AIR_PATROL_BOMBED_GROUND_TARGETS">

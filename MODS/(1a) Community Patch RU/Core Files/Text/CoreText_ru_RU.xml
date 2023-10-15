@@ -51,6 +51,14 @@
 			<Text>{1_Num} extra {2_IconString} от [ICON_CITIZEN] населения в Империи</Text>
 		</Row>
 
+		<!-- No Peace With City-State -->
+		<Row Tag="TXT_KEY_PEACE_BLOCKED_TURNS">
+			<Text>Мирный договор недоступен в течение {1_Num} хода(ов)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEACE_BLOCKED_CSTATE_TURNS_TT">
+			<Text>Вы агрессивно напали на этот город-государство и не можете заключить мир в течение {1_Num} ходов!</Text>
+		</Row>
+
 		<!-- Text for Preview Combat Miscellaneous Bonuses -->
 		<Row Tag="TXT_KEY_MISC_BONUS">
 			<Text>Другое</Text>
