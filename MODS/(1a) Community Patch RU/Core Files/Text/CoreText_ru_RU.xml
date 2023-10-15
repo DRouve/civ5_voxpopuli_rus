@@ -111,6 +111,9 @@
 		<Row Tag="TXT_KEY_EUPANEL_WITHDRAW_CHANCE">
 			<Text>[COLOR_CYAN]Шанс отступить[ENDCOLOR]</Text>
 		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_WITHDRAW_CHANCE_100_PERCENT">
+			<Text>[COLOR_CYAN]Юнит отступит от атаки[ENDCOLOR]</Text>
+		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_RANGED_SUPPORT">
 			<Text>[COLOR_CYAN]Дополнительная дальняя атака[ENDCOLOR]</Text>
 		</Row>
@@ -2440,33 +2443,50 @@
 
 		<!-- NEW CS Quests -->
 
+		<!-- Find City -->
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_FORMAL">
+			<Text>Они хотят, чтобы вы нашли город {@1_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_FIND_CITY">
+			<Text>{@2_CivName} ищут новые возможности для торговли. Они слышали о дальнем городе, именуемом "{@1_CityName}." Если вы сможете найти этот город для {@1_CityName}, ваши старания будут вознаграждены.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_FIND_CITY">
+			<Text>{@2_CivName} ищут {@1_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_CITY">
+			<Text>Весть о том, что вы обнаружили {@1_CityName}, сильно порадовала торговцев из {@2_MinorCivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_FIND_CITY">
+			<Text>Найден {@1_CityName} для {@2_CivName}!</Text>
+		</Row>
+
 		<!-- Capture City -->
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CAPTURE_CITY">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ACQUIRE_CITY">
 			<Text>Эксперты по тактике из {@2_CivName} считают, что город {@1_CityName} имеет важное стратегическое значение. Добудьте его любым способом, и вы будете щедро вознаграждены!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CAPTURE_CITY">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ACQUIRE_CITY">
 			<Text>{@2_CivName} хотят чтобы вы захватили {@1_CityName}</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GET_CITY_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ACQUIRE_CITY_COMPLETE">
 			<Text>Эксперты по тактике из {@1_CivName} благодарят вас за ваши усилия и надеются, что город будет так полезен в военном отношении, как они и предполагали.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GET_CITY_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ACQUIRE_CITY_COMPLETE">
 			<Text>Успешно захвачен город для {@1_CivName}!</Text>
 		</Row>
 
 		<!-- Capture City (OCC) -->
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_UNIT_GET_CITY_OCC">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ACQUIRE_CITY_OCC">
 			<Text>Эксперты по тактике из {@2_CivName} считают, что город {@1_CityName} представляет серьезную угрозу их безопасности. Завоюйте его любыми способами, и вы будете щедро вознаграждены!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_UNIT_GET_CITY_OCC">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ACQUIRE_CITY_OCC">
 			<Text>{@2_CivName} хотят чтобы вы завоевали {@1_CityName}</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GET_CITY_OCC_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ACQUIRE_CITY_OCC_COMPLETE">
 			<Text>Эксперты по тактике из {@1_CivName} благодарны вам за завоевание города, на который они нацелились.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GET_CITY_OCC_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ACQUIRE_CITY_OCC_COMPLETE">
 			<Text>Успешно завоёван город для {@1_CivName}!</Text>
 		</Row>
     
@@ -2478,10 +2498,10 @@
 			<Text>Отчёт разведки от {@1_Civ}</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COUP_CITY_COMPLETE">
-			<Text>{@1_Civname} благодарит вас за успешный переворот.</Text>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COUP_COMPLETE">
+			<Text>{@2_Civname} благодарит вас за успешный переворот у {@1_CityName}.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_COUP_CITY_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_COUP_COMPLETE">
 			<Text>Успешный переворот для {@1_Civname}!</Text>
 		</Row>
 
@@ -2501,47 +2521,47 @@
 
 
 		<!-- Steal -->
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_STEAL_FROM">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPY_ON_MAJOR">
 			<Text>Двойные агенты в {@3_Civ} указывают, что {@1_Civ} в настоящее время весьма уязвима для шпионажа. Если вы выполните [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] шпионских действий против {@1_Civ} (шпионские события или кража технологий), вы будете щедро вознаграждены.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_STEAL_FROM">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_SPY_ON_MAJOR">
 			<Text>Разведданные от {@1_Civ}</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_STEAL_FROM_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPY_ON_MAJOR_COMPLETE">
 			<Text>Двойные агенты в {@2_Civ} гордятся вашим успешным шпионажем против {@1_Civ}!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_STEAL_FROM_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_ON_MAJOR_COMPLETE">
 			<Text>Шпионское действие завершено!</Text>
 		</Row>
 
 		<!-- Construction -->
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONSTRUCT_X_BUILDING">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_BUILD_X_BUILDINGS">
 			<Text>Строители из {3_Civ} хотят изучить ценность [COLOR_POSITIVE_TEXT]{1_Building}[ENDCOLOR]. {3_Civ} обещает большую награду, если вы построите [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] таких зданий в своей империи.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONSTRUCT_X_BUILDING">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_BUILD_X_BUILDINGS">
 			<Text>Строительный проект от {@1_Civ}</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_BUILD_X_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_BUILD_X_BUILDINGS_COMPLETE">
 			<Text>Строители из {@1_Civ} в восторге от ваших грандиозных строительных работ.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BUILD_X_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BUILD_X_BUILDINGS_COMPLETE">
 			<Text>Строительный проект завершен!</Text>
 		</Row>
 
 		<!-- Discovery -->
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_DISCOVERY_PLOT">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_EXPLORE_AREA">
 			<Text>Картографы из {@1_Civ} обращаются к вам за помощью в создании картографического проекта. Исследуйте окрестности указанной области столько, сколько необходимо. Они вознаградят вас тем, что у них есть.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DISCOVERY_PLOT">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_EXPLORE_AREA">
 			<Text>Картографическая миссия</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_DISCOVERY_PLOT_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_EXPLORE_AREA_COMPLETE">
 			<Text>Картографы из {@1_Civ} благодарят вас за помощь в их картографическом проекте.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DISCOVERY_PLOT_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_EXPLORE_AREA_COMPLETE">
 			<Text>Картографическая миссия завершена!</Text>
 		</Row>
 
@@ -2574,30 +2594,30 @@
 
 
 		<!-- Formal Text-->
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_PLOT_FORMAL">
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_EXPLORE_AREA_FORMAL">
 			<Text>Исследуйте неизведанную область мира ([COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% завершено).</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_BUILD_X_BUILDINGS_FORMAL">
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_BUILD_X_BUILDINGS_FORMAL">
 			<Text>Постройте [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] {@1_Building} {2_Num: plural 1?здание; other?здания;} в вашей империи.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_STEAL_FROM_FORMAL">
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_SPY_ON_MAJOR_FORMAL">
 			<Text>Проведите разведывательные операции против {1_Civ} (осталось [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]).</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_COUP_CITY_FORMAL">
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_COUP_FORMAL">
 			<Text>Организуйте переворот в {1_Civ}.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_GET_CITY_FORMAL">
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ACQUIRE_CITY_FORMAL">
 			<Text>Приобретите город {1_City}.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_GET_CITY_OCC_FORMAL">
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ACQUIRE_CITY_OCC_FORMAL">
 			<Text>Они хотят, чтобы вы завоевали город {1_City}.</Text>
 		</Row>
 		<!-- Plot Helpers -->
 
-		<Row Tag="TXT_KEY_CITY_STATE_GET_CITY_QUEST_LONG">
+		<Row Tag="TXT_KEY_CITY_STATE_ACQUIRE_CITY_QUEST_LONG">
 			<Text>{1_Civ} хочет, чтобы вы приобрели этот город.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_FIND_PLOT_QUEST_LONG">
+		<Row Tag="TXT_KEY_CITY_STATE_EXPLORE_AREA_QUEST_LONG">
 			<Text>{1_Civ} хочет, чтобы вы исследовали карту возле этой клетки.</Text>
 		</Row>
 
@@ -3795,6 +3815,10 @@
 		<!-- Bully popup texts -->
 		<Row Tag="TXT_KEY_MISC_BULLIED_POPUP">
 			<Text>ЗАПУГАН:</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_RESILIENT_VARIABLE_THRESHOLD">
+			<Text>В настоящее время они [COLOR_WARNING_TEXT]устойчивы[ENDCOLOR], поскольку вы на {1_FactorScore} % ниже порогового значения [COLOR_CYAN]{2_Threshold}%[ENDCOLOR]:</Text>
 		</Row>
 		
 		<!-- ADDITIONS TO EXISTING DIPLOMACY TEXTS -->
@@ -5725,22 +5749,22 @@
 			<Text>Брак между {@2_MinorCivName} и {@1_CivName}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE_TT_1">
-			<Text>Прекрасная принцесса {@1_CivName} вышла замуж за дворянина {@2_MinorCivName}. Имея дипломатические отношения, объединенные браком, {@2_MinorCivName} предоставляет {@1_CivName} дополнительного делегата на Всемирном конгрессе, повышает скорость появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и увеличивает их минимальное [ICON_INFLUENCE] влияние на город-государство на 200.</Text>
+			<Text>Прекрасная принцесса {@1_CivName} вышла замуж за дворянина {@2_MinorCivName}. Имея дипломатические отношения, объединенные браком, ваше минимальное влияние на {@2_MinorCivName} увеличено на 75 (в зависимости от Эры), а скорость появления [ICON_GREAT_PEOPLE] Великих Людей в вашей [ICON_CAPITAL] столице увеличена на 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE_TT_2">
-			<Text>Прекрасный принц {@1_CivName} женился на дворянке {@2_MinorCivName}. Имея дипломатические отношения, объединенные браком, {@2_MinorCivName} предоставляет {@1_CivName} дополнительного делегата на Всемирном конгрессе, повышает скорость появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и увеличивает их минимальное [ICON_INFLUENCE] влияние на город-государство на 200.</Text>
+			<Text>Прекрасный принц {@1_CivName} женился на дворянке {@2_MinorCivName}. Имея дипломатические отношения, объединенные браком, ваше минимальное влияние на {@2_MinorCivName} увеличено на 75 (в зависимости от Эры), а скорость появления [ICON_GREAT_PEOPLE] Великих Людей в вашей [ICON_CAPITAL] столице увеличена на 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_MARRIED_VOTES">
 			<Text>[NEWLINE][ICON_BULLET]{1_Num} от Дипломатических браков</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_TT">
-			<Text>Вы можете потратить {1_BuyoutCost} [ICON_GOLD] золота, чтобы заключить дипломатический брак с этим городом-государством. Это дает: дополнительного делегата на Всемирном конгрессе, +15% к скорости появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и минимальное [ICON_INFLUENCE] влияние на город-государство увеличивается на 200.[NEWLINE][NEWLINE] Это может быть выполнено только один раз для каждого города-государства, а стоимость [ICON_GOLD] золота увеличивается с каждым дипломатическим браком.</Text>
+			<Text>Вы можете потратить {1_BuyoutCost} [ICON_GOLD] золота, чтобы заключить дипломатический брак с этим городом-государством. Это повысит ваше минимальное влияние на {@2_MinorCivName} увеличено на 75 (в зависимости от Эры), а скорость появления [ICON_GREAT_PEOPLE] Великих Людей в вашей [ICON_CAPITAL] столице увеличится на 15%.[NEWLINE][NEWLINE] Это может быть выполнено только один раз для каждого города-государства, а стоимость [ICON_GOLD] золота увеличивается с каждым дипломатическим браком.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_TT">
-			<Text>Вы можете потратить {2_BuyoutCost} [ICON_GOLD] золота, чтобы заключить дипломатический брак с этим городом-государством. Это дает: дополнительного делегата на Всемирном конгрессе, +15% к скорости появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и минимальное [ICON_INFLUENCE] влияние на город-государство увеличивается на 200.[NEWLINE][NEWLINE] Это может быть выполнено только один раз для каждого города-государства, а стоимость [ICON_GOLD] золота увеличивается с каждым дипломатическим браком.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Вы должны состоять в Союзе с ними на {1_NumTurns} ходов и иметь {2_BuyoutCost} [ICON_GOLD] золота, чтобы выполнить это действие.[ENDCOLOR]</Text>
+			<Text>Вы можете потратить {2_BuyoutCost} [ICON_GOLD] золота, чтобы заключить дипломатический брак с этим городом-государством. Это повысит ваше минимальное влияние на {@2_MinorCivName} увеличено на 75 (в зависимости от Эры), а скорость появления [ICON_GREAT_PEOPLE] Великих Людей в вашей [ICON_CAPITAL] столице увеличится на 15%.[NEWLINE][NEWLINE] Это может быть выполнено только один раз для каждого города-государства, а стоимость [ICON_GOLD] золота увеличивается с каждым дипломатическим браком.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Вы должны состоять в Союзе с ними на {1_NumTurns} ходов и иметь {2_BuyoutCost} [ICON_GOLD] золота, чтобы выполнить это действие.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_ALLY_TT">
-			<Text>Вы можете потратить {3_BuyoutCost} [ICON_GOLD] золота, чтобы заключить дипломатический брак с этим городом-государством. Это дает: дополнительного делегата на Всемирном конгрессе, +15% к скорости появления [ICON_GREAT_PEOPLE] Великих Людей в [ICON_CAPITAL] столице и минимальное [ICON_INFLUENCE] влияние на город-государство увеличивается на 200.[NEWLINE][NEWLINE] Это может быть выполнено только один раз для каждого города-государства, а стоимость [ICON_GOLD] золота увеличивается с каждым дипломатическим браком.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Вы должны состоять в Союзе на {1_NumTurns} ходов (сейчас: {2_TurnsAllied} ходов) и иметь {3_BuyoutCost} [ICON_GOLD] золота, чтобы выполнить это действие.[ENDCOLOR]</Text>
+			<Text>Вы можете потратить {3_BuyoutCost} [ICON_GOLD] золота, чтобы заключить дипломатический брак с этим городом-государством. Это повысит ваше минимальное влияние на {@2_MinorCivName} увеличено на 75 (в зависимости от Эры), а скорость появления [ICON_GREAT_PEOPLE] Великих Людей в вашей [ICON_CAPITAL] столице увеличится на 15%.[NEWLINE][NEWLINE] Это может быть выполнено только один раз для каждого города-государства, а стоимость [ICON_GOLD] золота увеличивается с каждым дипломатическим браком.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Вы должны состоять в Союзе на {1_NumTurns} ходов (сейчас: {2_TurnsAllied} ходов) и иметь {3_BuyoutCost} [ICON_GOLD] золота, чтобы выполнить это действие.[ENDCOLOR]</Text>
 		</Row>
 		
 		<!-- Venice Tooltip -->
@@ -7163,7 +7187,10 @@
 			<Text>[ICON_SPY] Шпионские действия:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_MINOR_QUEST">
-			<Text>[ICON_CITY_STATE] Задание город-государства ({1_Data}):[NEWLINE]{2_YieldString}</Text>
+			<Text>[ICON_CITY_STATE] Выполнение задания {2_MinorName} ({1_Data}):[NEWLINE]{3_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_HEAVY_TRIBUTE_QUEST">
+			<Text>[ICON_PIRATE] Требование дани от {2_MinorName} - Награда за задание ({1_Data}):[NEWLINE]{3_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_CULTURE_BOMB">
 			<Text>Расширение [ICON_CULTURE] границ Великим Человеком:[NEWLINE]{1_YieldString}</Text>
@@ -7198,106 +7225,109 @@
 
 		<!-- Quest Data -->
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ROUTE_NAME">
-			<Text>Построить маршрут для {1_CSName}</Text>
+			<Text>Построить маршрут</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_KILL_CAMP_NAME">
-			<Text>Уничтожить лагерь для {1_CSName}</Text>
+			<Text>Уничтожить лагерь</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONNECT_RESOURCE_NAME">
-			<Text>Присоединить ресурс для {1_CSName}</Text>
+			<Text>Присоединить ресурс</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONSTRUCT_WONDER_NAME">
-			<Text>Построить чудо для {1_CSName}</Text>
+			<Text>Построить чудо</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_GREAT_PERSON_NAME">
-			<Text>Великий Человек для {1_CSName}</Text>
+			<Text>Появление Великого Человека</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_KILL_CITY_STATE_NAME">
-			<Text>Уничтожить город-государство для {1_CSName}</Text>
+			<Text>Уничтожить город-государство</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_FIND_PLAYER_NAME">
-			<Text>Найти игрока для {1_CSName}</Text>
+			<Text>Найти игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_FIND_CITY_NAME">
+			<Text>Найти город</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_FIND_NATURAL_WONDER_NAME">
-			<Text>Найти чудо природы для {1_CSName}</Text>
+			<Text>Найти чудо природы</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_GIVE_GOLD_NAME">
-			<Text>Дать золото для {1_CSName}</Text>
+			<Text>Дать золото</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_PLEDGE_TO_PROTECT_NAME">
-			<Text>Клятва о защите для {1_CSName}</Text>
+			<Text>Клятва о защите</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_CULTURE_NAME">
-			<Text>Конкурс культуры для {1_CSName}</Text>
+			<Text>Конкурс культуры</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_FAITH_NAME">
-			<Text>Конкурс веры для {1_CSName}</Text>
+			<Text>Конкурс веры</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_TECHS_NAME">
-			<Text>Конкурс технологий для {1_CSName}</Text>
+			<Text>Конкурс технологий</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_INVEST_NAME">
-			<Text>Инвестиции в {1_CSName}</Text>
+			<Text>Инвестиции</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_BULLY_CITY_STATE_NAME">
-			<Text>Потребовать дань для {1_CSName}</Text>
+			<Text>Потребовать дань</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_DENOUNCE_MAJOR_NAME">
-			<Text>Осудить игрока для {1_CSName}</Text>
+			<Text>Осудить игрока</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_SPREAD_RELIGION_NAME">
-			<Text>Распространить религию для {1_CSName}</Text>
+			<Text>Распространить религию</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_TRADE_ROUTE_NAME">
-			<Text>Торговый путь в {1_CSName}</Text>
+			<Text>Основать Торговый путь</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_WAR_NAME">
-			<Text>Война для {1_CSName}</Text>
+			<Text>Начать войну против игрока</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONSTRUCT_NATIONAL_WONDER_NAME">
-			<Text>Построить национальное чудо для {1_CSName}</Text>
+			<Text>Построить национальное чудо</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_GIFT_SPECIFIC_UNIT_NAME">
-			<Text>Подарить юнита {1_CSName}</Text>
+			<Text>Подарить юнита</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_FIND_CITY_STATE_NAME">
-			<Text>Найти город-государство для {1_CSName}</Text>
+			<Text>Найти город-государство</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_INFLUENCE_NAME">
-			<Text>Влияние для {1_CSName}</Text>
+			<Text>Влияние</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_TOURISM_NAME">
-			<Text>Конкурс туризма для {1_CSName}</Text>
+			<Text>Конкурс туризма</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ARCHAEOLOGY_NAME">
-			<Text>Археология для {1_CSName}</Text>
+			<Text>Археология</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CIRCUMNAVIGATION_NAME">
-			<Text>Кругосветное путешествие для {1_CSName}</Text>
+			<Text>Кругосветное путешествие</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_LIBERATION_NAME">
-			<Text>Освобождение для {1_CSName}</Text>
+			<Text>Освободить город-государство</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_HORDE_NAME">
-			<Text>Подавить орду для {1_CSName}</Text>
+			<Text>Подавить орду</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_REBELLION_NAME">
-			<Text>Подавить восстание для {1_CSName}</Text>
+			<Text>Подавить восстание</Text>
 		</Row>
-		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_DISCOVER_PLOT_NAME">
-			<Text>Обнаружить земли для {1_CSName}</Text>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_EXPLORE_AREA_NAME">
+			<Text>Обнаружить земли</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_BUILD_X_BUILDINGS_NAME">
-			<Text>Построить здания для {1_CSName}</Text>
+			<Text>Построить здания</Text>
 		</Row>
-		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_STEAL_FROM_NAME">
-			<Text>Шпионить для {1_CSName}</Text>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_SPY_ON_MAJOR_NAME">
+			<Text>Ведение шпионажа</Text>
 		</Row>
-		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_COUP_CITY_NAME">
-			<Text>Переворот для {1_CSName}</Text>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_COUP_NAME">
+			<Text>Совершить переворот</Text>
 		</Row>
-		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_GET_CITY_NAME">
-			<Text>Захватить для {1_CSName}</Text>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ACQUIRE_CITY_NAME">
+			<Text>Захватить город</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_HAPPINESS">

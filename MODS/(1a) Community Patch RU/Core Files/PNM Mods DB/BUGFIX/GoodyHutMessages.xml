@@ -31,6 +31,12 @@
 				<Text>[SPACE]Вы получили {1_Num} [ICON_GOLD] золота!</Text>
 			</Set>
 		</Update>
+		<Row Tag="TXT_KEY_GOODY_SCIENCE">
+			<Text>Вы обнаружили древние артефакты, которые вдохновляют вашу цивилизацию на открытие новых технологий!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_RECEIVED_SCIENCE">
+			<Text>[SPACE]Вы получили {1_Num} [ICON_RESEARCH] науки!</Text>
+		</Row>
 		<Row Tag="TXT_KEY_MISC_RECEIVED_CULTURE">
 			<Text>[SPACE]Вы получили {1_Num} [ICON_CULTURE] культуры!</Text>
 		</Row>

@@ -7,7 +7,7 @@
 
  -- added Withdraw Before Melee
 	UPDATE Language_ru_RU
-	SET Text = '80% шанс выйти из ближнего боя. Шанс отступления уменьшается против более быстрых вражеских юнитов или если за юнитом есть ограниченное количество открытых клеток.'
+	SET Text = 'Каждый ход юнит отступает от первого нападения на него (только ближний бой) если за ним имеются свободные клетки.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE_HELP';
 
  -- added Great Himeji Castle
@@ -17,7 +17,7 @@
 
  -- added Great Lighthouse Promotion
 	UPDATE Language_ru_RU
-	SET Text = '+1 к обзору.[NEWLINE]+1 [ICON_MOVES] к движению.'
+	SET Text = '+1 к [ICON_VP_VISION] обзору.[NEWLINE]+1 [ICON_MOVES] к движению.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_GREAT_LIGHTHOUSE_HELP';
 
  -- added Damaged Enemy Bonus (33)
@@ -32,7 +32,7 @@
 
  -- added Statue Of Zeus Promotion
 	UPDATE Language_ru_RU
-	SET Text = '+25% [ICON_STRENGTH] к боевой мощи при атаке [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].'
+	SET Text = '[COLOR_POSITIVE_TEXT]Военные юниты:[ENDCOLOR] +25% [ICON_STRENGTH] к боевой мощи при атаке [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].[NEWLINE][COLOR_POSITIVE_TEXT]Рабочие:[ENDCOLOR] Иммунитет к эффекту [COLOR_NEGATIVE_TEXT]Военнопленные[ENDCOLOR], снижающему скорость работы.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_STATUE_ZEUS_HELP';
 
  -- added 1 Extra Movement
@@ -161,15 +161,15 @@
 -- Replace Drill
 
 	UPDATE Language_ru_RU
-	SET Text = '+10% к [ICON_STRENGTH] боевой мощи.[NEWLINE]+25% к [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].'
+	SET Text = '+10% к [ICON_STRENGTH] боевой мощи.[NEWLINE]Получаемый урон от городов уменьшен на 15%.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_DRILL_1_HELP';
 
 	UPDATE Language_ru_RU
-	SET Text = '+10% к [ICON_STRENGTH] боевой мощи.[NEWLINE]+25% к [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].'
+	SET Text = '+10% к [ICON_STRENGTH] боевой мощи.[NEWLINE]Получаемый урон от городов уменьшен на 15%.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_DRILL_2_HELP';
 
 	UPDATE Language_ru_RU
-	SET Text = '+10% к [ICON_STRENGTH] боевой мощи.[NEWLINE]+25% к [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].'
+	SET Text = '+10% к [ICON_STRENGTH] боевой мощи.[NEWLINE]Получаемый урон от городов уменьшен на 15%.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_DRILL_3_HELP';
 
 -- Replace Shock
@@ -359,7 +359,7 @@
 -- Wolfpack extremely strong
 
 	UPDATE Language_ru_RU
-	SET Text = '+30% к [ICON_RANGE_STRENGTH] боевой мощи дальнего боя при нападении.[NEWLINE]+1 Обзор.'
+	SET Text = '+30% к [ICON_RANGE_STRENGTH] боевой мощи дальнего боя при нападении.[NEWLINE]+1 к [ICON_VP_VISION] обзору.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_WOLFPACK_1_HELP';
 
 	UPDATE Language_ru_RU
@@ -367,7 +367,7 @@
 	WHERE Tag = 'TXT_KEY_PROMOTION_WOLFPACK_2_HELP';
 
 	UPDATE Language_ru_RU
-	SET Text = '+30% к [ICON_RANGE_STRENGTH] боевой мощи дальнего боя при нападении.[NEWLINE]40% шанс выйти из ближнего боя.'
+	SET Text = '+30% к [ICON_RANGE_STRENGTH] боевой мощи дальнего боя при нападении.[NEWLINE]Юнит отступает от первой атаки ближнего боя каждый ход (если это возможно).'
 	WHERE Tag = 'TXT_KEY_PROMOTION_WOLFPACK_3_HELP';
 
 	UPDATE Language_ru_RU
@@ -429,11 +429,11 @@
 
 	-- City Assault
 	UPDATE Language_ru_RU
-	SET Text = '+33% к [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].[NEWLINE]Урон от городов уменьшен на 33%.'
+	SET Text = '-10% к [ICON_STRENGTH] боевой мощи.[NEWLINE]+100% к [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_SIEGE_HELP';
 
 	UPDATE Language_ru_RU
-	SET Text = 'Штурм города'
+	SET Text = 'Отчаянная надежда'
 	WHERE Tag = 'TXT_KEY_PROMOTION_SIEGE';
 
 	-- City Siege
@@ -567,6 +567,11 @@
 	SET Text = '-20% к [ICON_RANGE_STRENGTH] боевой мощи дальнего боя при атаке.[NEWLINE]+1 к дальности стрельбы.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_RANGE_HELP';
 
+	-- Heavy Charge
+	UPDATE Language_ru_RU
+	SET Text = '+50% к [ICON_STRENGTH] боевой мощи при нападении, если защищающийся не может отступить. Защищающийся вынужден отступить (если это возможно), если его [ICON_STRENGTH] боевая мощь после всех модификаторов меньше [ICON_STRENGTH] боевой мощи этого юнита.'
+	WHERE Tag = 'TXT_KEY_PROMOTION_HEAVY_CHARGE_HELP';
+
 	-- Changed English UA
 	UPDATE Language_ru_RU
 	SET Text = '+1 к [ICON_MOVES] движению для Морских юнитов.'
@@ -655,7 +660,7 @@
 
 	-- Embarkation
 	UPDATE Language_ru_RU
-	SET Text = 'Может садиться на [COLOR_POSITIVE_TEXT]Водные[ENDCOLOR] клетки.[NEWLINE]Посаженные юниты могут заходить на клетки [COLOR_POSITIVE_TEXT]Океана[ENDCOLOR] и получают +2 к обзору.'
+	SET Text = 'Может провести погрузку на [COLOR_POSITIVE_TEXT]Водных[ENDCOLOR] клетках.[NEWLINE]Погруженные юниты могут заходить на клетки [COLOR_POSITIVE_TEXT]Океана[ENDCOLOR] и получают +2 к [ICON_VP_VISION] обзору.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_ALLWATER_EMBARKATION_HELP';
 
 	-- Golden Age Points from Kills

@@ -23,6 +23,11 @@ UPDATE Language_ru_RU
 SET Text = 'Штраф к [ICON_FOOD]/[ICON_PRODUCTION]'
 WHERE Tag = 'TXT_KEY_SUPPLY_DEFICIT_PENALTY';
 
+-- Fortifications
+UPDATE Language_ru_RU
+SET Text = 'Многие юниты имеют возможность «укрепиться». Это означает, что подразделение «окапывается» и создает оборонительные сооружения на своем текущем местоположении. Это дает отряду определенные защитные бонусы, благодаря чему его гораздо сложнее убить. Однако укрепления являются строго оборонительными: если отряд движется или атакует, укрепления разрушаются. Будучи укреплённым, отряд не активируется. Он останется неактивным, пока вы не активируете его вручную, нажав на отряд.[NEWLINE][NEWLINE]Улучшение также может содержать [COLOR_POSITIVE_TEXT]укрепления[ENDCOLOR], что означает, что подразделения, размещенные на этом улучшении, как и те, которые размещают гарнизон в городе, не будут выходить за пределы клетки после победы в ближнем бою.'
+WHERE Tag = 'TXT_KEY_COMBAT_FORTIFICATION_HEADING3_BODY';
+
 -- Wonders
 UPDATE Language_ru_RU
 SET Text = 'Чудеса — это замечательные, единственные в своем роде здания, которые гарантируют, что цивилизация останется в памяти на протяжении всей истории. Чудеса будоражат ум и поднимают настроение.[NEWLINE][NEWLINE]Пирамиды, Собор Парижской Богоматери и Стоунхендж — примеры чудес. Чудеса требуют много времени и энергии от ваших городов для строительства, но после завершения они приносят вашей цивилизации множество преимуществ.[NEWLINE][NEWLINE]Чудеса бывают трех основных типов: чудеса света, национальные чудеса и чудеса проекта. Только одна копия чуда света может быть построена в любой точке мира в данной игре. Национальные чудеса менее эксклюзивны: каждая нация может построить одну (но только одну) копию национального чуда.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Модификаторы производства чудес света[ENDCOLOR]: в дополнение к определенным чертам и политикам, [ICON_RES_MARBLE] Мрамор и [ICON_RES_STONE] камень увеличивают модификатор производства городов с этими ресурсами поблизости. Мрамор увеличивает производство Чудес на 15% для всех доиндустриальных Чудес, тогда как Камень увеличивает производство Чудес на 10% для всех досредневековых Чудес.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Стоимость производства Чудес Мира[ENDCOLOR]: за каждое Чудо, которое вы контроля, стоимость будущих Чудес возрастает. Стоимость варьируется в зависимости от эпохи чуда.[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]За каждое принадлежащее чудо той же эры: 25%. [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]За каждое принадлежащее чудо света предыдущей эпохи: 15%. [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]За каждое принадлежащее вам Чудо света двух предыдущих эпох: 10 % (Чудеса старше двух эпох не учитываются).[NEWLINE][NEWLINE]Если вы построили слишком много чудес света в течение эпохи, ваша способность получить будущие чудеса будут скомпрометированы, так что не будьте слишком жадными!'
@@ -287,6 +292,10 @@ UPDATE Language_ru_RU
 SET Text = '[NEWLINE][NEWLINE]Шпион работает на {1_SpyBonus} {1_SpyBonus: plural 1?ранг; other? ранга;} выше, чем обычно, при фальсификации выборов, поскольку этот город-государство является союзником цивилизации, на которую вы оказываете сильное культурное влияние. Шанс успеха переворотов также увеличен.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPY_BONUS_CITY_STATE';
 
+UPDATE Language_en_US
+SET Text = 'У вас {1_Num: plural 1?шпион; other?{1_Num} шпионов;} без задания.[NEWLINE][NEWLINE]Шпионы могут саботировать и воровать у других цивилизаций, раскрывать планы других цивилизаций посредством интриг и увеличивать свое влияние на города-государства, фальсифицируя выборы. Назначьте шпионов на экране «Обзор шпионажа», чтобы они начали работать!'
+WHERE Tag = 'TXT_KEY_EO_UNASSIGNED_SPIES_TT';
+
 -- Public Opinion
 
 UPDATE Language_ru_RU
@@ -437,6 +446,9 @@ UPDATE Language_ru_RU
 SET Text = 'Они не боятся вас и будут сопротивляться требованиям дани, так как вы на [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] ниже порога.'
 WHERE Tag = 'TXT_KEY_CSTATE_CANNOT_BULLY';	
 
+UPDATE Language_ru_RU
+SET Text = 'Взять {1_GoldValue} [ICON_GOLD] золота и частичную награду за задание (-{2_Influence} [ICON_INFLUENCE])'
+WHERE Tag = 'TXT_KEY_POPUP_MINOR_BULLY_UNIT_AMOUNT';
 
 UPDATE Language_ru_RU
 SET Text = '[COLOR_NEGATIVE_TEXT]Радиоактивные осадки наносят 15 единиц урона юнитам, которые заканчивают свой ход на клетке с осадками.[ENDCOLOR][NEWLINE][NEWLINE]Радиоактивные осадки — это остаточное излучение, оставшееся после ядерного взрыва. Осадки «выпадают» из воздуха в виде слоя радиоактивных частиц, которые очень опасны для растений и животных, убивая их немедленно или повреждая их ДНК, вызывая у них рак, другие болезни или неудачные мутации. В зависимости от типа ядерного взрыва земля может оставаться отравленной десятилетиями, а возможно, и столетиями. Очистка требует замены загрязненных зданий, почвы и растительности.'
@@ -499,13 +511,13 @@ SET Text = 'Во время игры вы будете создавать «ра
 WHERE Tag = 'TXT_KEY_PEDIA_IMPROVEMENT_HELP_TEXT';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_NEGATIVE_TEXT]Потребляет[ENDCOLOR] 2 [ICON_GOLD] золота за ход.[NEWLINE][NEWLINE]Непрерывная цепочка железных дорог позволяет юнитам очень быстро перемещаться по клеткам.'
+SET Text = '[COLOR_NEGATIVE_TEXT]Потребляет[ENDCOLOR] 3 [ICON_GOLD] золота за ход.[NEWLINE][NEWLINE]Непрерывная цепочка железных дорог позволяет юнитам очень быстро перемещаться по клеткам.'
 WHERE Tag = 'TXT_KEY_BUILD_RAILROAD_HELP';
 
 -- Fort
 UPDATE Language_ru_RU
-SET Text = 'Форт — это специальное улучшение, которое повышает бонус к защите на 50% для юнитов, размещенных на этом участке. Однако форты не дают бонуса к защите юнитам на вражеской территории. Нельзя строить рядом друг с другом.'
-WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FORT_TEXT';
+SET Text = 'Общая стоимость содержания дорог и железных дорог, которые вы построили или за которые несете ответственность. Дороги стоят 1 [ICON_GOLD] золота за ход, а железные дороги — 3 [ICON_GOLD].'
+WHERE Tag = 'TXT_KEY_EO_EX_IMPROVEMENTS';
 
 -- Landmark
 UPDATE Language_ru_RU
@@ -797,15 +809,6 @@ UPDATE Language_ru_RU
 SET Text = 'Торговые пути устанавливаются между двумя городами разных цивилизаций, каждый ход принося Золото. Цивилизация, из которой берет начало Торговый путь, получает больше золота, чем цивилизация назначения. Количество золота, производимого торговым путем, зависит от разнообразия ресурсов и дохода исходного города.[NEWLINE][NEWLINE]Торговые пути также можно создавать между двумя городами одной цивилизации. Когда в исходном городе есть зернохранилище, он может отправлять еду в город назначения, а когда у него есть мастерская, он может отправлять продукцию. Эти типы внутренних торговых путей не приносят пользы исходному городу.[NEWLINE][NEWLINE]В любой момент времени у вас может быть только ограниченное количество торговых путей. Изучение определенных технологий увеличивает количество доступных маршрутов. Чтобы узнать больше о существующих торговых путях, откройте экран «Обзор торговых путей», который находится в раскрывающемся меню «Дополнительная информация».[NEWLINE][NEWLINE]Дистанция, на которую могут пройти торговые пути, зависит от дорог, местности, враждебных войск и особенностей. Помните об этом при расширении и при попытке связать города торговыми путями.'
 WHERE Tag = 'TXT_KEY_TRADE_ROUTES_HEADING2_BODY';
 
--- Moai
-UPDATE Language_ru_RU
-SET Text = 'Моаи можно строить только на побережье. Если он построен рядом с другим Моаи, он обеспечивает дополнительную [ICON_CULTURE] культуру. Дает дополнительную отдачу после исследования более поздних технологий.[NEWLINE][NEWLINE]Если в пределах 3 клеток от моаи, все полинезийские юниты получают +20% [ICON_STRENGTH] к боевой мощи.'
-WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP';
-
-UPDATE Language_ru_RU
-SET Text = 'Моаи можно строить только на побережье. Если он построен рядом с другим Моаи, он обеспечивает дополнительную [ICON_CULTURE] культуру. Обеспечивает дополнительную прибыль после исследования более поздних технологий. Если в пределах 3 клеток от моаи, все полинезийские юниты получают +20% [ICON_STRENGTH] к боевой мощи.[NEWLINE][NEWLINE]Возможно, более известные как «статуи острова Пасхи». Моаи представляют собой большие гуманоидные фигуры, вырезанные в основном из вулканических пород. как туф. 887 таких статуй усеивают остров Пасхи, и считается, что они были созданы где-то между 1250 и 1500 годами нашей эры. Почти половина все еще остается на месте первоначального карьера, но остальные были перевезены и возведены вдоль береговой линии острова. Легко узнаваемые по большим головам и вытянутым чертам лица, считается, что они были индивидуальными изображениями умерших предков и могущественных вождей.[NEWLINE][NEWLINE]Хотя большинство ученых сходятся во мнении, почему и как были созданы статуи, способ их транспортировки по-прежнему остается загадкой. Каждый из них весит от 9 до 86 тонн, и для их перемещения из карьера в место захоронения потребовалось бы невероятное инженерное искусство.[NEWLINE][NEWLINE]В 1994 году статуи Моаи были официально включены в список Всемирного наследия ЮНЕСКО.'
-WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_TEXT';
-
 -- Warscore Diplo
 
 UPDATE Language_ru_RU
@@ -1062,7 +1065,6 @@ VALUES  ('TXT_KEY_CO_TAB_HISTORIC_EVENTS', ' Исторические событ
 	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_LAND', '[ICON_CARAVAN] Торговля с крупным городом'), --Also Unused kinda it uses City Name
 	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_SEA', '[ICON_CARGO_SHIP] Торговля с крупным городом'), --Also Unused kinda it uses City Name
 	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_CS', '[ICON_CARAVAN]/[ICON_CARGO_SHIP] Торговля с [ICON_CITY_STATE] городом-государством'),
-	('TXT_KEY_CO_HISTORIC_EVENT_CITY_FOUND_CAPITAL', 'Основание столицы ([ICON_CAPITAL])'), --Unused
 	('TXT_KEY_CO_HISTORIC_EVENT_ERA_CHANGE_TT', 'Каждая смена [ICON_RESEARCH] Эры станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!'),
 	('TXT_KEY_CO_HISTORIC_EVENT_WORLD_WONDER_TT', 'Каждое построенное [ICON_WONDER] Чудо Света станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!'),
 	('TXT_KEY_CO_HISTORIC_EVENT_GREAT_PERSON_TT', 'Каждое появление [ICON_GREAT_PEOPLE] Великого Человека в вашей Цивилизации станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!'),
@@ -1072,10 +1074,17 @@ VALUES  ('TXT_KEY_CO_TAB_HISTORIC_EVENTS', ' Исторические событ
 	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_LAND_TT', 'Каждый завершенный [ICON_CARAVAN] наземный Торговый путь из [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] в иностранный крупный город станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]! Данное количество будет отправлено ​​целевой крупной цивилизации, треть будет отправлена ​​всем остальным цивилизациям.'),
 	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_SEA_TT', 'Каждый завершенный [ICON_CARGO_SHIP] морской Торговый путь из [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] в иностранный крупный город станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]! Данное количество будет отправлено ​​целевой крупной цивилизации, треть будет отправлена ​​всем остальным цивилизациям.'),
 	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_CS_TT', 'Каждый завершенный [ICON_INTERNATIONAL_TRADE] Торговый путь (наземный или морской) с [ICON_CITY_STATE] городом-государством станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]! В отличие от торговли с иностранным крупным городом, это количество будет отправлено ​​всем остальным цивилизациям в одинаковом количестве.'),
-	('TXT_KEY_CO_HISTORIC_EVENT_CITY_FOUND', 'Основание города'), --Unused
-	('TXT_KEY_CO_HISTORIC_EVENT_CITY_CONQUEST', 'Завоевание города'), --Unused
-	('TXT_KEY_CO_HISTORIC_EVENT_PLAYER_TURNS_PASSED', 'Течение времени'), --Unused
-	('TXT_KEY_CO_HISTORIC_EVENT_AI_TURNS_PASSED', 'Течение времени'); --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_CITY_FOUND_CAPITAL', 'Основание столицы ([ICON_CAPITAL])'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_CITY_FOUND', 'Основание города'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_CITY_CONQUEST', 'Завоевание города'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_RESEARCHED_TECH', 'Изучение новой технологии'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_ADOPTED_POLICY', 'Принятие новой социальной политики'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_COMPLETED_POLICY_TREE', 'Завершение ветки социальной политики'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_KILLED_MAJOR_UNIT', 'Убийство юнита крупной цивилизации'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_KILLED_CITY_STATE_UNIT', 'Убийство юнита города-государства'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_KILLED_BARBARIAN_UNIT', 'Убийство юнита варваров'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_PLAYER_TURNS_PASSED', 'Time Passage'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_AI_TURNS_PASSED', 'Time Passage'), --Unused
 
 -- Victory Panel
 INSERT INTO Language_ru_RU (Tag, Text)
@@ -1103,3 +1112,18 @@ WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_PLAYER_LEADING';
 UPDATE Language_ru_RU 
 SET Text = 'Неизвестному игроку необходимо [COLOR_POSITIVE_TEXT]{1_num}[ENDCOLOR] исходных [ICON_CAPITAL] столиц/Вассалов для победы!' 
 WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_UNMET_PLAYER_LEADING';
+
+INSERT INTO Language_ru_RU (Tag, Text)
+VALUES  
+	('TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_NO', 'Этот город ранее принадлежал [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]. [COLOR_NEGATIVE_TEXT]Из-за враждебных действий, совершенных против них в прошлом, вы не можете вернуть им его.[ENDCOLOR]'),
+	('TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_CAPTURED', 'Этот город ранее принадлежал [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]. [COLOR_NEGATIVE_TEXT]Поскольку вы решили не освобождать их, вы не можете вернуть им этот город.[ENDCOLOR]');
+	
+UPDATE Language_ru_RU
+SET Text = 'Город находится в состоянии [ICON_BLOCKADED] Блокады из-за вражеского юнита![NEWLINE][ICON_BULLET]Город не может восстанавливать ОЗ.[NEWLINE][ICON_BULLET]Вражеские юниты получают [COLOR_POSITIVE_TEXT]+' || (SELECT Value FROM Defines WHERE Name = 'BLOCKADED_CITY_ATTACK_MODIFIER') || '%[ENDCOLOR] к боевой мощи при нападении на город.' 
+WHERE Tag = 'TXT_KEY_CITY_BLOCKADED';
+UPDATE Language_ru_RU 
+SET Text = '{1_Num} базового [ICON_GOLD] золота за каждый Торговый путь[NEWLINE]{2_Num} [ICON_GOLD] золота за каждого гражданина [ICON_CAPITAL] столицы ({3_Num})[NEWLINE]{4_Num} [ICON_GOLD] золота за каждого [ICON_CITIZEN] гражданина' 
+WHERE Tag = 'TXT_KEY_TRADE_ROUTE_INCOME_INFO';
+UPDATE Language_ru_RU 
+SET Text = '{1_Num}% [ICON_GOLD] золота от [ICON_CONNECTED] Торговой сети' 
+WHERE Tag = 'TXT_KEY_EGI_TRADE_ROUTE_MOD_INFO';

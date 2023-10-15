@@ -50,7 +50,7 @@ SET Text = 'Бог просторов'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+34% к скорости [ICON_CULTURE_LOCAL] расширения границ городов. Получайте 20 [ICON_PEACE] веры и 10 [ICON_PRODUCTION] производства каждый раз, когда город естественным образом расширяет свои границы (в зависимости от скорости игры).'
+SET Text = '+34% к скорости [ICON_CULTURE_LOCAL] расширения границ городов. Получайте 25 [ICON_PEACE] веры и 15 [ICON_PRODUCTION] производства каждый раз, когда город естественным образом расширяет свои границы (в зависимости от скорости игры).'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS';
 
 
@@ -88,7 +88,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_SUN_GOD';
 
 -- God of War
 UPDATE Language_ru_RU
-SET Text = 'Получите [ICON_PEACE] веру за убийство военных юнитов, равное 175% от их [ICON_STRENGTH] силы. Юниты ближнего боя исцеляются на 10 очков после убийства военного юнита. +2 [ICON_PEACE] вера и +2 [ICON_PRODUCTION] производство от Казарм.'
+SET Text = 'Получите [ICON_PEACE] веру за убийство военных юнитов, равное 175% от их [ICON_STRENGTH] силы. +2 [ICON_PEACE] вера и +2 [ICON_PRODUCTION] производство от Казарм.'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_WAR';
 
 
@@ -172,7 +172,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_FERTILITY_RITES';
 
 -- Goddess of the Hunt
 UPDATE Language_ru_RU
-SET Text = '+1 [ICON_PEACE] вера, [ICON_GOLD] золото и [ICON_CULTURE] культура от Лагерей, +2 [ICON_FOOD] еда от Охотничьих домиков.'
+SET Text = '+1 [ICON_PEACE] вера, [ICON_GOLD] золото и [ICON_CULTURE] культура от Лагерей, +2 [ICON_FOOD] еда от Коптилен.'
 WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_HUNT';
 
 
@@ -212,11 +212,11 @@ WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_LOVE';
 
 -- Apostolic Tradition (now Pilgrimage)
 UPDATE Language_ru_RU
-SET Text = 'Апостольская традиция'
+SET Text = 'Евангелизация'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+20 [ICON_FOOD] еды в Священном городе при распространении этой [ICON_RELIGION] религии (в зависимости от количества новых последователей вашей [ICON_RELIGION] религии). При открытии новой [ICON_RESEARCH] технологии, вы получите 2 [ICON_PEACE] веры за каждого последователя вашей [ICON_RELIGION] религии (максимум 250 последователей).[NEWLINE]Позволяет строительство Национального чуда [COLOR_POSITIVE_TEXT]Апостольский дворец[ENDCOLOR] (+4 [ICON_PEACE] вера и [ICON_GOLDEN_AGE] очки Золотого века; +5 [ICON_GOLDEN_AGE] очков Золотого века от [ICON_RELIGION] Священных мест; открывает верование [COLOR_POSITIVE_TEXT]Реформация[ENDCOLOR]).'
+SET Text = '+20 [ICON_FOOD] еды в Священном городе при распространении этой [ICON_RELIGION] религии (в зависимости от количества новых последователей вашей [ICON_RELIGION] религии), а также +15 [ICON_TOURISM] туризма, в зависимости от количества последователей других [ICON_RELIGION] религий в этом городе.[NEWLINE]Позволяет строительство Национального чуда [COLOR_POSITIVE_TEXT]Апостольский дворец[ENDCOLOR] (+4 [ICON_PEACE] вера и [ICON_GOLDEN_AGE] очки Золотого века; +5 [ICON_TOURISM] туризма от [ICON_RELIGION] Священных мест; открывает верование [COLOR_POSITIVE_TEXT]Реформация[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE';
 
 
@@ -288,11 +288,11 @@ WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES';
 
 -- Way of Noble Truths (formerly Tithe)
 UPDATE Language_ru_RU
-SET Text = 'Путь благородных истин'
+SET Text = 'Откровение'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Получите 30 [ICON_TOURISM] туризма при распространении своей [ICON_RELIGION] религию в чужих городах (бонус увеличивается в зависимости от количества последователей других [ICON_RELIGION] религий в этом городе). +10 [ICON_INFLUENCE] влияния на города-государства, когда Миссионеры распространяют в них вашу [ICON_RELIGION] религию (в зависимости от Эры). +1 глобальное [ICON_HAPPINESS_1] счастье за ​​каждые 10 последователей в мирных иностранных цивилизациях.[NEWLINE]Позволяет строительство Национального чуда [COLOR_POSITIVE_TEXT]Реликварий[ENDCOLOR] (+4 [ICON_PEACE] вера, +2 [ICON_CULTURE] культура, 4 [ICON_GREAT_WORK] ячейки для Шедевров искусства / Артефактов; +5 [ICON_TOURISM] туризма от [ICON_RELIGION] Священных мест; открывает верование [COLOR_POSITIVE_TEXT]Реформация[ENDCOLOR]).'
+SET Text = 'После изучения технологии, получите +2 [ICON_GOLDEN_AGE] очка Золотого века, [ICON_PEACE] веры и [ICON_CULTURE] культуры за каждого последователя вашей [ICON_RELIGION] религии (максимум 250 последователей).[NEWLINE]Позволяет строительство Национального чуда [COLOR_POSITIVE_TEXT]Чартариум[ENDCOLOR] (+5 [ICON_PEACE] науки от [ICON_RELIGION] Священных мест; открывает верование [COLOR_POSITIVE_TEXT]Реформация[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE';
 
 
@@ -563,13 +563,13 @@ SET Text = 'Священный город даёт +5 [ICON_GOLDEN_AGE] очко
 WHERE Tag = 'TXT_KEY_BELIEF_ITINERANT_PREACHERS';
 
 
--- Syncretism (formerly Religious Unity)
+-- Universalism (formerly Religious Unity)
 UPDATE Language_ru_RU
-SET Text = 'Синкретизм'
+SET Text = 'Универсализм'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_UNITY_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+1 [ICON_PEACE] вера, [ICON_RESEARCH] наука и [ICON_PRODUCTION] производство в Священном городе за каждые 2 последователя других религий в собственных городах. +1 [ICON_PEACE] вера в городе за каждые 15 [ICON_RESEARCH] науки за ход, которые он производит, но не более половины числа последователей в городе.'
+SET Text = '+1 [ICON_RESEARCH] наука и [ICON_PRODUCTION] производство в Священном городе за каждые 5 последователей других религий в собственных городах. +1 [ICON_GOLD] золото и [ICON_PEACE] вера в Священном городе за каждые 10 последователей этой [ICON_RELIGION] религии в иностранных городах.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_UNITY';
 
 
@@ -614,7 +614,7 @@ SET Text = 'Божественные учения'
 WHERE Tag = 'TXT_KEY_BELIEF_JESUIT_EDUCATION_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Можно покупать Университеты, Государственные школы и Исследовательские лаборатории за [ICON_PEACE] веру. Каждое из этих зданий даёт +2 [ICON_RESEARCH] науки. Священный город даёт 20 [ICON_PEACE] веры каждый раз, когда владелец использует [ICON_GREAT_PEOPLE] Великого Человека (в зависимости от Эры).'
+SET Text = 'Можно покупать Библиотеки, Университеты, Государственные школы и Исследовательские лаборатории за [ICON_PEACE] веру. Каждое из этих зданий даёт +2 [ICON_RESEARCH] науки. Священный город даёт 20 [ICON_PEACE] веры каждый раз, когда владелец использует [ICON_GREAT_PEOPLE] Великого Человека (в зависимости от Эры).'
 WHERE Tag = 'TXT_KEY_BELIEF_JESUIT_EDUCATION';
 
 

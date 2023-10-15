@@ -142,7 +142,9 @@
 			<Text>Увеличивает международное путешествие между цивилизациями. Увеличивает [ICON_TOURISM] модификатор туризма для всех цивилизаций на 50%.[NEWLINE][NEWLINE]Доступно после того, как любая цивилизация обнаружит полет.</Text>
 		</Row>
 		
-		<!-- Sweden Grenadiers -->
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_PILLAGE">
+			<Text>Викинг</Text>
+		</Row>
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE">
 			<Text>Урон по площади</Text>
 		</Row>
@@ -168,6 +170,16 @@
 		<!-- Forced City-State Annex (Rome UA) -->
 		<Row Tag="TXT_KEY_CONFIRM_BULLYANNEX">
 			<Text>Вы уверены, что хотите принудительно аннексировать {1_MinorCivName:textkey}?</Text>
+		</Row>
+		<!-- Propaganda Process -->
+		<Row Tag="TXT_KEY_PROCESS_TOURISM">
+			<Text>Пропаганда</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_TOURISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Пропаганда[ENDCOLOR] превращает 15% [ICON_PRODUCTION] производства этого города в [ICON_TOURISM] туризм.[NEWLINE][NEWLINE]Требуется принятие догматы Социалистического Реализма.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_TOURISM_STRATEGY">
+			<Text>{TXT_KEY_PROCESS_TOURISM_HELP}[NEWLINE][NEWLINE]Инвестирование производства в пропаганду — хороший способ повысить влияние вашего города в мире, что может быть полезно, если вы сейчас находитесь на революционной волне или хотите заставить другие цивилизации испытать ее.</Text>
 		</Row>
 	</Language_ru_RU>
 </GameData>

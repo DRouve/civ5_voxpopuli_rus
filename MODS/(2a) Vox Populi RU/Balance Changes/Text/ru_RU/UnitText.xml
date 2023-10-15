@@ -78,30 +78,37 @@
 			<Text>Хинет</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ALHAMBRA_HELP">
-			<Text>+15% к [ICON_STRENGTH] бевой мощи при нападении.[NEWLINE]50% шанс выйти из ближнего боя.</Text>
+			<Text>+15% к [ICON_STRENGTH] боевой мощи при нападении.[NEWLINE]Юнит отступает от первой атаки ближнего боя каждый ход, если это возможно.</Text>
 		</Row>
 
 <!-- Civilization Promotions -->
 	<!-- Denmark -->
 		<Row Tag="TXT_KEY_PROMOTION_VIKING">
-			<Text>Викинг</Text>
+			<Text>Викинг (суша)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_VIKING_HELP">
-			<Text>Базовая [ICON_STRENGTH] боевая мощь увеличена на 25% на [COLOR_POSITIVE_TEXT]разграбленных клетках[ENDCOLOR].[NEWLINE]Грабёж не требует [ICON_MOVES] движения.[NEWLINE]+5 ОЗ при лечении на [COLOR_POSITIVE_TEXT]нейтральной территории[ENDCOLOR] .</Text>
+			<Text>Грабеж не расходует очки [ICON_MOVES] движения и восстанавливает дополнительные [COLOR_POSITIVE_TEXT]10 ОЗ[ENDCOLOR].[NEWLINE]При грабеже [COLOR_POSITIVE_TEXT]недорожных улучшений[ENDCOLOR] вы получите 30 [ICON_GOLD] золота (в зависимости от Эры), а соседние вражеские юниты получают [COLOR_POSITIVE_TEXT]10 урона[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT">
-			<Text>Баркас</Text>
+			<Text>Викинг (море)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT_HELP">
-			<Text>+15% к [ICON_STRENGTH] боевой мощи (нападение и защита) на клетках [COLOR_POSITIVE_TEXT]Берега[ENDCOLOR].[NEWLINE]Грабёж не требует [ICON_MOVES] движения.[NEWLINE]Восстанавливает здоровье [COLOR_POSITIVE_TEXT]вдвое быстрее[ENDCOLOR] во время лечения на [COLOR_POSITIVE_TEXT]клетках Побережья[ENDCOLOR].</Text>
+			<Text>Грабеж не расходует очки [ICON_MOVES] движения и [COLOR_POSITIVE_TEXT]полностью исцеляет[ENDCOLOR] данного юнита.[NEWLINE]При грабеже [COLOR_POSITIVE_TEXT]улучшений[ENDCOLOR] вы получаете 60 [ICON_GOLD] золота (в зависимости от Эры), а соседние вражеские юниты получают [COLOR_POSITIVE_TEXT]15 урона[ENDCOLOR]</Text>
 		</Row>
-	<!-- Huns -->
+	<!-- France -->
 		<Row Tag="TXT_KEY_PROMOTION_COERCION">
-			<Text>Принуждение</Text>
+			<Text>Пролитой кровью</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COERCION_HELP">
 			<Text>Побежденные наземные юниты могут присоединиться к вам в качестве рекрутированных юнитов (без потребления снабжения). </Text>
+		</Row>
+	<!-- Huns -->
+		<Row Tag="TXT_KEY_PROMOTION_FOCUS_FIRE">
+			<Text>Прицельный огонь</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOCUS_FIRE_HELP">
+			<Text>+10% к [ICON_STRENGTH] боевой мощи за каждую последующую атаку против одной цели в течение хода.</Text>
 		</Row>
 	<!-- Japan -->
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO">
@@ -172,7 +179,7 @@
 			<Text>Степные кочевники</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MONGOL_TERROR_HELP">
-			<Text>Постоянный бонус от атаки с фланга при [COLOR_POSITIVE_TEXT]нападении[ENDCOLOR].[NEWLINE]+10% к [COLOR_POSITIVE_TEXT]бонусу от атаки с фланга[ENDCOLOR].</Text>
+			<Text>Может [COLOR_POSITIVE_TEXT]атаковать дважды[ENDCOLOR].</Text>
 		</Row>
 	<!-- Sweden -->
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN">
@@ -197,6 +204,14 @@
 		</Row>
 
 <!-- Policy Promotion -->
+	<!-- Progress -->
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_WORKER">
+			<Text>Быстрые рабочие</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_WORKER_HELP">
+			<Text>+1 к [ICON_MOVES] движению</Text>
+		</Row>
+
 	<!-- Authority -->
 		<Row Tag="TXT_KEY_PROMOTION_HONOR_BONUS">
 			<Text>Призыв</Text>
@@ -231,13 +246,14 @@
 			<Text>Быстрые полководцы</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_GENERAL_HELP">
-			<Text>+1 [ICON_MOVES] движение</Text>
-		</Row><Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER">
+			<Text>+1 к [ICON_MOVES] движению</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER">
 			<Text>Империализм</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER_HELP">
-			<Text>+1 зрение.</Text>
+			<Text>+1 к [ICON_VP_VISION] обзору.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BETTER_LEADERSHIP">
 			<Text>Полковые традиции</Text>
@@ -277,6 +293,30 @@
 			<Text>+50% к [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]раненых юнитов[ENDCOLOR].[NEWLINE]+10% к [COLOR_POSITIVE_TEXT]бонусу атаки с фланга[ENDCOLOR][NEWLINE]+10 ОЗ при лечении на [COLOR_POSITIVE_TEXT]дружественной территории[ ENDCOLOR].[NEWLINE]Игнорирует [COLOR_POSITIVE_TEXT]зону контроля[ENDCOLOR].[NEWLINE]Все клетки стоят 1 [ICON_MOVES] движения.</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROMOTION_BOMB_RACK">
+			<Text>Бомбостойка</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMB_RACK_HELP">
+			<Text>+20% к [ICON_STRENGTH] боевой мощи против [COLOR_POSITIVE_TEXT]наземных юнитов[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_AERIAL_TORPEDO">
+			<Text>Воздушная торпеда</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AERIAL_TORPEDO_HELP">
+			<Text>+20% к [ICON_STRENGTH] боевой мощи против [COLOR_POSITIVE_TEXT]морских юнитов[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_RECON_SMALL_INCREASE">
+			<Text>Воздушная разведка, небольшое увеличение</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_SMALL_INCREASE">
+			<Text>Воздушная развезка, дальность +1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_SMALL_INCREASE_HELP">
+			<Text>+7 к дальности воздушной разведки</Text>
+		</Row>
+
 <!-- Unit Free Promotions -->
 	<!-- Atatlist -->
 		<Row Tag="TXT_KEY_PROMOTION_ATLATL_ATTACK">
@@ -304,7 +344,7 @@
 			<Text>Иссушающий огонь</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ESPRIT_DE_CORPS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]25%[ENDCOLOR] шанс заставить вражеский отряд отступить после получения [ICON_RANGE_STRENGTH] урона в дальнем бою. Если отряд не может отступить, он получает на [COLOR_POSITIVE_TEXT]на 50%[ENDCOLOR] больше урона, чем обычно.</Text>
+			<Text>+50% урона по вражеским юнитам, которые не могут отступить.</Text>
 		</Row>
 	<!--Doppelsöldner-->
 		<Row Tag="TXT_KEY_PROMOTION_DOPPELSOLDNER">
@@ -318,7 +358,7 @@
 			<Text>Кавалерия разведчиков</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SCOUT_CAVALRY_HELP">
-			<Text>-20% к [ICON_STRENGTH] боевой мощи.[NEWLINE]+1 зрение и грабёж не расходует [ICON_MOVES] движение.</Text>
+			<Text>-20% к [ICON_STRENGTH] боевой мощи.[NEWLINE]+1 к [ICON_VP_VISION] обзору и грабёж не расходует [ICON_MOVES] движение.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HAKKAA_PAALLE">
 			<Text>Удар сверху</Text>
@@ -394,7 +434,7 @@
 			<Text>Коммандос</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE_HELP_I">
-			<Text>60% шанс выйти из ближнего боя. Вероятность отступления уменьшается, если нападающий юнит был более быстрым, или если за этим юнитом осталось ограниченное количество открытых клеток.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Теряется при улучшении.[ENDCOLOR]</Text>
+			<Text>Юнит отступает от первой атаки ближнего боя каждый ход, если за этим юнитом имеются пустые клетки.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Теряется при улучшении.[ENDCOLOR]</Text>
 		</Row>
 	<!-- Explorer -->
 		<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING">
@@ -429,7 +469,7 @@
 			<Text>Грубая сила</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_BONUS_HELP">
-			<Text>+33% к [ICON_STRENGTH] боевой мощи против [COLOR_POSITIVE_TEXT]варваров[ENDCOLOR].</Text>
+			<Text>+25% к [ICON_STRENGTH] боевой мощи против [COLOR_POSITIVE_TEXT]варваров[ENDCOLOR].</Text>
 		</Row>
 
 	<!-- Recon Line -->
@@ -583,13 +623,6 @@
 			<Text>+10% к [ICON_STRENGTH] боевой мощи [COLOR_POSITIVE_TEXT]вне дружественных территорий[ENDCOLOR].[NEWLINE]Юнит может погружаться на борт, пересекать Горы и использовать вражеские дороги / железную дорогу.</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_SCOUT_GOODY_BONUS">
-			<Text>Охотник за сокровищами</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_SCOUT_GOODY_BONUS_HELP">
-			<Text>+25% добычи от [COLOR_POSITIVE_TEXT]Древних Руин[ENDCOLOR].</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_PILLAGE">
 			<Text>Мусорщик</Text>
 		</Row>
@@ -624,6 +657,21 @@
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_III_HELP">
 			<Text>-10% к [ICON_STRENGTH] боевой мощи против [COLOR_NEGATIVE_TEXT]варваров[ENDCOLOR].</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FROGMAN">
+			<Text>Водолаз</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FROGMAN_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Погрузка[ENDCOLOR] и [COLOR_POSITIVE_TEXT]разгрузка[ENDCOLOR] стоит 1 очко [ICON_MOVES] движения.[NEWLINE]Устраняет боевые штрафы за атаку с моря или через реку.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SCREENING">
+			<Text>Отбор</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCREENING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус за атаку с фланга[ENDCOLOR] увеличен на 10%.[NEWLINE]Учитывается дважды при расчёте бонуса за атаку с фланга.</Text>
+		</Row>
+
 	<!-- Mounted Line -->
 		<Row Tag="TXT_KEY_PROMOTION_CHARGE_II">
 			<Text>Нападение II</Text>
@@ -644,6 +692,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_MOBILITY_HELP">
 			<Text>Игнорирует [COLOR_POSITIVE_TEXT]зону контроля[ENDCOLOR].[NEWLINE]+1 [ICON_MOVES] движение.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENVELOPMENT">
+			<Text>Охват</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENVELOPMENT_HELP">
+			<Text>Получает преимущество от атаки с фланга при любом [COLOR_POSITIVE_TEXT]нападении[ENDCOLOR].[NEWLINE][COLOR_POSITIVE_TEXT]Бонус от атаки с фланга[ENDCOLOR] увеличен на 10%.</Text>
 		</Row>
 	<!-- Melee Line -->
 		<Row Tag="TXT_KEY_PROMOTION_SHOCK_4">
@@ -812,7 +866,7 @@
 			<Text>Блокада</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4_HELP">
-			<Text>+25% к [ICON_STRENGTH] боевой мощи при защите от всех [COLOR_POSITIVE_TEXT]атак дальнего боя[ENDCOLOR].[NEWLINE]50% шанс выйти из ближнего боя.</Text>
+			<Text>+25% к [ICON_STRENGTH] боевой мощи при защите от всех [COLOR_POSITIVE_TEXT]атак дальнего боя[ENDCOLOR].[NEWLINE]Юнит отступает от первой атаки ближнего боя каждый ход, если это возможно.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4">
@@ -841,14 +895,14 @@
 			<Text>Навигатор I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SENTRY_HELP">
-			<Text>+1 [ICON_MOVES] движение и зрение.</Text>
+			<Text>+1 к очкам [ICON_MOVES] движения и [ICON_VP_VISION] обзору.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SENTRY_II">
 			<Text>Навигатор II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SENTRY_II_HELP">
-			<Text>+1 [ICON_MOVES] движение и зрение.</Text>
+			<Text>+1 к очкам [ICON_MOVES] движения и [ICON_VP_VISION] обзору.</Text>
 		</Row>
 	<!-- Misc Air -->
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_HELP">
@@ -961,7 +1015,7 @@
 			<Text>Коммандос — это разведывательно-штурмовые подразделения, специализирующиеся на нанесении ударов по уязвимым целям через труднопроходимую местность и быстром отступлении. Используйте эти отряды, чтобы обойти врагов на их тылах и вывести из строя.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_COMMANDO_CBP">
-			<Text>Группа разведки индустриальной эпохи. Имеет дополнительную силу при атаке и 60% шанс выйти из рукопашного боя. Получает опыт за разграбление внедорожных улучшений.</Text>
+			<Text>Группа разведки индустриальной эпохи. Имеет дополнительную силу при атаке и отступает от первой атаки ближнего боя каждый ход, если это возможно. Получает опыт за разграбление внедорожных улучшений.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_COMMANDO_TEXT">
 			<Text>Коммандос — это элитная легкая пехота, специализирующаяся на атаках важных целей и разведке на передовой. Этот термин вошел в обиход после англо-бурских войн и Великого похода , когда ополчение бурских коммандо использовало партизанскую и асимметричную тактику с большим успехом против армий коса, зулу и британцев.</Text>
@@ -1037,7 +1091,7 @@
 			<Text>Первопроходец</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PIONEER_STRATEGY">
-			<Text>Используйте этот юнит для строительства новых городов. Он не может защитить себя, поэтому сопровождайте его боевой единицей. При основании города, построенные пионерами, начинают с 3 горожан, претендуют на дополнительную территорию и автоматически получают следующий набор зданий:[NEWLINE][NEWLINE][ICON_BULLET] Амбар[NEWLINE][ICON_BULLET] Арена[NEWLINE][ICON_BULLET] Библиотека[NEWLINE][ICON_BULLET] Водяная мельница (если применимо)[NEWLINE][ICON_BULLET] Дом травника[NEWLINE][ICON_BULLET] Казармы[NEWLINE][ICON_BULLET] Колодец (если применимо)[NEWLINE][ICON_BULLET] Кузница[NEWLINE][ICON_BULLET] Монумент[NEWLINE][ICON_BULLET] Охотничий домик[NEWLINE][ICON_BULLET] Рынок[NEWLINE][ICON_BULLET] Святилище[NEWLINE][ICON_BULLET] Совет старейшин[NEWLINE][NEWLINE]Примечание: бонусы за строительство зданий из веток социальной политики Прогресс и Промышленность не распространяются на здания, построенные первопроходцами!</Text>
+			<Text>Используйте этот юнит для строительства новых городов. Он не может защитить себя, поэтому сопровождайте его боевой единицей. При основании города, построенные пионерами, начинают с 3 горожан, претендуют на дополнительную территорию и автоматически получают следующий набор зданий:[NEWLINE][NEWLINE][ICON_BULLET] Амбар[NEWLINE][ICON_BULLET] Арена[NEWLINE][ICON_BULLET] Библиотека[NEWLINE][ICON_BULLET] Водяная мельница (если применимо)[NEWLINE][ICON_BULLET] Дом травника[NEWLINE][ICON_BULLET] Казармы[NEWLINE][ICON_BULLET] Колодец (если применимо)[NEWLINE][ICON_BULLET] Кузница[NEWLINE][ICON_BULLET] Монумент[NEWLINE][ICON_BULLET] Коптильня[NEWLINE][ICON_BULLET] Рынок[NEWLINE][ICON_BULLET] Святилище[NEWLINE][ICON_BULLET] Совет старейшин[NEWLINE][NEWLINE]Примечание: бонусы за строительство зданий из веток социальной политики Прогресс и Промышленность не распространяются на здания, построенные первопроходцами!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_PIONEER_TEXT">
 			<Text>Первопроходец — это все люди в истории, которые мигрировали, чтобы присоединиться к заселению и освоению новых территорий. Этот термин особенно относится к тем, кто собирался заселить любую территорию, которая ранее не была заселена или освоена европейским или американским обществом, хотя эта территория могла быть заселена или использовалась коренными народами. Концепция и идеалы первопроходцев намного предшествовали миграции в части Соединенных Штатов, которые сейчас называются Западными, поскольку многие места, которые сейчас считаются Востоком, также были заселены пионерами с побережья. Например, Дэниел Бун, ключевая фигура американской истории, поселился в Кентукки, когда та «Темная и кровавая земля» еще была неосвоена. Одним из важных событий в западном поселении стал Закон о приусадебных участках, который предоставил официальное законодательство, регулирующее процесс поселения.</Text>
@@ -1050,7 +1104,7 @@
 			<Text>Колонист</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_COLONIST_STRATEGY">
-			<Text>Используйте этот юнит для строительства новых городов. Он не может защитить себя, поэтому сопровождайте его боевой единицей. При основании города, построенные колонистами, начинают с 5 горожан, претендуют на дополнительную территорию и автоматически получают следующий набор зданий:[NEWLINE][NEWLINE][ICON_BULLET] Амбар[NEWLINE][ICON_BULLET] Амфитеатр[NEWLINE][ICON_BULLET] Библиотека[NEWLINE][ICON_BULLET] Ветряная мельница[NEWLINE][ICON_BULLET] Водяная мельница (если применимо)[NEWLINE][ICON_BULLET] Гавань[NEWLINE][ICON_BULLET] Казармы[NEWLINE][ICON_BULLET] Колодец (если применимо)[NEWLINE][ICON_BULLET] Кузница[NEWLINE][ICON_BULLET] Мастерская[NEWLINE][ICON_BULLET] Маяк[NEWLINE][ICON_BULLET] Монумент[NEWLINE][ICON_BULLET] Рынок[NEWLINE][ICON_BULLET] Святилище[NEWLINE][ICON_BULLET] Совет старейшин[NEWLINE][ICON_BULLET] Храм[NEWLINE][NEWLINE]Примечание: бонусы за строительство зданий из веток политики Прогресс и Промышленность не распространяются на здания, построенные Колонистами!</Text>
+			<Text>Используйте этот юнит для строительства новых городов. Он не может защитить себя, поэтому сопровождайте его боевой единицей. При основании города, построенные колонистами, начинают с 5 горожан, претендуют на дополнительную территорию и автоматически получают следующий набор зданий:[NEWLINE][NEWLINE][ICON_BULLET] Амбар[NEWLINE][ICON_BULLET] Амфитеатр[NEWLINE][ICON_BULLET] Библиотека[NEWLINE][ICON_BULLET] Ветряная мельница[NEWLINE][ICON_BULLET] Водяная мельница (если применимо)[NEWLINE][ICON_BULLET] Гавань[NEWLINE][ICON_BULLET] Казармы[NEWLINE][ICON_BULLET] Колодец (если применимо)[NEWLINE][ICON_BULLET] Коптильня[NEWLINE][ICON_BULLET] Кузница[NEWLINE][ICON_BULLET] Мастерская[NEWLINE][ICON_BULLET] Маяк[NEWLINE][ICON_BULLET] Монумент[NEWLINE][ICON_BULLET] Рынок[NEWLINE][ICON_BULLET] Святилище[NEWLINE][ICON_BULLET] Совет старейшин[NEWLINE][ICON_BULLET] Храм[NEWLINE][NEWLINE]Примечание: бонусы за строительство зданий из веток политики Прогресс и Промышленность не распространяются на здания, построенные Колонистами!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_COLONIST_TEXT">
 			<Text>
