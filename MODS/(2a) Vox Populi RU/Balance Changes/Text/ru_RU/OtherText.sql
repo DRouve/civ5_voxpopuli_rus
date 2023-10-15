@@ -121,19 +121,19 @@ UPDATE Language_ru_RU
 SET Text = 'Между {2_CivName:textkey} и {1_TargetName:textkey} вспыхнула война'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_KILL_CITY_STATE';
 
-UPDATE Language_en_US
+UPDATE Language_ru_RU
 SET Text = '{3_TargetName:textkey} объявил войну {1_CivName:textkey}, ссылаясь на дипломатические соображения. Получите [COLOR_POSITIVE_TEXT]полную[ENDCOLOR] награду за задание от {1_TargetName:textkey}, [COLOR_NEGATIVE_TEXT]уничтожив[ENDCOLOR] {3_CivName:textkey}, или [COLOR_POSITIVE_TEXT]частичную[ENDCOLOR] награду за задание посредством [COLOR_POSITIVE_TEXT]союза[ENDCOLOR] c обоими городами-государствами. Международное давление окончит войну через [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] ходов, поэтому действуйте быстро, если собираетесь вмешаться!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE';
 
-UPDATE Language_en_US
+UPDATE Language_ru_RU
 SET Text = 'Уничтожьте {1_CityStateName:textkey} (полная награда), или станьте Союзниками с {1_CityStateName:textkey} и этим городом-государством (половина награды).'
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_KILL_CITY_STATE_FORMAL';
 
-UPDATE Language_en_US
+UPDATE Language_ru_RU
 SET Text = '{1_TargetName:textkey} уничтожен {2_CivName:textkey}!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_KILL_CITY_STATE';
 
-UPDATE Language_en_US
+UPDATE Language_ru_RU
 SET Text = 'Война между {2_CivName:textkey} и {1_TargetName:textkey} закончилась, и {2_CivName:textkey} стал явным победителем. Ваши советники обеспокоены тем, что такой исход может привести к будущему конфликту.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE';
 
