@@ -23,6 +23,11 @@ UPDATE Language_ru_RU
 SET Text = 'Штраф к [ICON_FOOD]/[ICON_PRODUCTION]'
 WHERE Tag = 'TXT_KEY_SUPPLY_DEFICIT_PENALTY';
 
+-- Culture
+UPDATE Language_ru_RU
+SET Text = '[ICON_CULTURE] Культура тратится на [ICON_CULTURE_LOCAL] Приграничный рост в городах, чтобы присоединять новые территории, что позволяет им быть более продуктивными. Она также тратится на [COLOR_POSITIVE_TEXT]социальные политики[ENDCOLOR] на государственном уровне.'
+WHERE Tag = 'TXT_KEY_CULTURE_HELP_INFO';
+
 -- Fortifications
 UPDATE Language_ru_RU
 SET Text = 'Многие юниты имеют возможность «укрепиться». Это означает, что подразделение «окапывается» и создает оборонительные сооружения на своем текущем местоположении. Это дает отряду определенные защитные бонусы, благодаря чему его гораздо сложнее убить. Однако укрепления являются строго оборонительными: если отряд движется или атакует, укрепления разрушаются. Будучи укреплённым, отряд не активируется. Он останется неактивным, пока вы не активируете его вручную, нажав на отряд.[NEWLINE][NEWLINE]Улучшение также может содержать [COLOR_POSITIVE_TEXT]укрепления[ENDCOLOR], что означает, что подразделения, размещенные на этом улучшении, как и те, которые размещают гарнизон в городе, не будут выходить за пределы клетки после победы в ближнем бою.'
@@ -38,6 +43,10 @@ WHERE Tag = 'TXT_KEY_PEDIA_WONDERS_HELP_TEXT';
 UPDATE Language_ru_RU
 SET Text = 'Вы уничтожили группу варваров рядом с {1_CivName:textkey}! Они благодарны, и ваше [ICON_INFLUENCE] Влияние на них увеличилось на 15!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_BARB_KILLED';
+
+UPDATE Language_ru_RU
+SET Text = 'Вы обнаружили Древние Руины! Отправка {TXT_KEY_UNITCOMBAT_RECON} в Руины может раскрыть скрытые секреты!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_FOUND_GOODY_HUT';
 
 -- Culture Victory changes
 
@@ -839,11 +848,11 @@ WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_RESOURCE_DIFFERENT
 
 
 UPDATE Language_ru_RU
-SET Text = 'Артефакт будет помещен в ближайший слот Шедевров искусства. Артефакт дает +3 [ICON_CULTURE] культуры и +4 [ICON_TOURISM] туризма. Археолог исчезнет.'
+SET Text = 'Артефакт будет помещен в ближайший слот Шедевров искусства. Артефакт дает +' || (SELECT Value FROM Defines WHERE Name = 'BASE_CULTURE_PER_GREAT_WORK') || ' [ICON_CULTURE] культуры и +' || (SELECT Value FROM Defines WHERE Name = 'BASE_TOURISM_PER_GREAT_WORK') || ' к [ICON_TOURISM] туризму. Археолог исчезнет.'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_ARTIFACT_RESULT';
 
 UPDATE Language_ru_RU
-SET Text = 'Древние письмена будут помещены в ближайший слот Шедевров литературы. Письмо дает +3 [ICON_CULTURE] к культуре и +4 [ICON_TOURISM] к туризму. Археолог исчезнет.'
+SET Text = 'Древние письмена будут помещены в ближайший слот Шедевров литературы. Письмо дает +' || (SELECT Value FROM Defines WHERE Name = 'BASE_CULTURE_PER_GREAT_WORK') || ' [ICON_CULTURE] культуры и +' || (SELECT Value FROM Defines WHERE Name = 'BASE_TOURISM_PER_GREAT_WORK') || ' к [ICON_TOURISM] туризму. Археолог исчезнет.'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_WRITTEN_ARTIFACT_RESULT';
 
 
@@ -962,25 +971,47 @@ SET Text = 'Мы хотим, чтобы вы открыли торговый п�
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE';
 -- City-State
 UPDATE Language_ru_RU
-SET Text = Text 
+SET Text = 'Приветливый'
+WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_FRIENDLY';
+
+UPDATE Language_ru_RU
+SET Text = '[COLOR_POSITIVE_TEXT]Приветливые[ENDCOLOR] города-государства с большей вероятностью попросят вас построить к ним дорогу, основать к ним торговый путь и получить ресурсы. Они также чаще проводят дипломатические форумы.' 
 	|| '[NEWLINE][NEWLINE]Модификаторы наград за задания:'
 	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+' || (SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_FRIENDLY') || '%[ENDCOLOR] наград от всех заданий [ICON_CITY_STATE] городов-государств.'
 WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_FRIENDLY_TT';
+
 UPDATE Language_ru_RU
-SET Text = Text 
+SET Text = 'Отчуждённый'
+WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_HOSTILE';
+
+UPDATE Language_ru_RU
+SET Text = 'Отчуждённый характер'
+WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_HOSTILE';
+
+UPDATE Language_ru_RU
+SET Text = '[ICON_INFLUENCE] Влияние с [COLOR_NEGATIVE_TEXT]Отчуждёнными[ENDCOLOR] городами-государствами уменьшается быстрее и они более устойчивы к требованиям дани. Они с большей вероятностью попросят вас завоевать города, очистить лагеря варваров и отправить им юнитов. Они также с большей вероятностью будут вести войну против соседних городов-государств.'  
 	|| '[NEWLINE][NEWLINE]Модификаторы наград за задания:'
 	|| '[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]' || (SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_HOSTILE') || '%[ENDCOLOR] наград от всех заданий [ICON_CITY_STATE] городов-государств.'
 WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_HOSTILE_TT';
+
 UPDATE Language_ru_RU
-SET Text = Text 
+SET Text = 'Непредсказуемый'
+WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_IRRATIONAL';
+
+UPDATE Language_ru_RU
+SET Text = 'По сравнению с другими городами-государствами, [COLOR_POSITIVE_TEXT]Непредсказуемый[ENDCOLOR] город-государство более изменчив в своих запросах.' 
 	|| '[NEWLINE][NEWLINE]Модификаторы наград за задания:'
 	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_CULTURE_IRRATIONAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_CULTURE] культура.'
 	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_TOURISM_IRRATIONAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_TOURISM] туризм.'
 	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GAP_IRRATIONAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GOLDEN_AGE] очки Золотого Века.'
 	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_GPP_IRRATIONAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_GREAT_PEOPLE] очки Великих Людей в [ICON_CAPITAL] столице.'
 WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_IRRATIONAL_TT';
+
 UPDATE Language_ru_RU
-SET Text = Text 
+SET Text = 'Прагматичный'
+WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_NEUTRAL';
+UPDATE Language_ru_RU
+SET Text = '[COLOR_POSITIVE_TEXT]Прагматичный[ENDCOLOR] город-государство с большей вероятностью потребует от вас Клятвы о защите, запугивание близлежащих городов-государств и проведение шпионажа.' 
 	|| '[NEWLINE][NEWLINE]Модификаторы наград за задания:'
 	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_FOOD_NEUTRAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_FOOD] еда.'
 	|| '[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_CULTURE_NEUTRAL')/100.0 AS NUMERIC) || 'x[ENDCOLOR] [ICON_CULTURE] культура.'
@@ -1043,8 +1074,13 @@ VALUES	('TXT_KEY_CITY_STATE_CULTURED_TT_ANNEXED', 'Завоеванный [COLOR
 	('TXT_KEY_CITY_STATE_MILITARISTIC_TT_ANNEXED', 'Завоеванный [COLOR_POSITIVE_TEXT]Милитаристский[ENDCOLOR] город-государство время от времени будет дарить вам передовых военных юнитов.[NEWLINE][NEWLINE]Им известны секреты подготовки такого юнита, как [COLOR_POSITIVE_TEXT]{@1_UniqueUnitName}[ENDCOLOR]. Если вами изучена [COLOR_CYAN]{@2_PrereqTech}[ENDCOLOR], они предоставят этого юнита в качестве дара.'),
 	('TXT_KEY_CITY_STATE_MARITIME_TT_ANNEXED', 'Завоеванный [COLOR_POSITIVE_TEXT]Морской[ENDCOLOR] город-государство значительно увеличит запасы [ICON_FOOD] пищи в вашей [ICON_CAPITAL] столице и во всех ваших городах.'),
 	('TXT_KEY_CITY_STATE_MERCANTILE_TT_ANNEXED', 'Завоеванный [COLOR_POSITIVE_TEXT]Торговый[ENDCOLOR] город-государство обеспечит дополнительное [ICON_HAPPINESS_1] счастье в вашей империи, а также производит особые ресурсы Роскоши, которые нельзя получить другим способом.'),
-	('TXT_KEY_CITY_STATE_RELIGIOUS_TT_ANNEXED', 'Завоеванный [COLOR_POSITIVE_TEXT]Религиозный[ENDCOLOR] город-государство повысит вашу [ICON_PEACE] веру, позволяя вам расширить возможности своей религии новыми верованиями и юнитами.');
+	('TXT_KEY_CITY_STATE_RELIGIOUS_TT_ANNEXED', 'Завоеванный [COLOR_POSITIVE_TEXT]Религиозный[ENDCOLOR] город-государство увеличит вашу [ICON_PEACE] веру, позволяя вам расширить возможности вашей религии новыми убеждениями и юнитами.'),
+	('TXT_KEY_VP_RESTING_INFLUENCE', 'Минимальное [ICON_INFLUENCE] влияние');
 	
+UPDATE Language_ru_RU
+SET Text = 'У нас проблемы с ростом населения, поэтому нам не нужно строить здания для роста в наших городах.'
+WHERE Tag = 'TXT_KEY_ECONOMICAISTRATEGY_HALT_GROWTH_BUILDINGS';
+
 -- Culture Overview
 INSERT INTO Language_ru_RU (Tag, Text)
 VALUES  ('TXT_KEY_CO_TAB_HISTORIC_EVENTS', ' Исторические события'),

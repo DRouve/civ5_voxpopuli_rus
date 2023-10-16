@@ -116,7 +116,17 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HELP">
-			<Text>Повышение заменяется случайно выбранным новым повышением после того, как юнит завершает свой первый бой.</Text>
+			<Text>Повышение заменяется случайно выбранным новым повышением после того, как отряд завершает свой первый бой.
+[NEWLINE][NEWLINE]Все повышения включают в себя [COLOR_POSITIVE_TEXT]увеличение[ENDCOLOR] [ICON_STRENGTH] боевой мощи при получении урона и восстановление 10 ОЗ после победы над вражеским юнитом.
+[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_RIGHTEOUSNESS}[ENDCOLOR]: +20% к [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]юнитов с 50% ОЗ или ниже[ENDCOLOR].
+[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_BENEVOLENCE}[ENDCOLOR]: юниты на соседних клетках получают +5 ОЗ при исцелении.
+[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_RESPECT}[ENDCOLOR]: +20% к [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]юнитов с ОЗ выше 50%[ENDCOLOR].
+[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_SINCERITY}[ENDCOLOR]: +50% опыта, получаемого в боях.
+[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_BUSHIDO_HONOR}[ENDCOLOR]: +15% к [ICON_STRENGTH] боевой мощи [COLOR_POSITIVE_TEXT]за пределами дружественной территории[ENDCOLOR].
+[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_LOYALTY}[ENDCOLOR]: +15% к [ICON_STRENGTH] боевой мощи [COLOR_POSITIVE_TEXT]на дружественной территории[ENDCOLOR].
+[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_SELF_CONTROL}[ENDCOLOR]: +15% к [ICON_STRENGTH] боевой мощи при защите.
+[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_COURAGE}[ENDCOLOR]: +15% к [ICON_STRENGTH] боевой мощи при атаке.
+			</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS">
@@ -477,7 +487,7 @@
 			<Text>Разведка</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RECON_EXPERIENCE_HELP">
-			<Text>Получает ОО за открытие клеток.</Text>
+			<Text>Получает ОО за открытие клеток карты.[NEWLINE]Может изучать [COLOR_POSITIVE_TEXT]{TXT_KEY_ANTIQUITY_LEGEND_GOODY_HUT}[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT_III">
@@ -1005,7 +1015,7 @@
 			<Text>Юнит Средневековья, уникальный для Бразилии, заменяющий Исследователя. Он быстрее и мощнее, чем Explorer, и доступен раньше. Генерирует Золото, Культуру и Науку, исследуя нераскрытые плитки. Эти доходы добавляются к ближайшему принадлежащему городу. Также имеет возможность строить улучшения форта, карьера, шахты и лагеря Бразильвуд на принадлежащей территории и сильнее против варваров. Используйте эти юниты для исследования, зачистки оставшихся лагерей варваров и получения ценного урожая для ваших приграничных городов.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES_HELP">
-			<Text>Уникальный бразильский исследователь. Генерирует [ICON_GOLD] золота, [ICON_CULTURE] культуры и [ICON_RESEARCH] науки всякий раз, когда вы открываете клетки этим отрядом. Может строить форты, каменоломни, шахты и лагеря Бразильвуд на своей территории.</Text>
+			<Text>Уникальный бразильский {TXT_KEY_UNIT_EXPLORER}, который может построить {TXT_KEY_CIV5_IMPROVEMENTS_FORT}, {TXT_KEY_CIV5_IMPROVEMENTS_QUARRY}, {TXT_KEY_IMPROVEMENT_MINE} и {TXT_KEY_IMPROVEMENT_BRAZILWOOD_CAMP}; также даёт [ICON_GOLD] золото, [ICON_CULTURE] культуру и [ICON_RESEARCH] науку при открытии клеток карты с помощью этого юнита. Имеет повышение [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SURVIVALISM_3}[ENDCOLOR].</Text>
 		</Row>
 	<!-- Commando -->
 		<Row Tag="TXT_KEY_UNIT_COMMANDO">

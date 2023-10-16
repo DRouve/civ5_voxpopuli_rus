@@ -155,7 +155,7 @@
 
 -- March
 	UPDATE Language_ru_RU
-	SET Text = '[NEWLINE]Юнит будет [COLOR_POSITIVE_TEXT]исцеляться каждый ход[ENDCOLOR], даже после выполнения действия.'
+	SET Text = 'Юнит будет [COLOR_POSITIVE_TEXT]исцеляться каждый ход[ENDCOLOR], даже после выполнения действия.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_MARCH_HELP';
 
 -- Replace Drill
@@ -499,11 +499,11 @@
 
 	-- Medic I/II
 	UPDATE Language_ru_RU
-	SET Text = '[NEWLINE]Этот юнит и все юниты на соседних клетках [COLOR_POSITIVE_TEXT]исцеляют +5 ОЗ[ENDCOLOR] за ход.'
+	SET Text = 'Этот юнит и все юниты на соседних клетках [COLOR_POSITIVE_TEXT]исцеляют +5 ОЗ[ENDCOLOR] за ход.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_HELP';
 
 	UPDATE Language_ru_RU
-	SET Text = '[NEWLINE]Этот юнит и все юниты на соседних клетках [COLOR_POSITIVE_TEXT]исцеляют +5 ОЗ[ENDCOLOR] за ход.[NEWLINE]Юнит ​​[COLOR_POSITIVE_TEXT]исцеляет +5 ОЗ[ENDCOLOR] за ход [COLOR_POSITIVE_TEXT]вне дружественной территории[ENDCOLOR].'
+	SET Text = 'Этот юнит и все юниты на соседних клетках [COLOR_POSITIVE_TEXT]исцеляют +5 ОЗ[ENDCOLOR] за ход.[NEWLINE]Юнит ​​[COLOR_POSITIVE_TEXT]исцеляет +5 ОЗ[ENDCOLOR] за ход [COLOR_POSITIVE_TEXT]вне дружественной территории[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_II_HELP';
 
 	-- Heal on Kill Promotions
@@ -665,7 +665,7 @@
 
 	-- Golden Age Points from Kills
 	UPDATE Language_ru_RU
-	SET Text = 'Даёт [ICON_GOLDEN_AGE] очки Золотого века за каждого побежденного вражеского юнита.'
+	SET Text = 'Даёт [ICON_GOLDEN_AGE] очки Золотого Века после победы над врагом (100% от [ICON_STRENGTH] боевой мощи побеждённого юнита).'
 	WHERE Tag = 'TXT_KEY_PROMOTION_GOLDEN_AGE_POINTS_HELP';
 
 	-- Naval Leadership
@@ -771,3 +771,19 @@
 	UPDATE Language_ru_RU 
 	SET Text = '+20% к [ICON_STRENGTH] боевой мощи при нападении на [COLOR:255:230:85:255]Морских юнитов[ENDCOLOR].' 
 	WHERE Tag = 'TXT_KEY_PROMOTION_AERIAL_TORPEDO_HELP';
+
+	UPDATE Language_ru_RU 
+	SET Text = '+1 к [ICON_VP_VISION] обзору.' 
+	WHERE Tag = 'TXT_KEY_PROMOTION_SCOUTING_1_HELP';
+
+	UPDATE Language_ru_RU 
+	SET Text = '+1 к [ICON_VP_VISION] обзору.' 
+	WHERE Tag = 'TXT_KEY_PROMOTION_SCOUTING_2_HELP';
+
+	UPDATE Language_ru_RU 
+	SET Text = '+1 к [ICON_VP_VISION] обзору.' 
+	WHERE Tag = 'TXT_KEY_PROMOTION_SENTRY_HELP';
+
+	UPDATE Language_ru_RU 
+	SET Text = '-1 к [ICON_VP_VISION] обзору.' 
+	WHERE Tag = 'TXT_KEY_PROMOTION_SIGHT_PENALTY_HELP';

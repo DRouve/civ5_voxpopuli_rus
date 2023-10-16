@@ -646,7 +646,7 @@
 			<Text>Hexxon Refinery, Inc.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_HEXXON_REFINERY_HELP">
-			<Text>Предоставляет бонусы, повышающие вашу способность вести войну на поздних этапах игры и накапливать стратегические ресурсы. Увеличивает лимит [ICON_INTERNATIONAL_TRADE] Торговых Путей на два.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Производство всех единиц, для постройки которых требуется [ICON_RES_OIL] нефти, [ICON_RES_URANIUM] урана или [ICON_RES_ALUMINUM] алюминия. +3 [ICON_PRODUCTION] Производство на всех гидро-, атомных, ветряных и солнечных электростанциях. Каждая франшиза в городах чужой цивилизации увеличивает ваш [ICON_TOURISM] туризм с ними на 2%.</Text>
+			<Text>Предоставляет бонусы, повышающие вашу способность вести войну на поздних этапах игры и накапливать стратегические ресурсы. Увеличивает лимит [ICON_INTERNATIONAL_TRADE] Торговых Путей на два.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Производство всех единиц, для постройки которых требуется [ICON_RES_OIL] нефти, [ICON_RES_URANIUM] урана или [ICON_RES_ALUMINUM] алюминия. +3 [ICON_PRODUCTION] Производство от {TXT_KEY_BUILDING_TIDAL_PLANT}, {TXT_KEY_BUILDING_HYDRO_PLANT}, {TXT_KEY_BUILDING_NUCLEAR_PLANT}, {TXT_KEY_BUILDING_WIND_PLANT} и {TXT_KEY_BUILDING_SOLAR_PLANT}. Каждая франшиза в городах чужой цивилизации увеличивает ваш [ICON_TOURISM] туризм с ними на 2%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_HEXXON_REFINERY">
 			<Text>[ICON_RES_COAL] Уголь, [ICON_RES_OIL] Нефть, [ICON_RES_INCENSE] Благовония, [ICON_RES_URANIUM] Уран и [ICON_RES_BRAZILWOOD] Бразильское дерево дают +1 [ICON_PRODUCTION] производство в городах с франшизами Hexxon Refineries.</Text>
@@ -695,7 +695,7 @@
 			<Text>Giorgio Armeier, Inc.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_GIORGIO_ARMEIER_HELP">
-			<Text>Предоставляет преимущества, направленные на создание [ICON_CULTURE] культуры и специалистов. Увеличивает [ICON_INTERNATIONAL_TRADE] лимит Торговых Путей на два.[NEWLINE][NEWLINE]+2 [ICON_CULTURE] культуры от всех Музеев и Оперных театров и +2 [ICON_CULTURE] культуры от специалистов во всех городах. Каждая франшиза в городах чужой цивилизации увеличивает ваш [ICON_TOURISM] туризм с ними на 2%.</Text>
+			<Text>Предоставляет преимущества, направленные на создание [ICON_CULTURE] культуры и специалистов. Увеличивает [ICON_INTERNATIONAL_TRADE] лимит Торговых Путей на два.[NEWLINE][NEWLINE]+2 [ICON_CULTURE] культуры от всех Музеев и Оперных театров и +2 [ICON_CULTURE] культуры от писателей, артистов и музыкантов во всех городах. Каждая франшиза в городах чужой цивилизации увеличивает ваш [ICON_TOURISM] туризм с ними на 2%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_GIORGIO_ARMEIER">
 			<Text>[ICON_RES_SILK] Шелк, [ICON_RES_COTTON] Хлопок, [ICON_RES_DYE] Краски, [ICON_RES_FUR] Мех предоставляю +1 [ICON_CULTURE] культуры во всех городах с франшизой Giorgio Armeier.</Text>

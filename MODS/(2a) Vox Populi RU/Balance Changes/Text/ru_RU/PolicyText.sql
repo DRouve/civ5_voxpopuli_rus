@@ -384,7 +384,7 @@ WHERE Tag = 'TXT_KEY_AESTHETICS_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Искусство[ENDCOLOR] позволяет максимализировать потенциал [ICON_GREAT_WORK] Шедевров и [ICON_GOLDEN_AGE] Золотого Века.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Искусства даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Великие [ICON_GREAT_WRITER] Писатели, [ICON_GREAT_ARTIST] Художники и [ICON_GREAT_MUSICIAN] Музыканты появляются на 25% быстрее.[NEWLINE][ICON_BULLET]+10% к [ICON_CULTURE] культуре во время [ICON_GOLDEN_AGE] Золотого Века.[NEWLINE][ICON_BULLET]+100% к [ICON_PRODUCTION] скорости постройки Гильдий.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Искусства даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_RESEARCH] наука в каждом городе.[NEWLINE][ICON_BULLET]20% от излишков [ICON_HAPPINESS_1] настроения каждого города добавляется в качестве [ICON_GOLDEN_AGE] очков Золотого Века.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик в Искусстве даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Лувр[ENDCOLOR]. [NEWLINE][ICON_BULLET] Завершение Археологических Раскопок или начало [ICON_GOLDEN_AGE] Золотого Века начинает (или усиляет имеющееся) [COLOR_POSITIVE_TEXT]Историческое событие[ENDCOLOR][ICON_TOURISM] со всеми известными державами. [NEWLINE][ICON_BULLET] Позволяет видеть [ICON_RES_HIDDEN_ARTIFACTS] Скрытые Места Древности.[NEWLINE][ICON_BULLET]+3 [ICON_RESEARCH] науки и [ICON_GOLDEN_AGE] очка Золотого Века от Достопримечательностей. [NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_MUSICIAN] Великих Музыкантов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Искусство[ENDCOLOR] позволяет максимализировать потенциал [ICON_GREAT_WORK] Шедевров и [ICON_GOLDEN_AGE] Золотого Века.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Искусства даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Великие [ICON_GREAT_WRITER] Писатели, [ICON_GREAT_ARTIST] Художники и [ICON_GREAT_MUSICIAN] Музыканты появляются на 25% быстрее.[NEWLINE][ICON_BULLET]+10% к [ICON_CULTURE] культуре во время [ICON_GOLDEN_AGE] Золотого Века.[NEWLINE][ICON_BULLET]+100% к [ICON_PRODUCTION] скорости постройки Гильдий.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие каждой политики Искусства даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_RESEARCH] наука в каждом городе.[NEWLINE][ICON_BULLET]20% от излишков [ICON_HAPPINESS_1] настроения каждого города добавляется в качестве [ICON_GOLDEN_AGE] очков Золотого Века.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик в Искусстве даёт:[ENDCOLOR][NEWLINE][ICON_BULLET] Позволяет построить [COLOR_POSITIVE_TEXT]Лувр[ENDCOLOR]. [NEWLINE][ICON_BULLET] Завершение Археологических Раскопок или начало [ICON_GOLDEN_AGE] Золотого Века начинает (или усиляет имеющееся) [COLOR_POSITIVE_TEXT]Историческое событие[ENDCOLOR][ICON_TOURISM]. [NEWLINE][ICON_BULLET] Позволяет видеть [ICON_RES_HIDDEN_ARTIFACTS] Скрытые Места Древности.[NEWLINE][ICON_BULLET]+3 [ICON_RESEARCH] науки и [ICON_GOLDEN_AGE] очка Золотого Века от Достопримечательностей. [NEWLINE][ICON_BULLET] Позволяет покупку [ICON_GREAT_MUSICIAN] Великих Музыкантов за [ICON_PEACE] веру, начиная с Индустриальной Эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP';
 
 UPDATE Language_ru_RU
@@ -580,7 +580,7 @@ SET Text = 'Колониализм'
 WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Колониализм[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] науки и +1 [ICON_CULTURE] культуры от Казарм, Оружейных, Военных Академий, Фортов и Цитаделей.[NEWLINE][ICON_BULLET]Каждый уникальный модификатор Глобальной Монополии увеличен на дополнительные 10% (если бонус в процентах; иначе +3). '
+SET Text = '[COLOR_POSITIVE_TEXT]Колониализм[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] науки и +1 [ICON_CULTURE] культуры от Казарм, Оружейных, Военных Академий, Фортов и Цитаделей.[NEWLINE][ICON_BULLET]Каждый уникальный модификатор [ICON_VP_MONOPOLY] Глобальной Монополии увеличен на дополнительные 10% (если бонус в процентах; иначе +3). '
 WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION_HELP';
 
 UPDATE Language_ru_RU
@@ -825,7 +825,7 @@ WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_TEXT';
 
 -- Consulates
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Консульства[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_DIPLOMAT] делегат в Мировом Конгрессе за каждые 8 изначально существовавших [ICON_CITY_STATE] Городов-государств. [NEWLINE][ICON_BULLET]После завершения [ICON_INTERNATIONAL_TRADE] торгового пути с [ICON_CITY_STATE] городом-государством, инициируется (или усиливается существующее) [COLOR_POSITIVE_TEXT]Историческое событие[ENDCOLOR] со всеми известными цивилизациями.'
+SET Text = '[COLOR_POSITIVE_TEXT]Консульства[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_DIPLOMAT] делегат в Мировом Конгрессе за каждые 8 изначально существовавших [ICON_CITY_STATE] Городов-государств. [NEWLINE][ICON_BULLET]После завершения [ICON_INTERNATIONAL_TRADE] торгового пути с [ICON_CITY_STATE] городом-государством, инициируется (или усиливается существующее) [COLOR_POSITIVE_TEXT]Историческое событие[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_POLICY_CONSULATES_HELP';
 
 -- Scholasticism (now Shadow Networks)
@@ -947,7 +947,7 @@ WHERE Tag = 'TXT_KEY_POLICY_FREERELIGION_TEXT';
 
 -- Monastery (new Building)
 UPDATE Language_ru_RU
-SET Text = 'Религиозные здания, приобретаемые за [ICON_PEACE] веру, дают [ICON_FOOD] пищу, [ICON_RESEARCH] науку и [ICON_PEACE] веру. Требуется принятие института "Верность".'
+SET Text = 'Религиозное здание, приобретаемое за [ICON_PEACE] веру.[NEWLINE][NEWLINE]Требуется принятие института [COLOR_MAGENTA]{TXT_KEY_POLICY_BRANCH_PIETY}[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_BUILDING_MONASTERY_HELP';
 
 UPDATE Language_ru_RU

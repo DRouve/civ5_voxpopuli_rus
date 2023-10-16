@@ -2,9 +2,6 @@
 <!-- Created by ModBuddy on 4/25/2013 11:35:27 PM -->
 <GameData>
 	<Language_ru_RU>
-		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_OPINION">
-			<Text>Что вы думаете о...</Text>
-		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP">
 			<Text>КАРТА МИРА</Text>
 		</Row>
@@ -698,14 +695,14 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_VICTORY_COMPETITION">
-			<Text>Отключить соревнование за победу</Text>
+			<Text>Отключить соревнование ИИ за победу</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_VICTORY_COMPETITION_HELP">
 			<Text>Лидеры ИИ не будут обижаться на других игроков за их прогресс в достижении условий победы. Это значительно упрощает игру.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_ENDGAME_AGGRESSION">
-			<Text>Отключить агрессию в эндгейме</Text>
+			<Text>Отключить агрессию ИИ в эндгейме</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_ENDGAME_AGGRESSION_HELP">
 			<Text>Лидеры ИИ не получат повышения агрессии по отношению к игрокам, которые близки к победе в игре. ПРИМЕЧАНИЕ. Этот параметр ничего не делает, если включен параметр «Отключить соревнование за победу».</Text>
