@@ -30,7 +30,7 @@ SET Text = 'Санкции, наложенные на: {1_CivsList}'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_PLAYERS' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ru_RU
-SET Text = '[ICON_INTERNATIONAL_TRADE] Торговые Пути не могут быть установлены с городами-государствами. Все корпоративные франшизы удаляются из городов-государств. Штраф разжигателя войн значительно снижен при объявлении войны городам-государствам или завоевании городов, принадлежащих им.'
+SET Text = '[ICON_INTERNATIONAL_TRADE] Торговые Пути не могут быть установлены с городами-государствами. Все корпоративные франшизы удаляются из городов-государств. ' || CAST((SELECT Value FROM Defines WHERE Name = 'WARMONGER_THREAT_ATTACKED_SANCTIONED_PLAYER')/100.0 AS NUMERIC) || 'x Штраф разжигателя войн при объявлении войны городам-государствам или завоевании городов, принадлежащих им.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_ALL_CITY_STATES_EMBARGO_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ru_RU
@@ -38,7 +38,7 @@ SET Text = 'Санкция'
 WHERE Tag = 'TXT_KEY_RESOLUTION_PLAYER_EMBARGO' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ru_RU
-SET Text = '[ICON_INTERNATIONAL_TRADE] Торговые пути, сделки или франшизы корпораций не могут быть установлены с выбранной цивилизацией (за исключением вассалов). Их корпоративные франшизы удалены из зарубежных городов. Штраф разжигателя войны значительно снижен при объявлении войны санкционированной Цивилизации или завоевании принадлежащих ей городов.'
+SET Text = '[ICON_INTERNATIONAL_TRADE] Торговые пути, сделки или франшизы корпораций не могут быть установлены с выбранной цивилизацией (за исключением вассалов). Их корпоративные франшизы удалены из зарубежных городов. ' || CAST((SELECT Value FROM Defines WHERE Name = 'WARMONGER_THREAT_ATTACKED_SANCTIONED_PLAYER')/100.0 AS NUMERIC) || 'x Штраф разжигателя войны при объявлении войны санкционированной Цивилизации или завоевании принадлежащих ей городов.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_PLAYER_EMBARGO_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- World Peace
@@ -48,11 +48,11 @@ SET Text = 'Глобальные мирные соглашения'
 WHERE Tag = 'TXT_KEY_RESOLUTION_STANDING_ARMY_TAX' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ru_RU
-SET Text = 'Затраты на содержание юнитов увеличены на 25% [ICON_GOLD] золота. [ICON_VICTORY_DOMINATION] Штрафы разжигателя войны за захват городов и объявление войны значительно увеличены, а [ICON_VICTORY_DOMINATION] очки разжигателя войны уменьшаются гораздо медленнее, чем обычно.'
+SET Text = 'Затраты на содержание юнитов увеличены на 25% [ICON_GOLD] золота. ' || CAST((SELECT Value FROM Defines WHERE Name = 'WARMONGER_THREAT_ATTACKED_WEIGHT_WORLD_PEACE')/100.0 AS NUMERIC) || '[ICON_VICTORY_DOMINATION] Штрафы разжигателя войны за захват городов и объявление войны, и [ICON_VICTORY_DOMINATION] ' || CAST((SELECT Value FROM Defines WHERE Name = 'WARMONGER_THREAT_PER_TURN_DECAY_DECREASED')/100.0 AS NUMERIC) ||'x очки разжигателя войны уменьшаются гораздо медленнее, чем обычно.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_STANDING_ARMY_TAX_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ru_RU
-SET Text = '+{1_UnitMaintenancePercent}% [ICON_GOLD] золота на содержание юнитов. [ICON_VICTORY_DOMINATION] Штрафы разжигателя войны значительно увеличены'
+SET Text = '+{1_UnitMaintenancePercent}% [ICON_GOLD] золота на содержание юнитов. ' || CAST((SELECT Value FROM Defines WHERE Name = 'WARMONGER_THREAT_ATTACKED_WEIGHT_WORLD_PEACE')/100.0 AS NUMERIC) || 'x [ICON_VICTORY_DOMINATION] Штрафы разжигателя войны, ' || CAST((SELECT Value FROM Defines WHERE Name = 'WARMONGER_THREAT_PER_TURN_DECAY_DECREASED')/100.0 AS NUMERIC) || 'x скорость ослабления войны'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_UNIT_MAINTENANCE' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- World Religion

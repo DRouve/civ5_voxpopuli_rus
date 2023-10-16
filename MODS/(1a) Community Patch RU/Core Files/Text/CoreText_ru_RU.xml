@@ -2,6 +2,159 @@
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
 <GameData>
 	<Language_ru_RU>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_OPINION">
+			<Text>Что вы думаете о...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_ACCEPT_1">
+			<Text>Как пожелаете, я отведу свои войска от вашей границы. Прошу прощения за беспокойство, вызванное этим инцидентом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_ACCEPT_2">
+			<Text>Хорошо, я перенаправлю свои армии в другое место..</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_ACCEPT_3">
+			<Text>Понял. Я немедленно отведу свои войска.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_NEUTRAL_1">
+			<Text>Пожалуйста, поймите, наши войска просто проходят мимо! Мы не причиним вреда вашей империи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_NEUTRAL_2">
+			<Text>Не беспокойтесь. Мы не хотим навредить вам. Наши войска просто проводят учения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_NEUTRAL_3">
+			<Text>Я приношу извинения за любое беспокойство, вызванное моими недавними перемещениями войск. Наши войска просто проходят через этот район, мы не собираемся воевать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_NEUTRAL_HOSTILE_1">
+			<Text>Как бы ни стоило положить конец твоему бездушному существованию, мои люди не желают нападать на тебя в данный момент. Считай, что тебе повезло.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_NEUTRAL_HOSTILE_2">
+			<Text>Хотя мне было бы приятно убить тебя, сейчас не время для этого.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_NEUTRAL_HOSTILE_3">
+			<Text>Нет, мои люди пока не собираются тратить на тебя время. Однако твой страх меня забавляет.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_REJECT_CONQUEST_1">
+			<Text>Может быть, ты умнее, чем я думал. Возможно, ты ожидал моего восхождения к мировому господству? А может ты просто тупой. Так или иначе, пришло время умереть.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_REJECT_CONQUEST_2">
+			<Text>Честно говоря, нет смысла тебе врать. Ты всего лишь ступенька на моем пути к величию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_REJECT_CONQUEST_3">
+			<Text>Ха! Не стоит так говорить со своим будущим правителем. Теперь пришло время страдать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_REJECT_DECEPTIVE">
+			<Text>Признаюсь, в какой-то момент я подумал, что ты довольно хороший друг. Однако пришло время показать свое истинное лицо. Мои войска нацелены прямо на твои города. Время умирать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_REJECT_HOSTILE">
+			<Text>Что это? Ты просто пытаешься меня подразнить? Что ж, считай тебе повезло; у тебя получилось. Приготовься умереть.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_REPEAT_SHARE_OPINION_NO_1">
+			<Text>Почему вы продолжаете тратить мое время на эту ерунду? Уходите!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_REPEAT_SHARE_OPINION_NO_2">
+			<Text>Разве вы не услышали меня в первый раз? Уходите!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_REPEAT_SHARE_OPINION_NO_3">
+			<Text>Прошу прощения, вы плохо слышите? Ответ всегда будет нет!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_REPEAT_SHARE_OPINION_NO_1">
+			<Text>В настоящее время я не буду отвечать на такие запросы. Пожалуйста, перестаньте спрашивать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_REPEAT_SHARE_OPINION_NO_2">
+			<Text>Мы уже говорили об этом. Я не буду рассказывать вам о своих делах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_REPEAT_SHARE_OPINION_NO_3">
+			<Text>Ответ остается нет. В настоящее время мы не будем предоставлять дипломатические подробности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_SHARE_OPINION_NO_1">
+			<Text>Мы никогда не поделимся своими дипломатическими секретами с такими злодеями, как вы!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_SHARE_OPINION_NO_2">
+			<Text>Вы действительно думаете, что я стал бы рассказывать такому преступнику, как вы, о своей внешней политике?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_SHARE_OPINION_NO_3">
+			<Text>Зачем вам тратить время на расспросы о моих иностранных делах? Это не ваше дело!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NO_1">
+			<Text>Извините, но мы предпочитаем хранить наши дипломатические тайны в безопасности. Попробуйте как-нибудь в другой раз.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NO_2">
+			<Text>Мои советники считают важным держать нашу внешнюю политику в тайне. Может быть, в другой раз?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NO_3">
+			<Text>В настоящее время нам неудобно распространятся о наших иностранных делах. Может, в другой раз?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_FRIENDLY_1">
+			<Text>{1_PlayerName:textkey} — настоящий друг, которому можно доверять. (Дружелюбно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_FRIENDLY_2">
+			<Text>Я очень люблю {1_PlayerName:textkey} и надеюсь на продолжение нашей дружбы. (Дружелюбно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_FRIENDLY_3">
+			<Text>{1_PlayerName:textkey} и я были в хороших отношениях, и я не вижу причин, по которым это могло бы измениться. (Дружелюбно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NEUTRAL_1">
+			<Text>У меня действительно нет мнения о {1_PlayerName:textkey}. (Нейтрально)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NEUTRAL_2">
+			<Text>{1_PlayerName:textkey} мне не друг и не враг. (Нейтрально)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NEUTRAL_3">
+			<Text>{1_PlayerName:textkey} меня совсем не беспокоит. (Нейтрально)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_GUARDED_1">
+			<Text>Я буду честен. Я ни на йоту не доверяю {1_PlayerName:textkey}. (Насторожено)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_GUARDED_2">
+			<Text>{1_PlayerName:textkey} встревожил моих советников, мы следим за ситуацией. (Насторожено)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_GUARDED_3">
+			<Text>Мы следим за {1_PlayerName:textkey} из-за недавних инцидентов. (Насторожено)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_HOSTILE_1">
+			<Text>Правление {1_PlayerName:textkey} портит эту землю, и я не вижу проблем с тем, чтобы это прекратилось. (Враждебно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_HOSTILE_2">
+			<Text>{1_PlayerName:textkey} — тиран и злодей, с которым надо разобраться. (Враждебно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_HOSTILE_3">
+			<Text>Не напоминай мне, что {1_PlayerName:textkey} все еще ходит по этой земле... (Враждебно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_AFRAID_1">
+			<Text>Я смотрю на {1_PlayerName:textkey} с большой завистью! (Испуганно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_AFRAID_2">
+			<Text>Я восхищаюсь успехом {1_PlayerName:textkey}. (Испуганно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_AFRAID_3">
+			<Text>Надеюсь, однажды я смогу стать таким же хорошим лидером, как {1_PlayerName:textkey}. (Испуганно)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_WAR_1">
+			<Text>{1_PlayerName:textkey} и я в состоянии войны! ([COLOR_NEGATIVE_TEXT]ВОЙНА![ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_WAR_2">
+			<Text>{1_PlayerName:textkey} и я сражаемся между собой.  ([COLOR_NEGATIVE_TEXT]ВОЙНА![ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_WAR_3">
+			<Text>В настоящее время я решаю разногласия с {1_PlayerName:textkey}.  ([COLOR_NEGATIVE_TEXT]ВОЙНА![ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_PLANNING_WAR_1">
+			<Text>Я достаточно доверяю вам, чтобы признаться, что планирую войну против {1_PlayerName:textkey}. (Готовится к войне!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_PLANNING_WAR_2">
+			<Text>Не обманывайтесь внешним видом. Я планирую избавить эту землю от {1_PlayerName:textkey}. (Готовится к войне!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_PLANNING_WAR_3">
+			<Text>Мне надоело присутствие {1_PlayerName:textkey} и я планирую в ближайшее время устранить их. (Готовится к войне!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_DECEPTIVE_1">
+			<Text>Может показаться, что я дружу с {1_PlayerName:textkey}, но это все показное. (Обманчиво)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_DECEPTIVE_2">
+			<Text>Надеюсь вы умеете хранить секреты? Я планирую обмануть {1_PlayerName:textkey} при первой же возможности. (Обманчиво)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_DECEPTIVE_3">
+			<Text>Я говорю всему миру, что {1_PlayerName:textkey} — мой друг. Вам же я говорю со строжайшим секретом, что это не так. (Обманчиво)</Text>
+		</Row>
 		<Row Tag="TXT_KEY_ABLTY_ENABLES_CORPORATIONS">
 			<Text>Позволяет создавать корпорации.</Text>
 		</Row>
@@ -51,7 +204,10 @@
 			<Text>{1_Num} extra {2_IconString} от [ICON_CITIZEN] населения в Империи</Text>
 		</Row>
 
-		<!-- No Peace With City-State -->
+		<!-- City-State UI -->
+		<Row Tag="TXT_KEY_NEUTRAL_CSTATE">
+			<Text>Нейтральный</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PEACE_BLOCKED_TURNS">
 			<Text>Мирный договор недоступен в течение {1_Num} хода(ов)</Text>
 		</Row>
@@ -2545,7 +2701,7 @@
 
 		<!-- Construction -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_BUILD_X_BUILDINGS">
-			<Text>Строители из {3_Civ} хотят изучить ценность [COLOR_POSITIVE_TEXT]{1_Building}[ENDCOLOR]. {3_Civ} обещает большую награду, если вы построите [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] таких зданий в своей империи.</Text>
+			<Text>Строители из {3_Civ} хотят изучить ценность [COLOR_POSITIVE_TEXT]{1_Building}[ENDCOLOR]. {3_Civ} обещает большую награду, если вы построите [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] таких зданий в городах (не сателлитах) своей империи.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_BUILD_X_BUILDINGS">
 			<Text>Строительный проект от {@1_Civ}</Text>
@@ -2606,7 +2762,7 @@
 			<Text>Исследуйте неизведанную область мира ([COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% завершено).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_BUILD_X_BUILDINGS_FORMAL">
-			<Text>Постройте [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] {@1_Building} {2_Num: plural 1?здание; other?здания;} в вашей империи.</Text>
+			<Text>Постройте [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] {@1_Building} {2_Num: plural 1?здание; other?здания;} в городах (не сателлитах) вашей империи.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_SPY_ON_MAJOR_FORMAL">
 			<Text>Проведите разведывательные операции против {1_Civ} (осталось [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]).</Text>
@@ -2878,6 +3034,51 @@
 		</Row>
 
 		<!-- Diplomacy Screen Buttons -->
+		<Row Tag="TXT_KEY_GENERIC_GENEROUS_OFFER_1">
+			<Text>Друг, пожалуйста, примите это предложение в знак благодарности за нашу дружбу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GENEROUS_OFFER_2">
+			<Text>В трудную минуту я предлагаю вам подарок.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GENEROUS_OFFER_3">
+			<Text>Чтобы показать, что мы поддерживаем нашу дружбу, я предлагаю это вашим людям в надежде, что вы когда-нибудь отплатите тем же.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_YES_1">
+			<Text>Рад помочь.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_YES_2">
+			<Text>Пусть этот подарок принесет процветание вашему народу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_YES_3">
+			<Text>С удовольствием помогаю нуждающимся.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_MUCH_1">
+			<Text>Мне жаль. Боюсь, моя щедрость не простирается так далеко, как вам хотелось бы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_MUCH_2">
+			<Text>Боюсь, вы запросили слишком многого. Я не могу исполнить эту просьбу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_MUCH_3">
+			<Text>Точно нет. Я щедрый человек, но вы просите меня отказаться от слишком многого.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_SOON_1">
+			<Text>Извините, но я уже предоставил всю помощь, которую я могу в это время. Может быть, в другой раз.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_SOON_2">
+			<Text>Прошло слишком мало времени с момента нашего последнего проявления щедрости. Боюсь, я должен отказаться.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_SOON_3">
+			<Text>В данный момент я не могу исполнить этот запрос. Мне жаль.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_FOR_SHARE_OPINION_1">
+			<Text>Извините, но мы знаем вас недостаточно долго, чтобы разглашать наши дипломатические секреты. Возможно в будущем?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_FOR_SHARE_OPINION_2">
+			<Text>Мы знаем друг друга недостаточно долго, чтобы мы могли раскрыть свою внешнюю политику. Наш ответ - нет.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_FOR_SHARE_OPINION_3">
+			<Text>Я делюсь своей внешней политикой только с теми, кому доверяю. Я не могу доверять человеку, которого только что встретил.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_BLOCKED_THEM_TT">
 			<Text>Они не могут заключить с вами мир еще на {1_Num} хода из-за сделки, которую они заключили с другим игроком.</Text>
 		</Row>
