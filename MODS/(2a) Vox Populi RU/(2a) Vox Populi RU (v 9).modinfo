@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="32eadbe7-cdbb-4f7e-ae47-2cbd386e7835" version="9">
+  <Properties>
+    <Name>(2a) Vox Populi - перевод</Name>
+    <Teaser>(4.0) Перевод на русский</Teaser>
+    <Description>...</Description>
+    <Authors>danrouve@gmail.com</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <MinCompatibleSaveVersion>2</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="17" maxversion="999" title="(2) Vox Populi" />
+  </Dependencies>
+  <References />
+  <Files>
+    <File md5="FD824E6AD7D23964033AB6F566CC59BB" import="0">Database Changes/Text/ru_RU/GameOptionTextChanges.sql</File>
+    <File md5="5F845A2FAAE68B85AAD18CBBA85D1568" import="0">Database Changes/Text/ru_RU/NewAutomateText.xml</File>
+    <File md5="8953A5A376DE5324B925EA96BB0F6773" import="0">Database Changes/Text/ru_RU/NewGameOptionText.xml</File>
+    <File md5="600495C07E0F85C7A8A650CB8ECEA832" import="0">Database Changes/Text/ru_RU/NewMapscriptText.xml</File>
+    <File md5="726494AE19D2C3A3132A4B710AFCD498" import="0">Database Changes/Text/ru_RU/AI/DiplomacyResponseTextChanges.sql</File>
+    <File md5="AD9A4EF1BA5D0C6B4C4BD4702F2D9D74" import="0">Database Changes/Text/ru_RU/AI/NewDiplomacyResponseText.xml</File>
+    <File md5="37D45997B7F6550756582FB00351A22E" import="0">Database Changes/Text/ru_RU/Beliefs/BeliefTextChanges.sql</File>
+    <File md5="A90363FCC580B29707EAAA29242AED2D" import="0">Database Changes/Text/ru_RU/Beliefs/NewBeliefText.xml</File>
+    <File md5="1540265A21D18EF839981DEC9E0C22C0" import="0">Database Changes/Text/ru_RU/City/BuildingTextChanges.sql</File>
+    <File md5="EA9F3FDA59C800ED9A2DF41E331322AC" import="0">Database Changes/Text/ru_RU/City/NewBuildingText.xml</File>
+    <File md5="4F6F1F2ED3F7659DBC5C6621701F1987" import="0">Database Changes/Text/ru_RU/City/NewGreatWorkText.xml</File>
+    <File md5="7FA3131749B2713CE6A883C63134F9C9" import="0">Database Changes/Text/ru_RU/City/NewProcessText.xml</File>
+    <File md5="26377A5AD2E63C19D962DE1FC683E2FD" import="0">Database Changes/Text/ru_RU/City/NewProjectText.xml</File>
+    <File md5="2652BA17317CD0A2F9167AE858C3B117" import="0">Database Changes/Text/ru_RU/City/NewSpecialistText.xml</File>
+    <File md5="1C7DE8D3EFB10BFAFDCF7E3804E3CECB" import="0">Database Changes/Text/ru_RU/City/ProcessTextChanges.sql</File>
+    <File md5="FA9DBEE91D1A4EB72D00028751338331" import="0">Database Changes/Text/ru_RU/City/ProjectTextChanges.sql</File>
+    <File md5="6AF3C4F6AC4F6757E1B7F2908D5F7BB7" import="0">Database Changes/Text/ru_RU/City/SpecialistTextChanges.sql</File>
+    <File md5="40241F08AEC40C94ABAB98AC773EECBA" import="0">Database Changes/Text/ru_RU/Civilizations/CivilizationTextChanges.sql</File>
+    <File md5="25443391721FD6BB58CFA8007F0AF6EC" import="0">Database Changes/Text/ru_RU/Civilizations/NewCivilizationText.xml</File>
+    <File md5="BAE4A61A39C75B019BDDA91E2EBB18E6" import="0">Database Changes/Text/ru_RU/Concepts/ConceptTextChanges.sql</File>
+    <File md5="56EBFFB63A0E204B08C0570844C6C17F" import="0">Database Changes/Text/ru_RU/Concepts/NewConceptText.xml</File>
+    <File md5="3E4D1D73D7ADDCD8B800E1D075DAD976" import="0">Database Changes/Text/ru_RU/Corporations/NewCorporationText.xml</File>
+    <File md5="D0A442F7DEB463CDCCA45E6503687C87" import="0">Database Changes/Text/ru_RU/Difficulty/DifficultyTextChanges.sql</File>
+    <File md5="2826FF29CC3EA4639366CBE9E01B648E" import="0">Database Changes/Text/ru_RU/Events/NewEventText.xml</File>
+    <File md5="C00B758602F5F055A312B6F036146495" import="0">Database Changes/Text/ru_RU/Notifications/NewNotificationText.xml</File>
+    <File md5="C46857B6471D7FCDC4D05852CE60D923" import="0">Database Changes/Text/ru_RU/Notifications/NotificationTextChanges.sql</File>
+    <File md5="8CC5096B30E661399829FDB6580CA10D" import="0">Database Changes/Text/ru_RU/Policies/NewPolicyText.xml</File>
+    <File md5="69130E7ACE25D201FF50E4179BB2590B" import="0">Database Changes/Text/ru_RU/Policies/PolicyTextChanges.sql</File>
+    <File md5="C99519EE682DC9FFA6E78E419928258A" import="0">Database Changes/Text/ru_RU/Tech/NewTechText.xml</File>
+    <File md5="702E06E13BC40F1A2BE5F36CF863B1F0" import="0">Database Changes/Text/ru_RU/Tech/TechTextChanges.sql</File>
+    <File md5="E5CB0AB92FAA1B2128EE557C30451B66" import="0">Database Changes/Text/ru_RU/UI/InterfaceModeTextChanges.sql</File>
+    <File md5="B5C60FD5DF02295B68C1FEE0052EFD88" import="0">Database Changes/Text/ru_RU/UI/NewUIText.sql</File>
+    <File md5="01B1990B4822036F1FC23EC2B4782064" import="0">Database Changes/Text/ru_RU/UI/NewUIText.xml</File>
+    <File md5="E1108F551242CE947A57F147D36D2DF6" import="0">Database Changes/Text/ru_RU/UI/UITextChanges.sql</File>
+    <File md5="4E179DC2DB3C3A805819E8C049E91B9E" import="0">Database Changes/Text/ru_RU/UnitPromotions/NewPromotionText.xml</File>
+    <File md5="808B7DFC7A8948D10321175F281D5B0E" import="0">Database Changes/Text/ru_RU/UnitPromotions/PromotionTextChanges.sql</File>
+    <File md5="4CDAD2DEB2B0393AF87FA0A07C8BA27F" import="0">Database Changes/Text/ru_RU/Units/MissionTextChanges.sql</File>
+    <File md5="E44B069F8ED6698D11B89240DCAC6F38" import="0">Database Changes/Text/ru_RU/Units/NewMissionText.xml</File>
+    <File md5="D72281DE4446A8410B3A5F39A5A7FE2B" import="0">Database Changes/Text/ru_RU/Units/NewUnitText.sql</File>
+    <File md5="6AFB2390FC8A249B834EC65F397468D3" import="0">Database Changes/Text/ru_RU/Units/NewUnitText.xml</File>
+    <File md5="00082E958AC22F3EECB5EF334FE8A5EA" import="0">Database Changes/Text/ru_RU/Units/UnitTextChanges.sql</File>
+    <File md5="0D315AF92B5A037B10BFAC2C57336443" import="0">Database Changes/Text/ru_RU/WorldCongress/NewProjectText.xml</File>
+    <File md5="6D61BCF7BA4BDF11B0467C6B22EF7512" import="0">Database Changes/Text/ru_RU/WorldCongress/NewResolutionText.xml</File>
+    <File md5="1DB9390906CDF9F5B075CB6BE4BD6167" import="0">Database Changes/Text/ru_RU/WorldCongress/ProjectTextChanges.sql</File>
+    <File md5="80ABA35C3538140BE6A7CC7ABF6E10D0" import="0">Database Changes/Text/ru_RU/WorldCongress/ResolutionTextChanges.sql</File>
+    <File md5="2798405A9BB9C4318FCBC7EBA6627380" import="0">Database Changes/Text/ru_RU/WorldCongress/SpecialSessionTextChanges.sql</File>
+    <File md5="30F4AA5660073D77F69C1FE5F930CE3E" import="0">Database Changes/Text/ru_RU/WorldMap/FeatureTextChanges.sql</File>
+    <File md5="1F86F01D10C500BF979C26A7CA206D2C" import="0">Database Changes/Text/ru_RU/WorldMap/ImprovementTextChanges.sql</File>
+    <File md5="7BC7EE5881368D7A64D7F08EF0B908FE" import="0">Database Changes/Text/ru_RU/WorldMap/NewGoodyHutText.xml</File>
+    <File md5="2066540A69673B5E6D1170D55F3E1E07" import="0">Database Changes/Text/ru_RU/WorldMap/NewImprovementText.xml</File>
+    <File md5="2AEB5BC80A2468009A34606171D6920A" import="0">Database Changes/Text/ru_RU/WorldMap/NewResourceText.xml</File>
+    <File md5="F2A02F26E380838EE2F8D26CF476859F" import="0">Database Changes/Text/ru_RU/WorldMap/ResourceTextChanges.sql</File>
+    <File md5="20633780B6199345E1F83B322B2D2766" import="0">Database Changes/Text/ru_RU/WorldMap/RouteTextChanges.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Database Changes/Text/ru_RU/NewAutomateText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/NewGameOptionText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/NewMapscriptText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/AI/NewDiplomacyResponseText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Beliefs/NewBeliefText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/NewBuildingText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/NewGreatWorkText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/NewProcessText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/NewProjectText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/NewSpecialistText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Civilizations/NewCivilizationText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Concepts/NewConceptText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Corporations/NewCorporationText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Events/NewEventText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Notifications/NewNotificationText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Policies/NewPolicyText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Tech/NewTechText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UI/NewUIText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UI/NewUIText.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Units/NewMissionText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Units/NewUnitText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Units/NewUnitText.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UnitPromotions/NewPromotionText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldCongress/NewProjectText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldCongress/NewResolutionText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/NewGoodyHutText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/NewImprovementText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/NewResourceText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/GameOptionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/AI/DiplomacyResponseTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Beliefs/BeliefTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/BuildingTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/ProcessTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/ProjectTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/SpecialistTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Civilizations/CivilizationTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Concepts/ConceptTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Difficulty/DifficultyTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Notifications/NotificationTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Policies/PolicyTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Tech/TechTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UI/InterfaceModeTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UI/UITextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UnitPromotions/PromotionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Units/MissionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Units/UnitTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldCongress/ProjectTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldCongress/ResolutionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldCongress/SpecialSessionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/FeatureTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/ImprovementTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/ResourceTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/RouteTextChanges.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

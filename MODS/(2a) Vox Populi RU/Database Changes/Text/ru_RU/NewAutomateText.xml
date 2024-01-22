@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT">
+			<Text>Дипломатическая миссия (автоматизировать)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT_HELP">
+			<Text>Автоматизировать все действия [COLOR_UNIT_TEXT]дипломатического юнита[ENDCOLOR]. Юнит будет оставаться автономным до тех пор, пока вы не отмените эту команду.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT_DISABLED_HELP">
+			<Text>В настоящее время нет подходящих целей для дипломатии.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_BELIEF_MORRIGAN">
+			<Text>Получите [ICON_GOLD] золото, [ICON_CULTURE] культуру и [ICON_GOLDEN_AGE] очки Золотого века при убийстве юнита (200% от его [ICON_STRENGTH] Боевой мощи) или при Грабеже улучшений кроме дорог (20 единиц каждого ресурса, в зависимости от Эры). +2 [ICON_GREAT_GENERAL] очка Великих Полководцев от Зала Сейлид.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MORRIGAN_SHORT">
+			<Text>Морриган, Предвестник</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_EPONA">
+			<Text>+3 к [ICON_CULTURE_LOCAL] скорости роста границ в каждом городе. Получите +10 [ICON_RESEARCH] науки, [ICON_CULTURE] культуры и [ICON_FOOD] еды, когда ваши границы расширятся, в зависимости от Эры. +5 к [ICON_CULTURE_LOCAL] скорости роста границ от Зала Сейлид.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_EPONA_SHORT">
+			<Text>Эпона, Великая Кобыла</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_NUADA">
+			<Text>+15% к [ICON_GOLD] золоту и [ICON_RESEARCH] науке во время «Дня любви к Отчизне». +3 [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_GOLDEN_AGE] очков Золотого века за каждый уникальный ресурс роскоши в Империи и за каждый активный [ICON_INTERNATIONAL_TRADE] торговый путь в город или из города. +5 [ICON_GOLD] золота от Зала Сейлид.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_NUADA_SHORT">
+			<Text>Нуада, Серебряная Рука</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS">
+			<Text>+1 [ICON_FOOD] еда и [ICON_GOLD] золото от Леса, +1 [ICON_FOOD] еда и [ICON_PRODUCTION] производство от Джунглей. +1 [ICON_CULTURE] культура и [ICON_RESEARCH] наука от Лагерей и Плантаций. +2 [ICON_CULTURE] культура от Зала Сейлид.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS_SHORT">
+			<Text>Цернуннос, Рогатый Олень</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_LUGH">
+			<Text>+2 [ICON_CULTURE] культура, [ICON_RESEARCH] наука, [ICON_FOOD] еда и [ICON_GOLD] золото в городах со специалистом. +10% к скорости [ICON_PRODUCTION] постройки [ICON_WONDER] Чудес Света. +3 [ICON_PRODUCTION] производство от Зала Сейлид.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_LUGH_SHORT">
+			<Text>Луг, Ремесленник</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RHIANNON">
+			<Text>+2 к [ICON_CULTURE] культуре в каждом городе, +1 [ICON_GOLD] золото и [ICON_PRODUCTION] производство от каждого ресурса, связанного с обычным улучшением. +5 [ICON_GOLDEN_AGE] очков Золотого века от Зала Сейлид.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RHIANNON_SHORT">
+			<Text>Рианнон, Повелительница</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MANANNAN">
+			<Text>+3 [ICON_FOOD] еда, [ICON_PRODUCTION] производство и [ICON_GOLD] золото в прибрежных городах. +1 [ICON_PRODUCTION] производство и [ICON_GOLD] золото за каждые 2 [ICON_CITIZEN] горожанина, работающих на клетках Моря в ваших городах. +2 очка [ICON_GREAT_ADMIRAL] Великих Адмиралов от Зала Сейлид.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MANANNAN_SHORT">
+			<Text>Маннанан, Сын Моря</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_OGMA">
+			<Text>+1 [ICON_RESEARCH] наука за каждые 4 [ICON_CITIZEN] горожанина и +1 [ICON_PRODUCTION] производство за каждый [ICON_GREAT_WORK] Шедевр в городе. +3 [ICON_RESEARCH] наука, [ICON_CULTURE] культура, очка [ICON_GREAT_SCIENTIST] Великих Учёных и очка [ICON_GREAT_ARTIST] Великих Художников в [ICON_CAPITAL] столице. +5 [ICON_RESEARCH] наука от Зала Сейлид.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_OGMA_SHORT">
+			<Text>Огма, Ученый</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_BRAN">
+			<Text>+25% к [ICON_RANGE_STRENGTH] Боевой мощи дальней атаки города и +25% к [ICON_FOOD] росту. +15 [ICON_CULTURE] культуры и [ICON_GOLD] золота при появлении [ICON_CITIZEN] горожанина (в зависимости от Эры). +1 [ICON_HAPPINESS_1] счастья за каждый город, исповедующий данный пантеон. +5 [ICON_FOOD] еда от Зала Сейлид.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_BRAN_SHORT">
+			<Text>Бран, Спящий Хранитель</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAGDA">
+			<Text>+1 [ICON_CULTURE] культура, [ICON_GOLD] золото, [ICON_PRODUCTION] производство и [ICON_RESEARCH] наука в столице [ICON_CAPITAL] и за каждые 4 последователя вашего пантеона в принадлежащих вам городах. +5 ОЗ к исцелению за ход на дружественной территории. +2 к [ICON_HAPPINESS_1] счастью от Зала Сейлид.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAGDA_SHORT">
+			<Text>Дагда, Всеотец</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BELIEF_GURDWARA">
+			<Text>Купить Гурдвару за [ICON_PEACE] веру</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GURDWARA_SHORT">
+			<Text>Гурдвара</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BELIEF_TEOCALLI">
+			<Text>Купить Теокалис за [ICON_PEACE] веру</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_TEOCALLI_SHORT">
+			<Text>Теокалис</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BELIEF_COMMUNALISM">
+			<Text>Внутренние торговые пути в зависимости от типа дают +3 [ICON_FOOD] еды / [ICON_PRODUCTION] производства (в зависимости от Эры). +2 [ICON_PRODUCTION] производство, если в городе есть специалист.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_COMMUNALISM_SHORT">
+			<Text>Сотрудничество</Text>
+		</Row>
+
+		<!-- Tooltips -->
+		<Row Tag="TXT_KEY_BUILDING_CATHEDRAL_TOOLTIP">
+			<Text>+2 [ICON_PEACE] вера[NEWLINE]+2 [ICON_GOLD]золото[NEWLINE]1 ячейка [ICON_GREAT_WORK] Шедевра искусства[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_CATHEDRAL_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHURCH_TOOLTIP">
+			<Text>+4 [ICON_PEACE] вера, +2 [ICON_CULTURE] культура[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_CHURCH_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA_TOOLTIP">
+			<Text>+2 [ICON_PEACE] вера[NEWLINE]+3 [ICON_FOOD] еда[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GURDWARA_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MANDIR_TOOLTIP">
+			<Text>+3 [ICON_PEACE] вера[NEWLINE]+2 [ICON_FOOD] еда[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_MANDIR_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOSQUE_TOOLTIP">
+			<Text>+3 [ICON_PEACE] вера[NEWLINE]+2 [ICON_RESEARCH]наука[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_MOSQUE_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ORDER_TOOLTIP">
+			<Text>+2 [ICON_PEACE] вера[NEWLINE]+3 [ICON_GOLD] золото[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_ORDER_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PAGODA_TOOLTIP">
+			<Text>+2 [ICON_PEACE] вера[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_PAGODA_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STUPA_TOOLTIP">
+			<Text>+3 [ICON_PEACE] вера[NEWLINE]+3 [ICON_GOLDEN_AGE] очки Золотого Века[NEWLINE]+5 [ICON_TOURISM] туризм[NEWLINE]+1 [ICON_HAPPINESS_1] счастье[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_STUPA_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_TOOLTIP">
+			<Text>+2 [ICON_PEACE] вера[NEWLINE]+3 [ICON_PRODUCTION] производство[NEWLINE]{TXT_KEY_BUILDING_SYNAGOGUE_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_TOOLTIP">
+			<Text>+2 [ICON_PEACE] вера[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_TEOCALLI_HELP}</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

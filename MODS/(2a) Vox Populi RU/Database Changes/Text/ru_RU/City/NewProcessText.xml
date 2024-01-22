@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_PROCESS_CULTURE">
+			<Text>Искусство</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_CULTURE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Искусство[ENDCOLOR] преобразует 25% производства [ICON_PRODUCTION] этого города в культуру [ICON_CULTURE] и снижает [ICON_CULTURE] Скуку на 25%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_CULTURE_STRATEGY">
+			<Text>Инвестирование производства в искусство — это хороший способ повысить отдачу от вашей Цивилизации, либо чтобы захватить следующую политику, либо отсрочить победу в Туризме. Также уменьшает скуку.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROCESS_DEFENSE">
+			<Text>Оборона</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_DEFENSE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Оборона[ENDCOLOR] повышает защиту города [ICON_STRENGTH] и увеличивает восстановление здоровья на 10 % от [ICON_PRODUCTION] производства города.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_DEFENSE_STRATEGY">
+			<Text>Инвестирование производства в оборону — это последний способ предотвратить завоевание вашего города иностранной державой.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROCESS_FOOD">
+			<Text>Сельское хозяйство</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FOOD_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Сельское хозяйство[ENDCOLOR] превращает 25% [ICON_PRODUCTION] производства этого города в [ICON_FOOD] пищу и снижает [ICON_FOOD] и [ICON_PRODUCTION] Бедствия на 25%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FOOD_STRATEGY">
+			<Text>Инвестирование производства в сельское хозяйство — хороший способ ускорить рост вашего города, что может быть полезно, если вы отстаете в технологиях или вам просто нужны большие города. Также уменьшает дистресс.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROCESS_TOURISM">
+			<Text>Пропаганда</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_TOURISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Пропаганда[ENDCOLOR] превращает 15% [ICON_PRODUCTION] производства этого города в [ICON_TOURISM] туризм.[NEWLINE][NEWLINE]Требуется принятие догматы Социалистического Реализма.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_TOURISM_STRATEGY">
+			<Text>{TXT_KEY_PROCESS_TOURISM_HELP}[NEWLINE][NEWLINE]Инвестирование производства в пропаганду — хороший способ повысить влияние вашего города в мире, что может быть полезно, если вы сейчас находитесь на революционной волне или хотите заставить другие цивилизации испытать ее.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROCESS_TREASURE_FLEET">
+			<Text>Флот сокровищ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_TREASURE_FLEET_HELP">
+			<Text>Пожертвуйте [ICON_PRODUCTION] производство этого города на проект «Флот сокровищ». Стоимость увеличивается в зависимости от количества игроков в игре и текущей эпохи.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROCESS_WARGAMES">
+			<Text>Всемирные военные игры</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_WARGAMES_HELP">
+			<Text>Пожертвуйте [ICON_PRODUCTION] производство этого города в проект Всемирных военных игр. Стоимость увеличивается в зависимости от количества игроков в игре и текущей эпохи.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROCESS_UNITED_NATIONS">
+			<Text>Организация Объединенных Наций (ООН)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_UNITED_NATIONS_HELP">
+			<Text>Пожертвуйте [ICON_PRODUCTION] производство этого города в проект Организации Объединенных Наций. Стоимость увеличивается в зависимости от количества игроков в игре и текущей эпохи.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

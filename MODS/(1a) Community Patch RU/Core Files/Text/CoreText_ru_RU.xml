@@ -204,6 +204,11 @@
 			<Text>{1_Num} extra {2_IconString} от [ICON_CITIZEN] населения в Империи</Text>
 		</Row>
 
+		<!-- Multiplayer Desync Warning -->
+		<Row Tag="TXT_KEY_VP_MP_WARNING_DESYNC">
+			<Text>На клиентской стороне произошла десинхронизация, возможно неопределенное поведение. Создайте отчет об ошибке на GitHub: https://github.com/LoneGazebo/Community-Patch-DLL/issues</Text>
+		</Row>
+
 		<!-- City-State UI -->
 		<Row Tag="TXT_KEY_NEUTRAL_CSTATE">
 			<Text>Нейтральный</Text>
@@ -2784,11 +2789,6 @@
 		<Row Tag="TXT_KEY_CITY_STATE_EXPLORE_AREA_QUEST_LONG">
 			<Text>{1_Civ} хочет, чтобы вы исследовали карту возле этой клетки.</Text>
 		</Row>
-
-		<!-- Update resurrection text (voluntary vassals) -->
-		<Row Tag="TXT_KEY_NOTIFICATION_CIV_RESURRECTED_VOLUNTARY_VASSAL">
-			<Text>{1_PlayerName} завоевал {2_CityName} и восстановил суверенитет {3_CivAdj}. Пламя {4_CivName}, однажды потухшее, снова горит. {4_CivName} теперь является вассалом {1_PlayerName}.</Text>
-		</Row>
 		
 		<!-- Automation -->
 		<!-- Automation Text -->
@@ -4028,6 +4028,9 @@
 
 		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_RESILIENT_VARIABLE_THRESHOLD">
 			<Text>В настоящее время они [COLOR_WARNING_TEXT]устойчивы[ENDCOLOR], поскольку вы на {1_FactorScore} % ниже порогового значения [COLOR_CYAN]{2_Threshold}%[ENDCOLOR]:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_NO_CAPITAL">
+			<Text>Нет столицы</Text>
 		</Row>
 		
 		<!-- ADDITIONS TO EXISTING DIPLOMACY TEXTS -->
@@ -7261,6 +7264,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_DAMAGE_REDUCTION_LABEL">
 			<Text>Уменьшение урона:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DAMAGE_REDUCTION">
+			<Text>Уменьшение урона: +{1_Num}</Text>
 		</Row>
 
 		<!-- Great Person Progress -->
