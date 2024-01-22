@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_TRADING">
+			<Text>Запрет на обмен технологиями</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_TRADING_HELP">
+			<Text>Запрещает обмен технологиями между цивилизациями.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_RESEARCH_AGREEMENTS">
+			<Text>Включить исследовательские соглашения</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RESEARCH_AGREEMENTS_HELP">
+			<Text>Если включено, вы можете подписывать соглашения об исследованиях с другими цивилизациями.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING">
+			<Text>Запрет на перепродажу технологий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING_HELP">
+			<Text>Если эта функция включена, вы не можете продавать технологии другой цивилизации, если вы сами не исследовали эту технологию.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_VASSALAGE">
+			<Text>Нет вассалитета</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_VASSALAGE_HELP">
+			<Text>Отключает систему вассалитета. Нельзя создавать вассалов.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_HUMAN_VASSALS">
+			<Text>Разрешить вассалитет игроков-людей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_HUMAN_VASSALS_HELP">
+			<Text>Позволяет игрокам-людям становиться вассалами других цивилизаций.[NEWLINE][NEWLINE]Примечание. Если включен параметр «Отключить вассалитет», это ничего не делает.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_ADVANCED_DIPLOMACY">
+			<Text>Прозрачная дипломатия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_ADVANCED_DIPLOMACY_HELP">
+			<Text>Отображать числа рядом с дипломатическими модификаторами. Кроме того, лидеры ИИ никогда не будут скрывать отрицательные модификаторы.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_VICTORY_COMPETITION">
+			<Text>Отключить соревнование ИИ за победу</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_VICTORY_COMPETITION_HELP">
+			<Text>Лидеры ИИ не будут обижаться на других игроков за их прогресс в достижении условий победы. Это значительно упрощает игру.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_ENDGAME_AGGRESSION">
+			<Text>Отключить агрессию ИИ в эндгейме</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_ENDGAME_AGGRESSION_HELP">
+			<Text>Лидеры ИИ не получат повышения агрессии по отношению к игрокам, которые близки к победе в игре. ПРИМЕЧАНИЕ. Этот параметр ничего не делает, если включен параметр «Отключить соревнование за победу».</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

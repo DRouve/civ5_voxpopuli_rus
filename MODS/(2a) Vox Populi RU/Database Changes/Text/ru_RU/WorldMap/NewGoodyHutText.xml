@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_GOODY_PRODUCTION">
+			<Text>Вы нашли тайник с припасами, которые увеличивают производство [ICON_PRODUCTION] в ближайшем к вам городе!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_GOLDEN_AGE">
+			<Text>Вы нашли древние реликвии, которые ускорят продвижение вашей цивилизации к [ICON_GOLDEN_AGE] Золотому веку!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_TILES">
+			<Text>Вы находите кочевое племя, которое желает присоединиться к вашей цивилизации, предоставляя вам дополнительные земли вокруг ближайшего города!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_PRODUCTION">
+			<Text>Расходные материалы для [ICON_PRODUCTION] производства в ближайшем к вам городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_GOLDEN_AGE">
+			<Text>Реликвии для [ICON_GOLDEN_AGE] очков Золотого века.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_FREE_TILES">
+			<Text>Племя, дающее вам землю вокруг ближайшего города.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_SCIENCE">
+			<Text>Древние артефакты для [ICON_RESEARCH] науки.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

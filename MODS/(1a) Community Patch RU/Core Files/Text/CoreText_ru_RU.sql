@@ -681,6 +681,10 @@ UPDATE Language_ru_RU
 SET Text = 'Наша экономика находится в затруднительном положении из-за количества юнитов, которые у нас есть. Мы должны распустить все ненужные подразделения, чтобы наша цивилизация могла работать на полную мощность.'
 WHERE Tag = 'TXT_KEY_ECONOMICAISTRATEGY_TOO_MANY_UNITS';
 
+UPDATE Language_ru_RU
+SET Text = 'У нас проблемы, связанные с перенаселением - сейчас не стоит строить здания для роста населения в наших городах.'
+WHERE Tag = 'TXT_KEY_ECONOMICAISTRATEGY_HALT_GROWTH_BUILDINGS';
+
 -- Reversed Tourism for Open Borders
 UPDATE Language_ru_RU
 SET Text = '+{1_Num}% бонус за открытые границы от:[NEWLINE]   '

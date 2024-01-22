@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_CORPORATION_TRADER_SIDS">
+			<Text>Trader Sid's, Inc.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_TRADER_SIDS_HELP">
+			<Text>Предоставляет преимущества, направленные на накопление [ICON_GOLD] золота. Увеличивает [ICON_INTERNATIONAL_TRADE] лимит торговых путей на два и удваивает максимальное расстояние [ICON_INTERNATIONAL_TRADE] торговых путей.[NEWLINE][NEWLINE]Караваны и рынки во всех городах производят +3 [ICON_GOLD] золота. Каждая франшиза в городах чужой цивилизации увеличивает ваш [ICON_TOURISM] туризм с ними на 2%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_TRADER_SIDS">
+			<Text>[ICON_RES_CLOVES] Гвоздика, [ICON_RES_COCOA] Какао, [ICON_RES_NUTMEG] Мускатный орех, [ICON_RES_PEPPER] Перец, [ICON_RES_SALT] Соль, [ICON_RES_SPICES] Корица, [ICON_RES_SUGAR] Сахар дают +1 [ICON_GOLD] золота во всех городах с франшизой Trader Sid's.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_TRADER_SIDS">
+			<Text>+4 [ICON_GOLD] золота за каждую глобальную франшизу, а [ICON_INTERNATIONAL_TRADE] торговые пути в этот город дают +2 [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TRADER_SIDS">
+			<Text>[ICON_INTERNATIONAL_TRADE] Торговые маршруты из собственных городов с офисом Trader Sid's в иностранные города с франшизой Trader Sid's приносят +25% дополнительного [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_TRADER_SIDS_OFFICE_BENEFIT_HELP">
+			<Text>Текущий бонус офиса: {1_String}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CORPORATION_LANDSEA_EXTRACTORS">
+			<Text>Centaurus Extractors, Inc.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_LANDSEA_EXTRACTORS_HELP">
+			<Text>Предоставляет преимущества, ориентированные на [ICON_PRODUCTION] производственные и прибрежные города. Увеличивает лимит [ICON_INTERNATIONAL_TRADE] торговых путей на два и удваивает максимальный радиус морских [ICON_INTERNATIONAL_TRADE] торговых путей.[NEWLINE][NEWLINE]Гавани и Морские порты во всех городах также производят +2 [ICON_PRODUCTION] производства. Каждая франшиза в городах чужой цивилизации увеличивает ваш [ICON_TOURISM] туризм с ними на 2%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_LANDSEA_EXTRACTORS">
+			<Text>[ICON_RES_HORSE] Лошади, [ICON_RES_WHALE] Киты, [ICON_RES_CRAB] Крабы, [ICON_RES_IVORY] Слоны предоставляют +1 [ICON_PRODUCTION] производства в города с франшизой Centaurus Extractors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_LANDSEA_EXTRACTORS">
+			<Text>+3 [ICON_PRODUCTION] производства за каждую Глобальную Франшизу и +1 [ICON_PRODUCTION] производства на всех клетках моря рядом с городом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_LANDSEA_EXTRACTORS">
+			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути в чужой город с франшизой Centaurus Extractors дают +10% [ICON_RESEARCH] к уровню науки в исходном городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_LANDSEA_EXTRACTORS_OFFICE_BENEFIT_HELP">
+			<Text>Текущий бонус офиса: {1_String}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CORPORATION_HEXXON_REFINERY">
+			<Text>Hexxon Refinery, Inc.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_HEXXON_REFINERY_HELP">
+			<Text>Предоставляет бонусы, повышающие вашу способность вести войну на поздних этапах игры и накапливать стратегические ресурсы. Увеличивает лимит [ICON_INTERNATIONAL_TRADE] Торговых Путей на два.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Производство всех единиц, для постройки которых требуется [ICON_RES_OIL] нефти, [ICON_RES_URANIUM] урана или [ICON_RES_ALUMINUM] алюминия. +3 [ICON_PRODUCTION] Производство от {TXT_KEY_BUILDING_TIDAL_PLANT}, {TXT_KEY_BUILDING_HYDRO_PLANT}, {TXT_KEY_BUILDING_NUCLEAR_PLANT}, {TXT_KEY_BUILDING_WIND_PLANT} и {TXT_KEY_BUILDING_SOLAR_PLANT}. Каждая франшиза в городах чужой цивилизации увеличивает ваш [ICON_TOURISM] туризм с ними на 2%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_HEXXON_REFINERY">
+			<Text>[ICON_RES_COAL] Уголь, [ICON_RES_OIL] Нефть, [ICON_RES_INCENSE] Благовония, [ICON_RES_URANIUM] Уран и [ICON_RES_BRAZILWOOD] Бразильское дерево дают +1 [ICON_PRODUCTION] производство в городах с франшизами Hexxon Refineries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_HEXXON_REFINERY">
+			<Text>+1 дополнительная [ICON_RES_OIL] Нефть и [ICON_RES_COAL] Уголь за каждые три глобальные франшизы и +15% [ICON_PRODUCTION] к производству военных юнитов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_HEXXON_REFINERY">
+			<Text>[ICON_INTERNATIONAL_TRADE] Торговые Пути в чужой город с франшизой Hexxon Refinery дают +10% к [ICON_PRODUCTION] производству в исходном городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_HEXXON_REFINERY_OFFICE_BENEFIT_HELP">
+			<Text>Текущий бонус офиса: {1_String}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CORPORATION_GIORGIO_ARMEIER">
+			<Text>Giorgio Armeier, Inc.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_GIORGIO_ARMEIER_HELP">
+			<Text>Предоставляет преимущества, направленные на создание [ICON_CULTURE] культуры и специалистов. Увеличивает [ICON_INTERNATIONAL_TRADE] лимит Торговых Путей на два.[NEWLINE][NEWLINE]+2 [ICON_CULTURE] культуры от всех Музеев и Оперных театров и +2 [ICON_CULTURE] культуры от писателей, артистов и музыкантов во всех городах. Каждая франшиза в городах чужой цивилизации увеличивает ваш [ICON_TOURISM] туризм с ними на 2%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_GIORGIO_ARMEIER">
+			<Text>[ICON_RES_SILK] Шелк, [ICON_RES_COTTON] Хлопок, [ICON_RES_DYE] Краски, [ICON_RES_FUR] Мех предоставляю +1 [ICON_CULTURE] культуры во всех городах с франшизой Giorgio Armeier.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_GIORGIO_ARMEIER">
+			<Text>+2 [ICON_CULTURE] культуры за каждую глобальную франшизу и -1 [ICON_HAPPINESS_3] несчастья из-за [ICON_RESEARCH] неграмотности и [ICON_CULTURE] скуки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_GIORGIO_ARMEIER">
+			<Text>[ICON_INTERNATIONAL_TRADE] Торговые Пути в чужой город с франшизой Giorgio Armeier дают +10% [ICON_CULTURE] культуры исходному городу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_GIORGIO_ARMEIER_OFFICE_BENEFIT_HELP">
+			<Text>Текущий бонус офиса: {1_String}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CORPORATION_FIRAXITE_MATERIALS">
+			<Text>Firaxite Materials, Inc.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_FIRAXITE_MATERIALS_HELP">
+			<Text>Генерирует большое количество [ICON_RESEARCH] науки и ускоряет развитие инфраструктуры в вашей империи. Увеличивает лимит [ICON_INTERNATIONAL_TRADE] Торговых Путей на два; Торговые Пути нельзя разграбить.[NEWLINE][NEWLINE]Фабрики и Университеты во всех городах производят +3 [ICON_RESEARCH] науки. Каждая франшиза в городах чужой цивилизации увеличивает ваш [ICON_TOURISM] туризм с ними на 2%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_FIRAXITE_MATERIALS">
+			<Text>[ICON_RES_IRON] Железо, [ICON_RES_ALUMINUM] Алюминий, [ICON_RES_MARBLE] Мрамор, [ICON_RES_COPPER] Медь, [ICON_RES_PORCELAIN] Фарфор предоставляют +1 [ICON_RESEARCH] науки во всех городах с франшизой Firaxite Materials.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_FIRAXITE_MATERIALS">
+			<Text>+2 [ICON_RESEARCH] науки за каждую глобальную франшизу и +20% [ICON_PRODUCTION] к производству при строительстве зданий.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_FIRAXITE_MATERIALS">
+			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути в иностранные города с франшизой Firaxite Materials дают +50% дополнительной [ICON_RESEARCH] науки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_FIRAXITE_MATERIALS_OFFICE_BENEFIT_HELP">
+			<Text>Текущий бонус офиса: {1_String}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CORPORATION_TWOKAY_FOODS">
+			<Text>TwoKay Foods, Inc.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_TWOKAY_FOODS_HELP">
+			<Text>Предоставляет преимущества, направленные на производство [ICON_FOOD] еды и рост города. Увеличивает [ICON_INTERNATIONAL_TRADE] лимит Торговых Путей на два; Торговые Пути раскрывают туман войны.[NEWLINE][NEWLINE]Бакалейщики, Больницы и Агробизнес во всех городах производят +3 [ICON_FOOD] еды. Каждая франшиза в городах чужой цивилизации увеличивает ваш [ICON_TOURISM] туризм с ними на 2%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_TWOKAY_FOODS">
+			<Text>[ICON_RES_WINE] Вино, [ICON_RES_TRUFFLES] Трюфели, [ICON_RES_CITRUS] Цитрусы предоставляют +1 [ICON_FOOD] еды во всех городах с франшизой TwoKay Foods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_TWOKAY_FOODS">
+			<Text>+3 [ICON_FOOD] Еда за каждую Глобальную монополию. +10% к [ICON_FOOD] еде в городе. -1 [ICON_HAPPINESS_3] несчастье от всех потребностей. -5% к модификатору [ICON_CITY_STATE] размера империи во всех городах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TWOKAY_FOODS">
+			<Text>[ICON_INTERNATIONAL_TRADE] Торговые Пути в иностранные города с франшизой TwoKay Foods дают +10% [ICON_FOOD] еды в исходный город.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_TWOKAY_FOODS_OFFICE_BENEFIT_HELP">
+			<Text>Текущий бонус офиса: {1_String}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CORPORATION_CIVILIZED_JEWELERS">
+			<Text>Civilized Jewelers, Inc.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_CIVILIZED_JEWELERS_HELP">
+			<Text>Предоставляет преимущества, направленные на появление [ICON_GREAT_PEOPLE] Великих Людей и [ICON_GOLDEN_AGE] Золотой Век. Увеличивает лимит [ICON_INTERNATIONAL_TRADE] Торговых Путей на два; все [ICON_INTERNATIONAL_TRADE] Торговые юниты перемещаются в два раза быстрее.[NEWLINE][NEWLINE]Банки и Таможни во всех городах дают +4 [ICON_GOLDEN_AGE] очка Золотого века. Каждая франшиза в городах чужой цивилизации увеличивает ваш [ICON_TOURISM] туризм с ними на 2%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_CIVILIZED_JEWELERS">
+			<Text>[ICON_RES_GOLD] Золото, [ICON_RES_SILVER] Серебро, [ICON_RES_GEMS] Самоцветы, [ICON_RES_PEARLS] Жемчуг, [ICON_RES_JEWELRY] Драгоценности дают +1 [ICON_GOLDEN_AGE] очко Золотого Века во всех городах с франшизой Civilized Jewelers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_CIVILIZED_JEWELERS">
+			<Text>+3% [ICON_GOLDEN_AGE] к модификатору продолжительности Золотого века. +15% к скорости появления [ICON_GREAT_PEOPLE] Великих Людей и дополнительно +10% к скорости появления [ICON_GREAT_PEOPLE] Великих Людей за каждую Глобальную франшизу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_CIVILIZED_JEWELERS">
+			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути в чужой город с франшизой Civilized Jewellers дают +10% [ICON_GOLD] золота в исходном городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_CIVILIZED_JEWELERS_OFFICE_BENEFIT_HELP">
+			<Text>Текущий бонус офиса: {1_String}</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

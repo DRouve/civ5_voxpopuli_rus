@@ -1,0 +1,3097 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<!-- Espionage overview -->
+		<Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_PERMA_TT">
+			<Text>{1_SpyRank} {2_SpyName} пока не может пытаться совершить переворот в {3_CityName}, потому что у их текущего союзника здесь есть сфера влияния.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_RIGGING_COUP_CHANCE_INCREASE">
+			<Text>[COLOR_CYAN]Каждые успешно сфальсифицированные выборы увеличивают шанс переворота на {1_CoupChanceIncrease}%.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_RIGGING_NO_COUP_POSSIBLE">
+			<Text>[COLOR_NEGATIVE_TEXT]Фальсификация выборов не увеличит шанс успешного переворота, т.к. переворот в этом городе-государстве невозможен.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS">
+			<Text>Активные эффекты шпионской деятельности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_START_TURN">
+			<Text>Ход начала</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_END_TURN">
+			<Text>Ход окончания</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_TARGET">
+			<Text>Цель</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_SPY_OWNER">
+			<Text>Владелец шпиона</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_EFFECT">
+			<Text>Эффект</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NO_SPY_MISSIONS_ACTIVE">
+			<Text>Нет активных эффектов шпионской деятельности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_MISSION_TURN_MODIFIER_FRIENDLY">
+			<Text>Наши здания и социальные политики: -{1_Num} {1_Num: plural 1?ход; other?ходов;}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_MISSION_TURN_MODIFIER_ENEMY">
+			<Text>Вражеские здания и социальные политики: +{1_Num} {1_Num: plural 1?ход; other?ходов;}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_EXPERIENCE">
+			<Text>Опыт: {1_Num} / {2_Denom}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ACTIVE">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Yield} украдено за ход[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ACTIVE_ENEMY">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Yield} украдено за ход[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_MISSION_DURATION">
+			<Text>[COLOR_POSITIVE_TEXT]Расчетная продолжительность миссии:[ENDCOLOR] {1_Num} ходов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_DURATION_LEVEL_MODIFIER">
+			<Text>[NEWLINE]  [ICON_BULLET] Модификатор ранга шпиона: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_DURATION_TRAIT_MODIFIER">
+			<Text>[NEWLINE]  [ICON_BULLET] Модификатор особенностей игрока: {1_Num}%</Text>
+		</Row>
+
+		<!-- City-State screen/tooltip -->
+		<Row Tag="TXT_KEY_CSTATE_CAN_PROTECT">
+			<Text>[COLOR_POSITIVE_TEXT]Доступна Клятва о защите![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DISABLED_QUEST_INFLUENCE_YES_TT">
+			<Text>В настоящее время вы отказываетесь получать [ICON_INFLUENCE] влияние за выполнение заданий для [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]. Вы можете изменить свою позицию и позволить снова получать [ICON_INFLUENCE] Влияние за выполнение заданий.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DISABLED_QUEST_INFLUENCE_NO_TT">
+			<Text>Вы можете отказаться получать [ICON_INFLUENCE] влияние за выполнение заданий для [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]. Это позволит избежать политических последствий со стороны других цивилизаций, когда они увидят, что вы боретесь за [ICON_INFLUENCE] влияние этого города-государства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DISABLED_QUEST_INFLUENCE_YES">
+			<Text>Включить получение [ICON_INFLUENCE] влияния за выполнение заданий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DISABLED_QUEST_INFLUENCE_NO">
+			<Text>Отключить получение [ICON_VP_NOINFLUENCE] влияния за выполнение заданий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_VARIABLE_CBP">
+			<Text>Если этот город-государство больше [COLOR_POSITIVE_TEXT]боится[ENDCOLOR] вас, чем [COLOR_WARNING_TEXT]устойчив[ENDCOLOR], вы можете получить от него большую дань. Это принесет вам [ICON_GOLD] золото, а также половину доходов (кроме влияния) за все активные задания от этого города-государства. Все задания этого города-государства будут отменены.[NEWLINE][NEWLINE]{1_FearLevel}{2_FactorDetails}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_LABEL_CONTENDER">
+			<Text>Претендент:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CSTATE_GOLD_BONUS">
+			<Text>Вы получаете [COLOR_POSITIVE_TEXT]{1_Num} [ICON_GOLD] золота[ENDCOLOR] за ход от них.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CSTATE_CANNOT_EMBASSY">
+			<Text>[COLOR_NEGATIVE_TEXT][ICON_CITY_STATE] Посольство уже открыто.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CSTATE_CAN_EMBASSY">
+			<Text>[COLOR_POSITIVE_TEXT][ICON_CITY_STATE] Доступно открытие Посольства![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_MINOR_BULLY_UNIT_AMOUNT_ANNEX">
+			<Text>Насильственно аннексировать город-государство</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_UNIT_TT_ANNEX">
+			<Text>Если этот город-государство [COLOR_POSITIVE_TEXT]боится[ENDCOLOR] вас больше, чем [COLOR_WARNING_TEXT]сопротивляется[ENDCOLOR], вы можете его аннексировать. {1_FearLevel}{2_FactorDetails}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONFIRM_BULLYANNEX">
+			<Text>Вы уверены, что хотите принудительно аннексировать {1_MinorCivName:textkey}?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PERMANENT_ALLY_TT">
+			<Text>{1_CivName:textkey} является их текущим союзником. Пока их [COLOR_POSITIVE_TEXT]сфера влияния[ENDCOLOR] не будет удалена, вы не можете убрать их с этой должности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_ALLY_NOBODY_PERMA">
+			<Text>Поскольку здесь действует [COLOR_POSITIVE_TEXT]Политика Открытых Дверей[ENDCOLOR], никто не может стать союзником этого города-государства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_MARRIED_SMALL">
+			<Text>[COLOR_POSITIVE_TEXT]Женат[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_MARRIED_TT">
+			<Text>[COLOR_POSITIVE_TEXT]Дипломатический брак:[ENDCOLOR] Минимальное [ICON_INFLUENCE] влияние увеличивается на 75 (в зависимости от Эры); +15% к скорости появления [ICON_GREAT_PEOPLE] Великих Людей в вашей [ICON_CAPITAL] столице.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_PROTECTED_BY">
+			<Text>Клятва о защите:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_PROTECTED_BY_TT">
+			<Text>Эти игроки обязались защищать этот город-государство. Нападение на этот город-государство и/или дружба с ним может навлечь на себя гнев этих игроков.</Text>
+		</Row>
+		<!-- First meeting -->
+		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_CULTURE">
+			<Text>Они дарят вам бесценное произведение искусства. Вы получаете [COLOR_POSITIVE_TEXT]{1_NumCulture} [ICON_CULTURE] культуры[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_FAITH">
+			<Text>Вы - первая цивилизация, которую они встретили, поэтому они показывают вам своих заветных религиозных идолов. Вы получаете [COLOR_POSITIVE_TEXT]{1_NumFaith} [ICON_PEACE] веры[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_GOLD">
+			<Text>Вы - первая великая империя, которую они встретили, поэтому они дарят вам [COLOR_POSITIVE_TEXT]{1_NumGold} [ICON_GOLD] золота[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_FOOD">
+			<Text>Вы прибыли как раз вовремя для их ежегодного праздника урожая. Вам дали корзину с [COLOR_POSITIVE_TEXT]{1_NumFood} [ICON_FOOD] еды[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_UNIT">
+			<Text>Юнит [COLOR_POSITIVE_TEXT]{1_UnitName}[ENDCOLOR] присоединяется к вашей экспедиции.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_NOTHING">
+			<Text>К сожалению, им нечего вам предложить.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_FRIENDSHIP">
+			<Text>К сожалению, им нечего вам предложить, но будучи {2_Personality} городом-государством, ваша [COLOR_POSITIVE_TEXT]дружба увеличилась на {1_NumFriendship}[ENDCOLOR].</Text>
+		</Row>
+		<!-- Quests -->
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_WAR_FORMAL">
+			<Text>Они хотят, чтобы вы объявили войну {1_TargetName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONSTRUCT_NATIONAL_WONDER_FORMAL">
+			<Text>Они хотят, чтобы вы построили {1_NationalWonderName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_SPECIFIC_UNIT_FORMAL">
+			<Text>Они хотят, чтобы вы отправили им {1_UnitName} с как минимум {2_XP} ОО.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_STATE_FORMAL">
+			<Text>Они хотят, чтобы вы нашли город-государство {1_CityStateName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_FORMAL">
+			<Text>Дипломатические миссии временно более эффективны.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL">
+			<Text>Они вознаградят игрока с самым высоким [ICON_TOURISM] туризмом за ход.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_WINNING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} На данный момент вы лидируете с [ICON_TOURISM][COLOR_POSITIVE_TEXT]{1_PlayerScore} за ход[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_LOSING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} На данный момент у лидера [ICON_TOURISM] {1_LeaderScore} за ход, а у вас [ICON_TOURISM] [COLOR_POSITIVE_TEXT]{2_PlayerScore} за ход[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ARCHAEOLOGY_FORMAL">
+			<Text>Отправьте археолога на место рядом с этим городом-государством.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CIRCUMNAVIGATION_FORMAL">
+			<Text>Станьте первым, кто совершит кругосветное путешествие.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_LIBERATION_FORMAL">
+			<Text>Они хотят, чтобы вы освободили город {1_CityName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_HORDE_FORMAL">
+			<Text>Защитите их от орды варваров!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_REBELLION_FORMAL">
+			<Text>Происходит революция против их союзника!</Text>
+		</Row>
+
+		<!-- Cultural overview -->
+		<!-- Great Works summary -->
+		<Row Tag="TXT_KEY_OPTIMIZE">
+			<Text>Оптимизировать</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OPTIMIZE_TT">
+			<Text>Перераспределить имеющиеся Шедевры в потенциальные Темы. Не обменивает Шедевры с другими цивилизациями и и убирает все Шедевры, уже выставленные на продажу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OPTIMIZE_SWAP">
+			<Text>Обменяться и оптимизировать</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OPTIMIZE_SWAP_TT">
+			<Text>Перераспределить имеющиеся Шедевры в потенциальные Темы. Обменивается Шедеврами с другими цивилизациями и может выставить лишние Шедевры на обмен (если потребуется).</Text>
+		</Row>
+		<!-- Tourism/Happiness screen -->
+		<Row Tag="TXT_KEY_IDEOLOGY_INFLUENCE_CIVS_WITH_OTHER_IDEOLOGY">
+			<Text>Влияние количества цивилизаций, не следующих нашей идеологии:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEOLOGY_INFLUENCE_RECENTLY_ADOPTED">
+			<Text>Влияние из-за недавнего принятия/смены идеологии:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_POLICY_AESTHETICS">
+			<Text>{1_Num} [ICON_TOURISM] Туризм от [ICON_WONDER] Чудес Света</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_TRAIT_BONUSES">
+			<Text>{1_Num} [ICON_TOURISM] туризма от Особенности вашей цивилизации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_GA_BONUS">
+			<Text>{1_Num} [ICON_TOURISM] Туризм от {2_Num}% культуры [ICON_CULTURE] вашей столицы [ICON_CAPITAL]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_UNHAPPINESS_FLAT">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<!-- CV progress screen -->
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_CAPITAL_PENALTY">
+			<Text>-{1_NumTurns}% из-за разницы в размерах империи[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_WARSCORE">
+			<Text>+{1_Num}% бонус от наибольшего Военного Счёта[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_JAPAN_UA">
+			<Text>{1_Num}% Штраф за отсутствие Торговых Путей (Сакоку)[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_FRANCHISES">
+			<Text>+{1_Num}% от ваших корпоративных Франшиз в их империи[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_INFLUENCE_BONUSES_EXOTIC">
+			<Text>[NEWLINE][NEWLINE][COLOR_CYAN]Бонусы влияния:[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]Торговые пути к этой цивилизации дают:[ENDCOLOR][NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]+5 %[ENDCOLOR] [ICON_FOOD] Рост в городе происхождения[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]+2[ENDCOLOR] [ICON_GOLD] золота[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]+2[ENDCOLOR] [ICON_RESEARCH] науки[NEWLINE][COLOR_POSITIVE_TEXT]Бонусы шпионажа против этой цивилизации:[ENDCOLOR][NEWLINE][ICON_BULLET ] [ICON_SPY] Шпионы устанавливают наблюдение через [COLOR_POSITIVE_TEXT]5[ENDCOLOR] ходов[NEWLINE][COLOR_POSITIVE_TEXT]Бонусы за захват города против этой цивилизации:[ENDCOLOR][NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT] -15%[ENDCOLOR] [ICON_RESISTANCE] Время беспорядков[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]-15%[ENDCOLOR] Потери [ICON_CITIZEN] горожан при захвате города</Text>
+		</Row>
+		<!-- Historic Event screen -->
+		<Row Tag="TXT_KEY_CO_TAB_HISTORIC_EVENTS">
+			<Text>Исторические события</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENTS_HEADER">
+			<Text>Исторические события</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CULTURE_OUTPUT">
+			<Text>Текущий доход [ICON_CULTURE] культуры: </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENTS_COUNTER">
+			<Text>Общее количество достигнутых Исторических событий: </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CULTURE_OUTPUT_TT">
+			<Text>20% [ICON_CULTURE] культуры, созданной за ход, а также мгновенный доход [ICON_CULTURE] культуры, полученной за предыдущие 10 ходов, влияют на количество [ICON_TOURISM] туризма, полученного в результате [COLOR_POSITIVE_TEXT]Исторических событий[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_TOURISM_OUTPUT_TT">
+			<Text>[ICON_TOURISM] Туризм, генерируемый за ход, и мгновенный доход в виде [ICON_TOURISM] туризма, полученный за предыдущие 10 ходов, влияет на количество туризма, полученного в результате [COLOR_POSITIVE_TEXT]Исторических событий[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENTS_COUNTER_TT">
+			<Text>Это количество [COLOR_POSITIVE_TEXT]Исторических событий[ENDCOLOR] всех типов, которых ваша Цивилизация достигла!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENTS_HEADER_TT">
+			<Text>Это список [COLOR_POSITIVE_TEXT]Исторических событий[ENDCOLOR], доступных вам для достижения. Вы можете разблокировать и другие при помощи постройки зданий или принятием Социальных Политик.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENTS_TOURISM_HEADER_TT">
+			<Text>Это количество [ICON_TOURISM] туризма, которое вы получите от этого [COLOR_POSITIVE_TEXT]Исторического события[ENDCOLOR] ко всем известным цивилизациям, если не указано иное!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_ERA_CHANGE">
+			<Text>[ICON_RESEARCH] Смена Эры</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_WORLD_WONDER">
+			<Text>[ICON_WONDER] Постройка Чуда Света</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_GREAT_PERSON">
+			<Text>[ICON_GREAT_PEOPLE] Появление Великого Человека</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_WON_WAR">
+			<Text>[ICON_WAR] Благоприятный мирный договор</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_GOLDEN_AGE">
+			<Text>[ICON_GOLDEN_AGE] Вступление в Золотой Век</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_DIG">
+			<Text>[ICON_RES_ARTIFACTS] Археологические раскопки</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_TRADE_LAND">
+			<Text>[ICON_CARAVAN] Торговля с крупным городом</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_TRADE_SEA">
+			<Text>[ICON_CARGO_SHIP] Торговля с крупным городом</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_TRADE_CS">
+			<Text>[ICON_CARAVAN]/[ICON_CARGO_SHIP] Торговля с [ICON_CITY_STATE] городом-государством</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_ERA_CHANGE_TT">
+			<Text>Каждая смена [ICON_RESEARCH] Эры станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_WORLD_WONDER_TT">
+			<Text>Каждое построенное [ICON_WONDER] Чудо Света станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_GREAT_PERSON_TT">
+			<Text>Каждое появление [ICON_GREAT_PEOPLE] Великого Человека в вашей Цивилизации станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_WON_WAR_TT">
+			<Text>Каждый [ICON_PEACE] благоприятный мирный договор ([COLOR_POSITIVE_TEXT]Военный счет 25+[ENDCOLOR]), который вы заключите, станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_GOLDEN_AGE_TT">
+			<Text>Каждое ваше вступление в [ICON_GOLDEN_AGE] Золотой Век станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_DIG_TT">
+			<Text>Каждые проведённые [ICON_RES_ARTIFACTS] археологическим раскопки станут [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_TRADE_LAND_TT">
+			<Text>Каждый завершенный [ICON_CARAVAN] наземный Торговый путь из [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] в иностранный крупный город станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]! Данное количество будет отправлено ​​целевой крупной цивилизации, треть будет отправлена ​​всем остальным цивилизациям.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_TRADE_SEA_TT">
+			<Text>Каждый завершенный [ICON_CARGO_SHIP] морской Торговый путь из [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] в иностранный крупный город станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]! Данное количество будет отправлено ​​целевой крупной цивилизации, треть будет отправлена ​​всем остальным цивилизациям.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_HISTORIC_EVENT_TRADE_CS_TT">
+			<Text>Каждый завершенный [ICON_INTERNATIONAL_TRADE] Торговый путь (наземный или морской) с [ICON_CITY_STATE] городом-государством станет [COLOR_POSITIVE_TEXT]Историческим событием[ENDCOLOR]! В отличие от торговли с иностранным крупным городом, это количество будет отправлено ​​всем остальным цивилизациям в одинаковом количестве.</Text>
+		</Row>
+
+		<!-- Top panel -->
+		<!-- Science -->
+		<Row Tag="TXT_KEY_SCIENCE_FROM_RELIGION">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] от вашей [ICON_RELIGION] Религии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCE_FROM_MINORS">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] от городов-государств.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ANNEXED_MINORS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] от захваченных городов-государств.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_VASSALS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] от Вассалов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ESPIONAGE_POSITIVE">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] от шпионской деятельности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ESPIONAGE_NEGATIVE">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH] от шпионской деятельности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_SCIENCE_FROM_LEAGUE_ALLIES">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] от [ICON_RESEARCH] стоимости для Технологий, уже известных другим цивилизациям.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCE_FUNDING_FROM_LEAGUE">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_RESEARCH] от Резолюций</Text>
+		</Row>
+		<!-- Culture -->
+		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ANNEXED_MINORS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от захваченных городов-государств.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECHS_NEEDED_FOR_NEXT_FREE_POLICY">
+			<Text>[COLOR_POSITIVE_TEXT]Технологий до получения бесплатной Социальной политики: {1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_VASSALS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от Вассалов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ESPIONAGE_POSITIVE">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от шпионской деятельности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ESPIONAGE_NEGATIVE">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от шпионской деятельности.</Text>
+		</Row>
+		<!-- Gold -->
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_MINORS">
+			<Text>{1_Num} от [ICON_CITY_STATE] городов-государств.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_ANNEXED_MINORS">
+			<Text>{1_Num} от [ICON_CITY_STATE] захваченных городов-государств.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_INTERNAL_TRADE">
+			<Text>{1_Num} от [ICON_INTERNATIONAL_TRADE] внутренних Торговый Путей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_VASSALS">
+			<Text>{1_Num} от Вассалов.</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_TP_GOLD_VASSAL_MAINT">
+			<Text>{1_Num} потрачено на содержание Вассала.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_VASSAL_TAX">
+			<Text>{1_Num} от налогов Вассала.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_ESPIONAGE_INCOMING">
+			<Text>{1_Num} от [ICON_SPY] шпионской деятельности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_ESPIONAGE_OUTGOING">
+			<Text>{1_Num} от [ICON_SPY] шпионской деятельности.</Text>
+		</Row>
+		<!-- Faith -->
+		<Row Tag="TXT_KEY_TP_FAITH_FROM_ANNEXED_MINORS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от захваченных городов-государств.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_FAITH_VASSALS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от Вассалов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_FAITH_FROM_ESPIONAGE_POSITIVE">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от шпионской деятельности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_FAITH_FROM_ESPIONAGE_NEGATIVE">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от шпионской деятельности.</Text>
+		</Row>
+		<!-- Golden Age Point -->
+		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_RELIGION">
+			<Text>[ICON_BULLET]{1_Num} добавляется каждый ход от [ICON_RELIGION] Религии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_TRAIT">
+			<Text>[ICON_BULLET]{1_Num} добавляется каждый ход от [ICON_GREAT_PEOPLE] Особенностей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_CITIES">
+			<Text>[ICON_BULLET]{1_Num} добавляется каждый ход от [ICON_CAPITAL] Городов</Text>
+		</Row>
+		<!-- Happiness -->
+		<Row Tag="TXT_KEY_TP_HAPPINESS_RESOURCE_POP_BONUS">
+			<Text>{1_Happiness} от Роскоши (бонус).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_RESOURCE_MONOPOLY">
+			<Text>{1_Happiness} от Ресурсной Монополии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_FROM_ANNEXED_MINORS">
+			<Text>{1_Num} от захваченных городов-государств.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_STATE_RELIGION_VP">
+			<Text>{1_Num} от религии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_CITY_LOCAL">
+			<Text>{1_Num} от местных источников в городах (религия, здания и т. д.).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_MILITARY_UNITS">
+			<Text>{1_Num} от военных юнитов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_VASSALS">
+			<Text>{1_Num} от счастья Вассала.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_EVENT">
+			<Text>{1_Happiness} от событий.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_ILLITERACY">
+			<Text>{1_Num} от [ICON_RESEARCH] безграмотности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_BOREDOM">
+			<Text>{1_Num} от [ICON_CULTURE] скуки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_DISTRESS">
+			<Text>{1_Num} от [ICON_FOOD] и [ICON_PRODUCTION] бедствий.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_POVERTY">
+			<Text>{1_Num} от [ICON_GOLD] нищеты.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_ISOLATION">
+			<Text>{1_Num} от [ICON_BLOCKADED] изоляции.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_PILLAGED">
+			<Text>{1_Num} от [ICON_RAZING] ограбленных клеток.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_FAMINE">
+			<Text>{1_Num} от [ICON_FOOD] голода.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_RELIGIOUS_UNREST">
+			<Text>{1_Num} от [ICON_RELIGION] религиозного беспокойства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_PUPPET_CITIES_SPECIALISTS">
+			<Text>{1_Num} от [ICON_URBANIZATION] Урбанизации in [ICON_PUPPET] городах-сателлитах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_WAR_WEARINESS">
+			<Text>{1_Num} от [ICON_WAR] Усталости от войны.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOTAL_EMPIRE_AVERAGE">
+			<Text>Общее [ICON_HAPPINESS_1] счастье Империи</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOTAL_EMPIRE_UNHAPPINESS">
+			<Text>Общее [ICON_HAPPINESS_3] несчастье Империи</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LUXURY_HAPPINESS_INFORMATION">
+			<Text>Ресурсы Роскоши</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_RESOURCE_CITY">
+			<Text>{1_Num} от импортных и контролируемых ресурсов Роскоши (в среднем {2_Num} за ресурс Роскоши).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOTAL_EMPIRE_UNHAPPINESS_TT">
+			<Text>Общее значение [ICON_HAPPINESS_3] несчастья от источников Империи распределяется между всеми городами поровну, а любой остаток распределяется между вашими городами, начиная со Столицы и продвигаясь от самых старых к самым новым (с момента основания).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOTAL_EMPIRE_AVERAGE_TT">
+			<Text>Общее значение [ICON_HAPPINESS_1] счастья от источников Империи распределяется между всеми городами поровну, а любой остаток распределяется между вашими городами, начиная со Столицы и продвигаясь от самых старых к самым новым (с момента основания).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_TOP_PANEL_VP">
+			<Text>{1_Val} ([ICON_HAPPINESS_1][COLOR_POSITIVE_TEXT]{3_Val}[ENDCOLOR]/[ICON_HAPPINESS_3][COLOR_NEGATIVE_TEXT]{2_Val}[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_EMPIRE_VERY_UNHAPPY_NO_REBELS">
+			<Text>Ваш рейтинг одобрения меньше 35% — ваша империя открыто восстает! Города могут покинуть вашу империю и присоединиться к цивилизации, которая оказывает наибольшее культурное влияние на ваш народ!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY_NO_REBELS">
+			<Text>Ваш рейтинг одобрения меньше 20% — ваша империя рушится! Города быстро покинут вашу империю и перейдут к цивилизации, которая оказывает наибольшее культурное влияние на ваш народ!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_EMPIRE_PENALTIES">
+			<Text>[ICON_FOOD] Прирост снижен на {1_NumGrowth}% во всех городах, а стоимость поселенцев увеличена на {2_NumSettlerCost}%! [ICON_STRENGTH] Боевая эффективность также снижается на {3_NumCombatStrength}%!</Text>
+		</Row>
+		<!-- Supply -->
+		<Row Tag="TXT_KEY_GREAT_PEOPLE_SUPPLY_TT">
+			<Text>Предоставлено Великими Людьми</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PEOPLE_SUPPLY">
+			<Text>Великие Люди</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_WEARINESS_SUPPLY_TT">
+			<Text>Уменьшено из-за ваших текущих войн</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_WEARINESS_SUPPLY">
+			<Text>Усталось от войны</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SUPPLY_TT">
+			<Text>Уменьшено из-за количества изученных Технологий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SUPPLY">
+			<Text>Технологический штраф</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP">
+			<Text>Количество военных юнитов: {11_Num} ({2_Num} лимита использовано)[NEWLINE]Суммарный лимит: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]Уменьшение максимального лимита от Усталости от войны: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Базовые значения лимита:[NEWLINE]  [ICON_BULLET]+{4_Num} от имеющихся [ICON_CITY_STATE] городов[NEWLINE]  [ICON_BULLET]+{3_Num} от общего количества [ICON_CITIZEN] населения[NEWLINE]  [ICON_BULLET]+{5_Num} от [ICON_CHECKBOX] уровня сложности[NEWLINE]  [ICON_BULLET]+{10_Num} от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] Великих Людей[NEWLINE][NEWLINE][NEWLINE]Уменьшение лимита:[NEWLINE]  [ICON_BULLET] -{8_Num} от [ICON_RESEARCH] уровня Технологий[NEWLINE]  [ICON_BULLET] -{7_Num} от [ICON_WAR] Усталости от войны[NEWLINE][NEWLINE]Стоимость [ICON_GOLD]/[ICON_PEACE] военных юнитов увеличена на {9_Num}% из-за [ICON_WAR] Усталости от войны.[NEWLINE]</Text>
+		</Row>
+		<!-- Spy Points -->
+		<Row Tag="TXT_KEY_SPY_POINTS_TT">
+			<Text>Ваши текущие [ICON_VP_SPY_POINTS] очки Шпионажа: {1_Num}/{2_Threshold}[NEWLINE][NEWLINE]Вы получаете нового шпиона всякий раз, когда количество [ICON_VP_SPY_POINTS] очков Шпионажа превышает порог {2_Threshold}. Пороговое значение зависит от количества цивилизаций и городов-государств, существующих на начало игры. Когда первая цивилизация достигает Возрождения или когда вы достигаете любой более поздней эпохи, вы получаете 100 [ICON_VP_SPY_POINTS] очков Шпионажа. Некоторые здания и социальные политики также дают [ICON_VP_SPY_POINTS] очки Шпионажа.[NEWLINE][NEWLINE]Общее количество когда-либо накопленных [ICON_VP_SPY_POINTS] очков Шпионажа: {3_NumTotal}
+			</Text>
+		</Row>
+
+		<!-- Trade Route picker -->
+		<Row Tag="TXT_KEY_TRO_DISTANCE_VALUE">
+			<Text>- Дистанция: {1_Num} </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_MAX_CULTURE">
+			<Text>Самая большая культура</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_MAX_CULTURE_DELTA">
+			<Text>Самая большая культура, дельта</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_CULTURE_GAIN_CS">
+			<Text>Всего: {1_Num} [ICON_CULTURE] культуры (благодаря [ICON_INFLUENCE] влиянию на этот город-государство)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_CULTURE_GAIN">
+			<Text>ИХ ДОХОД КУЛЬТУРЫ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_CULTURE_GAIN">
+			<Text>ВАШ ДОХОД КУЛЬТУРЫ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_CULTURE_EXPLAINED">
+			<Text>{1_CivName} открыл на {2_Num} больше Социальных политик, чем вы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_CULTURE_EXPLAINED">
+			<Text>Вы открыли на {1_Num} Социальных политик больше, чем {2_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_CULTURE_TOTAL">
+			<Text>Всего: {1_Num} [ICON_CULTURE] культуры</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_CULTURE_TOTAL">
+			<Text>{1_CivName} всего: {2_Num} [ICON_CULTURE] культуры</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_ISOLATION_OTHER">
+			<Text>Наибольшая Изоляция</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_INFLUENCE_OTHER">
+			<Text>Наибольшее Влияние</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_PRODUCTION">
+			<Text>Наибольшее Производство</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_FOOD">
+			<Text>Наибольшая Пища</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_POVERTY">
+			<Text>[ICON_GOLD] Бедность: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_ILLITERACY">
+			<Text>[ICON_RESEARCH] Безграмотность: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_ISOLATION">
+			<Text>[ICON_BLOCKADED] Изоляция: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_ISOLATION_OTHER">
+			<Text>[ICON_BLOCKADED] Изоляция: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_INFLUENCE_OTHER">
+			<Text>Наш [ICON_TOURISM]: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_CONNECTED">
+			<Text>[ICON_CONNECTED]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_GAIN_CS">
+			<Text>Всего: {1_Num} [ICON_RESEARCH] науки (благодаря [ICON_INFLUENCE] влиянию на этот город-государство)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_PRODUCTION">
+			<Text>Всего: {1_Num} [ICON_PRODUCTION] производство (от Фейтории).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_FOOD">
+			<Text>Всего: {1_Num} [ICON_FOOD] еды (от Фейтории).[NEWLINE][NEWLINE]Эти значения изменяются в зависимости от вашего статуса отношений (нейтральный/друг/союзник) с городом-государством.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_MINOR_CS_TT_BONUS">
+			<Text>Бонус к золоту от [ICON_INFLUENCE] влияния на {1_CityName}: {2_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_GOLD_EXPLAINED">
+			<Text>+{2_Num} [ICON_GOLD] золота благодаря вашему культурному влиянию на {1_CivName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_GOLD_EXPLAINED">
+			<Text>+{2_Num} [ICON_GOLD] золота из-за культурного влияния {1_CivName} на вас</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER">
+			<Text>+{1_Num}% от социальных политик</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER_PROD">
+			<Text>+{1_Num}% [ICON_PRODUCTION] производства от социальных политик</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER_FOOD">
+			<Text>+{1_Num}% [ICON_FOOD] еды от солциальных политик</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_CORPORATION_MODIFIER_SCIENCE">
+			<Text>Бонус к [ICON_RESEARCH] науке от корпорации: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_CORPORATION_MODIFIER_GOLD">
+			<Text>Бонус к [ICON_GOLD] золоту от корпорации: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_FOOD_SHORT">
+			<Text>[ICON_FOOD]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_PRODUCTION_SHORT">
+			<Text>[ICON_PRODUCTION]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_GOLD_SHORT">
+			<Text>[ICON_GOLD]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_SCIENCE_SHORT">
+			<Text>[ICON_RESEARCH]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_CULTURE_SHORT">
+			<Text>[ICON_CULTURE]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_FAITH_SHORT">
+			<Text>[ICON_PEACE]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_RELIGIOUS_PRESSURE_SHORT">
+			<Text>{1_ReligionIcon}+{2_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAS_FRANCHISE_TT">
+			<Text>[COLOR_POSITIVE_TEXT]Имеется франшиза корпорации[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CAN_FRANCHISE_TT">
+			<Text>[COLOR_POSITIVE_TEXT]Доступна франшиза[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_FRANCHISE_HERE_TT">
+			<Text>Невозможно построить франшизу здесь по одной из следующих причин:[NEWLINE]– Достигнут максимальный лимит франшизы[NEWLINE]– Вы или другой игрок попали под санкции Всемирного конгресса[NEWLINE]– Вы или другой игрок приняли догматы, препятствующие созданию франшизы в зарубежных городах</Text>
+		</Row>
+
+		<!-- Trade unit move-to picker -->
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_BOREDOM">
+			<Text>[ICON_CULTURE] Скука: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHANGE_TRADE_UNIT_HOME_CITY_ITEM_CITY_TT">
+			<Text>[COLOR_POSITIVE_TEXT]Возможные торговые пути из {1_CityName}:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_UNIT_HAPPINESS">
+			<Text>[COLOR_POSITIVE_TEXT]Соответствующее [ICON_HAPPINESS_3] местное несчастье:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_BUILDINGS">
+			<Text>[COLOR_POSITIVE_TEXT]Атрибуты местной торговли:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CARAVANSARY">
+			<Text>[ICON_BULLET] Позволяет продовольственные маршруты</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HARBOR">
+			<Text>[ICON_BULLET] Соединён со столицей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATE_OFFICE">
+			<Text>[ICON_BULLET] Имеется офис корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORKSHOP">
+			<Text>[ICON_BULLET] Позволяет производственные маршруты</Text>
+		</Row>
+
+		<!-- Trade Route overview -->
+		<Row Tag="TXT_KEY_TRO_COL_FROM_CULTURE">
+			<Text>[ICON_ARROW_LEFT][ICON_CULTURE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_CULTURE">
+			<Text>[ICON_ARROW_RIGHT][ICON_CULTURE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_CULTURE_TT">
+			<Text>Нажмите, чтобы отсортировать по количеству [ICON_CULTURE] культуры, которое город назначения получит от этого торгового пути.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_FROM_CULTURE_TT">
+			<Text>Нажмите, чтобы отсортировать по количеству [ICON_CULTURE] культуры, которую цивилизация, установившая торговый путь, генерирует на этом торговом пути.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_LOCATE_RECALL_TT">
+			<Text>Нажмите, чтобы посмотреть юнита</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_RECALLED">
+			<Text>[COLOR_WARNING_TEXT]R[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_COL_RANGE">
+			<Text>[ICON_RANGE_STRENGTH]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_COL_RANGE_TT">
+			<Text>Нажмите, чтобы отсортировать по наибольшей [COLOR_POSITIVE_TEXT]дальности[ENDCOLOR] торговых путей, исходящих из этого города.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_COL_LENGTH">
+			<Text>[ICON_WTF2]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_COL_LENGTH_TT">
+			<Text>Нажмите, чтобы отсортировать по нормализованной [COLOR_POSITIVE_TEXT]дальности[ENDCOLOR] этого торгового пути.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_COL_TURNS">
+			<Text>[ICON_SWAP]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_COL_TURNS_TT">
+			<Text>Нажмите, чтобы отсортировать по количеству [COLOR_POSITIVE_TEXT]ходов[ENDCOLOR], необходимых для завершения торгового пути.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_CHECKBOX_LAND">
+			<Text>Суша</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_CHECKBOX_SEA">
+			<Text>Море</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_CHECKBOX_INTERNAL_FOOD">
+			<Text>Внутренние/Пища</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_CHECKBOX_INTERNAL_PRODUCTION">
+			<Text>Внутренние/Производство</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_CHECKBOX_FOREIGN_MINOR">
+			<Text>Иностранные/Малые</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_CHECKBOX_FOREIGN_MAJOR">
+			<Text>Иностранные/Крупные</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_CHECKBOX_BLOCKED">
+			<Text>Заблокировано ([COLOR_RED]![ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_CHECKBOX_UNIT">
+			<Text>Только для выбранного юнита</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_SEND_TR">
+			<Text>Нажмите, чтобы начать этот торговый путь.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_WRONG_DOMAIN">
+			<Text>Неверный тип торгового юнита.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_INVALID_UNIT">
+			<Text>Необходимо выбрать подходящего торгового юнита, чтобы иметь возможность отправлять торговые маршруты с этого экрана.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_RELOCATE_UNIT">
+			<Text>Нажмите, чтобы переместить этого торгового юнита в этот город.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_TRADE_QUEST">
+			<Text>Доступно задание на торговый путь!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_FRANCHISE_PRESENT">
+			<Text>Имеется корпоративная франшиза.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_FRANCHISE_AVAILABLE">
+			<Text>Можно открыть корпоративную франшизу.</Text>
+		</Row>
+
+		<!-- Combat simulator -->
+		<Row Tag ="TXT_KEY_EUPANEL_BONUS_VS_CLASS_CBP">
+			<Text>Бонус против наездников</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_CITY_BLOCKADED">
+			<Text>Блокада</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_FULLY_HEALED_UNITS">
+			<Text>Бонус против полностью здоровых юнитов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_MORE_50_HP_UNITS">
+			<Text>У цели более 50% ОЗ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_LESS_50_HP_UNITS">
+			<Text>У цели 50% ОЗ или меньше</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_MULTI_ATTACK_BONUS">
+			<Text>Бонус мультиатаки</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ATTACK_CS_ALLIANCE_STRENGTH">
+			<Text>Греческая лига</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_FROM_TERRAIN_BONUS">
+			<Text>Модификатор местности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_RANGED_DEFENSE_MODIFIER">
+			<Text>Модификатор защиты от дальнего боя</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_FRIENDLY_CITY_BELIEF_BONUS_CBP">
+			<Text>Защитник веры</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ENEMY_CITY_BELIEF_BONUS_CBP">
+			<Text>Рвение крестоносца</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_TRAIT_LOW_POP_BONUS">
+			<Text>Население меньше, чем у врага</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_PER_ADJACENT_UNIT_COMBAT">
+			<Text>Бонус от соседних юнитов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_MONOPOLY_POWER_ATTACK">
+			<Text>Ресурсная Монополия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_MONOPOLY_POWER_DEFENSE">
+			<Text>Ресурсная Монополия</Text>
+		</Row>
+
+		<!-- Unit panel -->
+		<Row Tag="TXT_KEY_BUILD_TOURISM_STRING">
+			<Text>{1_Num}[ENDCOLOR] [ICON_TOURISM] Туризм</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_GAP_STRING">
+			<Text>{1_Num}[ENDCOLOR] [ICON_GOLDEN_AGE] Очки Золотого Века</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_GGP_STRING">
+			<Text>{1_Num}[ENDCOLOR] [ICON_GREAT_GENERAL] Очки Великих Полководцев</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_GAP2_STRING">
+			<Text>{1_Num}[ENDCOLOR] [ICON_GREAT_ADMIRAL] Очки Великих Адмиралов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CULTURE_LOCAL_STRING">
+			<Text>{1_Num}[ENDCOLOR] [ICON_CULTURE_LOCAL] Очки роста границ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_REPAIR_CHARGES">
+			<Text>Заряды умения «Ремонт флота»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_REPAIR_CHARGES_TT">
+			<Text>Сколько раз вы можете использовать способность «Ремонт флота». При нуле юнит исчезнет.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_TOURISM_TURNS_TT">
+			<Text>Это указывает на продолжительность концертного тура. Продолжительность зависит от количества имеющихся Шедевров музыки.</Text>
+		</Row>
+
+		<!-- Tech tree -->
+		<Row Tag="TXT_KEY_SPECIALIST_YIELD_CHANGE">
+			<Text>{1_SpecialistName:textkey}s: +{3_Num} {4_IconString} {2_YieldType:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_COST_REDUCTION">
+			<Text>{2_Turns}% ход(ов) для {1_Build}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REMOVE_FOREST_JUNGLE_COST_REDUCTION">
+			<Text>{1_Turns}% ход(ов) для вырубки Леса/Джунглей.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ABLTY_MAP_TRADING_STRING">
+			<Text>Позволяет торговать картой мира</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALLOWS_MAP_TRADING">
+			<Text>Позволяет продавать карты мира другим цивилизациям.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ABLTY_TECH_TRADING_STRING">
+			<Text>Позволяет торговать технологиями</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALLOWS_TECH_TRADING">
+			<Text>Позволяет продавать технологии другим цивилизациям.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ABLTY_VASSALAGE_STRING">
+			<Text>Позволяет вассалитет</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_ALLOWS_VASSALAGE">
+			<Text>Позволяет сделать цивилизацию соперника вашим вассальным государством.</Text>
+		</Row>
+
+		<!-- City screen/banner -->
+		<Row Tag="TXT_KEY_FOODMOD_HAPPY">
+			<Text>[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] Модификатор локального счастья: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOODMOD_LEAGUE">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор роста от Резолюций: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOODMOD_WLTKD_UA">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор "Дня любви к Императрице": +{1_Num}% к [ICON_FOOD] росту</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_GOLDEN_AGE">
+			<Text>+{1_Num}% [ICON_CULTURE] от [ICON_GOLDEN_AGE] Золотого Века</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_YIELD_PUPPET_POLICY">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор для [ICON_PUPPET] Города-сателлита от Социальных политик: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_YIELD_OCCUPIED_POLICY">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор для [ICON_OCCUPIED] Оккупированных городов от Социальных политик: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD">
+			<Text>[NEWLINE][ICON_BULLET]Изменено из-за счастья: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_UNIT_CORPORATION">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор корпорации: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_CORPORATION">
+			<Text>[NEWLINE][ICON_BULLET][ICON_INVEST]Модификатор корпорации: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_CONQUEST_BUILDINGS_PRIOR_ERAS">
+			<Text>[NEWLINE][ICON_BULLET]Изменено за счёт соцполитики "Колониальная миссия": {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_RELIGION_UNIT">
+			<Text>[NEWLINE][ICON_BULLET]Изменено за счёт религии: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_YIELD_MONOPOLY_RESOURCE">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор от ресурсной монополии: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_LEAGUE">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор от Резолюций: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_TRAIT_BONUS_CONQUEST">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор от "Честь мундира" {2_Num}: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_TRAIT_BONUS_CONQUEST_TURNS">
+			<Text>(Осталось ходов: {1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOLDMOD_YIELD_BLOCKADE">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор города от водной блокады (вражеские военно-морские юниты рядом с городом): {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCE_YIELD_FROM_LEAGUE_ART">
+			<Text>+{1_Num} [ICON_RESEARCH] от Шедевров</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_WLTKD">
+			<Text>+{1_Num}% [ICON_CULTURE] от "Дня любви к Отчизне"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_WLTKD_TRAIT">
+			<Text>+{1_Num}% [ICON_CULTURE] от Карнавала</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_CITY_YIELDS">
+			<Text>{1_Num} [ICON_CULTURE] от конверсии производства</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_PIETY">
+			<Text>{1_Num} [ICON_CULTURE] от последования [ICON_RELIGION] Религии большинства</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_POPULATION">
+			<Text>{1_Num} [ICON_CULTURE] от [ICON_CITIZEN] населения</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_GWS">
+			<Text>+{1_Num}% [ICON_CULTURE] от [ICON_GREAT_WORK] Шедевров</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_SPIES">
+			<Text>+{1_Num}% [ICON_CULTURE] от [ICON_SPY] Активных Шпионов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_CORPORATION">
+			<Text>+{1_Num}% [ICON_CULTURE] от Корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_CORPORATIONS">
+			<Text>+{1_Num} [ICON_CULTURE] от Корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_CS_ALLIANCE">
+			<Text>{1_Num} [ICON_CULTURE] от городов-государств</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_EVENTS">
+			<Text>{1_Num} [ICON_CULTURE] от активных Событий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_GOLDEN_AGE">
+			<Text>+{1_Num}% [ICON_PEACE] от [ICON_GOLDEN_AGE] Золотого Века</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_WLTKD">
+			<Text>+{1_Num}% [ICON_PEACE] от "Дня любви к Отчизне"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_CITY_YIELDS">
+			<Text>{1_Num} [ICON_PEACE] от конверсии производства</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_PIETY">
+			<Text>{1_Num} [ICON_PEACE] от последования [ICON_RELIGION] Религии большинства</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_CS_ALLIANCE">
+			<Text>{1_Num} [ICON_PEACE] от городов-государств</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_CORPORATIONS">
+			<Text>+{1_Num} [ICON_PEACE] от Корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_POP">
+			<Text>{1_Num} [ICON_PEACE] от [ICON_CITIZEN] населения</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_GWS">
+			<Text>+{1_Num}% [ICON_PEACE] от [ICON_GREAT_WORK] Шедевров</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_SPIES">
+			<Text>+{1_Num}% [ICON_PEACE] от [ICON_SPY] Активных Шпионов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_RESOURCE_MONOPOLY">
+			<Text>+{1_Num}% [ICON_PEACE] от ресурсной монополии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_SPECIALISTS_FAITH">
+			<Text>{1_Num} [ICON_PEACE] от специалистов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_EVENTS">
+			<Text>{1_Num} [ICON_PEACE] от активных Событий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_WLTKD">
+			<Text>+{1_Num}% {2_IconString} от "Дня любви к Отчизне"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_GOLDEN_AGE">
+			<Text>+{1_Num}% {2_IconString} от [ICON_GOLDEN_AGE] Золотого Века</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_PROCESS">
+			<Text>{1_Num} {2_IconString} от [ICON_SWAP] конверсии производства</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_TRADE_ROUTES">
+			<Text>{1_Num:number "#.##"} {2_IconString} от [ICON_INTERNATIONAL_TRADE] Торговых Путей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_EVENTS">
+			<Text>{1_Num} {2_IconString} от активных Событий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_CITY_YIELDS">
+			<Text>{1_Num} {2_IconString} от конверсии производства</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_CORPORATIONS">
+			<Text>{1_Num} {2_IconString} от вашей Корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_PIETY">
+			<Text>{1_Num} {2_IconString} от последования [ICON_RELIGION] Религии большинства</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_CS_ALLIANCE">
+			<Text>{1_Num} {2_IconString} от городов-государств</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_CONNECTION">
+			<Text>{1_Num} {2_IconString} от [ICON_CONNECTED] Торговой сети</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CORPORATIONS_TEXT">
+			<Text>Корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FREESPECIALIST_TEXT">
+			<Text>{1_NumSpecialists: plural 1?Специалист; other?Специалисты;}: Нет [ICON_URBANIZATION_GREEN] Урбанизации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_NOFREESPECIALIST_TEXT">
+			<Text>[ICON_URBANIZATION] Урбанизации за каждого нового специалиста</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA">
+			<Text>"День любви к Императрице"! ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT_UA">
+			<Text>В этом городе проходит "День любви к Императрице", который увеличивает модификатор [ICON_FOOD] роста города!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT_UA">
+			<Text>Добавление этого ресурса к вашей торговой сети заставит этот город праздновать "День любви к Императрице".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA_CARNAVAL">
+			<Text>Карнавал! ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT_UA_CARNAVAL">
+			<Text>В этом городе проходит Карнавал, который увеличивает [ICON_FOOD] рост и уменьшает [ICON_HAPPINESS_3] несчастье!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT_UA_CARNAVAL">
+			<Text>Добавление этого ресурса к вашей торговой сети заставит этот город праздновать карнавал, который увеличивает [ICON_FOOD] рост и уменьшает [ICON_HAPPINESS_3] несчастье!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_SAPPED">
+			<Text>Город [ICON_VP_SAPPED] истощён на [COLOR_POSITIVE_TEXT]{1_Turns}[ENDCOLOR] ходов. Это имеет тот же эффект, что и [ICON_BLOCKADED] Блокада, но для ее эффекта не требуется наличие поблизости вражеского юнита!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_MINED">
+			<Text>Вражеский флот и высадившиеся на воду юниты расходуют все очки [ICON_MOVES] передвижения при входе на водную территорию, принадлежащую этому городу. Юниты, заканчивающие свой ход на клетках Океана, принадлежащих этому городу, получают [COLOR_NEGATIVE_TEXT]5 урона[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_HAS_AIRPORT">
+			<Text>Позволяет [COLOR_POSITIVE_TEXT]переброску по воздуху[ENDCOLOR] в этот город или из него. Увеличено число авиационных юнитов города. Авиационные юниты противника получают 10 [ICON_STRENGTH] урона во время авиаударов по городу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_CULTURED_TT_ANNEXED">
+			<Text>Завоеванный [COLOR_POSITIVE_TEXT]Культурный[ENDCOLOR] город-государство подарит вам дары [ICON_CULTURE] культуры, что позволит вам быстрее принимать социальные политики.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_NO_UU_TT_ANNEXED">
+			<Text>Завоеванный [COLOR_POSITIVE_TEXT]Милитаристский[ENDCOLOR] город-государство время от времени будет дарить вам передовых военных юнитов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_TT_ANNEXED">
+			<Text>Завоеванный [COLOR_POSITIVE_TEXT]Милитаристский[ENDCOLOR] город-государство время от времени будет дарить вам передовых военных юнитов.[NEWLINE][NEWLINE]Им известны секреты подготовки такого юнита, как [COLOR_POSITIVE_TEXT]{@1_UniqueUnitName}[ENDCOLOR]. Если вами изучена [COLOR_CYAN]{@2_PrereqTech}[ENDCOLOR], они предоставят этого юнита в качестве дара.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_MARITIME_TT_ANNEXED">
+			<Text>Завоеванный [COLOR_POSITIVE_TEXT]Морской[ENDCOLOR] город-государство значительно увеличит запасы [ICON_FOOD] пищи в вашей [ICON_CAPITAL] столице и во всех ваших городах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_MERCANTILE_TT_ANNEXED">
+			<Text>Завоеванный [COLOR_POSITIVE_TEXT]Торговый[ENDCOLOR] город-государство обеспечит дополнительное [ICON_HAPPINESS_1] счастье в вашей империи, а также производит особые ресурсы Роскоши, которые нельзя получить другим способом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_RELIGIOUS_TT_ANNEXED">
+			<Text>Завоеванный [COLOR_POSITIVE_TEXT]Религиозный[ENDCOLOR] город-государство увеличит вашу [ICON_PEACE] веру, позволяя вам расширить возможности вашей религии новыми убеждениями и юнитами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_ONE_CORP_ONLY">
+			<Text>[NEWLINE]{1_BuildingName:textkey} нельзя построить, пока вы строите {2_BuildingName:textkey} в другом городе вашей Империи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AUTOMATE_PRODUCTION_TT">
+			<Text>Автоматизировать производство для этого города.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_PRODUCTION_AUTOMATED">
+			<Text>[ICON_AUTOMATED] Производство автоматизировано</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESET_SPEC">
+			<Text>Сброс специалистов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESET_SPEC_TT">
+			<Text>Нажмите здесь, чтобы губернатор переназначил специалистов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_NO">
+			<Text>Этот город ранее принадлежал [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]. [COLOR_NEGATIVE_TEXT]Из-за враждебных действий, совершенных против них в прошлом, вы не можете вернуть им его.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_CAPTURED">
+			<Text>Этот город ранее принадлежал [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]. [COLOR_NEGATIVE_TEXT]Поскольку вы решили не освобождать их, вы не можете вернуть им этот город.[ENDCOLOR]</Text>
+		</Row>
+		<!-- Happiness -->
+		<Row Tag="TXT_KEY_EO_CITY_LOCAL_UNHAPPINESS">
+			<Text>Города не могут производить больше [ICON_HAPPINESS_3] несчастья, чем их [ICON_CITIZEN] населения (за исключением [ICON_URBANIZATION] урбанизации).[NEWLINE][NEWLINE]Местное [ICON_HAPPINESS_3] несчастье: [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] (ходов: {2_NUM})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_GLOBAL_MEDIAN_MODS">
+			<Text>[COLOR_POSITIVE_TEXT]Городские потребности (Модификатор потребностей %):[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GLOBAL_MEDIAN_BASIC_NEEDS_POS">
+			<Text>[ICON_BULLET] Основное: {1_Num:number "#.##"} [ICON_FOOD]/[ICON_PRODUCTION] за каждого [ICON_CITIZEN] (+{2_Num}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GLOBAL_MEDIAN_GOLD_POS">
+			<Text>[ICON_BULLET] Золото: {1_Num:number "#.##"} [ICON_GOLD] за каждого [ICON_CITIZEN] (+{2_Num}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GLOBAL_MEDIAN_SCIENCE_POS">
+			<Text>[ICON_BULLET] Наука: {1_Num:number "#.##"} [ICON_RESEARCH] за каждого [ICON_CITIZEN] (+{2_Num}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GLOBAL_MEDIAN_CULTURE_POS">
+			<Text>[ICON_BULLET] Культура: {1_Num:number "#.##"} [ICON_CULTURE] за каждого [ICON_CITIZEN] (+{2_Num}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GLOBAL_MEDIAN_RELIGIOUS_UNREST_POS">
+			<Text>[ICON_BULLET]{1_Icon} Беспокойство: {2_Num:number "#.##"} за каждое Меньшинство (+{3_Num}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GLOBAL_MEDIAN_BASIC_NEEDS">
+			<Text>[ICON_BULLET] Основное: {1_Num:number "#.##"} [ICON_FOOD]/[ICON_PRODUCTION] за каждого [ICON_CITIZEN] ({2_Num}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GLOBAL_MEDIAN_GOLD">
+			<Text>[ICON_BULLET] Золото: {1_Num:number "#.##"} [ICON_GOLD] за каждого [ICON_CITIZEN] ({2_Num}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GLOBAL_MEDIAN_SCIENCE">
+			<Text>[ICON_BULLET] Наука: {1_Num:number "#.##"} [ICON_RESEARCH] за каждого [ICON_CITIZEN] ({2_Num}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GLOBAL_MEDIAN_CULTURE">
+			<Text>[ICON_BULLET] Культура: {1_Num:number "#.##"} [ICON_CULTURE] за каждого [ICON_CITIZEN] ({2_Num}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GLOBAL_MEDIAN_RELIGIOUS_UNREST">
+			<Text>[ICON_BULLET]{1_Icon} Беспокойство: {2_Num:number "#.##"} за каждое Меньшинство ({3_Num}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_GLOBAL_MEDIAN_MODS_BREAKDOWN">
+			<Text>[COLOR_POSITIVE_TEXT]Детализация модификатора нужд:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CAPITAL_UNHAPPINESS_MOD_POS">
+			<Text>[ICON_BULLET] [ICON_CAPITAL] Является столицей: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CAPITAL_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_CAPITAL] Является столицей: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_UNHAPPINESS_MOD_POS">
+			<Text>[ICON_BULLET] [ICON_RESEARCH] Технология: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_RESEARCH] Технология: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_UNHAPPINESS_MOD_POS">
+			<Text>[ICON_BULLET] [ICON_CITIZEN] Размер города: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_CITIZEN] Размер города: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EMPIRE_UNHAPPINESS_MOD_POS">
+			<Text>[ICON_BULLET] [ICON_CITY_STATE] Размер империи: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EMPIRE_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_CITY_STATE] Размер империи: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIFFICULTY_UNHAPPINESS_MOD_POS">
+			<Text>[ICON_BULLET] [ICON_CHECKBOX] Уровень сложности: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIFFICULTY_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_CHECKBOX] Уровень сложности: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CARNIVAL_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_HAPPINESS_1] Карнавал: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AIR_UNITS_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_AIRSTRIKE_DEFENSE] Авиаюниты: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FARMING_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_FOOD]/[ICON_PRODUCTION] Сельское хозяйство (конверсия производства): {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WEALTH_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_GOLD] Богатство (конверсия производства): {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESEARCH_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_RESEARCH] Исследования (конверсия производства): {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTS_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_CULTURE] Искусство (конверсия производства): {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRAYER_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] {1_Icon} Молитва (конверсия производства): {2_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_UNHAPPINESS_MOD_POS">
+			<Text>[ICON_BULLET] [ICON_SPY] Шпионы, события, другое: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_SPY] Шпионы, события, другое: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_DISTRESS_UNHAPPINESS_MOD_POS">
+			<Text>[ICON_BULLET] [ICON_FOOD] и [ICON_PRODUCTION], другое: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_DISTRESS_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_FOOD] и [ICON_PRODUCTION], другое: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_POVERTY_UNHAPPINESS_MOD_POS">
+			<Text>[ICON_BULLET] [ICON_GOLD] Другое: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_POVERTY_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_GOLD] Другое: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_ILLITERACY_UNHAPPINESS_MOD_POS">
+			<Text>[ICON_BULLET] [ICON_RESEARCH] Другое: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_ILLITERACY_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_RESEARCH] Другое: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_BOREDOM_UNHAPPINESS_MOD_POS">
+			<Text>[ICON_BULLET] [ICON_CULTURE] Другое: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_BOREDOM_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_CULTURE] Другое: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_RELIGIOUS_UNREST_UNHAPPINESS_MOD_POS">
+			<Text>[ICON_BULLET] {1_Icon} Другое: +{2_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_RELIGIOUS_UNREST_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] {1_Icon} Другое: {2_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYCOUNT_UNHAPPINESS">
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от количества городов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DISTRESS_UNHAPPINESS">
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_FOOD] и [ICON_PRODUCTION] бедствия[NEWLINE]          Действительное значение: {3_Num} [ICON_HAPPINESS_3] (уменьшено на {4_Num})[NEWLINE]          Суммарный дефицит: [COLOR_CYAN]{2_Num:number "#.##"}[ENDCOLOR] [ICON_FOOD]/[ICON_PRODUCTION][NEWLINE]          Увеличивает [ICON_FOOD]/[ICON_PRODUCTION] на {5_Num:number "#.##"} за каждое -1 [ICON_HAPPINESS_3]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POVERTY_UNHAPPINESS">
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_GOLD] бедности[NEWLINE]          Действительное значение: {3_Num} [ICON_HAPPINESS_3] (Reduced by {4_Num})[NEWLINE]          Суммарный дефицит: [COLOR_CYAN]{2_Num:number "#.##"} [ICON_GOLD][ENDCOLOR][NEWLINE]          Увеличивает [ICON_GOLD] на {5_Num:number "#.##"} за каждое -1 [ICON_HAPPINESS_3]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ILLITERACY_UNHAPPINESS">
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_RESEARCH] безграмотности[NEWLINE]          Действительное значение: {3_Num} [ICON_HAPPINESS_3] (Reduced by {4_Num})[NEWLINE]          Суммарный дефицит: [COLOR_CYAN]{2_Num:number "#.##"} [ICON_RESEARCH][ENDCOLOR][NEWLINE]          Увеличивает [ICON_RESEARCH] на {5_Num:number "#.##"} за каждое -1 [ICON_HAPPINESS_3]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BOREDOM_UNHAPPINESS">
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_CULTURE] скуки[NEWLINE]          Действительное значение: {3_Num} [ICON_HAPPINESS_3] (Reduced by {4_Num})[NEWLINE]          Суммарный дефицит: [COLOR_CYAN]{2_Num:number "#.##"} [ICON_CULTURE][ENDCOLOR][NEWLINE]          Увеличивает [ICON_CULTURE] на {5_Num:number "#.##"} за каждое -1 [ICON_HAPPINESS_3]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGIOUS_UNREST_UNHAPPINESS">
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от Религиозного беспокойства[NEWLINE]          Снижение: {3_Num}, Нужны {2_Icon} Последователи</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISOLATION_UNHAPPINESS">
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от Изоляции. [NEWLINE]          ([ICON_BLOCKADED] Блокада / не в [ICON_CONNECTED] Торговой сети /[NEWLINE]          нет [ICON_INTERNATIONAL_TRADE] Торгового Пути со [ICON_CAPITAL] столицей)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PILLAGED_UNHAPPINESS">
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_RAZING] ограбленных клеток.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STARVING_UNHAPPINESS">
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от голода (Нужна [ICON_FOOD]).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESISTANCE_UNHAPPINESS">
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_RESISTANCE] сопротивления.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OCCUPATION_UNHAPPINESS">
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_OCCUPIED] оккупации.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PUPPET_UNHAPPINESS">
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от выполнения роли [ICON_PUPPET] города-сателлита.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DISTRESS_UNHAPPINESS_SURPLUS">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num:number "#.##"}[ENDCOLOR] выше [ICON_FOOD]/[ICON_PRODUCTION] потребности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POVERTY_UNHAPPINESS_SURPLUS">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num:number "#.##"}[ENDCOLOR] выше [ICON_GOLD] потребности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ILLITERACY_UNHAPPINESS_SURPLUS">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num:number "#.##"}[ENDCOLOR] выше [ICON_RESEARCH] потребности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BOREDOM_UNHAPPINESS_SURPLUS">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num:number "#.##"}[ENDCOLOR] выше [ICON_CULTURE] потребности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_PUPPET">
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Мы хотим [ICON_PUPPET] равных прав!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_OCCUPATION">
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Боритесь с [ICON_OCCUPIED] угнетателями!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_RESISTANCE">
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "[ICON_RESISTANCE] Да здравствует Революция!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_UNEDUCATED">
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Мы [ICON_RESEARCH] безграмотны!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_UNDEFENDED">
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Наш город в бедственном положении из-за [ICON_FOOD] и [ICON_PRODUCTION]!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_POOR">
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Город [ICON_GOLD] обеднел!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_UNCULTURED">
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Наш город [ICON_CULTURE] скучный!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_UNCONNECTED">
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Мы в [ICON_BLOCKADED] изоляции!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_PILLAGED">
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Наша земля [ICON_RAZING] горит!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_STARVING">
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Нам не хватает [ICON_FOOD] пищи!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_RELIGION">
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Мы хотим больше {2_ReligionIcon} последователей!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_SPECIALIST">
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Это место [ICON_URBANIZATION] перенаселено!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_EMPIRE">
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "[ICON_WAR] Война! Ради чего всё это!?"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_CONNECTED">
+			<Text>[COLOR_POSITIVE_TEXT]Соединён[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NET_HAPPINESS_TEXT">
+			<Text>[COLOR_CYAN]{1_num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NET_UNHAPPINESS_TEXT">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_HAPPINESS_TEXT">
+			<Text>[COLOR_CYAN]Счастье[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_UNHAPPINESS_TEXT">
+			<Text>[COLOR_NEGATIVE_TEXT]Несчастье[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_LOCAL_HAPPINESS_EXPLANATION">
+			<Text>Количество производимого [ICON_HAPPINESS_1] счастья Городами МОЖЕТ превышать количество [ICON_CITIZEN] горожан в них.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_LOCAL_UNHAPPINESS_EXPLANATION">
+			<Text>[NEWLINE](Эти «Нужды» представляют собой средние значения доходов, основанные на количестве [ICON_CITIZEN] жителей в городе, а также на временных ситуациях, таких как голод или блокады. Средние значения увеличиваются по ходу игры, а доход на одного жителя уменьшается по мере роста города. Чем больше разрыв между доходами вашего города и средним показателем по империи, тем выше уровень несчастья в вашем городе!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_LOCAL_HAPPINESS">
+			<Text>Местное [ICON_HAPPINESS_1] счастье: [COLOR_POSITIVE_TEXT]{1_NUM}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_UNHAPPINESS">
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_URBANIZATION] Урбанизации (специалисты)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EMPIRE_WIDE_UNHAPPINESS">
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_WAR] войны / Общественного мнения</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPY_EMPIRE_CBO">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] от источников Империи</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPY_HANDICAP_CBO">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] за статус [ICON_CAPITAL] столицы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPY_BUILDINGS_CBO">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] от зданий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPY_OTHER_CBO">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] от заданий, музыкантов, Общественных работы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPY_POLICY_CBO">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] от Социальных политик</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPY_RELIGION_CBO">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] от религии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_UNHAPPY">
+			<Text>В городе [ICON_HAPPINESS_3] несчастье превышено на {1_Num}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_LOCAL_HAPPINESS_EXPLANATION_PUPPET">
+			<Text>[ICON_PUPPET] Города-сателлиты, [ICON_OCCUPIED] оккупированные, [ICON_RAZE] разрушенные или [ICON_RESISTANCE] города сопротивления не производят [ICON_HAPPINESS_1] счастья и не извлекают выгоду из общеимперских источников [ICON_HAPPINESS_1] счастья.</Text>
+		</Row>
+
+		<!-- Civilopedia -->
+		<Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_26">
+			<Text>[COLOR_GREEN]Вассалитет[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_27">
+			<Text>[COLOR_GREEN]Корпорации[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_28">
+			<Text>[COLOR_GREEN]Комбинации клавиш[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADS_TO_BUILDING_NAME">
+			<Text>По названиям Зданий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADS_TO_BLDG_LABEL">
+			<Text>По Зданиям:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_TOURISM_LABEL">
+			<Text>Туризм:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTIONS_PEDIA_MELEE">
+            <Text>Повышения ближнего боя</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTIONS_PEDIA_RANGED">
+            <Text>Повышения дальнего боя</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTIONS_PEDIA_NAVAL">
+            <Text>Повышения морских юнитов</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTIONS_PEDIA_HEAL">
+            <Text>Повышения (исцеление)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTIONS_PEDIA_SCOUTING">
+            <Text>Повышения (разведка)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTIONS_PEDIA_AIR">
+            <Text>Повышения авиаюнитов</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTIONS_PEDIA_SHARED">
+            <Text>Общие повышения</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTIONS_PEDIA_ATTRIBUTES">
+            <Text>Атрибуты юнитов</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTIONS_PEDIA_SIEGE">
+            <Text>Осадные повышения</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTIONS_PEDIA_DIPLO">
+            <Text>Дипломатические повышения</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTIONS_PEDIA_CIVILIAN">
+            <Text>Гражданские повышения</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTIONS_PEDIA_CARSUB">
+            <Text>Авианосцы и подводные лодки</Text>
+        </Row>
+		<Row Tag="TXT_KEY_PROMOTIONS_PEDIA_MOUNTED">
+			<Text>Наездники и бронированные</Text>
+		</Row>
+        <Row Tag="TXT_KEY_PROMOTIONS_PEDIA_BARBARIAN">
+            <Text>Варварские повышения</Text>
+        </Row>
+		<Row Tag="TXT_KEY_PEDIA_AIR_DEFENSE_LABEL">
+			<Text>ПВО</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PREFERSTARTBIAS_LABEL">
+			<Text>Регион основания (предпочитаемый):</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PRIORITYSTARTBIAS_LABEL">
+			<Text>Регион основания (приоритетный):</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_AVOIDSTARTBIAS_LABEL">
+			<Text>Регион основания (нежелательный):</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_DAMAGE_REDUCTION">
+			<Text>Урон -{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CORPORATION_LABEL">
+			<Text>Корпорация</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CORP_HEADQUARTERS_LABEL">
+			<Text>Штаб-квартира</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CORP_OFFICE_LABEL">
+			<Text>Офис</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CORP_FRANCHISE_LABEL">
+			<Text>Франшиза</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_FREE_TR_LABEL">
+			<Text>Бесплатные торговые пути</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CORPORATION_RESOURCE_BONUS_LABEL">
+			<Text>Бонус за ресурсы франшизы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CORPORATION_OFFICE_BONUS_LABEL">
+			<Text>Бонус офиса</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CORPORATION_TRADE_ROUTE_BONUS_LABEL">
+			<Text>Бонус торгового пути</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_MONOPOLY_RESRC_LABEL">
+			<Text>Требуется монополия (любая)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_MONOPOLY_RESOURCE_NAME">
+			<Text>Монопольный ресурс</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CORPORATIONS_FREE_RESOURCE">
+			<Text>Предоставляет {1_Num} {2_IconString} {3_ResourceName} </Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SECTION_4">
+			<Text>Штаб-квартиры корпораций</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CATEGORY_17_LABEL">
+			<Text>Корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CORPORATIONS_PAGE_LABEL">
+			<Text>Главная страница корпораций</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CORPORATIONS_HOMEPAGE_LABEL1">
+			<Text>Корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CORPORATIONS_HOMEPAGE_BLURB">
+			<Text>[NEWLINE]"Если вы не будете вести свой бизнес, вас выгонят из бизнеса."[NEWLINE]  - B.C. Forbes[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CORPORATIONS_HOMEPAGE_TEXT1">
+			<Text>Торговля и коммерция были центром цивилизации с древних времен. Корпорации — это современные организации, которые уполномочивают компанию или отдельную группу действовать как единое целое. Корпорации стали крупнейшими посредниками в торговле и влиянии в современном обществе. В Civilization V корпорации позволяют вам укреплять богатство вашей цивилизации и приносить ей значительные торговые преимущества.[NEWLINE][NEWLINE]Чтобы создать корпорацию, вы должны обеспечить глобальную монополию на любой из необходимых ресурсов и основать ее штаб-квартиру. После того, как ваша корпорация будет создана, вы сможете строить офисы в своих городах и использовать их для создания франшиз в зарубежных городах через [ICON_INTERNATIONAL_TRADE] торговые пути.</Text>
+		</Row>
+
+		<!-- Buildings -->
+		<Row Tag="TXT_KEY_BUILDING_BASIC_NEEDS_MEDIAN_MODIFIER">
+			<Text>Медиана [ICON_FOOD] и [ICON_PRODUCTION] нужд в этом городе: {1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GOLD_MEDIAN_MODIFIER">
+			<Text>Медиана [ICON_GOLD] золота в этом городе: {1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SCIENCE_MEDIAN_MODIFIER">
+			<Text>Медиана [ICON_RESEARCH] науки в этом городе: {1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CULTURE_MEDIAN_MODIFIER">
+			<Text>Медиана [ICON_CULTURE] культуры в этом городе: {1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_UNREST_MODIFIER">
+			<Text>[ICON_RELIGION] Религиозное беспокойство в этом городе: {1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BASIC_NEEDS_MEDIAN_MODIFIER_GLOBAL">
+			<Text>Медиана [ICON_FOOD] и [ICON_PRODUCTION] нужд во всех городах: {1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GOLD_MEDIAN_MODIFIER_GLOBAL">
+			<Text>Медиана [ICON_GOLD] золота во всех городах: {1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SCIENCE_MEDIAN_MODIFIER_GLOBAL">
+			<Text>Медиана [ICON_RESEARCH] науки во всех городах: {1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CULTURE_MEDIAN_MODIFIER_GLOBAL">
+			<Text>Медиана [ICON_CULTURE] культуры во всех городах: {1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_UNREST_MODIFIER_GLOBAL">
+			<Text>[ICON_RELIGION] Религиозное беспокойство во всех городах: {1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BASIC_NEEDS_NEW_MEDIAN">
+			<Text>[ICON_BULLET] Новая медиана: {1_Num} [ICON_FOOD] и [ICON_PRODUCTION] за каждого [ICON_CITIZEN][NEWLINE][ICON_BULLET] Текущее значение: {2_Num} [ICON_FOOD] и [ICON_PRODUCTION] за каждого [ICON_CITIZEN]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GOLD_NEW_MEDIAN">
+			<Text>[ICON_BULLET] Новая медиана: {1_Num} [ICON_GOLD] за каждого [ICON_CITIZEN][NEWLINE][ICON_BULLET] Текущее значение: {2_Num} [ICON_GOLD] за каждого [ICON_CITIZEN]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SCIENCE_NEW_MEDIAN">
+			<Text>[ICON_BULLET] Новая медиана: {1_Num} [ICON_RESEARCH] за каждого [ICON_CITIZEN][NEWLINE][ICON_BULLET] Текущее значение: {2_Num} [ICON_RESEARCH] за каждого [ICON_CITIZEN]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CULTURE_NEW_MEDIAN">
+			<Text>[ICON_BULLET] Новая медиана: {1_Num} [ICON_CULTURE] за каждого [ICON_CITIZEN][NEWLINE][ICON_BULLET] Текущее значение: {2_Num} [ICON_CULTURE] за каждого [ICON_CITIZEN]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_UNREST_NEW_THRESHOLD">
+			<Text>[ICON_BULLET] Новое значение Религиозного беспокойства {1_Num} [ICON_HAPPINESS_3] за каждое Религиозное Меньшинство[NEWLINE][BULLET]Текущее Религиозное беспокойство: {2_Num} [ICON_HAPPINESS_3] за каждое Религиозное Меньшинство</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_AIR_STRENGTH">
+			<Text>[ICON_AIRSTRIKE_DEFENSE] ПВО</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CORP_GP_CHANGE">
+			<Text>Дополнительные +{1_Num}% к скорости появления [ICON_GREAT_PEOPLE] Великих Людей от Корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EVENT_MODIFIER">
+			<Text>{1_Num}% {2_Icon} {3_Name} от активных Событий</Text>
+		</Row>
+
+		<!-- Victory overview -->
+		<Row Tag="TXT_KEY_VP_CULTURAL_NEED_IDEOLOGY">
+			<Text>Требуется Идеология, чтобы стать активной.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_VASSALS">
+			<Text>Вассалы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_CITYSTATES">
+			<Text>Альянсы городов-государств</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_MILITARY">
+			<Text>Военная мощь</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_UNKNOWN_VC">
+			<Text>[ICON_CITIZEN] Население должно быть [COLOR_POSITIVE_TEXT]довольным[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_CONTENT_VC">
+			<Text>[ICON_CITIZEN] Население [COLOR_POSITIVE_TEXT]довольно[ENDCOLOR]. Культурная Победа возможна.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_DISSIDENTS_VC">
+			<Text>[ICON_CITIZEN] Население должно быть [COLOR_POSITIVE_TEXT]довольным[ENDCOLOR]. В данный момент: [COLOR_NEGATIVE_TEXT]несогласны[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_CIVIL_RESISTANCE_VC">
+			<Text>[ICON_CITIZEN] Население должно быть [COLOR_POSITIVE_TEXT]довольным[ENDCOLOR]. В данный момент: [COLOR_NEGATIVE_TEXT]сопротивление[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_REVOLUTIONARY_WAVE_VC">
+			<Text>[ICON_CITIZEN] Население должно быть [COLOR_POSITIVE_TEXT]довольным[ENDCOLOR]. В данный момент: [COLOR_NEGATIVE_TEXT]революционная волна[ENDCOLOR].</Text>
+		</Row>
+		<!-- Leading space intended -->
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_VASSALIZE_YOU">
+			<Text> Вы являетесь Вассалом {1_PlayerName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_YOU_VASSALIZE_OTHER_PLAYER">
+			<Text> {1_CivName} является вашим Вассалом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_VASSALIZE_OTHER_PLAYER">
+			<Text> {2_CivName} является Вассалом {1_PlayerName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_UNMET_PLAYER_VASSALIZE_UNMET_PLAYER">
+			<Text> Неизвестная цивилизация является Вассалом неизвестного игрока.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_CAPITALS_TEAM_LEADING_TT">
+			<Text>Команда {1_Team} владеет {2_num} исходными [ICON_CAPITAL] столицами/Вассалами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_CAPITALS_ACTIVE_PLAYER_LEADING_TT">
+			<Text>Вы лидируете, владея {1_num} исходными [ICON_CAPITAL] столицами/Вассалами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_CAPITALS_PLAYER_LEADING_TT">
+			<Text>{1_player} владеет {2_num} исходными [ICON_CAPITAL] столицами/Вассалами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_CAPITALS_UNMET_PLAYER_LEADING_TT">
+			<Text>Неизвестный игрок владеет {1_num} исходными [ICON_CAPITAL] столицами/Вассалами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_MINOR_PLAYER_CONTROLS_CAPITAL_ALLY">
+			<Text>Город-государство {1_Name} контролирует {2_Num}. Они отдают Город своему Союзнику. Разрушьте их союз или отберите у них [ICON_CAPITAL] столицу![NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_MINOR_PLAYER_CONTROLS_CAPITAL_VASSAL_ALLY">
+			<Text>Город-государство {1_Name} контролирует {2_Num}. Они отдают Город Сюзерену своего Союзника. Разрушьте их союз, освободите их союзника или отберите у них [ICON_CAPITAL] столицу![NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_MINOR_PLAYER_CONTROLS_CAPITAL_NO_ALLY">
+			<Text>Город-государство {1_Name} контролирует {2_Num}. В данный момент у них нет Союзника. Вступите с ними в союз или отберите у них [ICON_CAPITAL] столицу![NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_MINOR_VASSAL_CONTROLS_CAPITAL">
+			<Text>{1_Name} контролирует {2_Num}. Они отдают Город своему Сюзерену. Освободите их или отберите у них [ICON_CAPITAL] столицу![NEWLINE][NEWLINE]</Text>
+		</Row>
+
+		<!-- Policy tree -->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_ERA_ALT">
+			<Text>[COLOR_WARNING_TEXT]Если вы вступите в {1_EraString:textkey} вы сможете обойти требования к Социальным политикам.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_POLICIES_NEEDED_UNTIL_IDEOLOGY">
+			<Text>Количество Социальных политик, оставшихся до разблокировки идеологий: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- New Natural Wonder popup -->
+		<Row Tag="TXT_KEY_PEDIA_ERA_YIELD">
+			<Text>Увеличение дохода за каждую новую Эру:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_NATURAL_WONDER_FOUND_PROMOTE_OWNED">
+			<Text>[NEWLINE]Бесплатное повышение для новосозданных подходящих юнитов (если они принадлежат игроку):[NEWLINE]{1_PromoteString}</Text>
+		</Row>
+
+		<!-- Leader screen -->
+		<Row Tag="TXT_KEY_WAR_WEARINESS_THEM_NONE">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Усталость:[ENDCOLOR] Они устойчивы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_WEARINESS_THEM_MINOR">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Усталость:[ENDCOLOR] Они обескуражены.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_WEARINESS_THEM_MAJOR">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Усталость:[ENDCOLOR] Они на взводе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_WEARINESS_THEM_SERIOUS">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Усталость:[ENDCOLOR] Они устали.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_WEARINESS_THEM_CRIPPLED">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Усталость:[ENDCOLOR] Они совершенно истощены.</Text>
+		</Row>
+
+		<!-- Discussion/Dialogue options -->
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS_TT">
+			<Text>Попросить лидера убрать свои войска с вашей границы. Если лидер отклонит вашу просьбу, он может объявить вам войну, так что будьте осторожны!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS">
+			<Text>Пожалуйста, отведите свои войска от наших границ.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS_HOSTILE">
+			<Text>Собираешься напасть на нас, свинья?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_DONT_ALLOW_VASSAL_INDEPENDENCE">
+			<Text>Пора тебе научиться уважению. (ОБЪЯВИТЬ ВОЙНУ!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_ALLOW_VASSAL_INDEPENDENCE">
+			<Text>Понимаю. Мы даруем вам вашу независимость.</Text>
+		</Row>
+
+		<!-- Declare war popup -->
+		<Row Tag="TXT_KEY_DECLARE_WAR_MASTERS">
+			<Text>СЮЗЕРЕНЫ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_VASSALS">
+			<Text>ВАССАЛЫ</Text>
+		</Row>
+
+		<!-- Diplomacy overview / player icon tooltip -->
+		<Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_MARRIED">
+			<Text>[COLOR_POSITIVE_TEXT]ЖЕНАТ[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MARRIED_TO">
+			<Text>[COLOR_POSITIVE_TEXT]Женат на: {1_CivName:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_OF">
+			<Text>[COLOR_GREY]Вассал {1_CivName:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_YOU_ARE_VASSAL">
+			<Text>[COLOR_GREY]Вы являетесь их Вассалом[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MASTER_OF">
+			<Text>Они являются вашим Вассалом</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_VASSALS">
+			<Text>{1_Num} от Вассалов</Text>
+		</Row>
+
+		<!-- World Congress screen -->
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ATTEMPTED_LAST_SESSION">
+			<Text>Резолюция, предложенная на предыдущей сессии, не может быть предложена повторно до следующей сессии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CONTRADICTION">
+			<Text>Предотвращено активной или предлагаемой резолюцией.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_PREREQ">
+			<Text>Недоступно, пока Мировая Идеология не активна.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_VASSALS">
+			<Text>Не допускается из-за отсутствия вассалов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_PATRONAGE_FINISHER_VOTES">
+			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} от Социальных политик</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RELIGION_REFORMATION_VOTES">
+			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} от верования Реформации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_TRAIT_VOTES">
+			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} от особенности цивилизации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_FAITH_VOTES">
+			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} от религиозного влияния</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_CAPITALS_VOTES">
+			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} от захваченных столиц</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DOF_VOTES">
+			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} от Деклараций о дружбе</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RA_VOTES">
+			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} от Соглашений об исследованиях</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DP_VOTES">
+			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} от Клятв о защите</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_IMPROVEMENT_VOTES">
+			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} от Посольств в городах-государствах</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI">
+			<Text>Сферы влияния: {1_CivsList}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI_ENTRY">
+			<Text>{@1_CivName} (для {@2_CivName})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_OPEN_DOOR">
+			<Text>Политика Открытых дверей: {1_CivsList}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_OPEN_DOOR_ENTRY">
+			<Text>{@1_CivName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_CHOICE_CITY_CSD">
+			<Text>{@1_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PREFIX_PROPOSER">
+			<Text>{1_CivAdj}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SPACESHIP_LIMIT">
+			<Text>{1_Spaceship}% [ICON_PRODUCTION] производства при постройке Деталей космического корабля</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SPACESHIP_PURCHASE">
+			<Text>+{1_Spaceship}% к стоимости [ICON_GOLD] золота при покупке Деталей космического корабля</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_WAR">
+			<Text>{1_UnitMaintenancePercent}% [ICON_GOLD] золота на содержания юнитов. [ICON_VICTORY_DOMINATION] Штрафы разжигателя войны сильно уменьшены</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WAR_PEACE">
+			<Text>+{1_UnitMaintenancePercent}% [ICON_GOLD] золота на содержания юнитов. [ICON_VICTORY_DOMINATION] Штрафы разжигателя войны неизменны.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_IDEOLOGY">
+			<Text>Нет [ICON_INTERNATIONAL_TRADE] Торговых Путей с идеологическими противниками или несоюзными городами-государствами. [ICON_INFLUENCE] Влияние на Союзные города-государства не ослабевает.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_POSITIVE_GREAT_PERSON_RATE_SCIENCEY">
+			<Text>Повышение [ICON_FOOD]/[ICON_RESEARCH] для цивилизаций со счётом ниже среднемирового. +{1_GreatPersonRateMod}% к скорости появления {2_GreatPersonList}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_POSITIVE_GREAT_PERSON_RATE_ARTSY">
+			<Text>Повышение [ICON_PRODUCTION]/[ICON_CULTURE] для цивилизаций со счётом ниже среднемирового. +{1_GreatPersonRateMod}% к скорости появления {2_GreatPersonList}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_VASSAL_MAINTENANCE">
+			<Text>+{1_VassalMaintenancePercent}% [ICON_GOLD] золота для содержания юнитов/городов Вассала</Text>
+		</Row>
+
+		<!-- Trade screen -->
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP">
+			<Text>КАРТА МИРА</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP_TT">
+			<Text>Отображает все земли, исследованные этой цивилизацией.[NEWLINE][NEWLINE]Примечание. Контакт с неизвестными цивилизациями и городами-государствами не будет получен.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_BOTH">
+			<Text>У обоих игроков еще нет Технологии, необходимой для торговли этим предметом (Военная наука).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_OTHER_PLAYER">
+			<Text>У них еще нет Технологии, необходимой для торговли этим предметом (Военная наука).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_PLAYER">
+			<Text>У вас еще нет технологии, необходимой для торговли этим предметом (Военная наука).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_THEY_ALREADY_EXPLORED">
+			<Text>Они уже исследовали все земли, показанные на вашей карте мира.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_WE_ALREADY_EXPLORED">
+			<Text>Мы уже исследовали все земли, показанные на их карте мира.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ITEMS_TECHNOLOGIES">
+			<Text>ТЕХНОЛОГИИ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TECHNOLOGIES">
+			<Text>ТЕХНОЛОГИИ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_YES">
+			<Text>У нас есть Технологии, доступные для торговли.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_NO">
+			<Text>У нас нет Технологий, доступных для торговли.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_YES_THEM">
+			<Text>У другого лидера есть Технологии, доступные для торговли.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_NO_THEM">
+			<Text>У другого лидера нет Технологий, доступных для обмена.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_TECH_OTHER_PLAYER">
+			<Text>У них еще нет Технологии для продажи этого предмета (Научная Теория).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_TECH_PLAYER">
+			<Text>У вас еще нет Технологии для продажи этого предмета (Научная Теория).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_PEACE">
+			<Text>ВАССАЛЬНОЕ ГОСУДАРСТВО</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_PEACE_TT">
+			<Text>Добровольно стать Вассалом другой цивилизации. Добровольный Вассал может покинуть своего Сюзерена в любой момент после того, как пройдет {1_Num} ходов.[NEWLINE][NEWLINE]ВНИМАНИЕ: Сюзерен, принявший добровольного Вассала, немедленно объявляет войну всем, кто в данный момент находится в состоянии войны с этим Вассалом. Это может иметь серьезные последствия![NEWLINE][NEWLINE]Если у капитулирующей цивилизации есть Вассалы, они будут освобождены.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE">
+			<Text>КАПИТУЛЯЦИЯ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_TT">
+			<Text>Эта цивилизация сдается другому игроку и становится его вассальным государством. Капитулировавшая цивилизация не может покинуть своего Сюзерена, пока не пройдет {1_Num} ходов.[NEWLINE][NEWLINE]Если у капитулирующей цивилизации есть Вассалы, они будут освобождены.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_REVOKE">
+			<Text>ОСВОБОЖДЕНИЕ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_REVOKE_TT">
+			<Text>Эта цивилизация отказывается от господства над всеми Вассалами. Действует только в том случае, если у игрока есть Вассалы и он может их освободить.</Text>
+		</Row>
+
+		<!-- Toast -->
+		<Row Tag="TXT_KEY_AIR_PATROL_BOMBED_GROUND_TARGETS">
+			<Text>Ваш {@1_UnitName} не встретил сопротивления и атаковал воздушные и противовоздушные подразделения противника на земле!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_IMPROVEMENT_DESTROYED_EVENT">
+			<Text>{2_Num} {1_Improvement} ограблены возле {3_City} из-за решения по Событию!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_STRATEGIC_RESOURCE_PILLAGED_EVENT">
+			<Text>{2_Num} источников {1_Resource} ограблены возле {3_City} из-за решения по Событию!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_BUILDING_DESTROYED_EVENT">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Building}[ENDCOLOR] уничтожено в {2_City} из-за решения по Событию!</Text>
+		</Row>
+
+		<!-- Replay message -->
+		<Row Tag="TXT_KEY_MISC_SOMEONE_MAKES_VASSAL">
+			<Text>{1_TeamName} стал Вассалом {2_TeamName}!</Text>
+		</Row>
+
+		<!-- Opinion modifiers -->
+		<Row Tag="TXT_KEY_DIPLO_WE_ARE_MASTER">
+			<Text>Вы их вассальное государство, и им это нравится!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WE_ARE_VASSAL">
+			<Text>Они наше вассальное государство.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WE_ARE_VOLUNTARY_VASSAL">
+			<Text>Они наше добровольное вассальное государство.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_TREATMENT_CONTENT">
+			<Text>Они довольны вашим обращением с ними в качестве их Сюзерена.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_TREATMENT_DISAGREE">
+			<Text>Они не согласны с некоторыми из ваших политик в качестве их Сюзерена.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_TREATMENT_MISTREATED">
+			<Text>Они считают, что вы с ними, как с вассалом, плохо обращаетесь!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_TREATMENT_UNHAPPY">
+			<Text>Они крайне недовольны вашей властью над ними!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_TREATMENT_ENSLAVED">
+			<Text>Они считают, что находятся в рабстве под вашим правлением!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_PROTECT">
+			<Text>Вы защищали их территорию как их Сюзерен!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_FAILED_PROTECT">
+			<Text>Вы не смогли защитить их территорию как их Сюзерен!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MASTER_LIBERATED_ME_FROM_VASSALAGE">
+			<Text>Вы освободили их без просьбы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_PEACEFULLY_REVOKED">
+			<Text>Вы даровали их нации независимость!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_FORCEFULLY_REVOKED">
+			<Text>Вы отказали им в предоставлении независимости, когда они попросили!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ATTACKED_VASSAL_ME">
+			<Text>Вы объявили им войну, пока они были вашим вассалом!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TOO_MANY_VASSALS">
+			<Text>Они в страхе от того, что вы получили нескольких вассалов!</Text>
+		</Row>
+
+		<!-- Plot popup -->
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_PILLAGE">
+			<Text>Викинг</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE">
+			<Text>Урон по области</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_FORTIFY">
+			<Text>Пилум</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_SPLASH">
+			<Text>Урон по области</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_ENEMY_UNITS_DEFECT">
+			<Text>Бегство врага</Text>
+		</Row>
+
+		<!-- Plot tooltip -->
+		<Row Tag="TXT_KEY_PLOTROLL_EMBASSY">
+			<Text>цивилизации {1_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_ARCHAEOLOGY_QUEST_LONG">
+			<Text>Город-государство {1_CivName:textkey} хочет, чтобы вы отправили археолога для изучения этой клетки.</Text>
+		</Row>
+
+		<!-- Religion picker -->
+		<Row Tag="TXT_KEY_RELIGION_CHOOSER_ADVISOR_RECOMMENDATION">
+			<Text>[COLOR_POSITIVE_TEXT]Ваш советник рекомендует данное верование.[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Religion overview -->
+		<Row Tag="TXT_KEY_RO_WR_TOTAL_CITIES">
+			<Text>Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_WR_TOTAL_FOLLOWERS">
+			<Text>Последователи</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_WR_YEAR_FOUNDED">
+			<Text>Основано</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_WR_OWNED_CITIES">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] от всех городов исповедует {2_Name}.[NEWLINE][NEWLINE]{3_Num} ваших городов исповедует {4_Name} в качестве [ICON_RELIGION] Преобладающей Религии. Они составляют [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR] от Преобладающей Религии ваших городов. Эти города также составляют [COLOR_POSITIVE_TEXT]{6_Num}%[ENDCOLOR] от числа городов с религией {7_Name} в качестве Преобладающей Религии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_WR_OWNED_FOLLOWERS">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] от мирового населения исповедует {2_Name}.[NEWLINE][NEWLINE]{3_Num} ваших [ICON_CITIZEN] граждан исповедует {4_Name}. Они составляют [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR] от вашего [ICON_CITIZEN] населения. Они также составляют [COLOR_POSITIVE_TEXT]{6_Num}%[ENDCOLOR] от мирового количества последователей религии {7_Name}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_TAB_MAP">
+			<Text>Карта</Text>
+		</Row>
+
+		<!-- Economic overview -->
+		<Row Tag="TXT_KEY_HAPPINESS_FROM_VASSALS">
+			<Text>Вассалы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_MONOPOLIES">
+			<Text>Наши Глобальные Монополии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_MONOPOLIES_STRATEGIC">
+			<Text>Наши Стратегические Монополии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_LOCAL_RESOURCES_CONTROLLED">
+			<Text>Наши потенциальные Монополии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_LOCAL_RESOURCES_FOREIGN">
+			<Text>Глобальные Монополии других цивилизаций</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_LOCAL_RESOURCES_FOREIGN_STRATEGIC">
+			<Text>Стратегические Монополии других цивилизаций</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_YOU_GAIN_GLOBAL">
+			<Text>[COLOR_CYAN]Ваш текущий Бонус Глобальной Монополии:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_YOU_GAIN_GLOBAL_AND_STRATEGIC">
+			<Text>[COLOR_CYAN]Ваши текущие Бонусы Глобальной и Стратегической Монополии:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_YOU_GAIN_STRATEGIC">
+			<Text>[COLOR_CYAN]Ваш текущий Бонус Стратегической Монополии:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_THEY_GAIN_BOTH">
+			<Text>[COLOR_NEGATIVE_TEXT]Их текущие Бонусы Глобальной и Стратегической Монополии:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_THEY_GAIN_GLOBAL">
+			<Text>[COLOR_NEGATIVE_TEXT]Их текущий Бонус Глобальной Монополии:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_THEY_GAIN_STRATEGIC">
+			<Text>[COLOR_NEGATIVE_TEXT]Их текущий Бонус Стратегической Монополии:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_POTENTIAL">
+			<Text>Потенциальный Бонус Глобальной Монополии:[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_POTENTIAL_STRATEGIC">
+			<Text>Потенциальные Бонусы Стратегической и Глобальной Монополии:[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_BREAKDOWN">
+			<Text>Из {2_Total} в мире:[NEWLINE]Прямое владение: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_BREAKDOWN_IMPORTS">
+			<Text>Из {2_Total} в мире:[NEWLINE]Прямое владение: {1_Num}[NEWLINE]Импорт: {3_Import}[NEWLINE]Из городов-государств: {4_CS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HOVER_INFO">
+			<Text>(Наведите курсор на значок или название Корпорации, чтобы узнать подробности.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY">
+			<Text>(Вы) {1_Monopoly}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_OTHER">
+			<Text>({2_CivName}) {1_Monopoly}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_CONTROLLED">
+			<Text>{1_Monopoly}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MONOPOLIES_TT">
+			<Text>Глобальные Монополии на ресурсы достигаются, когда вы контролируете более 50% роскошных или стратегических ресурсов. Это значение может превышать 100%, если вы производите больше ресурсов, чем существует на карте. Таким образом, более чем одна цивилизация может иметь глобальную монополию (хотя это довольно редко).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORP_NO_CORP">
+			<Text>Нет корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORP_EX_DESC">
+			<Text>Информация о бонусах и требованиях вашей корпорации появится здесь (после основания)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NUM_FRANCHISES_TT">
+			<Text>Общее количество зарубежных городов с вашими франшизами (т. е. городов, на которые распространяется ваша корпорация).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NUM_OFFICES_TT">
+			<Text>Общее количество принадлежащих вам городов с Офисами в них.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_OFFICE_DETAILS">
+			<Text>[ICON_PLUS] Офисы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_OFFICE_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Офисы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_FRANCHISE_DETAILS">
+			<Text>[ICON_PLUS] Франшизы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_FRANCHISE_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Франшизы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_FOREIGN_CORPS_DETAILS">
+			<Text>[ICON_PLUS] Иностранные корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_FOREIGN_CORPS_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Иностранные корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CORPORATION">
+			<Text>Корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CORPORATION_TT">
+			<Text>Корпорации — это могущественные сущности поздней игры, доступные только цивилизациям с глобальными монополиями на ресурсы. Для получения дополнительной информации см. раздел «Концепции Цивилопедии» о корпорациях и вкладку «Чудеса».</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_OFFICES">
+			<Text>Всего офисов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_FRANCHISES">
+			<Text>Всего франшиз</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_EX_OFFICE_STACK">
+			<Text>Список офисов в принадлежащих вам городах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_EX_FRANCHISE_STACK">
+			<Text>Список городов, в которых распространилась ваша корпорация.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_EX_FOREIGN_CORPS_STACK">
+			<Text>Список иностранных корпораций и их общее количество франшиз по всему миру.</Text>
+		</Row>
+
+		<!-- Military overview -->
+		<Row Tag="TXT_KEY_XP">
+			<Text>ОО/Уровень</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MO_SORT_XP">
+			<Text>Сортировать по ОО</Text>
+		</Row>
+
+		<!-- Corporations & Monopoly overview -->
+		<Row Tag="TXT_KEY_CPO">
+			<Text>Корпорации и Монополии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_TAB_MONOPOLIES">
+			<Text>Монополии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_TAB_CORPORATIONS">
+			<Text>Ваша корпорация</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_TAB_WORLD_CORPORATIONS">
+			<Text>Мировые корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MONOPOLY_REQUIRED">
+			<Text>Требуется монополия (любая)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_OFFICE">
+			<Text>Офис</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_FRANCHISE">
+			<Text>Франшиза</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_RIGHT_CLICK_MORE_INFO">
+			<Text>(Щелкните правой кнопкой мыши значок корпорации для получения дополнительной информации.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_FOUND_CORPORATION_AVAILABLE">
+			<Text>Корпорации доступны для создания.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_FOUND_CORPORATION_UNAVAILABLE">
+			<Text>Вы не можете создать корпорацию, потому что все корпорации уже созданы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_FOUND_CORPORATION_HELP">
+			<Text>Чтобы основать корпорацию, вы должны иметь Глобальную Монополию на любой из требуемых корпорацией ресурсов и построить штаб-квартиру корпорации в одном из ваших городов. Каждой цивилизации доступна только одна корпорация.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_YOUR_CORPORATION_HQ">
+			<Text>Штаб-квартира: {1_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_YOUR_CORPORATION_ESTABLISHED">
+			<Text>Основано: {1_Date} (Turn {2_Turn})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_YOUR_OFFICES">
+			<Text>Ваши офисы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_YOUR_FRANCHISES">
+			<Text>Ваши франшизы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_OFFICE_TRADE_ROUTES_SORT_TT">
+			<Text>Количество зарубежных Торговых Путей из этого города. После окончания Торгового Пути в этом городе будет построена {1_CorpName}, если в нем еще нет франшизы {1_CorpName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_OFFICE_TRADE_ROUTES_TT">
+			<Text>Ваш город имеет Торговый Путь со следующими иностранными городами:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_OFFICE_TRADE_ROUTES_INSTANCE_TT">
+			<Text>[ICON_BULLET] {1_FromCity} [ICON_ARROW_RIGHT] {2_ToCity} ({3_Franchise})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_NO_FRANCHISE">
+			<Text>Нет франшизы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_FRANCHISED">
+			<Text>Есть франшиза</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_NUM_OFFICES">
+			<Text>Офисы открыты: {1_Num} из {2_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_NUM_FRANCHISES">
+			<Text>Франшизы открыты: {1_Num} из {2_Max}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_BUILD_FRANCHISES_HELP">
+			<Text>Распространяйте свою корпорацию, отправляя [ICON_INTERNATIONAL_TRADE] Торговые Пути из городов с офисами в иностранные города. Каждый ход есть шанс, что франшизы появятся в их Империи, и в конце [ICON_INTERNATIONAL_TRADE] Торгового Пути вам гарантирована одна новая франшиза (если ее еще нет в этом городе).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_CORPORATIONS_NOT_READY">
+			<Text>Вы не можете создать корпорацию, пока не изучите технологию Корпорации.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_NO_FRANCHISES">
+			<Text>В мире еще не создано ни одной франшизы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_NO_CORPORATIONS">
+			<Text>В мире еще не создано ни одной корпорации.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CIVILIZATION">
+			<Text>Владелец корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CIVILIZATION_SORT_TT">
+			<Text>Какая цивилизация владеет корпорацией.[NEWLINE][NEWLINE]Нажмите для сортировки по владельцу корпорации.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CORPNAME">
+			<Text>Корпорация</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CORPNAME_SORT_TT">
+			<Text>Название корпорации.[NEWLINE][NEWLINE]Нажмите для сортировки по названию корпорации.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CIVILIZATION_TO">
+			<Text>Цивилизация</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CIVILIZATION_TO_SORT_TT">
+			<Text>Какая цивилизация владеет городами с франшизой.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать города по их владельцам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CITY_NAME">
+			<Text>Города с франшизами</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CITY_NAME_SORT_TT">
+			<Text>Название города, в котором расположена франшиза.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать города франшизы по названию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_CORPNAME">
+			<Text>Корпорация</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_CORPNAME_SORT_TT">
+			<Text>Название корпорации.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать корпорации по названию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_CIVILIZATION">
+			<Text>Цивилизация</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_CIVILIZATION_SORT_TT">
+			<Text>Цивилизация, основавшая корпорацию.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать корпорации по их основателю.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_HEADQUARTERS">
+			<Text>Штаб-квартира</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_HEADQUARTERS_SORT_TT">
+			<Text>Город, в котором находится штаб-квартира корпорации.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать корпорации по городу их штаб-квартиры.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_DATE_FOUNDED">
+			<Text>Дата основания</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_DATE_FOUNDED_SORT_TT">
+			<Text>Дата основания корпорации.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать корпорации по дате основания.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_NUM_OFFICES">
+			<Text># офисов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_NUM_OFFICES_SORT_TT">
+			<Text>Количество офисов, созданных этой корпорацией.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать корпорации по количеству открытых офисов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_NUM_FRANCHISES">
+			<Text># франшиз</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_NUM_FRANCHISES_SORT_TT">
+			<Text>Количество франшиз, созданных этой корпорацией.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать корпорации по количеству установленных франшиз.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_PULLDOWN_CORPORATIONS">
+			<Text>Корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_PULLDOWN_FRANCHISES">
+			<Text>Франшизы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_RESOURCE">
+			<Text>Ресурс</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_RESOURCE_SORT_TT">
+			<Text>Название ресурса.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать монополии по названию ресурса.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_CIVILIZATION">
+			<Text>Цивилизация</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_CIVILIZATION_SORT_TT">
+			<Text>Название цивилизации, у которой может быть монополия.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать монополии по цивилизациям.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_MONOPOLY">
+			<Text>Монополия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_MONOPOLY_SORT_TT">
+			<Text>Процент монополии цивилизации над этим ресурсом.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать монополии по проценту монополии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_MONOPOLY_BONUS">
+			<Text>Бонус монополии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_MONOPOLY_PERCENT">
+			<Text>{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_NO_CIVILIZATION">
+			<Text>Нет цивилизации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_DROPDOWN_LABEL_SELECT_PLAYER">
+			<Text>Выберите игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_DROPDOWN_LABEL_SELECT_TYPE">
+			<Text>Выберите тип монополии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_DROPDOWN_GREATEST">
+			<Text>Величайший</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_PULLDOWN_TYPE_ALL">
+			<Text>Все</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_PULLDOWN_TYPE_GLOBAL">
+			<Text>Глобальная</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_PULLDOWN_TYPE_STRATEGIC">
+			<Text>Стратегическая</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_PULLDOWN_TYPE_POTENTIAL">
+			<Text>Потенциальная</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_YC_PULLDOWN_TYPE_OVERVIEW">
+			<Text>Обзор</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_YC_PULLDOWN_TYPE_OFFICES">
+			<Text>Офисы и франшизы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_CORPORATION_BONUSES">
+			<Text>Бонусы:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_RESOURCE_BONUS">
+			<Text>Ресурс</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_OFFICE_BONUS">
+			<Text>Офис</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_TRADE_ROUTE_BONUS">
+			<Text>Торговый Путь</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_GREAT_PERSON_RATE_BENEFIT_DETAILS">
+			<Text>+{1_Num}% скорость появления [ICON_GREAT_PEOPLE] Великих Людей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BENEFIT_DETAILS">
+			<Text>+{3_Num} {2_Icon} {1_Name}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_YIELD_BENEFIT_DETAILS">
+			<Text>+{3_Num} {2_Icon} {1_Name}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORP_MAX_FRANCHISE">
+			<Text>Основано франшиз: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] из [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORP_MAX_FRANCHISE_TT">
+			<Text>[ICON_BULLET] {1_Num} от штаб-квартиры корпорации[NEWLINE][ICON_BULLET] {2_Num} от построенных Офисов[NEWLINE][ICON_BULLET] {3_Num} от вашего максимального количества торговых путей [ICON_INTERNATIONAL_TRADE].[NEWLINE][ICON_BULLET] {4_Num} от Социальных политик и догмат[NEWLINE][NEWLINE]Обратите внимание, что некоторые Социальные политики и догматы могут позволить общей сумме вашей текущей франшизы превышать максимальный лимит франшизы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORP_MAX_FRANCHISE_NATIONALIZATION_TT">
+			<Text>[ICON_BULLET] {1_Num} от построенных Офисов (догмат Национализация)[NEWLINE][NEWLINE]Пролетарии всех стран, соединяйтесь!</Text>
+		</Row>
+
+		<!-- Vassalage overview -->
+		<Row Tag="TXT_KEY_VO_NUM_OUR_VASSALS">
+			<Text>Количество вассалов, которыми мы владеем: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_NUM_WORLD_VASSALS">
+			<Text>Количество вассалов в мире: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VASSALAGE_NOT_STARTED_YET">
+			<Text>Вассалитет недоступен пока вы не войдете в Средневековье или не станете чьим-то вассалом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO">
+			<Text>Обзор вассалов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_YOUR_MASTERS">
+			<Text>ВАШИ СЮЗЕРЕНЫ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_YOUR_VASSALS">
+			<Text>ВАШИ ВАССАЛЫ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_DETAILS">
+			<Text>ПОДРОБНОСТИ О СЮЗЕРЕНЕ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_VASSAL_DETAILS">
+			<Text>ПОДРОБНОСТИ О ВАССАЛЕ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TURNS">
+			<Text>Вассал на {1_NumTurns} ходов (ход {2_TurnStarted})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE">
+			<Text>Могут объявить о независимости:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_TT">
+			<Text>Если вассал может провозгласить независимость, он может отозвать свой статус вашего вассала в любое время. Если вы откажетесь от этой просьбы, вы объявите войну своему вассалу. Скорее всего, они спросят, есть ли у них хорошие шансы добиться успеха в своей революции.[NEWLINE][NEWLINE]Ваш вассал может объявить независимость после выполнения следующих условий:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_MASTER_TT">
+			<Text>Если вы можете провозгласить независимость, вы можете отозвать свой статус вассала в любое время. Будьте осторожны, так как если они откажут в вашей просьбе, они объявят вам войну. Они с большей вероятностью будут уважать вашу декларацию о независимости, если у вас есть сильное военное присутствие.[NEWLINE][NEWLINE]Вы можете объявить независимость после выполнения следующих условий:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_TURNS_TT">
+			<Text>1. Вассал на {1_NumTurns} ходов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_OR_HEADER_TT">
+			<Text>2. Одно из следующих условий:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_CITY_PERCENT_TT">
+			<Text>[TAB][ICON_BULLET]У команды вассала {1_CityPercent}% городов (или меньше), чем было на момент начала вассалитета (в настоящее время {2_Percent})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_POP_PERCENT_TT">
+			<Text>[TAB][ICON_BULLET]у команды вассала {1_PopPercent}% населения (или больше), чем было на момент начала вассалитета (в настоящее время {2_Percent})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_MASTER_PERCENT_TT">
+			<Text>[TAB][ICON_BULLET]У команды вассала {1_CityPercent}% городов (или больше), чем у команды Сюзерена (для всей команды), А ТАКЖЕ [ICON_CITIZEN] населения {2_PopPercent}% (или больше), чем у команды Сюзерена (в настоящее время {3_Percent} и {4_Percent})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_STATISTICS">
+			<Text>СТАТИСТИКА</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MANAGEMENT">
+			<Text>УПРАВЛЕНИЕ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CITY_PERCENT">
+			<Text>Процент текущего города:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CITY_PERCENT_TT">
+			<Text>Соотношение между общим количеством городов, которыми сейчас владеет ваш вассал (для всей команды), и количеством городов (для всей команды), которое у него было, когда он стал вашим вассалом.[NEWLINE][NEWLINE][ICON_BULLET]Количество городов в команде сейчас: { 1_CurrentCities}[NEWLINE][ICON_BULLET]Количество городов в команде на момент начала игры Vassal: {2_StartCities}[NEWLINE][NEWLINE]У этого игрока сейчас {3_PlayerCities} городов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_CITY_PERCENT">
+			<Text>Процент города сюзерена:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_CITY_PERCENT_TT">
+			<Text>Соотношение между общим количеством городов, которыми в настоящее время владеет ваш вассал (для всей команды), и количеством городов, которыми сейчас владеет ваша команда.[NEWLINE][NEWLINE][ICON_BULLET]Количество городов вассалов в команде сейчас: {1_CurrentCities}[NEWLINE][ICON_BULLET ]Мастер-команда Количество городов: {2_MasterCities}[NEWLINE][NEWLINE]У этого игрока сейчас {3_Cities} городов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_POP_PERCENT">
+			<Text>Процент населения сюзерена:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_POP_PERCENT_TT">
+			<Text>Соотношение между общим [ICON_CITIZEN] населением, которым сейчас владеет ваш вассал (для всей команды), и количеством [ICON_CITIZEN] населения, которое сейчас есть в вашей команде.[NEWLINE][NEWLINE][ICON_BULLET]Количество [ICON_CITIZEN] населения в команде сейчас: {1_CurrentPop }[NEWLINE][ICON_BULLET]Мастер-команда [ICON_CITIZEN] Население: {2_MasterPop}[NEWLINE][NEWLINE]На данный момент у этого игрока {3_PlayerPop} [ICON_CITIZEN] населения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_POP_PERCENT">
+			<Text>Процент текущего населения:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_POP_PERCENT_TT">
+			<Text>Соотношение между [ICON_CITIZEN] населением, которым сейчас владеет ваш вассал (для всей команды), и [ICON_CITIZEN] населением (для всей команды), которое у него было, когда он стал вашим вассалом.[NEWLINE][NEWLINE][ICON_BULLET]Население команды [ICON_CITIZEN] Теперь: {1_CurrentPop}[NEWLINE][ICON_BULLET]Население команды [ICON_CITIZEN] На момент запуска Vassal: {2_StartPop}[NEWLINE][NEWLINE]Население этого игрока на данный момент составляет {3_PlayerPop} [ICON_CITIZEN].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_LIBERATE_VASSAL">
+			<Text>Освободить вассала</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_LIBERATE_VASSAL_TT">
+			<Text>Освободите этого вассала, освободив их от вашего контроля. Это мирное действие, оно не приведет к войне и приведет к значительному усилению дипломатических отношений с вашим бывшим вассалом.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]После выполнения этого действия {1_TeamName} больше не будет вашим вассалом. Это действие нельзя отменить.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_LIBERATE_VASSAL_TOO_SOON">
+			<Text>Вы можете выполнить это действие только после того, как у вас будет вассал как минимум на {1_Num} ходов. Вы можете освободить этого вассала через {2_Num} ходов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_RATE">
+			<Text>Налоговая ставка: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT">
+			<Text>Мнение о вассалитете: {1_szStr}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_TT">
+			<Text>Мнение вашего вассала о том, как вы к ним относитесь, основанное на следующих полях:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_NOTHING">
+			<Text>Не было никаких инцидентов, которые изменили бы мнение вашего вассала о вас.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_DEMAND">
+			<Text>Требования к ним: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_STEALING">
+			<Text>Воровство у них: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_DENOUNCING">
+			<Text>Осуждение их: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_TAX">
+			<Text>Текущая налоговая политика: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_PROTECT">
+			<Text>Защита их земель: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_RELIGION">
+			<Text>Общие религиозные интересы: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_TRADE_ROUTE">
+			<Text>Торговые Пути с ними: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_OPEN_BORDERS">
+			<Text>Открытие наших с ними границ: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_TOTAL">
+			<Text>Итого: {1_Sum}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_THRESHOLDS">
+			<Text>Несогласие: {1_Num}[NEWLINE]Плохое обращение: {2_Num}[NEWLINE]Недовольство: {3_Num}[NEWLINE]Порабощение: {4_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_CONTENT">
+			<Text>[COLOR_GREY]Удовлетворение[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_DISAGREE">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]Несогласие[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_MISTREATED">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]Жестокое обращение[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_UNHAPPY">
+			<Text>[COLOR_NEGATIVE_TEXT]Несчастье[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_ENSLAVED">
+			<Text>[COLOR_NEGATIVE_TEXT]Рабство[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_GPT_RECEIVED_TT">
+			<Text>Вы получаете {1_Num} [ICON_GOLD] золота за ход от этого вассала на основе {2_TaxRate}% от его {3_Num} [ICON_GOLD] валового золота за ход.[NEWLINE][NEWLINE]Налоги распределяются поровну между членами вашей команды .[NEWLINE][NEWLINE]Налог вассала рассчитывается в начале хода.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_TOO_SOON">
+			<Text>Вы можете применить изменения к налоговой ставке вассала только после того, как пройдет {1_NumTurns} ходов с момента последней корректировки.[NEWLINE][NEWLINE]Вы можете внести еще одну корректировку через {2_NumTurnsLeft} ходов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_TURN_SET">
+			<Text>Налоги были установлены во время хода {1_Turn}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_TURN_NOT_SET_EVER">
+			<Text>[COLOR_NEGATIVE_TEXT]Налоги для этого вассала никогда не устанавливались.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_TURN_AVAILABLE">
+			<Text>Налоги могут быть изменены, начиная с хода {1_Turn}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_CHANGE_READY">
+			<Text>[COLOR_POSITIVE_TEXT]Налоги доступны для изменения.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_APPLY_CHANGES">
+			<Text>Применить изменения</Text>
+		</Row>
+		<Row Tag="TXT_KEY_APPLY_CHANGES_TT">
+			<Text>Примените изменения к налоговой ставке вассала. Изменения вступят в силу на следующем ходу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CONFIRM_TAX_CHANGE">
+			<Text>Вы уверены, что хотите применить налоговую ставку {1_TaxRate} к {2_TeamName}? Вы не можете изменить это значение {3_NumTurns} ходов. Налог будет применён на следующий ход. [COLOR_WARNING_TEXT]Это действие НЕЛЬЗЯ отменить.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CONFIRM_LIBERATE">
+			<Text>Вы уверены, что хотите освободить {1_TeamName}? Это освободит ВСЕ цивилизации в этой команде от вашего контроля. [COLOR_WARNING_TEXT]Это действие НЕЛЬЗЯ отменить.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CONFIRM_REQUEST_INDEPENDENCE">
+			<Text>Вы уверены, что хотите запросить независимость от {1_TeamName}? В случае отказа ваши цивилизации вступят в [COLOR_WARNING_TEXT]войну[ENDCOLOR]. [COLOR_WARNING_TEXT]Это действие НЕЛЬЗЯ отменить.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_VASSAL_TYPE_VOLUNTARY">
+			<Text>Добровольный вассал</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_VASSAL_TYPE_VOLUNTARY_TT">
+			<Text>Добровольные вассалы — это вассалы, приобретенные в результате торговли. Это взаимное соглашение, по которому вассал соглашается служить Господу в обмен на защиту. Добровольные вассалы могут уйти в любое время после короткого периода.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_VASSAL_TYPE_CAPITULATED">
+			<Text>Капитулированный вассал</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_VASSAL_TYPE_CAPITULATED_TT">
+			<Text>Капитулированные вассалы — это вассалы, приобретенные в результате поражения в войне. Капитулированные вассалы полностью подчиняются сюзерену и не могут покинуть своих сюзеренов, пока не выполнят ряд требований.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_POPULATION_STAT">
+			<Text>[ICON_CITIZEN] Население</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_HAPPINESS_STAT">
+			<Text>Счастье</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_GROSS_GPT_STAT">
+			<Text>[ICON_GOLD] Валовое золото за ход</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_GOLD_PER_TURN_STAT">
+			<Text>[ICON_GOLD] Золото за ход</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TRADE_ROUTES_STAT">
+			<Text>[ICON_TURNS_REMAINING] Торговые Пути</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TRADE_ROUTES_LABEL">
+			<Text>{1_TradeRoutesUsed} / {2_TradeRoutesAvailable}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_IDEOLOGY_STAT">
+			<Text>{1_Str}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CULTURE_STAT">
+			<Text>[ICON_CULTURE] культура</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TOURISM_STAT">
+			<Text>[ICON_TOURISM] туризм</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_FAITH_STAT">
+			<Text>[ICON_PEACE] вера</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_SCIENCE_STAT">
+			<Text>[ICON_RESEARCH] наука</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CITIES">
+			<Text>Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_POPULATION">
+			<Text>Население</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_ECONOMY">
+			<Text>Экономика</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_CULTURE">
+			<Text>Культура</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_RELIGION">
+			<Text>Религия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_SCIENCE">
+			<Text>Наука</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_NO_IDEOLOGY">
+			<Text>Нет идеологии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_NO_RELIGION">
+			<Text>Нет религии большинства</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MAJORITY_RELIGION">
+			<Text>Религия большинства: {1_szReligion}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_IDEOLOGY">
+			<Text>Принятая идеология: {1_szIdeology}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_CONTRIBUTION">
+			<Text>{1_Num} [ICON_GOLD] золота за ход от этого игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_VASSAL">
+			<Text>+{1_Num}% Бонус за статус вашего вассала[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAXES">
+			<Text>Налогообложение</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_DIPLOMACY">
+			<Text>Дипломатия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE">
+			<Text>Независимость</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_NO_VASSALS">
+			<Text>У вас нет вассалов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAXES_AVAILABLE_TT">
+			<Text>Доступно {1_Num} вассалов, для которых можно установить налоги.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_MASTER">
+			<Text>Может объявить независимость: {1_Str}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_VALUE_DISPLAY">
+			<Text>{1_Num} ({2_iTeamNum})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_VALUE_DISPLAY_PERCENT">
+			<Text>{1_iTeamNum}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_VALUE_DISPLAY_PERCENT_PLAYER">
+			<Text>{1_Num}% ({2_iTeamNum}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_YOUR_POP">
+			<Text>Ваше [ICON_CITIZEN] население</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_YOUR_POP_TT">
+			<Text>Наше [ICON_CITIZEN] население (командное [ICON_CITIZEN] население)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_THEIR_POP">
+			<Text>Их [ICON_CITIZEN] население</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_THEIR_POP_TT">
+			<Text>Их [ICON_CITIZEN] население (командное [ICON_CITIZEN] население)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_VIEW_POP_PERCENT">
+			<Text>[ICON_CITIZEN] Население %</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_VIEW_POP_PERCENT_TT">
+			<Text>Соотношение между нашим [ICON_CITIZEN] населением и [ICON_CITIZEN] населением {1_MasterPlayer}.[NEWLINE][NEWLINE]Соотношение между [ICON_CITIZEN] населением игрока (соотношение между [ICON_CITIZEN] населением команды)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_POP_STARTED_PERCENT">
+			<Text>[ICON_CITIZEN] Население, когда мы стали вассалом %</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_POP_STARTED_PERCENT_TT">
+			<Text>Соотношение между [ICON_CITIZEN] Населением нашей команды сейчас и [ICON_CITIZEN] Населением нашей команды, когда мы стали вассалом {1_TeamName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_YOUR_CITIES">
+			<Text>Количество ваших городов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_YOUR_CITIES_TT">
+			<Text>Количество наших городов (количество городов нашей команды)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_THEIR_CITIES">
+			<Text>Количество их городов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_THEIR_CITIES_TT">
+			<Text>Количество их городов (количество городов их команды)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_CITIES_PERCENT">
+			<Text>Количество городов %</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_CITIES_PERCENT_TT">
+			<Text>Соотношение между нашим количеством городов и количеством городов у {1_MasterPlayer}.[NEWLINE][NEWLINE]Соотношение между количеством городов у игрока (соотношение между количеством городов в команде)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_CITIES_STARTED_PERCENT">
+			<Text>Количество городов на момент принятия вассала %</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_CITIES_STARTED_PERCENT_TT">
+			<Text>Соотношение между количеством городов нашей команды сейчас и количеством городов нашей команды, когда мы стали вассалом {1_TeamName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_CHANGE_READY_MASTER">
+			<Text>[COLOR_GREY]Ваш сюзерен может изменить ваши налоги начиная с этого хода.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_TURN_NOT_SET_EVER_MASTER">
+			<Text>[COLOR_POSITIVE_TEXT]Ваш сюзерен никогда не устанавливал для вас налоги.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_CONTRIBUTION_MASTER">
+			<Text>{1_Num} [ICON_GOLD] золота за ход от вас!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_REQUEST_INDEPENDENCE">
+			<Text>Запросить независимость</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_REQUEST_INDEPENDENCE_TT">
+			<Text>Попросите независимости от своего Сюзерена. После выполнения этого действия ваше вассальное положение с {1_TeamName} прекращается.[NEWLINE][NEWLINE]У вашего господина будет выбор: принять или отклонить вашу просьбу о независимости. Если ваш запрос будет отклонен, вы пойдете на войну с другим игроком! Шанс мирной независимости увеличивается, чем сильнее вы по сравнению с вашим Сюзереном.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_REQUEST_INDEPENDENCE_TOO_SOON">
+			<Text>[COLOR_NEGATIVE_TEXT]Вы не можете требовать независимости, пока вы не были вассалом в течение {1_MinimumTurns} ходов. Вы можете выполнить это действие через {2_iNumTurns} ходов.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_REQUEST_INDEPENDENCE_CONDITION_NOT_MET">
+			<Text>[COLOR_NEGATIVE_TEXT]Вы не можете запросить независимость, пока не выполните все необходимые условия независимости. Наведите указатель мыши на «Может объявить независимость», чтобы просмотреть необходимые требования для независимости.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_RATE_MASTER_TT">
+			<Text>Вы облагаетесь налогом на {1_Num}% от вашего [ICON_GOLD] валового золота за ход. Вы не можете контролировать налоговую ставку {2_TeamName}, установленную для вас. Налоги устанавливаются индивидуально на каждого члена вассальной команды.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TAX_GPT_TAKEN_TT">
+			<Text>Они получают от вас {1_Num} [ICON_GOLD] золота за ход на основе {2_TaxRate}% от вашего {3_Num} [ICON_GOLD] валового золота за ход.[NEWLINE][NEWLINE]Ваш облагаемый налогом доход рассчитывается в начале вашего хода.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_VASSAL_BENEFITS">
+			<Text>Преимущества вассала</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_OPEN_BORDERS">
+			<Text>[ICON_BULLET] Открытые границы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_RELIGION_MOD">
+			<Text>[ICON_BULLET] +100% [ICON_PEACE] религиозное давление</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_TOURISM_MOD">
+			<Text>[ICON_BULLET] +33% [ICON_TOURISM] распространение туризма</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_DIPLOMAT">
+			<Text>[ICON_BULLET] [ICON_DIPLOMAT] дипломат в [ICON_CAPITAL] столице</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_YIELD_PERCENTAGE">
+			<Text>[ICON_BULLET] +20% к [ICON_RESEARCH] науке, [ICON_CULTURE] культуре, [ICON_PEACE] вере вассала</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_IDEOLOGY">
+			<Text>[ICON_BULLET] Вассал принимает идеологию Сюзерена</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_LEVY">
+			<Text>[ICON_BULLET] Военный сбор при переходе в новую эру</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_TYPE_VOLUNTARY_TT">
+			<Text>Как вассал по воле, вы полагаетесь на {1_Name}, чтобы обеспечить защиту ваших земель. На вас не распространяются ограничения, которые помешали бы вам выйти из вассальной зависимости, как это делают капитулировавшие вассалы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_MASTER_TYPE_CAPITULATED_TT">
+			<Text>Как капитулированный вассал {1_Name}, вы сильно ограничены в своей возможности провозгласить независимость. Ваши ограничения требуют, чтобы вы увеличили свое [ICON_CITIZEN] население и города, чтобы стать конкурентоспособными со своим Сюзереном, или ваш Сюзерен не смог защитить ваши города от вражеского захвата.</Text>
+		</Row>
+
+		<!-- Choose event outcome button -->
+		<Row Tag="TXT_KEY_CHOOSE_EVENT_CHOICE">
+			<Text>Выберите решение в Событии Игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_EVENT_CHOICE_TT">
+			<Text>Произошло Событие с несколькими вариантами исхода, и оно ожидает вашего решения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_EVENT_CHOICE_CITY">
+			<Text>Выберите решение в Событии Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_EVENT_CHOICE_CITY_TT">
+			<Text>Произошло Событие Города с несколькими вариантами исхода, и оно ожидает вашего решения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_EVENT_AA_CHOICE">
+			<Text>Входящее зашифрованное сообщение от {1_Rank} {2_Spy}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_EVENT_AA_TT">
+			<Text>Пришло зашифрованное сообщение от {1_Rank} {2_Spy} в {3_City}.</Text>
+		</Row>
+
+		<!-- Event picker -->
+		<Row Tag="TXT_KEY_CITY_EVENT_TITLE">
+			<Text>Событие в {1_City}: {2_Event}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CANNOT_TAKE_TT">
+			<Text>[COLOR_WARNING_TEXT]Вы не можете выбрать этот вариант события. Либо вы не соответствуете требованиям, либо его эффекты все еще активны.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HIDE">
+			<Text>Скрыть</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HIDE_TT">
+			<Text>Скрывает окно, но не отменяет событие.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_DISABLED_REASONS_HEADER">
+			<Text>[COLOR_NEGATIVE_TEXT]Решение недоступно по следующим причинам:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_OTHER_PLAYER_EVENT_ACTIVE">
+			<Text>[NEWLINE] [ICON_BULLET] Результат другого События Игрока блокирует этот вариант</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NEGATIVE_GPT">
+			<Text>[NEWLINE] [ICON_BULLET] У вас должно быть отрицательное кол-во золота за ход</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_DEBT">
+			<Text>[NEWLINE] [ICON_BULLET] Вы должны быть в долгу</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_YIELDS">
+			<Text>[NEWLINE] [ICON_BULLET] Вам не хватает требуемой доходности, чтобы сделать этот выбор</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_RESOURCE_LOCAL">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется ресурс {1_Desc} возле города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_IMPROVEMENT">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется улучшение {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_IMPROVEMENT_LOCAL">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется улучшение {1_Desc} возле города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_BUILDING_CLASS_LOCAL">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется {1_Desc} в городе</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NO_BUILDING_CLASS_LOCAL">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступно, если {1_Desc} в городе</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_BUILDING_CLASS">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется {1_Desc} в любом городе</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NO_BUILDING_CLASS">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступно, если {1_Desc} в любом городе</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_WAR_MINOR">
+			<Text>[NEWLINE] [ICON_BULLET] Должен находиться в состоянии войны с городом-государством</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_TERRAIN_NEARBY">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется местность {1_Desc} возле города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_FEATURE_NEARBY">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется особенность {1_Desc} возле города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_FEATURE">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется особенность {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_RESOURCE">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется ресурс {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_COASTAL_CITIES">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется {1_Desc} прибрежный город/города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_BE_VASSAL">
+			<Text>[NEWLINE] [ICON_BULLET] Должен быть Вассалом</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_VASSAL">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется наличие Вассала</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_HOLY_CITY">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется владение Священным Городом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_HOLY_CITY_LOCAL">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен быть Священным.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_MET_OTHER_CIV">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо встретить другую крупную цивилизацию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_UNITCLASS_TYPE">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо владеть как минимум {1_Desc} юнитом</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_SUPER_UNHAPPY">
+			<Text>[NEWLINE] [ICON_BULLET] Империя должна быть Очень Несчастна</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_NEED_UNHAPPY">
+			<Text>[NEWLINE] [ICON_BULLET] Империя должна быть Несчастна</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_ENEMY_SUPER_UNHAPPY">
+			<Text>[NEWLINE] [ICON_BULLET] Выбранная Цивилизация должна быть Очень Несчастна</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_ENEMY_UNHAPPY">
+			<Text>[NEWLINE] [ICON_BULLET] Выбранная Цивилизация должна быть Несчастна</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_TRADE_SLOT">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется свободная ячейка торговых юнитов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OVER_MAX_POPULATION">
+			<Text>[NEWLINE] [ICON_BULLET] Город с населением выше {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NOT_ACTIVE_EVENT_CHOICE">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступно из-за активного выбора События Игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NOT_ACTIVE_EVENT">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступно из-за активного События Игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_ACTIVE_EVENT_CHOICE">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо, чтобы определенный выбор События Игрока был активен.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_ACTIVE_EVENT">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо, чтобы определенное Событие Игрока было активно.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NATURAL_WONDER">
+			<Text>[NEWLINE] [ICON_BULLET] Рядом должно быть чудо природы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_MOUNTAIN">
+			<Text>[NEWLINE] [ICON_BULLET] Рядом должны быть Горы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_TRADE_CONNECTION">
+			<Text>[NEWLINE] [ICON_BULLET] Должен быть связан торговым путем</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_CITY_CONNECTION">
+			<Text>[NEWLINE] [ICON_BULLET] Должен быть связан торговой сетью со столицей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_WAR_MAJOR">
+			<Text>[NEWLINE] [ICON_BULLET] Должен находиться в состоянии войны с крупной цивилизацией</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_ANY_IDEOLOGY">
+			<Text>[NEWLINE] [ICON_BULLET] Необходима идеалогия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_SPECIFIC_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо принятие {1_Desc} религии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_SPECIFIC_STATE_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо основание {1_Desc} религии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_HOLY_CITY_SPECIFIC">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо владение Священным Городом {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_HOLY_CITY_SPECIFIC_LOCAL">
+			<Text>[NEWLINE] [ICON_BULLET] Должен быть Священным Городом для {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NO_PLAYER_MAJORITY_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] Город не должен следовать вашей религии большинства</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_PLAYER_MAJORITY_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен следовать вашей религии большинства</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NO_PLAYER_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] Город не должен следовать основанной/контролируемой вами религией.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_PLAYER_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен следовать основанной/контролируемой вами религии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_IDEOLOGY">
+			<Text>[NEWLINE] [ICON_BULLET] Необходима идеология {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_POLICY">
+			<Text>[NEWLINE] [ICON_BULLET] Необходима Социальная политика: {1_Desc} (если указано название института - все политики института должны быть приняты)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_ANY_PANTHEON">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо, чтобы вашей преобладающей религией был Пантеон</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_ANY_STATE_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] Необходима государственная религия.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_CIV">
+			<Text>[NEWLINE] [ICON_BULLET] Доступно только для цивилизации {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_POP_LOCAL">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо минимальное население города {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_CITIES">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо минимум {1_Desc} городов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_POP_NATIONAL">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо население всей империи {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OBSOLETE_ERA">
+			<Text>[NEWLINE] [ICON_BULLET] Устаревает после {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_ERA">
+			<Text>[NEWLINE] [ICON_BULLET] Необходимо вступить как минимум в {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OBSOLETE_TECH">
+			<Text>[NEWLINE] [ICON_BULLET] Устаревает после изучения технологии {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_TECH">
+			<Text>[NEWLINE] [ICON_BULLET] Необходима технология {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_GARRISON">
+			<Text>[NEWLINE] [ICON_BULLET] Необходим гарнизон в городе</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_DISABLED_LUA">
+			<Text>[NEWLINE] [ICON_BULLET] Отключено для некоторых условий сценария</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_ANY_RELIGION">
+			<Text>[NEWLINE] [ICON_BULLET] В городе должна быть религия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_BE_OCCUPIED">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен быть захвачен</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_BE_RAZING">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен разрушаться</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_BE_PUPPET">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен быть сателлитом</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_BE_WLTKD">
+			<Text>[NEWLINE] [ICON_BULLET] В городе должен проходить [COLOR_POSITIVE_TEXT]День любви к Отчизне[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_BE_RESISTANCE">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен быть в состоянии сопротивления</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_BARBARIANS_ENABLED">
+			<Text>[NEWLINE] [ICON_BULLET] Варвары должны быть включены</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOO_EARLY_FOR_BARBARIANS">
+			<Text>[NEWLINE] [ICON_BULLET] Варвары ещё не могут заходить на территорию</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_BE_RIVER">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен быть на реке</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_BE_COASTAL">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен быть прибрежным</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_BE_CAPITAL">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен быть столицей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_ONESHOT">
+			<Text>[NEWLINE] [ICON_BULLET] Решение по Событию может быть принято один раз за всю игру</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_ACTIVE">
+			<Text>[NEWLINE] [ICON_BULLET] Решение по Событию уже активно</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_ACTIVE_CITY_EVENT">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется Событие Города, которое в данный момент не активно</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_ACTIVE_CITY_EVENT_CHOICE">
+			<Text>[NEWLINE] [ICON_BULLET] Требуется решение по Событию Города, которое в данный момент не активно</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NO_ACTIVE_CITY_EVENT">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступное активное Событие Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NO_ACTIVE_CITY_EVENT_CHOICE">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступное активное решение по Событию Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NO_ACTIVE_PLAYER_EVENT">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступное активное Событие Игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_NO_ACTIVE_PLAYER_EVENT_CHOICE">
+			<Text>[NEWLINE] [ICON_BULLET] Недоступное активное решение по Событию Игрока</Text>
+		</Row>
+
+		<!-- Event popup -->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_NOTIFICATION">
+			<Text>[COLOR_POSITIVE_TEXT]Событие Игрока[ENDCOLOR]:[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOTIFICATION">
+			<Text>[COLOR_POSITIVE_TEXT]Событие Города[ENDCOLOR]:[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_MISSION_COMPLETED">
+			<Text>Шпионская миссия завершена</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HELP">
+			<Text>Новости из [COLOR_POSITIVE_TEXT]{1_City}[ENDCOLOR]:[NEWLINE][NEWLINE]{2_Event}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLED_HELP">
+			<Text>Наши шпионы доложили в штаб-квартиру в [COLOR_POSITIVE_TEXT]{1_City}[ENDCOLOR] следующее:[NEWLINE][NEWLINE]{2_Event}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_MISSION">
+			<Text>[COLOR_POSITIVE_TEXT]Шпионская миссия:[ENDCOLOR] {1_Mission}</Text>
+		</Row>
+
+		<!-- Event overview -->
+		<Row Tag="TXT_KEY_EVENT_OVERVIEW">
+			<Text>Обзор событий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_PLAYER_EVENTS">
+			<Text>У вас нет активных Событий Игрока.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_CITY_EVENTS">
+			<Text>У вас нет активных Событий Города.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_RECENT_CITY_EVENTS">
+			<Text>У вас нет недавних Событий Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_RECENT_EVENTS">
+			<Text>У вас нет недавних событий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RECENT_EVENT_INFORMATION">
+			<Text>События Игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_RECENT_EVENT_INFORMATION">
+			<Text>События Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RECENT_EVENT_TT">
+			<Text>Список всех событий, которые имеют мгновенный эффект (т.е. не требовали выбора от игрока).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RECENT_CHOICE_TT">
+			<Text>Список всех событий, требующих от игрока выбрать вариант.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_CHOICE_UI">
+			<Text>Ваш выбор:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_CHOICE_RESULT_UI">
+			<Text>Результат:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_PERMANENT">
+			<Text>Постоянный эффект</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_BONUS">
+			<Text>Мгновенное Событие</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_ESPIONAGE_EVENT">
+			<Text>[ICON_SPY] [COLOR_NEGATIVE_TEXT]ШПИОНСКИЕ ДЕЙСТВИЯ[ENDCOLOR] против города[NEWLINE][NEWLINE]Преимущество врага:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_CHOICE_SORT_NAME">
+			<Text>Сортировать по названию события</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_CHOICE_SORT_DURATION">
+			<Text>Сортировать по продолжительности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_CHOICE_SORT_CITY_NAME">
+			<Text>Сортировать по названию города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_INFORMATION">
+			<Text>Решения по Событиям Игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_INFORMATION">
+			<Text>Решения по Событиям Города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TURNS_REMAINING">
+			<Text>Ходов осталось: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED">
+			<Text>{3_Value} {2_Icon} {1_Yield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_SPECIALIST">
+			<Text>{2_Yield} {1_Name} Points</Text>
+		</Row>
+
+		<!-- Great Person panel -->
+		<Row Tag="TXT_KEY_GP_DIPLOMAT_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Великие Дипломаты</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_DIPLOMAT_DETAILS">
+			<Text>[ICON_PLUS] Великие Дипломаты</Text>
+		</Row>
+
+		<!-- Choose tech button -->
+		<Row Tag="TXT_KEY_MISC_COMPLETED_POLICY_UA_CHOOSE_TECH">
+			<Text>Вы завершили ветку политики! Выберите бесплатную технологию...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CHOSE_IDEOLOGY_UA_CHOOSE_TECH">
+			<Text>Вы можете выбрать Идеологию! Выберите бесплатную технологию...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CHOSE_BELIEF_UA_CHOOSE_TECH">
+			<Text>Вы приняли Веру! Выбрать бесплатную технологию...</Text>
+		</Row>
+
+		<!-- Long Count picker -->
+		<Row Tag="TXT_KEY_INVALID_NO_RELIGION">
+			<Text>[COLOR_NEGATIVE_TEXT]Нельзя выбрать, пока вы не основали религию (или не имеете религию большинства) или не достигли эпохи Возрождения.[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Antiquity overlay -->
+		<Row Tag="TXT_KEY_PREVIOUS_ANTIQUITY_TT">
+			<Text>Центровать на прошлой древности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEXT_ANTIQUITY_TT">
+			<Text>Центровать на следующей древности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANTIQUITY_OVERLAY_ANTIQUITIES">
+			<Text>Древности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANTIQUITY_LEGEND_GOODY_HUT">
+			<Text>Древные руины</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANTIQUITY_LEGEND_DIG_SITE">
+			<Text>Участок древности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANTIQUITY_LEGEND_HIDDEN_SITE">
+			<Text>Скрытый участок древности</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>
