@@ -645,10 +645,6 @@ SET Text = '+3 [ICON_CULTURE] культуры и [ICON_GOLD] золота за 
 WHERE Tag = 'TXT_KEY_TRAIT_LUXURY_RETENTION';
 
 UPDATE Language_ru_RU
-SET Text = 'Уникальный голландский {TXT_KEY_UNIT_PRIVATEER}, специализирующийся на атаках прибрежных городов и захвате вражеских кораблей. Доступен раньше, чем {TXT_KEY_UNIT_PRIVATEER}. Имеет повышения [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_COASTAL_TERROR}[ENDCOLOR] и [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SUPPLY}[ENDCOLOR].'
-WHERE Tag = 'TXT_KEY_UNIT_HELP_SEA_BEGGAR';
-
-UPDATE Language_ru_RU
 SET Text = 'Морской отряд использовался для нападения на прибрежные города и захвата вражеских кораблей. Его могут построить только голландцы. Исцеляет за пределами дружественной территории. Начинается с повышения «Авангард», позволяющего ему более эффективно атаковать прибрежные города. Может захватывать любые вражеские военно-морские подразделения, которые он побеждает, в качестве призовых кораблей.'
 WHERE Tag = 'TXT_KEY_UNIT_SEA_BEGGAR_STRATEGY';
 
