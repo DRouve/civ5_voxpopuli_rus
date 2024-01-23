@@ -159,5 +159,23 @@
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_SCIENCE_URANIUM">
 			<Text>Используется для создания ужасающего оружия массового уничтожения.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус Стратегической Монополии (25%):[ENDCOLOR] Юниты получают +10% к [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус Глобальной Монополии (50%):[ENDCOLOR] +10% [ICON_RESEARCH] наука во всех принадлежащих вам городах.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_HORSE">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +10% к [ICON_STRENGTH] Боевой мощи юнитов при нападении.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_IRON">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +10% к [ICON_STRENGTH] Боевой мощи юнитов при обороне.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_COAL">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] Военно-морские юниты получают +1 к [ICON_MOVES] движению.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_ALUMINUM">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] Юниты исцеляют +5 ОЗ.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_OIL">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] Юниты получают +2 ОО после боя.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_URANIUM">
+			<Text>[COLOR_POSITIVE_TEXT]Бонус Монополии:[ENDCOLOR] +10% к [ICON_STRENGTH] Боевой мощи юнитов при нападении.</Text>
+		</Row>
 	</Language_ru_RU>
 </GameData>

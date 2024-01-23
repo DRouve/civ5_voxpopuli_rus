@@ -52,7 +52,7 @@ SET Text = 'Великолепие'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Великолепие[ENDCOLOR][NEWLINE][ICON_BULLET]Использование Великого Человека дает 50 [ICON_CULTURE] культуры (в зависимости от Эры). [NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Государственное казначейство[ENDCOLOR] (+4 [ICON_GOLD] золото, Монументы, Сады и Бани дают +2 [ICON_CULTURE] культуры в каждом городе; 1 ячейка [ICON_VP_MERCHANT] коммерсанта).'
+SET Text = '[COLOR_POSITIVE_TEXT]Великолепие[ENDCOLOR][NEWLINE][ICON_BULLET]Использование Великого Человека дает 50 [ICON_CULTURE] культуры (в зависимости от Эры). [NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Государственное казначейство[ENDCOLOR] (+4 [ICON_GOLD] золото; все Монументы, Сады и Бани дают +2 [ICON_CULTURE] культуры; 1 ячейка [ICON_VP_MERCHANT] коммерсанта).'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE_HELP';
 
 UPDATE Language_ru_RU
@@ -64,7 +64,7 @@ SET Text = 'Обряд'
 WHERE Tag = 'TXT_KEY_POLICY_LEGALISM';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Обряд[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от Национальных чудес, которые требуют постройки других зданий.[NEWLINE][ICON_BULLET]+25% к скорости [ICON_PRODUCTION] постройки Национальных чудес, которые требуют постройки других зданий.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Придворный астролог[ENDCOLOR] (+3 [ICON_RESEARCH] наука, Дом писаря, Коптильня и Дом травника дают +1 [ICON_RESEARCH] науки в каждом городе; 1 ячейка [ICON_VP_SCIENTIST] ученого).'
+SET Text = '[COLOR_POSITIVE_TEXT]Обряд[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастье от Национальных чудес, которые требуют постройки других зданий.[NEWLINE][ICON_BULLET]+25% к скорости [ICON_PRODUCTION] постройки Национальных чудес, которые требуют постройки других зданий.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице построится [COLOR_POSITIVE_TEXT]Придворный астролог[ENDCOLOR] (+3 [ICON_RESEARCH] наука; все Дома писарей, Коптильни и Дома травников дают +1 [ICON_RESEARCH] науки в каждом городе; 1 ячейка [ICON_VP_SCIENTIST] ученого).'
 WHERE Tag = 'TXT_KEY_POLICY_LEGALISM_HELP';
 
 UPDATE Language_ru_RU
@@ -773,7 +773,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]Народный герой[ENDCOLOR]: Скор
 WHERE Tag = 'TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Железный Занавес[ENDCOLOR]: Бесплатный Суд при захвате города и аннексии. +200% [ICON_FOOD] еды или [ICON_PRODUCTION] производства от Внутренних Торговых Путей (в пределах цивилизации). [ICON_CONNECTED] Торговая сеть даёт +5 [ICON_GOLD] золота и [ICON_PRODUCTION] производства.'
+SET Text = '[COLOR_POSITIVE_TEXT]Железный Занавес[ENDCOLOR]: Бесплатный Суд при аннексии сразу после захвата города. +200% [ICON_FOOD] еды или [ICON_PRODUCTION] производства от Внутренних Торговых Путей (в пределах цивилизации). [ICON_CONNECTED] Торговая сеть даёт +5 [ICON_GOLD] золота и [ICON_PRODUCTION] производства.'
 WHERE Tag = 'TXT_KEY_POLICY_IRON_CURTAIN_HELP';
 
 UPDATE Language_ru_RU

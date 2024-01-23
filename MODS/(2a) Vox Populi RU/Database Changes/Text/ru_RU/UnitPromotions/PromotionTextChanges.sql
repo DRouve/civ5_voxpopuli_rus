@@ -648,6 +648,11 @@ UPDATE Language_ru_RU
 SET Text = '+100% к [ICON_STRENGTH] боевой мощи при обороне во время погрузки на воду.'
 WHERE Tag = 'TXT_KEY_PROMOTION_DEFENSIVE_EMBARKATION_HELP';
 
+-- Embarkation with Ocean Movement
+UPDATE Language_ru_RU
+SET Text = 'Может погрузиться на [COLOR_POSITIVE_TEXT]водные[ENDCOLOR] клетки.[NEWLINE]Погруженные юниты могут входить на клетки [COLOR_POSITIVE_TEXT]Океана[ENDCOLOR] и получают +2 к [ICON_VP_VISION] обзору.'
+WHERE Tag = 'TXT_KEY_PROMOTION_ALLWATER_EMBARKATION_HELP';
+
 -- Sapper
 UPDATE Language_ru_RU
 SET Text = 'Находясь рядом с вражеским городом, другие боевые юниты в пределах 2 клеток получают +40% [ICON_STRENGTH] к боевой мощи при атаке города.[NEWLINE]Если вражеский город находится в 2 клетках, другие боевые юниты в пределах 2 клеток получают +20% [ICON_STRENGTH] к боевой мощи при атаке города.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Бонусы не суммируются.[ENDCOLOR]'

@@ -33,7 +33,7 @@ SET Text = 'Тысяча и одна ночь'
 WHERE Tag = 'TXT_KEY_TRAIT_LAND_TRADE_GOLD2_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Уникальный арабский {TXT_KEY_DESC_MOUNTED_BOWMAN}, который отлично умеет сеять хаос за счет урона по области. Не требует [ICON_RES_HORSE] {TXT_KEY_RESOURCE_HORSES} для подготовки. Имеет повышения [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SPLASH}[ENDCOLOR] и [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE}[ENDCOLOR].'
+SET Text = 'Уникальный арабский {TXT_KEY_DESC_MOUNTED_BOWMAN}, который отлично умеет сеять хаос за счет урона по области. Не требует [ICON_RES_HORSE] {TXT_KEY_RESOURCE_HORSES} для подготовки. Имеет повышения [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SPLASH_1}[ENDCOLOR] и [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE}[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CAMEL_ARCHER';
 
 UPDATE Language_ru_RU
@@ -44,7 +44,7 @@ WHERE Tag = 'TXT_KEY_UNIT_ARABIAN_CAMELARCHER_STRATEGY';
 -- Assyria
 --------------------
 UPDATE Language_ru_RU
-SET Text = '+20% [ICON_RESEARCH] науки в городе во время [ICON_GOLDEN_AGE] Золотого века. +1 [ICON_RESEARCH] науки за каждых 2 [ICON_CITIZEN] горожан в городе; все Библиотеки производят +3 [ICON_RESEARCH] науки. Содержит 3 ячейки для [ICON_VP_GREATWRITING] Шедевров литературы. При постройке сразу содержит [COLOR_POSITIVE_TEXT]бесплатный[ENDCOLOR] [ICON_VP_GREATWRITING] Шедевр литературы, а также строит [COLOR_POSITIVE_TEXT]бесплатную[ENDCOLOR] Библиотеку в городе. Каждый [ICON_VP_GREATWRITING] Шедевр литературы под вашим контролем дает +5 ОО отрядам, созданным в любом городе (максимум 45 ОО). 1 специалист больше не производит [ICON_HAPPINESS_3] несчастья от Урбанизации.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] несчастья от [ICON_RESEARCH] Безграмотности во всех городах. +2 [ICON_GREAT_PEOPLE] очка Великих Учёных. [NEWLINE][NEWLINE]Стоимость [ICON_PRODUCTION] производства и потребность в [ICON_CITIZEN] населении увеличиваются в зависимости от количества ваших городов.[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] производства и [ICON_RESEARCH] науки, если Шедевры [COLOR_POSITIVE_TEXT]тематизированы[ENDCOLOR].'
+SET Text = '+20% [ICON_RESEARCH] науки в городе во время [ICON_GOLDEN_AGE] Золотого века. +1 [ICON_RESEARCH] науки за каждых 2 [ICON_CITIZEN] горожан в городе; все Библиотеки производят +3 [ICON_RESEARCH] науки. Содержит 3 ячейки для [ICON_VP_GREATWRITING] Шедевров литературы. При постройке сразу содержит [COLOR_POSITIVE_TEXT]бесплатный[ENDCOLOR] [ICON_VP_GREATWRITING] Шедевр литературы, а также строит [COLOR_POSITIVE_TEXT]бесплатную[ENDCOLOR] Библиотеку в городе. Каждый [ICON_VP_GREATWRITING] Шедевр литературы под вашим контролем дает +5 ОО отрядам, созданным в любом городе (максимум 45 ОО). 1 специалист больше не производит [ICON_HAPPINESS_3] несчастья от Урбанизации.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] несчастья от [ICON_RESEARCH] Безграмотности во всех городах. +2 [ICON_GREAT_PEOPLE] очка Великих Учёных. [NEWLINE][NEWLINE]Стоимость [ICON_PRODUCTION] производства увеличивается в зависимости от количества ваших городов.[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] производства и [ICON_RESEARCH] науки, если Шедевры [COLOR_POSITIVE_TEXT]тематизированы[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_HELP';
 
 UPDATE Language_ru_RU
@@ -716,7 +716,7 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_WINGED_HUSSAR';
 -- Polynesia
 --------------------
 UPDATE Language_ru_RU
-SET Text = '+1 к [ICON_VP_VISION] обзору при погрузке на воду, всегда может погрузиться и передвигаться по океанам. +2 [ICON_FOOD] еда с Рыбацких лодок и Атоллов. Юниты ближнего боя и пороха могут строить Рыбацкие лодки. Нет [ICON_HAPPINESS_3] Несчастья от изоляции.'
+SET Text = '+2 к [ICON_VP_VISION] обзору при погрузке на воду, всегда может погрузиться и передвигаться по океанам. +2 [ICON_FOOD] еда с Рыбацких лодок и Атоллов. Юниты ближнего боя и пороха могут строить Рыбацкие лодки. Нет [ICON_HAPPINESS_3] Несчастья от изоляции.'
 WHERE Tag = 'TXT_KEY_TRAIT_WAYFINDING';
 
 UPDATE Language_ru_RU

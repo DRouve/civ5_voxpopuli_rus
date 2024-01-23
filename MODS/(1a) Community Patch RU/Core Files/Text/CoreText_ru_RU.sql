@@ -312,14 +312,6 @@ UPDATE Language_ru_RU
 SET Text = 'Если этот город-государство больше [COLOR_POSITIVE_TEXT]боится[ENDCOLOR] вас, чем [COLOR_WARNING_TEXT]устойчиво[ENDCOLOR], вы можете потребовать одного {@3_Unit} в качестве дани в ущерб [ICON_INFLUENCE] влиянию.  {1_FearLevel}{2_FactorDetails}'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_UNIT_TT';
 
-UPDATE Language_ru_RU
-SET Text = 'Недавно кто-то требовал дань'
-WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_RECENTLY';
-
-UPDATE Language_ru_RU
-SET Text = 'Кто-то требовал дань совсем недавно'
-WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_VERY_RECENTLY';
-
 INSERT INTO Language_ru_RU
 		(Tag,										Text)
 SELECT	'TXT_KEY_POP_CSTATE_BULLY_FACTOR_MONGOL_TERROR',	'Недавно вы аннексировали город-государство';
@@ -432,6 +424,14 @@ WHERE Tag = 'TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_UNKNOWN';
 UPDATE Language_ru_RU
 SET Text = 'Глава {1_ReligionName}'
 WHERE Tag = 'TXT_KEY_RO_STATUS_FOUNDER';
+
+UPDATE Language_ru_RU
+SET Text = '{1_Num} [ICON_PEACE] веры — это минимум, необходимый для основания следующего религиозного Пантеона. Если вы хотите основать Пантеон, вы должны сделать это до того, как в игре появится Укрепленная Религия (впрочем, вы всегда можете основать Пантеон, если Пантеонов в мире было основано меньше, чем максимально возможное количество Религий).'
+WHERE Tag = 'TXT_KEY_TP_FAITH_NEXT_PANTHEON';
+
+UPDATE Language_ru_RU
+SET Text = '{1_Num} [ICON_PEACE] веры — это минимум, необходимый для вашего следующего шанса получить Великиго Пророка.'
+WHERE Tag = 'TXT_KEY_TP_FAITH_NEXT_PROPHET';
 
 UPDATE Language_ru_RU
 SET Text = 'Можно купить за [ICON_PEACE] Веру в любом городе с преобладающей религией, которая была улучшена. Они могут удалить другие религии из ваших городов (расходуя Инквизитора) или разместиться внутри или рядом с городом, чтобы защитить его от миссионеров и пророков, пытающихся распространить другие религии в этом городе.'
@@ -1870,3 +1870,41 @@ WHERE Tag = 'TXT_KEY_CIV5_RUSSIA_TEXT_4';
 UPDATE Language_ru_RU
 SET Text = 'Первое монгольское вторжение на территорию Киева произошло в 1223 году, когда монгольский разведывательный отряд встретил в битве на Калке объединенных воинов нескольких государств Руси под командованием чудесно названных «Мстислав Смелый» и «Мстислав Романович Старый». Река. Войска русов добились быстрого успеха, но в преследовании отступающего врага они были дезорганизованы. Монгольские всадники сплотились и разбили преследователей по частям, прежде чем они смогли реорганизоваться. Большая часть русских сил сдалась монголам при условии, что их пощадят; монголы приняли условия, а затем все равно вырезали их. Затем монголы покинули Русь на несколько лет, прежде чем вернуться с гораздо большими силами. [NEWLINE][NEWLINE]В 1237 году огромная монгольская армия численностью около 30 000 или более конных лучников снова переправилась через Волгу. За несколько коротких лет монголы захватили, разграбили и разрушили десятки русских городов и местечек, в том числе Рязань, Коломну, Москву, Ростов, Кашин, Дмитров, Козельск, Галич и Киев. Они сокрушили все силы, поднятые против них. К 1240 году большая часть Руси превратилась в дымящиеся руины, находящиеся под твердым контролем монголов, которые затем обратили свои взоры дальше на запад, в сторону Венгрии и Польши.[NEWLINE]'
 WHERE Tag = 'TXT_KEY_CIV5_RUSSIA_TEXT_5';
+
+-- singular/plural forms
+
+UPDATE Language_ru_RU
+SET Text = 'Следующая Социальная политика: {1_Num: number #} {1_Num: plural 1?ход; other?ходов;}'
+WHERE Tag = 'TXT_KEY_NEXT_POLICY_TURN_LABEL';
+
+UPDATE Language_ru_RU
+SET Text = '[COLOR_NEGATIVE_TEXT]Империя будет находится в состоянии анархии из-за изменения Идеологии в течение {1_Turns} {1_Num: plural 1?хода; other?ходов;}. Во время Анархии империя не получает [ICON_RESEARCH] науку, [ICON_GOLD] золото, [ICON_CULTURE] культуру или [ICON_PEACE] веру, а в городах нет [ICON_PRODUCTION] производства для строительства чего-либо.[ENDCOLOR].'
+WHERE Tag = 'TXT_KEY_TP_ANARCHY';
+
+UPDATE Language_ru_RU
+SET Text = 'Ваша империя вошла в состояние анархии! Это продлится {1_num} {1_Num: plural 1?ход; other?ходов;}.'
+WHERE Tag = 'TXT_KEY_ANARCHY_BEGINS';
+
+UPDATE Language_ru_RU
+SET Text = 'Ваш юнит может передвигаться на {1_Num} {1_Num: plural 1?клетку; other?клеток;} больше в этот ход.'
+WHERE Tag = 'TXT_KEY_UPANEL_UNIT_MAY_MOVE';
+
+UPDATE Language_ru_RU
+SET Text = 'Ваш юнит может обстрелять в радиусе {1_Num} {1_Num: plural 1?клетки; other?клеток;} или перебазироваться на расстояние {2_Num} клеток.'
+WHERE Tag = 'TXT_KEY_UPANEL_UNIT_MAY_STRIKE_REBASE';
+
+UPDATE Language_ru_RU
+SET Text = '{1_Num} {1_Num: plural 1?ход; other?ходов;}'
+WHERE Tag = 'TXT_KEY_BUILD_NUM_TURNS';
+
+UPDATE Language_ru_RU
+SET Text = 'Влиятельный через {1_Num} {1_Num: plural 1?ход; other?ходов;} (при условии неизменного дохода Туризма)'
+WHERE Tag = 'TXT_KEY_CO_INFLUENTIAL_TURNS_TT';
+
+UPDATE Language_ru_RU
+SET Text = 'У вас есть {1_TradeRoutesUsedNum} {1_TradeRoutesUsedNum: plural 1?Торговый юнит; other?Торговых юнитов;}.[NEWLINE]У вас доступен {2_TradeRoutesAvailableNum} {2_TradeRoutesAvailableNum: plural 1?Торговый путь; other?Торговых путей;}.'
+WHERE Tag = 'TXT_KEY_TOP_PANEL_INTERNATIONAL_TRADE_ROUTES_TT';
+
+UPDATE Language_ru_RU
+SET Text = 'У вас есть {1_Num} бездействующих {2_UnitName}.[NEWLINE]'
+WHERE Tag = 'TXT_KEY_TOP_PANEL_INTERNATIONAL_TRADE_ROUTES_TT_UNASSIGNED';
