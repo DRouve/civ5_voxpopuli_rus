@@ -131,6 +131,18 @@
 		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_UNIT">
 			<Text>Юнит [COLOR_POSITIVE_TEXT]{1_UnitName}[ENDCOLOR] присоединяется к вашей экспедиции.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_CULTURE">
+			<Text>Они делятся своими знаниями о художественных достоинствах, предоставляя вам [COLOR_POSITIVE_TEXT]{1_NumCulture} [ICON_CULTURE] культуры[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_FAITH">
+			<Text>Они делятся своими знаниями о религиозных ритуалах, предоставляя вам [COLOR_POSITIVE_TEXT]{1_NumFaith} [ICON_PEACE] веры[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_GOLD">
+			<Text>Они преподносят вам в подарок [COLOR_POSITIVE_TEXT]{1_NumGold} [ICON_GOLD] золота[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_FOOD">
+			<Text>Они предоставляют вам ящик с [COLOR_POSITIVE_TEXT]{1_NumFood} [ICON_FOOD] пищи[ENDCOLOR].</Text>
+		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_NOTHING">
 			<Text>К сожалению, им нечего вам предложить.</Text>
 		</Row>
