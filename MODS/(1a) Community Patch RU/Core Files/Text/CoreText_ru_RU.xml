@@ -7327,7 +7327,7 @@
 			<Text>Изучение [ICON_RESEARCH] технологии:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_CONSTRUCTION">
-			<Text>Постройка {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {2_BuildingType}}:[NEWLINE]{1_YieldString}</Text>
+			<Text>Постройка здания:[NEWLINE]{1_YieldString}</Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BORDERS">
 			<Text>Расширение [ICON_CULTURE] границ:[NEWLINE]{1_YieldString}</Text>

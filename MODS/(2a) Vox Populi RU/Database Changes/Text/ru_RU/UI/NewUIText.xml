@@ -337,10 +337,10 @@
 			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] от Вассалов.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ESPIONAGE_POSITIVE">
-			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] от шпионской деятельности.</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] от [ICON_SPY] шпионской деятельности.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ESPIONAGE_NEGATIVE">
-			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH] от шпионской деятельности.</Text>
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH] украдено вражескими [ICON_SPY] шпионами.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_SCIENCE_FROM_LEAGUE_ALLIES">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] от [ICON_RESEARCH] стоимости для Технологий, уже известных другим цивилизациям.</Text>
@@ -359,10 +359,10 @@
 			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от Вассалов.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ESPIONAGE_POSITIVE">
-			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от шпионской деятельности.</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от [ICON_SPY] шпионской деятельности.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ESPIONAGE_NEGATIVE">
-			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от шпионской деятельности.</Text>
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] украдено вражескими [ICON_SPY] шпионами.</Text>
 		</Row>
 		<!-- Gold -->
 		<Row Tag="TXT_KEY_TP_GOLD_FROM_MINORS">
@@ -387,7 +387,7 @@
 			<Text>{1_Num} от [ICON_SPY] шпионской деятельности.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_GOLD_FROM_ESPIONAGE_OUTGOING">
-			<Text>{1_Num} от [ICON_SPY] шпионской деятельности.</Text>
+			<Text>{1_Num} украдено вражескими [ICON_SPY] шпионами.</Text>
 		</Row>
 		<!-- Faith -->
 		<Row Tag="TXT_KEY_TP_FAITH_FROM_ANNEXED_MINORS">
@@ -400,7 +400,7 @@
 			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от шпионской деятельности.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_FAITH_FROM_ESPIONAGE_NEGATIVE">
-			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от шпионской деятельности.</Text>
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] украдено вражескими [ICON_SPY] шпионами.</Text>
 		</Row>
 		<!-- Golden Age Point -->
 		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_RELIGION">
@@ -830,6 +830,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_UPANEL_TOURISM_TURNS_TT">
 			<Text>Это указывает на продолжительность концертного тура. Продолжительность зависит от количества имеющихся Шедевров музыки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_RESTING_INFLUENCE">
+			<Text>Точка покоя [ICON_INFLUENCE] влияния</Text>
 		</Row>
 
 		<!-- Tech tree -->
