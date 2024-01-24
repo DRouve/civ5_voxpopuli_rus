@@ -1,12 +1,18 @@
 ----------------------------------------------
 -- Pantheons
 ----------------------------------------------
+
+-- Ancestor Worship
 UPDATE Language_ru_RU
 SET Text = '+1 [ICON_PEACE] веры за каждые 4 [ICON_CITIZEN] горожанина в городе. +1 [ICON_CULTURE] культура и +2 [ICON_PEACE] вера от Совета Старейшин.'
 WHERE Tag = 'TXT_KEY_BELIEF_ANCESTOR_WORSHIP';
 
 UPDATE Language_ru_RU
-SET Text = '+1 [ICON_PEACE] вера и [ICON_CULTURE] культура от Шахт на улучшенных Ресурсах. +1 [ICON_PEACE] вера и [ICON_PRODUCTION] производство от Монументов.'
+SET Text = 'Бог Огня'
+WHERE Tag = 'TXT_KEY_BELIEF_EARTH_MOTHER_SHORT';
+
+UPDATE Language_ru_RU
+SET Text = '+1 [ICON_PEACE] вера, [ICON_PRODUCTION] производство и [ICON_CULTURE] культура от Шахт на улучшенных Ресурсах. +2 [ICON_PEACE] вера от Кузниц.'
 WHERE Tag = 'TXT_KEY_BELIEF_EARTH_MOTHER';
 
 UPDATE Language_ru_RU
@@ -30,7 +36,7 @@ SET Text = 'Бог ремесленников'
 WHERE Tag = 'TXT_KEY_BELIEF_STONE_CIRCLES_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+1 [ICON_PEACE] вера и [ICON_PRODUCTION] производство от Каменоломни и Каменных мастерских. +1 [ICON_CULTURE] культура, +1 [ICON_RESEARCH] наука и +2 [ICON_PEACE] вера от Дворца.'
+SET Text = '+1 [ICON_PEACE] вера и [ICON_PRODUCTION] производство от Каменоломень. +2 [ICON_PEACE] вера и [ICON_RESEARCH] наука от Дворца. +2 [ICON_PEACE] вера и +1 [ICON_CULTURE] культура от Каменных мастерских.'
 WHERE Tag = 'TXT_KEY_BELIEF_STONE_CIRCLES';
 
 UPDATE Language_ru_RU
@@ -69,7 +75,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_SUN_GOD';
 
 -- God of War
 UPDATE Language_ru_RU
-SET Text = 'Получите [ICON_PEACE] веру за убийство военных юнитов, равное 175% от их [ICON_STRENGTH] силы. +2 [ICON_PEACE] вера и +2 [ICON_PRODUCTION] производство от Казарм.'
+SET Text = 'Получите [ICON_PEACE] веру за убийство военных юнитов, равное 175% от их [ICON_STRENGTH] силы. +2 [ICON_PEACE] вера и +1 [ICON_PRODUCTION] производство от Казарм.'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_WAR';
 
 -- God-King
@@ -364,7 +370,7 @@ SET Text = 'Обитель мира'
 WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+1 [ICON_GOLD] золото и [ICON_PEACE] вера в Священном городе за каждые 2 последователя этой [ICON_RELIGION] религии в городах-государствах. Ваш минимум [ICON_INFLUENCE] влияния на города-государства, исповедующие вашу религию, увеличивается на [COLOR_POSITIVE_TEXT]35[ENDCOLOR], а награда за выполнение их заданий увеличивается на 25%.'
+SET Text = '+100% к религиозному давлению на дружественные [ICON_CITY_STATE] города-государства. +1 [ICON_GOLD] золото и [ICON_PEACE] вера в Священном городе за каждые 2 последователя этой [ICON_RELIGION] религии в городах-государствах. Ваша точка покоя [ICON_INFLUENCE] влияния на города-государства, исповедующие вашу религию, увеличивается на [COLOR_POSITIVE_TEXT]35[ENDCOLOR], а награда за выполнение их заданий увеличивается на 25%.'
 WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR';
 
 UPDATE Language_ru_RU
@@ -388,7 +394,7 @@ SET Text = 'Православие'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_ORDER_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '[ICON_RELIGION] Религия распространяется в городах на 25% дальше. Трёхкратное религиозное давление на Дружественные [ICON_CITY_STATE] города-государства и двухкратное на иностранные города, соединенные торговыми путями [ICON_INTERNATIONAL_TRADE].'
+SET Text = '[ICON_RELIGION] Религия распространяется в города на 40% дальше. +200% к религиозному давлению на иностранные города, соединенные [ICON_INTERNATIONAL_TRADE] Торговыми путями.'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_ORDER';
 
 UPDATE Language_ru_RU

@@ -1,4 +1,16 @@
 UPDATE Language_ru_RU
+SET Text = 'Ваш контрразведчик {1_SpyRank} {2_SpyName} убил шпиона {TXT_KEY_GRAMMAR_A_AN << {3_CivAdj}} в городе {4_CityName} после того, как он завершил шпионскую миссию. {5_MissionText}'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_KILLED_A_SPY';
+
+UPDATE Language_ru_RU
+SET Text = 'При выполнении задания ваш шпион {1_SpyRank} {2_SpyName} был убит контрразведчиком {TXT_KEY_GRAMMAR_A_AN << {3_CivAdj}}!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_SPY_WAS_KILLED';
+
+UPDATE Language_ru_RU
+SET Text = '{1_SpyRank} {2_SpyName} убит!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_S';
+
+UPDATE Language_ru_RU
 SET Text = 'Жители {3_MinorCivName:textkey} обращаются к мирским делам за религиозным руководством. Какая бы глобальная религия ни набрала наибольшее количество [ICON_PEACE] последователей за {2_TurnsDuration} ходов, она получит [ICON_INFLUENCE] влияние вместе с ними. [COLOR_POSITIVE_TEXT]Осталось {1_TurnsRemaining} ходов.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_CONTEST_FAITH';
 
@@ -122,3 +134,44 @@ WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT 1 FROM 
 UPDATE Language_ru_RU
 SET Text = '{1_CityName} больше не может работать над {2_BldgName}. Потерянное [ICON_PRODUCTION] превращается в {3_NumGold}[ICON_PEACE]!'
 WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT 1 FROM Community WHERE Type = 'COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value = 5);
+
+-- Cultural influence level changes
+UPDATE Language_ru_RU
+SET Text = 'Наша [ICON_CULTURE] культура [COLOR_NEGATIVE_TEXT]больше не[ENDCOLOR] [COLOR_MAGENTA]экзотическая[ENDCOLOR] для {1_Num}. Никаких бонусов от них мы больше не получим.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_1_BAD';
+
+UPDATE Language_ru_RU
+SET Text = 'Наша [ICON_CULTURE] культура теперь стала [COLOR_MAGENTA]экзотической[ENDCOLOR] для {1_Num}! См. Обзор культуры, чтобы узнать о бонусах!'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_1';
+
+UPDATE Language_ru_RU
+SET Text = 'Наша [ICON_CULTURE] культура [COLOR_NEGATIVE_TEXT]больше не[ENDCOLOR] [COLOR_MAGENTA]знакома[ENDCOLOR] пользователю {1_Num}. Наши бонусы от них ослабли.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_2_BAD';
+
+UPDATE Language_ru_RU
+SET Text = 'Наша [ICON_CULTURE] культура теперь [COLOR_MAGENTA]знакома[ENDCOLOR] для {1_Num}! См. Обзор культуры, чтобы узнать об увеличении бонусов!'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_2';
+
+UPDATE Language_ru_RU
+SET Text = 'Наша [ICON_CULTURE] культура [COLOR_NEGATIVE_TEXT]больше не[ENDCOLOR] [COLOR_MAGENTA]популярна[ENDCOLOR] для {1_Num}. Наши бонусы от них ослабли.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_3_BAD';
+
+UPDATE Language_ru_RU
+SET Text = 'Наша [ICON_CULTURE] культура теперь [COLOR_MAGENTA]популярна[ENDCOLOR] для {1_Num}! См. Обзор культуры, чтобы узнать об увеличении бонусов!'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_3';
+
+UPDATE Language_ru_RU
+SET Text = 'Наша [ICON_CULTURE] культура [COLOR_NEGATIVE_TEXT]больше не[ENDCOLOR] [COLOR_MAGENTA]влиятельна[ENDCOLOR] для {1_Num}. Наши бонусы от них ослабли.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_4_BAD';
+
+UPDATE Language_ru_RU
+SET Text = 'Наша [ICON_CULTURE] культура теперь [COLOR_MAGENTA]влиятельна[ENDCOLOR] для {1_Num}! См. Обзор культуры, чтобы узнать об увеличении бонусов!'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_4';
+
+UPDATE Language_ru_RU
+SET Text = 'Наша [ICON_CULTURE] культура [COLOR_NEGATIVE_TEXT]больше не[ENDCOLOR] [COLOR_MAGENTA]доминирует[ENDCOLOR] для {1_Num}. Наши бонусы от них ослабли.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_5_BAD';
+
+UPDATE Language_ru_RU
+SET Text = 'Наша [ICON_CULTURE] культура теперь [COLOR_MAGENTA]доминирует[ENDCOLOR] для {1_Num}! См. Обзор культуры, чтобы узнать об увеличении бонусов!'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_5';

@@ -65,7 +65,7 @@ SET Text = '+1 [ICON_CULTURE] культура и [ICON_TOURISM] туризм з
 WHERE Tag = 'TXT_KEY_BUILDING_BROADCAST_TOWER_HELP';
 
 UPDATE Language_ru_RU
-SET Text = 'Телебашня — это здание поздней игры, которое увеличивает [ICON_CULTURE] культуру и [ICON_TOURISM] туризм в городе, а также уменьшает скуку. Требуется музей в городе, прежде чем его можно будет построить.'
+SET Text = 'Телебашня — это здание поздней игры, которое увеличивает [ICON_CULTURE] культуру и [ICON_TOURISM] туризм в городе, а также уменьшает скуку. Требуется Опера в городе, прежде чем его можно будет построить.'
 WHERE Tag = 'TXT_KEY_BUILDING_BROADCAST_TOWER_STRATEGY';
 
 -- Barracks
@@ -90,11 +90,11 @@ WHERE Tag = 'TXT_KEY_BUILDING_STABLE_HELP';
 
 -- Forge
 UPDATE Language_ru_RU
-SET Text = 'Шахты, обрабатываемые этим городом, а также [ICON_VP_ENGINEER] инженеры получают +2 к [ICON_PRODUCTION] производству.[NEWLINE][NEWLINE]Рядом [ICON_RES_IRON] Железо: +1 [ICON_PRODUCTION] производство, +1 [ICON_GOLD] золото.[NEWLINE]Рядом [ICON_RES_COPPER] Медь: +2 [ICON_GOLD] золото.'
+SET Text = 'Шахты, обрабатываемые этим городом, получают +1 к [ICON_PRODUCTION] производству.[NEWLINE][NEWLINE]Рядом [ICON_RES_IRON] Железо: +1 [ICON_PRODUCTION] производство, +1 [ICON_GOLD] золото.[NEWLINE]Рядом [ICON_RES_COPPER] Медь: +2 [ICON_GOLD] золото.'
 WHERE Tag = 'TXT_KEY_BUILDING_FORGE_HELP';
 
 UPDATE Language_ru_RU
-SET Text = 'Кузница улучшает источники [ICON_RES_IRON] железа и [ICON_RES_COPPER] меди поблизости, а также увеличивает производство шахт и инженеров [ICON_PRODUCTION].'
+SET Text = 'Кузница улучшает источники [ICON_RES_IRON] железа и [ICON_RES_COPPER] меди поблизости, а также увеличивает [ICON_PRODUCTION] производство шахт.'
 WHERE Tag = 'TXT_KEY_BUILDING_FORGE_STRATEGY';
 
 -- Workshop
@@ -175,7 +175,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP';
 
 -- Caravansary
 UPDATE Language_ru_RU
-SET Text = 'Завершение [ICON_CARAVAN] наземного Торгового пути с другой цивилизацией начинает (или усиливает существующее) [COLOR_POSITIVE_TEXT]Историческое событие[ENDCOLOR].[NEWLINE][NEWLINE][NEWLINE] +1 [ICON_FOOD] еда и [ICON_GOLD] золото за каждые 3 клетки Пустыни или 3 клетки Тундры, обрабатываемые городом. [ICON_CARAVAN] Наземные торговые пути получают +50% к радиусу действия и +3 [ICON_GOLD] золота, [ICON_VP_MERCHANT] торговцы в этом городе дают +1 [ICON_GOLD] золота.[NEWLINE][NEWLINE]Рядом [ICON_RES_TRUFFLES] Трюфели: +2 [ICON_GOLD] золото.[NEWLINE]Рядом [ICON_RES_COTTON] Хлопок: +1 [ICON_PRODUCTION] производство, +1 [ICON_CULTURE] культура.[NEWLINE]Рядом [ICON_RES_FUR] Меха: +1 [ICON_GOLD] золото, +1 [ICON_PRODUCTION] производство.'
+SET Text = 'Завершение [ICON_CARAVAN] наземного Торгового пути с другой цивилизацией начинает (или усиливает существующее) [COLOR_POSITIVE_TEXT]Историческое событие[ENDCOLOR].[NEWLINE][NEWLINE][NEWLINE] +1 [ICON_FOOD] еда и [ICON_GOLD] золото за каждые 2 клетки Пустыни или 2 клетки Тундры, обрабатываемые городом. [ICON_CARAVAN] Наземные торговые пути получают +50% к радиусу действия и +3 [ICON_GOLD] золота.[NEWLINE][NEWLINE]Рядом [ICON_RES_TRUFFLES] Трюфели: +2 [ICON_GOLD] золото.[NEWLINE]Рядом [ICON_RES_COTTON] Хлопок: +1 [ICON_PRODUCTION] производство, +1 [ICON_CULTURE] культура.[NEWLINE]Рядом [ICON_RES_FUR] Меха: +1 [ICON_GOLD] золото, +1 [ICON_PRODUCTION] производство.'
 WHERE Tag = 'TXT_KEY_BUILDING_CARAVANSARY_HELP';
 
 -- Library
@@ -290,7 +290,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_ARSENAL_STRATEGY';
 
 -- Military Base
 UPDATE Language_ru_RU
-SET Text = '+25% к скорости [ICON_PRODUCTION] подготовки авиационных юнитов, +15 [ICON_STRENGTH] урона авиационным юнитам во время авиаударов по городу. Улучшает городскую защиту от [ICON_SPY] шпионской деятельности на 50%. Увеличивает [ICON_RANGE_STRENGTH] урон города от дальнего удара на 10%. Прибавка к [ICON_SILVER_FIST] лимиту военных юнитов от населения данного города увеличена на 20%. Военные юниты получают дополнительные 20 ОЗ при исцелении в этом городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] несчастье от [ICON_FOOD] и [ICON_PRODUCTION] Бедствий. [ICON_CITY_STATE] Модификатор размера империи в этом городе уменьшен на 5%.'
+SET Text = '+25% к скорости [ICON_PRODUCTION] подготовки авиационных юнитов, +15 [ICON_STRENGTH] урона авиационным юнитам во время авиаударов по городу. Увеличивает [ICON_RANGE_STRENGTH] урон города от дальнего удара на 10%. Прибавка к [ICON_SILVER_FIST] лимиту военных юнитов от населения данного города увеличена на 20%. Военные юниты получают дополнительные 20 ОЗ при исцелении в этом городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] несчастье от [ICON_FOOD] и [ICON_PRODUCTION] Бедствий. [ICON_CITY_STATE] Модификатор размера империи в этом городе уменьшен на 5%.'
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_BASE_HELP';
 
 UPDATE Language_ru_RU
@@ -383,12 +383,12 @@ WHERE Tag = 'TXT_KEY_BUILDING_STADIUM_STRATEGY';
 
 -- Police Station
 UPDATE Language_ru_RU
-SET Text = 'Улучшает городскую сопротивляемость [ICON_SPY] шпионской деятельности на 50%. Длительность выполнения миссий иностранными шпионами в городе увеличена на 1 ход. Когда вы успешно противодействуете [ICON_SPY] иностранному шпионажу в этом городе, вы получаете 25 [ICON_CULTURE] культуры и [ICON_GOLD] золота (в зависимости от Эры и ранга иностранного [ICON_SPY] шпиона).[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] несчастье от [ICON_FOOD] и [ICON_PRODUCTION] Бедствия, [ICON_GOLD] Бедности, [ICON_RESEARCH] Неграмотности и [ICON_CULTURE] Скуки.'
+SET Text = 'Повышает [ICON_SPY] Городскую безопасность на 10, плюс 1 за каждого Горожанина в городе. Когда вы захватываете или убиваете иностранного [ICON_SPY] шпиона в этом городе, вы получаете 100 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры (в зависимости от Эры).[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] несчастье от [ICON_FOOD] и [ICON_PRODUCTION] Бедствия, [ICON_GOLD] Бедности, [ICON_RESEARCH] Неграмотности и [ICON_CULTURE] Скуки.'
 WHERE Tag = 'TXT_KEY_BUILDING_POLICE_STATION_HELP';
 
 -- Constabulary
 UPDATE Language_ru_RU
-SET Text = 'Повышает городскую сопротивляемость [ICON_SPY] шпионской деятельности на 50%. Длительность выполнения миссий иностранными шпионами в городе увеличена на 1 ход.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] несчастье от [ICON_FOOD] и [ICON_PRODUCTION] Бедствий.'
+SET Text = 'Повышает [ICON_SPY] Городскую безопасность на 15. Когда вы обнаруживаете иностранного [ICON_SPY] шпиона в этом городе, вы получаете 25 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры (в зависимости от Эры).[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] несчастье от [ICON_FOOD] и [ICON_PRODUCTION] Бедствия.'
 WHERE Tag = 'TXT_KEY_BUILDING_CONSTABLE_HELP';
 
 -- Musicians' Guild
@@ -501,11 +501,11 @@ WHERE Tag = 'TXT_KEY_BUILDING_OXFORD_UNIVERSITY_STRATEGY';
 
 -- National Intelligence Agency
 UPDATE Language_ru_RU
-SET Text = 'Повышает городское сопротивление [ICON_SPY] шпионам на 15%, предоставляет 100 [ICON_VP_SPY_POINTS] очков Шпионажа и повышает уровень всех существующих [ICON_SPY] шпионов. Длительность выполнения миссий вашими шпионами в этом городе уменьшена на 1 ход, а иностранными - увеличена на 2 хода. -1 [ICON_HAPPINESS_3] несчастье от [ICON_FOOD] и [ICON_PRODUCTION] Бедствий во всех городах.[NEWLINE][NEWLINE]+100 [ICON_RESEARCH] науки и [ICON_GOLD] золота при успешном выполнении [ICON_SPY] шпионской миссии в чужом городе (в зависимости от Эры).[NEWLINE][NEWLINE]Стоимость [ICON_PRODUCTION] производства и требования к [ICON_CITIZEN] населению увеличиваются в зависимости от количества ваших городов.'
+SET Text = 'Повышает [ICON_SPY] Городскую безопасность на 10 и предоставляет 100 [ICON_VP_SPY_POINTS] очков Шпионажа. -1 [ICON_HAPPINESS_3] несчастье от [ICON_FOOD] и [ICON_PRODUCTION] Бедствий во всех городах.[NEWLINE][NEWLINE]+100 [ICON_RESEARCH] науки и [ICON_GOLD] золота при успешном обнаружении, захвате или убийстве иностранного [ICON_SPY] шпиона или при успешном выполнении [ICON_SPY] шпионской миссии в чужом городе (в зависимости от Эры). +25 [ICON_RESEARCH] науки и [ICON_GOLD] золота при успешном перевороте в [ICON_CITY_STATE] городе-государстве (в зависимости от Эры).[NEWLINE][NEWLINE]Стоимость [ICON_PRODUCTION] производства и требования к [ICON_CITIZEN] населению увеличиваются в зависимости от количества ваших городов.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_HELP';
 
 UPDATE Language_ru_RU
-SET Text = 'Важное оборонительное национальное чудо для технологической цивилизации. Уменьшает [ICON_HAPPINESS_3] Бедствие во всех городах. Национальное разведывательное управление предоставляет 100 [ICON_VP_SPY_POINTS] очков Шпионажа, повышает уровень всех ваших существующих шпионов и повышает городскую сопротивляемость шпионам на 15%. Также в этом городе длительность выполнения миссий вашими шпионами уменьшена на 1 ход, а иностранными - увеличена на 2 хода. Империи с большим количеством активных шпионов получат большую выгоду от этого здания. В городе должен быть построен Полицейский участок.'
+SET Text = 'Важное оборонительное национальное чудо для технологической цивилизации. Уменьшает [ICON_HAPPINESS_3] Бедствие во всех городах. Национальное разведывательное управление предоставляет 100 [ICON_VP_SPY_POINTS] очков Шпионажа и повышает Городскую безопасность на 10. Оно также обеспечивает мгновенную прибыль при выполнении шпионских миссий или при защите от них. Империи с большим количеством активных шпионов получат большую выгоду от этого здания. В городе должен быть построен Полицейский участок.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_STRATEGY';
 
 -- Grand Temple
@@ -694,7 +694,7 @@ SET Text = 'Вестминстерский дворец'
 WHERE Tag = 'TXT_KEY_BUILDING_BIG_BEN';
 
 UPDATE Language_ru_RU
-SET Text = 'Требуется завершение ветки [COLOR_MAGENTA]Управление[ENDCOLOR]. Возле города появляется [COLOR_POSITIVE_TEXT]бесплатный[ENDCOLOR] [ICON_GREAT_MERCHANT] Великий Торговец. Даёт 2 [COLOR_POSITIVE_TEXT]дополнительных[ENDCOLOR] [ICON_DIPLOMAT] делегата на Всемирный конгресс за каждые 8 ​​[ICON_CITY_STATE] городов-государств в игре. -1 [ICON_HAPPINESS_3] несчастье из-за [ICON_GOLD] Бедности в этом городе.'
+SET Text = 'Требуется завершение ветки [COLOR_MAGENTA]Управление[ENDCOLOR]. Возле города появляется [COLOR_POSITIVE_TEXT]бесплатный[ENDCOLOR] [ICON_GREAT_MERCHANT] Великий Торговец. Даёт 1 [COLOR_POSITIVE_TEXT]дополнительного[ENDCOLOR] [ICON_DIPLOMAT] делегата на Всемирный конгресс за каждые 4 ​​[ICON_CITY_STATE] города-государства, когда либо существовавших в мире. -1 [ICON_HAPPINESS_3] несчастье из-за [ICON_GOLD] Бедности в этом городе.'
 WHERE Tag = 'TXT_KEY_WONDER_BIG_BEN_HELP';
 
 -- Neuschwanstein
@@ -749,7 +749,7 @@ WHERE Tag = 'TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP';
 
 -- Great Firewall
 UPDATE Language_ru_RU
-SET Text = 'Все Исследовательские Лаборатории дают +10 [ICON_RESEARCH] науки. Снижает эффективность вражеских [ICON_SPY] шпионов в городе постройки на 99,9%. Все остальные города в вашей Империи получают 25%-ное снижение эффективности вражеского [ICON_SPY] шпионажа. Отменяет бонус [ICON_TOURISM] туризма от технологий других игроков.'
+SET Text = 'Все Исследовательские Лаборатории дают +10 [ICON_RESEARCH] науки. +50 к [ICON_SPY] Городской безопасности. Отменяет бонус [ICON_TOURISM] туризма от технологий других игроков.'
 WHERE Tag = 'TXT_KEY_BUILDING_GREAT_FIREWALL_HELP';
 
 -- Cathedral
@@ -766,3 +766,47 @@ WHERE Tag = 'TXT_KEY_BUILDING_MOSQUE_STRATEGY';
 UPDATE Language_ru_RU
 SET Text = 'Можно построить только в городах, исповедующих религию с верой в Пагоды. Постройте это здание, купив его за [ICON_PEACE] веру. Уменьшает [ICON_HAPPINESS_3] Скуку и [ICON_HAPPINESS_3] Религиозное беспокойство, а также дает доход в зависимости от количества религий, присутствующих в городе.'
 WHERE Tag = 'TXT_KEY_BUILDING_PAGODA_STRATEGY';
+
+-- Corporation franchises
+-- Modmodders can copy this code if they're adding more resources toward a corporation!
+UPDATE Language_ru_RU
+SET Text = '+1 [ICON_GOLD] золото за все монопольные ресурсы корпорации Trader Sid''s ('
+	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_TRADER_SIDS' AND c.ResourceType = r.Type)
+	|| ') рядом с городом. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TRADER_SIDS}'
+WHERE Tag = 'TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE_HELP';
+
+UPDATE Language_ru_RU
+SET Text = '+1 [ICON_PRODUCTION] производство за все монопольные ресурсы корпорации Centaurus Extractors ('
+	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_LANDSEA_EXTRACTORS' AND c.ResourceType = r.Type)
+	|| ') рядом с городом. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_LANDSEA_EXTRACTORS}'
+WHERE Tag = 'TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE_HELP';
+
+UPDATE Language_ru_RU
+SET Text = '+1 [ICON_PRODUCTION] производство за все монопольные ресурсы корпорации Hexxon Refineries ('
+	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_HEXXON_REFINERY' AND c.ResourceType = r.Type)
+	|| ') рядом с городом. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_HEXXON_REFINERY}'
+WHERE Tag = 'TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE_HELP';
+
+UPDATE Language_ru_RU
+SET Text = '+1 [ICON_CULTURE] культура за все монопольные ресурсы корпорации Giorgio Armeier ('
+	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_GIORGIO_ARMEIER' AND c.ResourceType = r.Type)
+	|| ') рядом с городом. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_GIORGIO_ARMEIER}'
+WHERE Tag = 'TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE_HELP';
+
+UPDATE Language_ru_RU
+SET Text = '+1 [ICON_RESEARCH] наука за все монопольные ресурсы корпорации Firaxite Materials ('
+	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_FIRAXITE_MATERIALS' AND c.ResourceType = r.Type)
+	|| ') рядом с городом. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_FIRAXITE_MATERIALS}'
+WHERE Tag = 'TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE_HELP';
+
+UPDATE Language_ru_RU
+SET Text = '+1 [ICON_FOOD] пища за все монопольные ресурсы корпорации TwoKay Foods ('
+	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_TWOKAY_FOODS' AND c.ResourceType = r.Type)
+	|| ') рядом с городом. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TWOKAY_FOODS}'
+WHERE Tag = 'TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE_HELP';
+
+UPDATE Language_ru_RU
+SET Text = '+1 [ICON_GOLDEN_AGE] очко Золотого Века за все монопольные ресурсы корпорации Civilized Jewelers ('
+	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_CIVILIZED_JEWELERS' AND c.ResourceType = r.Type)
+	|| ') рядом с городом. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_CIVILIZED_JEWELERS}'
+WHERE Tag = 'TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_HELP';

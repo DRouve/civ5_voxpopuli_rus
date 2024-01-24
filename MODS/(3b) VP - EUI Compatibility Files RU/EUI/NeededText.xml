@@ -53,6 +53,12 @@
 		<Row Tag="TXT_KEY_CITYVIEW_CORPSBUILDING_TEXT">
 			<Text>Корпорации</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_UNHIDE_BUILDINGS">
+			<Text>Показать</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_UNHIDE_BUILDINGS_TT">
+			<Text>Скрытые здания снова станут видимыми в списке производства этого города.</Text>
+		</Row>
 		<!-- Condensed Help Texts -->
 		<Row>
 			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_BUILDING</Tag>

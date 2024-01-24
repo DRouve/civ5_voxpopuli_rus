@@ -75,14 +75,14 @@
 			<Text>Постоянный член</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_2_HELP">
-			<Text>Получите мгновенное увеличение [ICON_INFLUENCE] влияния на 25 очков со всеми городами-государствами. Национальное чудо Консульства появляется в [ICON_CAPITAL] столице. (+1 [COLOR_POSITIVE_TEXT]дополнительный[ENDCOLOR] [ICON_DIPLOMAT] делегат на Всемирный конгресс за каждые 8 ​​[ICON_CITY_STATE] городов-государств в игре.)</Text>
+			<Text>Получите мгновенное увеличение [ICON_INFLUENCE] влияния на 25 очков со всеми городами-государствами. Национальное чудо Консульства появляется в [ICON_CAPITAL] столице. (+1 [COLOR_POSITIVE_TEXT]дополнительный[ENDCOLOR] [ICON_DIPLOMAT] делегат на Всемирный конгресс за каждые 8 ​​[ICON_CITY_STATE] городов-государств, изначально существовавших в мире.)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3">
 			<Text>Генеральный секретарь</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3_HELP">
-			<Text>Чудо "Организация Объединенных Наций" появляется в [ICON_CAPITAL] столице. (+1 [COLOR_POSITIVE_TEXT]дополнительный[ENDCOLOR] [ICON_DIPLOMAT] делегат на Всемирном конгрессе за каждые 8 ​​[ICON_CITY_STATE] городов-государств в игре. При использовании Великого Человека даёт 25 [ICON_INFLUENCE] влияния на все [ICON_CITY_STATE] города-государства, которые вы встретили. Запускает [ICON_GOLDEN_AGE] Золотой век, а также [COLOR_POSITIVE_TEXT]Специальную сессию Всемирного конгресса Организации Объединенных Наций[ENDCOLOR], если мир достиг Атомной эры.)</Text>
+			<Text>Чудо "Организация Объединенных Наций" появляется в [ICON_CAPITAL] столице. (+1 [COLOR_POSITIVE_TEXT]дополнительный[ENDCOLOR] [ICON_DIPLOMAT] делегат на Всемирном конгрессе за каждые 8 ​​[ICON_CITY_STATE] городов-государств, изначально существовавших в мире. При использовании Великого Человека даёт 25 [ICON_INFLUENCE] влияния на все [ICON_CITY_STATE] города-государства, которые вы встретили. Запускает [ICON_GOLDEN_AGE] Золотой век, а также [COLOR_POSITIVE_TEXT]Специальную сессию Всемирного конгресса Организации Объединенных Наций[ENDCOLOR], если мир достиг Атомной эры.)</Text>
 		</Row>
 	</Language_ru_RU>
 </GameData>

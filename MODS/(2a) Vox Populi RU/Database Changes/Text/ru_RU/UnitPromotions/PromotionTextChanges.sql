@@ -95,11 +95,6 @@ UPDATE Language_ru_RU
 SET Text = '+1 [ICON_MOVES] к движению.[NEWLINE]+200 [ICON_RESEARCH] науки за Грабёж клетки.'
 WHERE Tag = 'TXT_KEY_PROMOTION_MOON_STRIKER_HELP';
 
--- Pride of the Ancestors
-UPDATE Language_ru_RU
-SET Text = '+20% [ICON_STRENGTH] к боевой мощи при сражении на [COLOR_POSITIVE_TEXT]дружественной территории[ENDCOLOR].'
-WHERE Tag = 'TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO_HELP';
-
 -- Near Capital Bonus
 UPDATE Language_ru_RU
 SET Text = '+30% [ICON_STRENGTH] к боевой мощи во время боя в столице; бонус уменьшается по мере отдаления юнита от столицы.'
@@ -338,17 +333,32 @@ UPDATE Language_ru_RU
 SET Text = 'Перед нападением на [COLOR_POSITIVE_TEXT]юнитов[ENDCOLOR] проводит [COLOR_POSITIVE_TEXT]дальнобойную атаку[ENDCOLOR] с 50% [ICON_STRENGTH] боевой мощи. [NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Исчезает при улучшении юнита.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_RANGED_SUPPORT_FIRE_HELP';
 
--- Wolfpack
 UPDATE Language_ru_RU
-SET Text = '+30% к [ICON_RANGE_STRENGTH] боевой мощи дальнего боя при нападении.[NEWLINE]+1 к [ICON_VP_VISION] обзору.'
+SET Text = 'Бесшумный охотник'
+WHERE Tag = 'TXT_KEY_PROMOTION_SILENT_HUNTER';
+
+UPDATE Language_ru_RU
+SET Text = 'Торпеда I'
+WHERE Tag = 'TXT_KEY_PROMOTION_WOLFPACK_1';
+
+UPDATE Language_ru_RU
+SET Text = '+30% к [ICON_STRENGTH] боевой мощи при нападении на [COLOR_POSITIVE_TEXT]юнитов[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_PROMOTION_WOLFPACK_1_HELP';
 
 UPDATE Language_ru_RU
-SET Text = '+30% к [ICON_RANGE_STRENGTH] боевой мощи дальнего боя при нападении.[NEWLINE]+1 к [ICON_MOVES] движению.'
+SET Text = 'Торпеда II'
+WHERE Tag = 'TXT_KEY_PROMOTION_WOLFPACK_2';
+
+UPDATE Language_ru_RU
+SET Text = '+30% к [ICON_STRENGTH] боевой мощи при нападении на [COLOR_POSITIVE_TEXT]юнитов[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_PROMOTION_WOLFPACK_2_HELP';
 
 UPDATE Language_ru_RU
-SET Text = '+30% к [ICON_RANGE_STRENGTH] боевой мощи дальнего боя при нападении.[NEWLINE]Юнит отступает от первой атаки ближнего боя каждый ход (если это возможно).'
+SET Text = 'Торпеда III'
+WHERE Tag = 'TXT_KEY_PROMOTION_WOLFPACK_3';
+
+UPDATE Language_ru_RU
+SET Text = '+30% к [ICON_STRENGTH] боевой мощи при нападении на [COLOR_POSITIVE_TEXT]юнитов[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_PROMOTION_WOLFPACK_3_HELP';
 
 UPDATE Language_ru_RU
@@ -650,7 +660,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_DEFENSIVE_EMBARKATION_HELP';
 
 -- Embarkation with Ocean Movement
 UPDATE Language_ru_RU
-SET Text = 'Может погрузиться на [COLOR_POSITIVE_TEXT]водные[ENDCOLOR] клетки.[NEWLINE]Погруженные юниты могут входить на клетки [COLOR_POSITIVE_TEXT]Океана[ENDCOLOR] и получают +2 к [ICON_VP_VISION] обзору.'
+SET Text = 'Может погрузиться на [COLOR_POSITIVE_TEXT]водные[ENDCOLOR] клетки.[NEWLINE]Погруженные юниты могут входить на клетки [COLOR_POSITIVE_TEXT]Океана[ENDCOLOR] и получают +1 к [ICON_VP_VISION] обзору.'
 WHERE Tag = 'TXT_KEY_PROMOTION_ALLWATER_EMBARKATION_HELP';
 
 -- Sapper

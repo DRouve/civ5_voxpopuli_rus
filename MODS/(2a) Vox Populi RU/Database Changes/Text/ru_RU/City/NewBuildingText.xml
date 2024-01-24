@@ -354,10 +354,10 @@
 			<Text>Консульство</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CONSULATE_STRATEGY">
-			<Text>Консульство дает своему владельцу небольшое преимущество на Всемирном конгрессе, предоставляя дополнительного делегата. Может быть построен только совместно через Всемирный Конгресс.</Text>
+			<Text>Консульство дает своему владельцу небольшое преимущество на Всемирном конгрессе, предоставляя дополнительного делегата на каждые 8 ​​городов-государств, изначально существовавших в мире. Может быть построено только совместно посредством Всемирного Конгресса.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONSULATE_HELP">
-			<Text>Получите 1 [COLOR_POSITIVE_TEXT]дополнительного[ENDCOLOR] [ICON_DIPLOMAT] делегата на Всемирный конгресс за каждые 8 ​​[ICON_CITY_STATE] городов-государств в игре.</Text>
+			<Text>Получите 1 [COLOR_POSITIVE_TEXT]дополнительного[ENDCOLOR] [ICON_DIPLOMAT] делегата на Всемирный конгресс за каждые 8 ​​[ICON_CITY_STATE] городов-государств, когда-либо существовавших в мире.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONSULATE_DESC">
 			<Text>Офис консула называется консульством и обычно подчиняется главному представительству государства в этой иностранной стране, обычно посольству или Верховной комиссии между странами Содружества в столице принимающего государства. Как и термин «посольство», слово «консульство» может относиться не только к офису консула, но и к зданию, занимаемому консулом и его или ее персоналом. Консульство может делить помещение с самим посольством. В наше время многие консульства связаны с Организацией Объединенных Наций и/или другими международными организациями.</Text>
@@ -365,7 +365,7 @@
 
 		<!-- Notre Dame -->
 		<Row Tag="TXT_KEY_BUILDING_NOTRE_DAME_HELP">
-			<Text>Предоставляет [COLOR_POSITIVE_TEXT]бесплатный[ENDCOLOR] Собор в городе постройки. Империя вступает в [ICON_GOLDEN_AGE] Золотой век. Содержит 2 ячейки для [ICON_GREAT_WORK] Шедевров искусства или Артефактов. +3 [ICON_PEACE] веры и [ICON_GOLDEN_AGE] очков Золотого века, если Шедевры [COLOR_POSITIVE_TEXT]тематизированы[ENDCOLOR].</Text>
+			<Text>Предоставляет [COLOR_POSITIVE_TEXT]бесплатный[ENDCOLOR] Собор в городе постройки. +30% к базовому религиозному давлению во всех городах, исповедующих вашу [COLOR_POSITIVE_TEXT]Основную Религию[ENDCOLOR]. Содержит 2 ячейки для [ICON_GREAT_WORK] Шедевров искусства или Артефактов. +3 [ICON_PEACE] веры и [ICON_GOLDEN_AGE] очков Золотого века, если Шедевры [COLOR_POSITIVE_TEXT]тематизированы[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_KARLSTEJN">
@@ -411,7 +411,7 @@
 			<Text>Блетчли Парк</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BLETCHLEY_PARK_HELP">
-			<Text>Требуется завершение ветки [COLOR_MAGENTA]Рационализм[ENDCOLOR]. Предоставляет [COLOR_POSITIVE_TEXT]бесплатную[ENDCOLOR] Исследовательскую Лабораторию в городе постройки. Все [ICON_VP_SCIENTIST] ученые дают +1 [ICON_RESEARCH] к науке. Даёт 200 [ICON_VP_SPY_POINTS] очков Шпионажа, а также повышает ранг всех существующих [ICON_SPY] шпионов. Сопротивление шпионам увеличено на 15% во всех городах. Длительность выполнения миссий вашими шпионами во всех городах уменьшена на 2 хода, а иностранными - увеличена на 2 хода.</Text>
+			<Text>Требуется завершение ветки [COLOR_MAGENTA]Рационализм[ENDCOLOR]. Предоставляет [COLOR_POSITIVE_TEXT]бесплатную[ENDCOLOR] Исследовательскую Лабораторию в городе постройки. Все [ICON_VP_SCIENTIST] ученые дают +1 [ICON_RESEARCH] к науке. Даёт 200 [ICON_VP_SPY_POINTS] очков Шпионажа, а также повышает ранг всех существующих [ICON_SPY] шпионов. +10 к [ICON_SPY] Городской безопасности во всех городах.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BLETCHLEY_PARK_TEXT">
 			<Text>Блетчли-Парк в Милтон-Кинсе, Бакингемшир, был центральным местом правительственной школы кодов и шифров Соединенного Королевства, которая во время Второй мировой войны регулярно проникала в секретные сообщения держав Оси, в первую очередь в немецкую Enigma и шифры Лоренца. Официальный историк Второй мировой войны британской разведки писал, что разведка «Ультра», произведенная в Блетчли, сократила войну на два-четыре года и что без нее исход войны был бы неопределенным. Сейчас это место является образовательной и исторической достопримечательностью, увековечивающей и отмечающей эти достижения.</Text>
@@ -549,7 +549,7 @@
 			<Text>В сочетании с высокой скоростью появления Великих Людей Организация Объединённых Наций дает своему владельцу значительный прирост дипломатической власти во Всемирном конгрессе. Это также дает дополнительного делегата и начинает Золотой век. [NEWLINE][NEWLINE]Помимо этих непосредственных преимуществ, создание Организации Объединенных Наций запускает специальную сессию Всемирного конгресса ООН, которая обеспечивает дипломатическую победу. Может быть построен только совместно через Всемирный Конгресс.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UN_HELP">
-			<Text>Может быть построен только совместно через Всемирный Конгресс. Получите 1 [COLOR_POSITIVE_TEXT]дополнительного[ENDCOLOR] [ICON_DIPLOMAT] делегата на Всемирный конгресс за каждые 8 ​​[ICON_CITY_STATE] городов-государств в игре. Кроме того, использовав [ICON_GREAT_PEOPLE] Великого Человека, вы получите 25 [ICON_INFLUENCE] влияния со всеми [ICON_CITY_STATE] городами-государствами, которые вы встретили. Начинает [ICON_GOLDEN_AGE] Золотой век, а также [COLOR_POSITIVE_TEXT]специальную сессию Всемирного конгресса ООН[ENDCOLOR].</Text>
+			<Text>Может быть построен только совместно через Всемирный Конгресс. Получите 1 [COLOR_POSITIVE_TEXT]дополнительного[ENDCOLOR] [ICON_DIPLOMAT] делегата на Всемирный конгресс за каждые 8 ​​[ICON_CITY_STATE] городов-государств, когда-либо существовавших в мире. Кроме того, использовав [ICON_GREAT_PEOPLE] Великого Человека, вы получите 25 [ICON_INFLUENCE] влияния со всеми [ICON_CITY_STATE] городами-государствами, которые вы встретили. Начинает [ICON_GOLDEN_AGE] Золотой век, а также [COLOR_POSITIVE_TEXT]специальную сессию Всемирного конгресса ООН[ENDCOLOR].</Text>
 		</Row>
 
 		<!-- Corporation buildings common pedia entry -->
@@ -581,13 +581,13 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE">
-			<Text>Trader Sid's</Text>
+			<Text>Франшиза Trader Sid's</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE_STRATEGY">
 			<Text>Это здание можно построить в иностранных городах только в том случае, если вы были основателем Trader Sid's. Чтобы построить это здание в чужом городе, отправьте торговый путь из собственного города с офисом Trader Sid's в чужой город. Когда торговый путь будет завершен, здание будет построено автоматически. Также существует 5% шанс каждый ход, что франшиза появится сама по себе в случайном чужом городе.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE_HELP">
-			<Text>+1 [ICON_GOLD] золота за все монопольные ресурсы корпорации Trader Sid's рядом с городом. Приносит доход офисам Trader Sid's в городах цивилизации-основателя.</Text>
+			<Text>Placeholder</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HQ">
@@ -614,13 +614,13 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE">
-			<Text>Centaurus Extractors</Text>
+			<Text>Франшиза Centaurus Extractors</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE_STRATEGY">
 			<Text>Это здание может быть построено в иностранных городах только в том случае, если вы были основателем Centaurus Extractors. Чтобы построить это здание в чужом городе, отправьте в чужой город торговый путь из собственного города с офисом Centaurus Extractors. Когда торговый путь будет завершен, здание будет построено автоматически. Также существует 5% шанс каждый ход, что франшиза появится сама по себе в случайном чужом городе.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE_HELP">
-			<Text>+1 [ICON_PRODUCTION] производство от всех монопольных ресурсов, связанных с Centaurus Extractors. Приносит доход офисам Centaurus Extractors в городах цивилизации-основателя.</Text>
+			<Text>Placeholder</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HQ">
@@ -647,13 +647,13 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE">
-			<Text>Hexxon Refineries</Text>
+			<Text>Франшиза Hexxon Refineries</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE_STRATEGY">
 			<Text>Это здание можно построить в иностранных городах только в том случае, если вы были основателем Hexxon Refineries. Чтобы построить это здание в чужом городе, отправьте торговый путь из собственного города с офисом Hexxon Refineries в чужой город. Когда торговый путь будет завершен, здание будет построено автоматически. Также существует 5% шанс каждый ход, что франшиза появится сама по себе в случайном чужом городе.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE_HELP">
-			<Text>+1 [ICON_PRODUCTION] производство от монопольных ресурсов Hexxon Refineries. Приносит доход офисам Hexxon Refineries в городах цивилизации-основателя.</Text>
+			<Text>Placeholder</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HQ">
@@ -680,13 +680,13 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE">
-			<Text>Giorgio Armeier</Text>
+			<Text>Франшиза Giorgio Armeier</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE_STRATEGY">
 			<Text>Это здание может быть построено в иностранных городах только в том случае, если вы были основателем Джорджио Армейера. Чтобы построить это здание в чужом городе, отправьте торговый путь из собственного города с офисом Джорджио Армейера в чужой город. Когда торговый путь будет завершен, здание будет построено автоматически. Также существует 5% шанс каждый ход, что франшиза появится сама по себе в случайном чужом городе.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE_HELP">
-			<Text>+1 [ICON_CULTURE] культуры от всех монопольных ресурсов, связанных с Giorgio Armeier. Приносит доход офисам Giorgio Armeier в городах цивилизации-основателя.</Text>
+			<Text>Placeholder</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HQ">
@@ -713,13 +713,13 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE">
-			<Text>Firaxite Materials</Text>
+			<Text>Франшиза Firaxite Materials</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE_STRATEGY">
 			<Text>Это здание можно построить в иностранных городах только в том случае, если вы являетесь основателем Firaxite Materials. Чтобы построить это здание в чужом городе, отправьте торговый путь из принадлежащего вам города, в котором находится Офис Firaxite Materials, в чужой город. Когда торговый путь будет завершен, здание будет построено автоматически. Также существует 5% шанс каждый ход, что франшиза появится сама по себе в случайном чужом городе.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE_HELP">
-			<Text>+1 [ICON_RESEARCH] науки от всех монопольных ресурсов Firaxite Materials рядом с этим городом. Приносит доход офисам Firaxite Materials в городах цивилизации-основателя.</Text>
+			<Text>Placeholder</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HQ">
@@ -746,13 +746,13 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE">
-			<Text>TwoKay Foods</Text>
+			<Text>Франшиза TwoKay Foods</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE_STRATEGY">
 			<Text>Это здание можно построить в иностранных городах, только если вы были основателем TwoKay Foods. Чтобы построить это здание в чужом городе, отправьте торговый путь из собственного города с офисом TwoKay Foods в чужой город. Когда торговый путь будет завершен, здание будет построено автоматически. Также существует 5% шанс каждый ход, что франшиза появится сама по себе в случайном чужом городе.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE_HELP">
-			<Text>+1 [ICON_FOOD] еды от всех монопольных ресурсов, связанных с TwoKay Foods. Приносит доход офисам TwoKay Foods в городах цивилизации-основателя.</Text>
+			<Text>Placeholder</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HQ">
@@ -779,13 +779,13 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE">
-			<Text>Civilized Jewelers</Text>
+			<Text>Франшиза Civilized Jewelers</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_STRATEGY">
 			<Text>Это здание можно построить в иностранных городах только в том случае, если вы являетесь основателем Civilized Jewelers. Чтобы построить это здание в чужом городе, отправьте торговый путь из собственного города с офисом Civilized Jewelers в чужой город. Когда торговый путь будет завершен, здание будет построено автоматически. Также существует 5% шанс каждый ход, что франшиза появится сама по себе в случайном чужом городе.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_HELP">
-			<Text>+1 [ICON_GOLDEN_AGE] очко Золотого Века за все монопольные ресурсы Civilized Jewelers рядом с этим городом. Приносит доход офисам Civilized Jewellers в городах цивилизации-основателя.</Text>
+			<Text>Placeholder</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_STUPA">

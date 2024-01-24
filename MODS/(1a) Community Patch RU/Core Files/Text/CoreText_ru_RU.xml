@@ -204,6 +204,16 @@
 			<Text>{1_Num} extra {2_IconString} от [ICON_CITIZEN] населения в Империи</Text>
 		</Row>
 
+		<!-- Tooltip for Force Resync button -->
+		<Row Tag="TXT_KEY_MP_FORCE_RESYNC_TITLE">
+			<Text>Запланировать принудительную повторную синхронизацию</Text>
+		</Row>
+
+		<!-- Host sends this chat message when scheduled force resync -->
+		<Row Tag="TXT_KEY_VP_MP_WARNING_RESYNC_SCHEDULED">
+			<Text>Я запланировал принудительную повторную синхронизацию. На следующем ходу сессия будет перезагружена.</Text>
+		</Row>
+
 		<!-- Multiplayer Desync Warning -->
 		<Row Tag="TXT_KEY_VP_MP_WARNING_DESYNC">
 			<Text>На клиентской стороне произошла десинхронизация, возможно неопределенное поведение. Создайте отчет об ошибке на GitHub: https://github.com/LoneGazebo/Community-Patch-DLL/issues</Text>
@@ -282,6 +292,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_WITHDRAW_CHANCE_100_PERCENT">
 			<Text>[COLOR_CYAN]Юнит отступит от атаки[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_CAPTURE_CHANCE_100_PERCENT">
+			<Text>[COLOR_CYAN]Юнит будет захвачен в случае поражения[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_RANGED_SUPPORT">
 			<Text>[COLOR_CYAN]Дополнительная дальняя атака[ENDCOLOR]</Text>
@@ -2579,6 +2592,12 @@
 		<Row Tag="TXT_KEY_CS_QUEST_EXPERIENCE">
 			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] опыта для всех военных юнитов</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CS_QUEST_JUGGERNAUTS">
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] Мощный юнит(ы)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CS_QUEST_JUGGERNAUTS_XP">
+			<Text> ([COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] дополнительных ОО)</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_FAITH">
 			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_PEACE] веры</Text>
 		</Row>
@@ -2691,7 +2710,7 @@
 
 		<!-- Steal -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPY_ON_MAJOR">
-			<Text>Двойные агенты в {@3_Civ} указывают, что {@1_Civ} в настоящее время весьма уязвима для шпионажа. Если вы выполните [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] шпионских действий против {@1_Civ} (шпионские события или кража технологий), вы будете щедро вознаграждены.</Text>
+			<Text>Двойные агенты в {@3_Civ} указывают, что {@1_Civ} в настоящее время весьма уязвима для шпионажа. Если вы выполните [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] шпионских действий против {@1_Civ}, вы будете щедро вознаграждены.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_SPY_ON_MAJOR">
 			<Text>Разведданные от {@1_Civ}</Text>
@@ -5891,45 +5910,10 @@
 			<Text>[NEWLINE]Для строительства {2_BuildingName:textkey} требуется на {1_Num}% больше последователей вашей [ICON_RELIGION] религии по всему миру.</Text>
 		</Row>
 
-		<!-- New Spy Action Texts -->
-		<!-- Spy Killed -->
-
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_S_ADVANCED">
-			<Text>{1_SpyName} убит в {2_CityName}!</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_ADVANCED">
-			<Text>Ваш шпион {1_SpyRank} {2_SpyName} был убит {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} занимаются контрразведкой после выполнения задания в {4_CityName}![NEWLINE][NEWLINE]Детали задания: {5_Mission}</Text>
-		</Row>
-
-		<!-- Killed a Spy -->
-		<Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_ADVANCED">
-			<Text>Ваш шпион {1_SpyRank} {2_SpyName} убил шпиона {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}}, работающего в {4_CityName}!</Text>
-		</Row>
-
-		<!-- City Rank Increasing -->
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RANK_INCREASING">
-			<Text>Город {1_CityName} становится [COLOR_NEGATIVE_TEXT]все более уязвимым[ENDCOLOR] для иностранных [ICON_SPY] шпионов.[NEWLINE]Уровень безопасности города в настоящее время составляет [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] (из 50), при этом чем ниже уровень, тем легче Иностранным шпионам действовать в городе.[NEWLINE]Переместите шпиона в этот город, постройте здесь шпионские здания и решите [ICON_HAPPINESS_3] проблемы, связанные с несчастьем, чтобы [COLOR_POSITIVE_TEXT]повысить[ENDCOLOR] уровень безопасности города.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RANK_INCREASING_SUMMARY">
-			<Text>Обновление уровня безопасности в городе {1_CityName}.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_SPY_STATE_BUILDING_NETWORK">
-			<Text>Строительная сеть</Text>
-		</Row>
-
+		<!-- Unassigned Spy -->
 		<Row Tag="TXT_KEY_SPY_STATE_UNASSIGNED_TT">
 			<Text>{1_RankName} {2_SpyName} без заданий.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SPY_STATE_BUILDING_NETWORK_TT">
-			<Text>{1_RankName} {2_SpyName} создает шпионскую сеть в {3_CityName}. Вскоре вы сможете назначить этого шпиона на миссию.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SPY_STATE_TERMINATED_TT">
-			<Text>{1_RankName} {2_SpyName} был устранен!</Text>
-		</Row>
-
-		
 
 		<!-- Trade Route for Land Modifiers -->
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_DOMAIN_LAND_MODIFIER">
@@ -6893,8 +6877,8 @@
 		<Row Tag="TXT_KEY_PRODMOD_SPIES">
 			<Text>[NEWLINE][ICON_BULLET]Модификатор активных шпионов: {1_Num}%</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PRODMOD_YIELD_TRAIT">
-			<Text>[NEWLINE][ICON_BULLET]Модификатор от особенности: {1_Num}%</Text>
+		<Row Tag="TXT_KEY_PRODMOD_YIELD_FOLLOWERS">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор Религиозных Последователей: {1_Num}%</Text>
 		</Row>
 
 		<!-- Lua for Buildings -->
@@ -6914,12 +6898,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_ALLY_CBP_SPY">
 			<Text>В союзе с {1_Player}.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_NOW_POSSIBLE_S">
-			<Text>Пограничный контроль в {1_City} возвращается к норме.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_NOW_POSSIBLE">
-			<Text>Проблемы с безопасностью в связи с недавней попыткой государственного переворота рассеялись, и безопасность в {1_City} возвращается к норме. [COLOR_POSITIVE_TEXT]В этом городе-государстве снова возможны перевороты[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_UNKNOWN_SUCCESS_S">
@@ -6976,11 +6954,14 @@
 			<Text>Недавно освобожден</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_NO_CAPITAL">
+			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] И у вас, и у города-государства должен быть хотя бы один город.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_RECENT_BROKEN_TT">
 			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] Поскольку вы нарушили предыдущее обещание, вы должны подождать еще {1_Turns} ходов, чтобы дать клятву.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_MORE_MILITARY_TT">
-			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] Необходимо иметь как минимум медианную военную мощь в мире. Ваша армия должна быть на {1_Num}% сильнее, чтобы дать клятву.[ENDCOLOR]</Text>
+			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] Необходимо иметь как минимум медианную военную мощь в мире (с поправкой на близость к ним). Ваша армия должна быть на {1_Num}% сильнее, чтобы дать клятву.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_ALLIES_TT">
@@ -7021,6 +7002,10 @@
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_SHORT">
 			<Text>Клятва о защите под угрозой рассторжения!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_NO_CAPITAL">
+			<Text>Поскольку у одного или обоих из вас нет городов, {1_CSName} аннулировал вашу [COLOR_POSITIVE_TEXT]Клятву о защите[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_INFLUENCE">
@@ -7327,7 +7312,7 @@
 			<Text>Изучение [ICON_RESEARCH] технологии:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_CONSTRUCTION">
-			<Text>Постройка здания:[NEWLINE]{1_YieldString}</Text></Text>
+			<Text>Постройка здания:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BORDERS">
 			<Text>Расширение [ICON_CULTURE] границ:[NEWLINE]{1_YieldString}</Text>
@@ -7743,110 +7728,7 @@
 		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_17">
 			<Text>Sarcophagus of Ptolemy I</Text>
 		</Row>
-		
-		
-
-		<!--Policies-->
-		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_NEED_MORE">
-			<Text>[COLOR_WARNING_TEXT]Вы должны разблокировать {1_Num} политик из других ветвей, прежде чем эта ветвь будет разблокирована.[ENDCOLOR]</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_EO_SPY_RANK_TT_SHORT">
-			<Text>{1_SpyName} достиг звания {2_RankName}.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_EO_NO_ACTIONS_POSSIBLE">
-			<Text>В этом городе нет доступных шпионских действий Нападения.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_SPY_RANK">
-			<Text>[NEWLINE] [ICON_BULLET] Низкий ранг Шпиона для этого выбора.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_SPY_ALREADY_HERE">
-			<Text>[NEWLINE] [ICON_BULLET] Иностранные шпионы уже проводят здесь это действие! Тсс!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_NO_TECH_STEAL">
-			<Text>[NEWLINE] [ICON_BULLET] Нет доступных для кражи Технологий.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_NO_GW_FORGE">
-			<Text>[NEWLINE] [ICON_BULLET] Нет доступных для подделки Шедевров.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_MIN_SIPHON_NOT_MET">
-			<Text>[NEWLINE] [ICON_BULLET] Город не производит достаточного объёма этого дохода для его воровства.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_NO_COUNTERSPY">
-			<Text>[NEWLINE] [ICON_BULLET] Требуется Контршпион в городе.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_EVENT_SPY_KILL_CHANCE">
-			<Text>[NEWLINE]Вероятность быть [ICON_VIEW_CITY] идентифицированным: [COLOR_NEGATIVE_TEXT]{1_ID}%[ENDCOLOR][NEWLINE]Вероятность быть [ICON_PIRATE] убитым (контршпион): [COLOR_NEGATIVE_TEXT]{2_Death}%[ENDCOLOR]</Text>
-		</Row>
-		
-		<Row Tag="TXT_KEY_EO_SPY_RIGGING_ELECTIONS_SHORT_TT">
-			<Text>{1_RankName} {2_SpyName} пытается сфальсифицировать результаты выборов в {3_CityName}, чтобы усилить там наше влияние.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_EO_OWN_CITY_POTENTIAL_SHORT_TT">
-			<Text>Уровень безопасности города {1_CityName} – [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR].</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_ENEMY_CITY_POTENTIAL_SHORT_TT">
-			<Text>Уровень безопасности города {1_CityName} – [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR].</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT_SHORT">
-			<Text>Предполагается, что уровень безопасности {1_CityName} – [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR]. Отправьте [ICON_SPY] шпиона, чтобы узнать больше.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_POTENTIAL_CALCULATION">
-			<Text>[ICON_CAPITAL] Уровень безопасности: [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR][NEWLINE][ICON_SPY] Сопротивление шпионам: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Если [ICON_SPY] сопротивление шпионам отрицательное, уровень безопасности города [COLOR_NEGATIVE_TEXT]уменьшится[ENDCOLOR] до 1, и вражеские шпионы будут действовать быстрее. Если положительный, он [COLOR_POSITIVE_TEXT]поднимется[ENDCOLOR] до 10, и вражеские шпионы будут действовать медленнее.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_POTENTIAL_BREAKDOWN_NEGATIVE">
-			<Text>[COLOR_NEGATIVE_TEXT]Отрицательные модификаторы[ENDCOLOR][NEWLINE] [ICON_BULLET] [ICON_INTERNATIONAL_TRADE] Торговые пути (-{1_Num}%)[NEWLINE] [ICON_BULLET] [ICON_CITIZEN] Население (-{2_Num}%)[NEWLINE] [ICON_BULLET] [ICON_HAPPINESS_3] Недовольство (-{3_Num}%)</Text>
-		</Row>
-		<Row Tag="TXT_KEY_POTENTIAL_BREAKDOWN_POSITIVE">
-			<Text>[COLOR_POSITIVE_TEXT]Положительные свойства[ENDCOLOR][NEWLINE] [ICON_BULLET] [ICON_CULTURE] Политика и чудеса (+{1_Num}%)[NEWLINE] [ICON_BULLET] [ICON_CITIZEN] Местные постройки (+{2_Num}%)[NEWLINE] [ICON_BULLET] [ICON_SPY ] Контрразведка (+{3_Num}%)</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY">
-			<Text>[COLOR_POSITIVE_TEXT][NEWLINE]Вероятность поимки вражеских шпионов увеличена на {1_Num}% из-за Социальных политик.[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_AGAINST">
-			<Text>[COLOR_NEGATIVE_TEXT][NEWLINE]Шанс поймать наших шпионов увеличен на {1_Num}% из-за Социальных политик.[ENDCOLOR]</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_SPY_INTRIGUE_DISCOVERED">
-			<Text>[COLOR_POSITIVE_TEXT]Обнаружена интрига:[ENDCOLOR][NEWLINE]</Text>
-		</Row>
-
-
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_KILL">
-			<Text>[ICON_BULLET] Шанс убить [ICON_SPY] шпионов: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_CATCH">
-			<Text>[ICON_BULLET] Шанс идентифицировать [ICON_SPY] шпионов: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_ESPIONAGE_CURRENT_MISSION">
-			<Text>[COLOR_POSITIVE_TEXT]Текущая миссия:[ENDCOLOR] {1_Mission}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_TURNS_COMPLETED">
-			<Text>({1_Turns} завершено)</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_ESPIONAGE_MISSION_BASE_DURATION">
-			<Text>Базовая продолжительность миссии: {1_Num} Turns</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_RELIGOUS_PRESSURE">
-			<Text>[NEWLINE]  [ICON_BULLET] Религиозное давление от [ICON_SPY] шпиона: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_OFFENSIVE_COUP_CHANCE">
-			<Text>Вероятность успешного переворота: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_COUP_CHANCE_ALLIES">
-			<Text>[NEWLINE][ICON_BULLET]   Причина: уже Союзники!</Text>
-		</Row>
-		
+				
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DIPLOMATIC_REQUEST">
 			<Text>ОЖИДАНИЕ ДИПЛОМАТИИ</Text>
 		</Row>

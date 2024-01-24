@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="32eadbe7-cdbb-4f7e-ae47-2cbd386e7835" version="11">
+<Mod id="32eadbe7-cdbb-4f7e-ae47-2cbd386e7835" version="12">
   <Properties>
     <Name>(2a) Vox Populi - перевод</Name>
-    <Teaser>(4.2.7) Перевод на русский</Teaser>
+    <Teaser>(4.3) Перевод на русский</Teaser>
     <Description>...</Description>
     <Authors>danrouve@gmail.com</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -46,6 +46,7 @@
     <File md5="3E4D1D73D7ADDCD8B800E1D075DAD976" import="0">Database Changes/Text/ru_RU/Corporations/NewCorporationText.xml</File>
     <File md5="D0A442F7DEB463CDCCA45E6503687C87" import="0">Database Changes/Text/ru_RU/Difficulty/DifficultyTextChanges.sql</File>
     <File md5="2826FF29CC3EA4639366CBE9E01B648E" import="0">Database Changes/Text/ru_RU/Events/NewEventText.xml</File>
+    <File md5="59AFA790EBB460857C74EDF996C998B6" import="0">Database Changes/Text/ru_RU/Espionage/NewEspionageText.xml</File>
     <File md5="C00B758602F5F055A312B6F036146495" import="0">Database Changes/Text/ru_RU/Notifications/NewNotificationText.xml</File>
     <File md5="C46857B6471D7FCDC4D05852CE60D923" import="0">Database Changes/Text/ru_RU/Notifications/NotificationTextChanges.sql</File>
     <File md5="8CC5096B30E661399829FDB6580CA10D" import="0">Database Changes/Text/ru_RU/Policies/NewPolicyText.xml</File>
