@@ -1,60 +1,196 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_ru_RU>
-		<!-- Espionage overview -->
-		<Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_PERMA_TT">
-			<Text>{1_SpyRank} {2_SpyName} пока не может пытаться совершить переворот в {3_CityName}, потому что у их текущего союзника здесь есть сфера влияния.</Text>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_NEED_MORE">
+			<Text>[COLOR_WARNING_TEXT]Вы должны разблокировать {1_Num} политик из других веток, прежде чем эта ветка станет доступна.[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_SPY_RIGGING_COUP_CHANCE_INCREASE">
-			<Text>[COLOR_CYAN]Каждые успешно сфальсифицированные выборы увеличивают шанс переворота на {1_CoupChanceIncrease}%.[ENDCOLOR]</Text>
+
+		<!-- Espionage -->
+		<Row Tag="TXT_KEY_SPY_POINTS_TT">
+			<Text>Ваши текущие очки [ICON_VP_SPY_POINTS] Шпионажа: {1_Num}/{2_Threshold}[NEWLINE][NEWLINE]Вы получаете нового шпиона всякий раз, когда количество очков [ICON_VP_SPY_POINTS] Шпионажа превышает порог {2_Threshold}. Пороговое значение зависит от количества цивилизаций и городов-государств, существующих на начало игры. Когда первая цивилизация достигает Возрождения или когда вы достигаете любой более поздней эпохи, вы получаете 100 очков [ICON_VP_SPY_POINTS] Шпионажа. Некоторые здания и политики также дают очки [ICON_VP_SPY_POINTS] Шпионажа.[NEWLINE][NEWLINE]Общее количество очков [ICON_VP_SPY_POINTS] Шпионажа, накопленных за всё время: {3_NumTotal}</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_SPY_RIGGING_NO_COUP_POSSIBLE">
-			<Text>[COLOR_NEGATIVE_TEXT]Фальсификация выборов не увеличит шанс успешного переворота, т.к. переворот в этом городе-государстве невозможен.[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_EVENT_NO_TECH_STEAL">
+			<Text>[NEWLINE] [ICON_BULLET] Нет Технологий, доступных к краже.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS">
-			<Text>Активные эффекты шпионской деятельности</Text>
+		<Row Tag="TXT_KEY_EVENT_NO_GW_FORGE">
+			<Text>[NEWLINE] [ICON_BULLET] В городе нет Шедевров, доступных к краже.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_START_TURN">
-			<Text>Ход начала</Text>
+		<Row Tag="TXT_KEY_EVENT_SPY_RANK">
+			<Text>[NEWLINE] [ICON_BULLET] У шпиона недостаточно высокий ранг для этого выбора.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_END_TURN">
-			<Text>Ход окончания</Text>
+		<Row Tag="TXT_KEY_EVENT_MIN_SIPHON_FAITH_NOT_MET">
+			<Text>[NEWLINE] [ICON_BULLET] Город не производит достаточно веры, чтобы ее можно было украсть.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_TARGET">
-			<Text>Цель</Text>
+		<Row Tag="TXT_KEY_EVENT_MIN_SIPHON_OTHER_NOT_MET">
+			<Text>[NEWLINE] [ICON_BULLET] Город не производит достаточного количества пищи, чтобы её можно было украсть.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_SPY_OWNER">
-			<Text>Владелец шпиона</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_EFFECT">
-			<Text>Эффект</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_NO_SPY_MISSIONS_ACTIVE">
-			<Text>Нет активных эффектов шпионской деятельности</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SPY_MISSION_TURN_MODIFIER_FRIENDLY">
-			<Text>Наши здания и социальные политики: -{1_Num} {1_Num: plural 1?ход; other?ходов;}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SPY_MISSION_TURN_MODIFIER_ENEMY">
-			<Text>Вражеские здания и социальные политики: +{1_Num} {1_Num: plural 1?ход; other?ходов;}</Text>
+		<Row Tag="TXT_KEY_EVENT_NOT_ENOUGH_NP">
+			<Text>[NEWLINE] [ICON_BULLET] Недостаточно очков сети.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_SPY_EXPERIENCE">
 			<Text>Опыт: {1_Num} / {2_Denom}</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ACTIVE">
-			<Text>[COLOR_POSITIVE_TEXT]{1_Yield} украдено за ход[ENDCOLOR]</Text>
+		<!-- Offensive Spies -->
+		<Row Tag="TXT_KEY_EO_MISSIONS_TRAVELING_TOOLTIP">
+			<Text>Как только {1_Rank} {2_Spy} прибудет в {3_City}, он начнёт накапливать очки сети. Очки сети открывают пассивные бонусы, пока шпион находится в городе или же могут быть потрачены на выполнение шпионских миссий.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ACTIVE_ENEMY">
-			<Text>[COLOR_NEGATIVE_TEXT]{1_Yield} украдено за ход[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_EO_MISSIONS">
+			<Text>Миссии</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_MISSION_DURATION">
-			<Text>[COLOR_POSITIVE_TEXT]Расчетная продолжительность миссии:[ENDCOLOR] {1_Num} ходов</Text>
+		<Row Tag="TXT_KEY_EO_MISSIONS_TOOLTIP_SHORT">
+			<Text>Выбор шпионской миссии</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SPY_DURATION_LEVEL_MODIFIER">
-			<Text>[NEWLINE]  [ICON_BULLET] Модификатор ранга шпиона: {1_Num}%</Text>
+		<Row Tag="TXT_KEY_EO_MISSIONS_DISABLED_REASONS_HEADER">
+			<Text>[COLOR_NEGATIVE_TEXT]Миссия недоступна по следующим причинам:[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SPY_DURATION_TRAIT_MODIFIER">
-			<Text>[NEWLINE]  [ICON_BULLET] Модификатор особенностей игрока: {1_Num}%</Text>
+		<Row Tag="TXT_KEY_EO_MISSION_COST">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num} очков сети:[ENDCOLOR] {2_Text}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_MISSIONS_TOOLTIP">
+			<Text>Просмотрите пассивные бонусы, которые {1_Rank} {2_Spy} разблокировал при сборе разведданных в {3_City}, или потратьте очки сети на выполнение шпионской миссии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CONDUCT_MISSION">
+			<Text>Проведение миссии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUS_THRESHOLDS">
+			<Text>Пороги пассивного бонуса</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUS_THRESHOLD_TT">
+			<Text>Бонусы за превышение этого порога:[NEWLINE]{1_Text}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUSES">
+			<Text>Пассивные бонусы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUS_NP_REQUIRED">
+			<Text>{1_Num} очков сети: {2_Text}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUSES_UNLOCKED">
+			<Text>Ваш шпион накопил [COLOR_CYAN]{1_Num} очков сети[ENDCOLOR]. Это позволило [COLOR_CYAN]разблокировать[ENDCOLOR] следующие пассивные бонусы:[NEWLINE][NEWLINE][COLOR_CYAN]{2_PassiveBonuses}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUSES_UNLOCKED_FROM_EARLIER">
+			<Text>Максимальное количество очков сети, полученное вашим шпионом за время пребывания в этом городе, составляет [COLOR_CYAN]{1_Num}[ENDCOLOR]. Это позволило [COLOR_CYAN]разблокировать[ENDCOLOR] следующие пассивные бонусы:[NEWLINE][NEWLINE][COLOR_CYAN]{2_PassiveBonuses}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUSES_UNLOCKED_NOTHING_YET">
+			<Text>На данный момент ваш шпион собрал [COLOR_CYAN]{1_Num} очков сети[ENDCOLOR]. Держите шпиона в городе, чтобы набрать больше очков сети и разблокировать пассивные бонусы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_SCREEN_NOT_ENOUGH_NP">
+			<Text>Чтобы просмотреть экран города, вам необходимо накопить как минимум {1_Num} очков сети.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_MISSIONS_HELP">
+			<Text>Вы можете поручить своему шпиону выполнить шпионскую миссию, если требования миссии выполнены. Выполнение миссии [COLOR_NEGATIVE_TEXT]расходует очки сети[ENDCOLOR], и есть вероятность, что ваш шпион будет [COLOR_NEGATIVE_TEXT]идентифицирован[ENDCOLOR], что приведет к ухудшению дипломатических отношений. Шпиона также могут [COLOR_NEGATIVE_TEXT]поймать[ENDCOLOR], и в этом случае миссия все равно будет выполнена, но затем шпион будет заключен в тюрьму на некоторое время, прежде чем вернуться в убежище.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_IMPRISONED_TT">
+			<Text>{1_RankName} {2_SpyName} в настоящее время находится в тюрьме.[NEWLINE][NEWLINE]Когда он будет освобождён, он вернётся в убежище, и его снова можно будет отправлять на задания.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_IMPRISONED">
+			<Text>В тюрьме</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_IMPRISONED">
+			<Text>В тюрьме на {1_Turns} ход(ов).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ID_CAPTURE_CHANCE">
+			<Text>Шанс быть [COLOR_NEGATIVE_TEXT]обнаруженным[ENDCOLOR]: {1_IDChance}%
+			[NEWLINE]Шанс быть [COLOR_NEGATIVE_TEXT]пойманным[ENDCOLOR]: {2_CaptureChance}%</Text>
+		</Row>
+		<!-- Counterspies -->
+		<Row Tag="TXT_KEY_EO_COUNTERSPY">
+			<Text>Изменить цель</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_COUNTERSPY_TOOLTIP_SHORT">
+			<Text>Изменить цель контрразведки</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_COUNTERSPY_TOOLTIP">
+			<Text>Выберите новую цель для {1_Rank} {2_Spy}. После этого вы не сможете переместить шпиона или снова сменить цель в течение {3_NumTurns} хода(ов).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_COUNTERSPY_TRAVELING_TOOLTIP">
+			<Text>Как только {1_Rank} {2_Spy} прибудет в {3_City}, вы сможете выбрать цель контрразведки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_COUNTERSPY_CANNOT_MOVE_TT">
+			<Text>Поскольку вы недавно выбрали новую цель контрразведки, {1_Rank} {2_Spy} не может переместиться еще в течение {3_NumTurns} хода(ов).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_COUNTERSPY_CANNOT_CHANGE_FOCUS_TT">
+			<Text>Поскольку вы недавно выбрали новую цель контрразведки, {1_Rank} {2_Spy} не сможет снова сменить цель еще в течение {3_NumTurns} хода(ов).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_COUNTERSPY_ACTIVE_FOCUS_TT">
+			<Text>Текущая цель: {1_StrMission}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_COUNTERSPY_CANNOT_CHANGE_ACTIVE_FOCUS_TT">
+			<Text>Это текущая цель.</Text>
+		</Row>
+		<!-- Diplomats -->
+		<Row Tag="TXT_KEY_EO_DIPLOMAT">
+			<Text>Разведданные</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_DIPLOMAT_TOOLTIP_SHORT">
+			<Text>Бонусы дипломата</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_DIPLOMAT_TOOLTIP">
+			<Text>Просматривайте разблокированные пассивные бонусы и получайте доступ к разведданным, собранной {1_Rank} {2_Spy} [COLOR_NEGATIVE_TEXT] (пока не реализовано)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_DIPLOMAT_TRAVELING_TOOLTIP">
+			<Text>Как только {1_Rank} {2_Spy} прибудет в {3_City}, он начнёт накапливать очки сети. Очки сети открывают пассивные бонусы и предоставляют доступ к разведданным о другой цивилизации, пока {1_Rank} {2_Spy} болтает в городе как дипломат.</Text>
+		</Row>
+		<!-- City Security -->
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_BASE_TT">
+			<Text>[NEWLINE][ICON_BULLET]Базовая безопасность: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_DIFFICULTY_TT">
+			<Text>[NEWLINE][ICON_BULLET]Уровень сложности: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_NOT_ALL_HAVE_SPIES_TT">
+			<Text>[NEWLINE][ICON_BULLET]Не у всех игроков есть шпионы: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_BUILDINGS_TT">
+			<Text>[NEWLINE][ICON_BULLET]Городские здания: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_POLICIES_WONDERS_TT">
+			<Text>[NEWLINE][ICON_BULLET]Особенности, соцполитики и чудеса: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_PREVIOUS_SPY_MISSIONS_TT">
+			<Text>[NEWLINE][ICON_BULLET]Предыдущие шпионские миссии в городе: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_POPULATION_TT">
+			<Text>[NEWLINE][ICON_BULLET]Население города: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_TRADE_ROUTES_TT">
+			<Text>[NEWLINE][ICON_BULLET]Торговые пути в/из города: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_UNHAPPINESS_TT">
+			<Text>[NEWLINE][ICON_BULLET]Избыток счастья: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<!-- Network Points -->
+		<Row Tag="TXT_KEY_NETWORK_POINTS">
+			<Text>{1_NumStored} очков сети (+{2_NumPerTurn})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_BASE_TT">
+			<Text>[NEWLINE][ICON_BULLET]Базовые очки сети за ход: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_SPY_RANK_TT">
+			<Text>[NEWLINE][ICON_BULLET]Ранг шпиона: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_CULTURAL_INFLUENCE_TT">
+			<Text>[NEWLINE][ICON_BULLET]Культурное влияние на цель: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_TECH_DIFFERENCE_TT">
+			<Text>[NEWLINE][ICON_BULLET]Технологически продвинутая цель: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_POLICIES_TT">
+			<Text>[NEWLINE][ICON_BULLET]Соцполитики: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_COUNTERSPY_NETWORK_TT">
+			<Text>[NEWLINE][ICON_BULLET]Вражеская контрразведывательная сеть: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_POLICYMOD_FASTER_TT">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор политики: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_BEFORE_SECURITY_TT">
+			<Text>[NEWLINE]Общее количество очков сети за ход до модификаторов: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_SECURITY_MOD_TT">
+			<Text>[NEWLINE][ICON_BULLET]Городская безопасность: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_FINAL_TT">
+			<Text>[NEWLINE][COLOR_POSITIVE_TEXT]Итого очков сети за ход: {1_Num}[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- City-State screen/tooltip -->
@@ -74,10 +210,16 @@
 			<Text>Отключить получение [ICON_VP_NOINFLUENCE] влияния за выполнение заданий</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_VARIABLE_CBP">
-			<Text>Если этот город-государство больше [COLOR_POSITIVE_TEXT]боится[ENDCOLOR] вас, чем [COLOR_WARNING_TEXT]устойчив[ENDCOLOR], вы можете получить от него большую дань. Это принесет вам [ICON_GOLD] золото, а также половину доходов (кроме влияния) за все активные задания от этого города-государства. Все задания этого города-государства будут отменены.[NEWLINE][NEWLINE]{1_FearLevel}{2_FactorDetails}</Text>
+			<Text>Если этот город-государство больше [COLOR_POSITIVE_TEXT]боится[ENDCOLOR] вас, чем [COLOR_WARNING_TEXT]устойчив[ENDCOLOR], вы можете получить от него большую дань. Это принесет вам [ICON_GOLD] золото, а также доходы (кроме влияния) за все активные персональные задания от этого города-государства. Все задания этого города-государства будут отменены.[NEWLINE][NEWLINE]{1_FearLevel}{2_FactorDetails}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_LABEL_CONTENDER">
 			<Text>Претендент:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_LABEL_CONTENDER_TT_HEADER">
+			<Text>Эти цивилизации повысили точку покоя [ICON_INFLUENCE] влияния на [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_LABEL_CONTENDER_TT_HEADER2">
+			<Text>Никто не повысил точку покоя [ICON_INFLUENCE] влияния на [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CSTATE_GOLD_BONUS">
 			<Text>Вы получаете [COLOR_POSITIVE_TEXT]{1_Num} [ICON_GOLD] золота[ENDCOLOR] за ход от них.</Text>
@@ -190,6 +332,16 @@
 			<Text>Происходит революция против их союзника!</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_GLOBAL_HEADER">
+			<Text>Общие задания:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_LOCAL_HEADER">
+			<Text>Личные задания:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_OTHER_HEADER">
+			<Text>Другая информация:</Text>
+		</Row>
+
 		<!-- Cultural overview -->
 		<!-- Great Works summary -->
 		<Row Tag="TXT_KEY_OPTIMIZE">
@@ -224,8 +376,11 @@
 			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<!-- CV progress screen -->
+		<Row Tag="TXT_KEY_CO_TAB_PLAYER_INFLUENCE2">
+			<Text>Влияние на игрока</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_CAPITAL_PENALTY">
-			<Text>-{1_NumTurns}% из-за разницы в размерах империи[NEWLINE]</Text>
+			<Text>-{1_NumTurns}% из-за размера империи (разница с городом {2_NumCity})[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_WARSCORE">
 			<Text>+{1_Num}% бонус от наибольшего Военного Счёта[NEWLINE]</Text>
@@ -376,7 +531,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_TP_GOLD_VASSALS">
 			<Text>{1_Num} от Вассалов.</Text>
-		</Row>	
+		</Row>
 		<Row Tag="TXT_KEY_TP_GOLD_VASSAL_MAINT">
 			<Text>{1_Num} потрачено на содержание Вассала.</Text>
 		</Row>
@@ -517,12 +672,10 @@
 			<Text>Технологический штраф</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP">
-			<Text>Количество военных юнитов: {11_Num} ({2_Num} лимита использовано)[NEWLINE]Суммарный лимит: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]Уменьшение максимального лимита от Усталости от войны: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Базовые значения лимита:[NEWLINE]  [ICON_BULLET]+{4_Num} от имеющихся [ICON_CITY_STATE] городов[NEWLINE]  [ICON_BULLET]+{3_Num} от общего количества [ICON_CITIZEN] населения[NEWLINE]  [ICON_BULLET]+{5_Num} от [ICON_CHECKBOX] уровня сложности[NEWLINE]  [ICON_BULLET]+{10_Num} от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] Великих Людей[NEWLINE][NEWLINE][NEWLINE]Уменьшение лимита:[NEWLINE]  [ICON_BULLET] -{8_Num} от [ICON_RESEARCH] уровня Технологий[NEWLINE]  [ICON_BULLET] -{7_Num} от [ICON_WAR] Усталости от войны[NEWLINE][NEWLINE]Стоимость [ICON_GOLD]/[ICON_PEACE] военных юнитов увеличена на {9_Num}% из-за [ICON_WAR] Усталости от войны.[NEWLINE]</Text>
+			<Text>Количество военных юнитов: {11_Num} ({2_Num} лимита использовано)[NEWLINE]Суммарный лимит: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]Уменьшение максимального лимита от Усталости от войны: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Базовые значения лимита:[NEWLINE]  [ICON_BULLET]+{4_Num} от имеющихся [ICON_CITY_STATE] городов[NEWLINE]  [ICON_BULLET]+{3_Num} от общего количества [ICON_CITIZEN] населения[NEWLINE]  [ICON_BULLET]+{5_Num} от [ICON_CHECKBOX] уровня сложности[NEWLINE]  [ICON_BULLET]+{10_Num} от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] Великих Людей[NEWLINE][NEWLINE][NEWLINE]Уменьшение лимита:[NEWLINE]  [ICON_BULLET] -{8_Num} от [ICON_RESEARCH] уровня Технологий[NEWLINE]  [ICON_BULLET] -{7_Num} от [ICON_WAR] Усталости от войны[NEWLINE][NEWLINE]Стоимость [ICON_GOLD]/[ICON_PEACE] военных юнитов увеличена на {9_Num}% из-за [ICON_WAR] Усталости от войны.[NEWLINE]Наибольшая Усталость от войны: {12_CivName} (13_Num)%</Text>
 		</Row>
-		<!-- Spy Points -->
-		<Row Tag="TXT_KEY_SPY_POINTS_TT">
-			<Text>Ваши текущие [ICON_VP_SPY_POINTS] очки Шпионажа: {1_Num}/{2_Threshold}[NEWLINE][NEWLINE]Вы получаете нового шпиона всякий раз, когда количество [ICON_VP_SPY_POINTS] очков Шпионажа превышает порог {2_Threshold}. Пороговое значение зависит от количества цивилизаций и городов-государств, существующих на начало игры. Когда первая цивилизация достигает Возрождения или когда вы достигаете любой более поздней эпохи, вы получаете 100 [ICON_VP_SPY_POINTS] очков Шпионажа. Некоторые здания и социальные политики также дают [ICON_VP_SPY_POINTS] очки Шпионажа.[NEWLINE][NEWLINE]Общее количество когда-либо накопленных [ICON_VP_SPY_POINTS] очков Шпионажа: {3_NumTotal}
-			</Text>
+		<Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP_NOT_WEARY">
+			<Text>Количество военных юнитов: {11_Num} ({2_Num} лимита использовано)[NEWLINE]Суммарный лимит: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]Уменьшение максимального лимита от Усталости от войны: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Базовые значения лимита:[NEWLINE]  [ICON_BULLET]+{4_Num} от имеющихся [ICON_CITY_STATE] городов[NEWLINE]  [ICON_BULLET]+{3_Num} от общего количества [ICON_CITIZEN] населения[NEWLINE]  [ICON_BULLET]+{5_Num} от [ICON_CHECKBOX] уровня сложности[NEWLINE]  [ICON_BULLET]+{10_Num} от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] Великих Людей[NEWLINE][NEWLINE][NEWLINE]Уменьшение лимита:[NEWLINE]  [ICON_BULLET] -{8_Num} от [ICON_RESEARCH] уровня Технологий[NEWLINE]  [ICON_BULLET] -{7_Num} от [ICON_WAR] Усталости от войны[NEWLINE][NEWLINE]Стоимость [ICON_GOLD]/[ICON_PEACE] военных юнитов увеличена на {9_Num}% из-за [ICON_WAR] Усталости от войны.</Text>
 		</Row>
 
 		<!-- Trade Route picker -->
@@ -834,6 +987,15 @@
 		<Row Tag="TXT_KEY_VP_RESTING_INFLUENCE">
 			<Text>Точка покоя [ICON_INFLUENCE] влияния</Text>
 		</Row>
+		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_PLAYER_UNITCLASS_LIMIT">
+			<Text>На одного игрока разрешено только {1_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_TEAM_UNITCLASS_LIMIT">
+			<Text>На одну команду разрешено только {1_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_GLOBAL_UNITCLASS_LIMIT">
+			<Text>В мире разрешено только {1_Num}.</Text>
+		</Row>
 
 		<!-- Tech tree -->
 		<Row Tag="TXT_KEY_SPECIALIST_YIELD_CHANGE">
@@ -1043,13 +1205,25 @@
 			<Text>Добавление этого ресурса к вашей торговой сети заставит этот город праздновать карнавал, который увеличивает [ICON_FOOD] рост и уменьшает [ICON_HAPPINESS_3] несчастье!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_SAPPED">
-			<Text>Город [ICON_VP_SAPPED] истощён на [COLOR_POSITIVE_TEXT]{1_Turns}[ENDCOLOR] ходов. Это имеет тот же эффект, что и [ICON_BLOCKADED] Блокада, но для ее эффекта не требуется наличие поблизости вражеского юнита!</Text>
+			<Text>Из-за действий вражеского шпиона город находится в состоянии Блокады и не может наносить дальние удары в течение [COLOR_POSITIVE_TEXT]{1_Turns}[ENDCOLOR] хода(ов).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_MINED">
 			<Text>Вражеский флот и высадившиеся на воду юниты расходуют все очки [ICON_MOVES] передвижения при входе на водную территорию, принадлежащую этому городу. Юниты, заканчивающие свой ход на клетках Океана, принадлежащих этому городу, получают [COLOR_NEGATIVE_TEXT]5 урона[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_HAS_AIRPORT">
 			<Text>Позволяет [COLOR_POSITIVE_TEXT]переброску по воздуху[ENDCOLOR] в этот город или из него. Увеличено число авиационных юнитов города. Авиационные юниты противника получают 10 [ICON_STRENGTH] урона во время авиаударов по городу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_OFFICEHQ_TT">
+			<Text>[ICON_CAPITAL] Штаб-квартира [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_OFFICEHQ_TT2">
+			<Text>Захват [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] всегда приведет к разрушению Штаб-квартиры, закрытию всех активных офисов и франшиз, но позволит другим заново отстроить Штаб-квартиру.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_OFFICE_TT">
+			<Text>Офис [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_OFFICE_TT2">
+			<Text>Завершенный [ICON_INTERNATIONAL_TRADE] торговый маршрут из или в [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] будет пытаться создать [ICON_VP_FRANCHISE] [COLOR_POSITIVE_TEXT]Франшизу[ENDCOLOR] в зарубежных городах.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_CULTURED_TT_ANNEXED">
 			<Text>Завоеванный [COLOR_POSITIVE_TEXT]Культурный[ENDCOLOR] город-государство подарит вам дары [ICON_CULTURE] культуры, что позволит вам быстрее принимать социальные политики.</Text>
@@ -1542,6 +1716,9 @@
 		<Row Tag="TXT_KEY_BUILDING_EVENT_MODIFIER">
 			<Text>{1_Num}% {2_Icon} {3_Name} от активных Событий</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PEDIA_EXC_BLDG_LABEL">
+			<Text>Эксклюзивные здания:</Text>
+		</Row>
 
 		<!-- Victory overview -->
 		<Row Tag="TXT_KEY_VP_CULTURAL_NEED_IDEOLOGY">
@@ -1640,6 +1817,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_WAR_WEARINESS_THEM_CRIPPLED">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Усталость:[ENDCOLOR] Они совершенно истощены.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_WEARINESS_US_PERCENT">
+			<Text>[COLOR_NEGATIVE_TEXT]Наша Усталость от войны: {1_Num}%[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Discussion/Dialogue options -->
@@ -2806,16 +2986,16 @@
 			<Text>[NEWLINE] [ICON_BULLET] Необходимо владеть как минимум {1_Desc} юнитом</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_SUPER_UNHAPPY">
-			<Text>[NEWLINE] [ICON_BULLET] Империя должна быть Очень Несчастна</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Империя должна быть очень несчастна</Text>
 		</Row>	
 		<Row Tag="TXT_KEY_NEED_UNHAPPY">
-			<Text>[NEWLINE] [ICON_BULLET] Империя должна быть Несчастна</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Империя должна быть несчастна</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_ENEMY_SUPER_UNHAPPY">
-			<Text>[NEWLINE] [ICON_BULLET] Выбранная Цивилизация должна быть Очень Несчастна</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Выбранная Цивилизация должна быть очень несчастна</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_ENEMY_UNHAPPY">
-			<Text>[NEWLINE] [ICON_BULLET] Выбранная Цивилизация должна быть Несчастна</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Выбранная Цивилизация должна быть несчастна</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_TRADE_SLOT">
 			<Text>[NEWLINE] [ICON_BULLET] Требуется свободная ячейка торговых юнитов</Text>
@@ -2853,6 +3033,9 @@
 		<Row Tag="TXT_KEY_NEED_ANY_IDEOLOGY">
 			<Text>[NEWLINE] [ICON_BULLET] Необходима идеалогия</Text>
 		</Row>
+		<Row Tag="TXT_KEY_NOT_ENOUGH_GOLD">
+			<Text>[NEWLINE] [ICON_BULLET] Недостаточно золота в казне</Text>
+		</Row>
 		<Row Tag="TXT_KEY_NEED_SPECIFIC_RELIGION">
 			<Text>[NEWLINE] [ICON_BULLET] Необходимо принятие {1_Desc} религии</Text>
 		</Row>
@@ -2864,6 +3047,15 @@
 		</Row>
 		<Row Tag="TXT_KEY_NEED_HOLY_CITY_SPECIFIC_LOCAL">
 			<Text>[NEWLINE] [ICON_BULLET] Должен быть Священным Городом для {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_PRODUCTION_NO_PROCESS">
+			<Text>[NEWLINE] [ICON_BULLET] Город не должен работать над Процессом</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_PRODUCE_SOMETHING">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен что-то производить</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_RESOURCE_IMPROVEMENT">
+			<Text>[NEWLINE] [ICON_BULLET] Город должен иметь улучшенную клетку ресурса.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_NO_PLAYER_MAJORITY_RELIGION">
 			<Text>[NEWLINE] [ICON_BULLET] Город не должен следовать вашей религии большинства</Text>
@@ -2955,14 +3147,29 @@
 		<Row Tag="TXT_KEY_EVENT_ONESHOT">
 			<Text>[NEWLINE] [ICON_BULLET] Решение по Событию может быть принято один раз за всю игру</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_BLOCKED_BY_COUNTERSPY">
+			<Text>[NEWLINE] [ICON_BULLET] Заблокировано вражеским контрразведчиком</Text>
+		</Row>
 		<Row Tag="TXT_KEY_EVENT_ACTIVE">
 			<Text>[NEWLINE] [ICON_BULLET] Решение по Событию уже активно</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_ACTIVE">
+			<Text>[NEWLINE] [ICON_BULLET] Недавно здесь была проведена миссия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_ACTIVE_RELATED">
+			<Text>[NEWLINE] [ICON_BULLET] Выбор связанного события уже активен</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_ACTIVE_RELATED">
+			<Text>[NEWLINE] [ICON_BULLET] Соответствующая миссия недавно проводилась здесь</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_ACTIVE_CITY_EVENT">
 			<Text>[NEWLINE] [ICON_BULLET] Требуется Событие Города, которое в данный момент не активно</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_ACTIVE_CITY_EVENT_CHOICE">
 			<Text>[NEWLINE] [ICON_BULLET] Требуется решение по Событию Города, которое в данный момент не активно</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_RECENT_SPY_MISSION">
+			<Text>[NEWLINE] [ICON_BULLET] Шпион недавно провел миссию</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_NO_ACTIVE_CITY_EVENT">
 			<Text>[NEWLINE] [ICON_BULLET] Недоступное активное Событие Города</Text>

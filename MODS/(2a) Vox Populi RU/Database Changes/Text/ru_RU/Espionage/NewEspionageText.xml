@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_1">
+			<Text>Наблюдение I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_1_HELP">
+			<Text>[ICON_BULLET]Можно просматривать экран города[NEWLINE][ICON_BULLET]Даёт видимость центральной клетки города.[NEWLINE][ICON_BULLET]Каждый ход к вашей науке добавляется 3% от [ICON_RESEARCH] науки города.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_PASSIVE_2">
+			<Text>Наблюдение II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_2_HELP">
+			<Text>[ICON_BULLET]Можно просматривать экран города[NEWLINE][ICON_BULLET]Даёт видимость клеток, соседних с клеткой города.[NEWLINE][ICON_BULLET]Каждый ход к вашей науке добавляется 5% от [ICON_RESEARCH] науки города.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_PASSIVE_3">
+			<Text>Наблюдение III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_3_HELP">
+			<Text>[ICON_BULLET]Можно просматривать экран города[NEWLINE][ICON_BULLET]Даёт видимость до 2 клеток от клетки города.[NEWLINE][ICON_BULLET]Каждый ход к вашей науке добавляется 7% от [ICON_RESEARCH] науки города.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_PASSIVE_4">
+			<Text>Наблюдение IV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_4_HELP">
+			<Text>[ICON_BULLET]Можно просматривать экран города[NEWLINE][ICON_BULLET]Даёт видимость до 3 клеток от клетки города.[NEWLINE][ICON_BULLET]Каждый ход к вашей науке добавляется 10% от [ICON_RESEARCH] науки города.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_PASSIVE_5">
+			<Text>Наблюдение V</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_5_HELP">
+			<Text>[ICON_BULLET]Можно просматривать экран города[NEWLINE][ICON_BULLET]Даёт видимость всех клеток города.[NEWLINE][ICON_BULLET]Каждый ход к вашей науке добавляется 10% от [ICON_RESEARCH] науки города.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_1">
+			<Text>Болтовня I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_1_HELP">
+			<Text>[ICON_BULLET]+20% [ICON_TOURISM] туризм и улучшение дипломатических отношений[NEWLINE][ICON_BULLET]Может торговать голосами Всемирного Конгресса</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_2">
+			<Text>Болтовня II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_2_HELP">
+			<Text>[ICON_BULLET]+20% [ICON_TOURISM] туризм и улучшение дипломатических отношений[NEWLINE][ICON_BULLET]Может торговать голосами Всемирного Конгресса[NEWLINE][ICON_BULLET]Получить Интриги[NEWLINE][ICON_BULLET]Можно просмотреть их дерево технологий и экран социальной политики.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_3">
+			<Text>Болтовня III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_3_HELP">
+			<Text>[ICON_BULLET]+20% [ICON_TOURISM] туризм и улучшение дипломатических отношений[NEWLINE][ICON_BULLET]Может торговать голосами Всемирного Конгресса[NEWLINE][ICON_BULLET]Получить Интриги[NEWLINE][ICON_BULLET]Можно просмотреть их дерево технологий и экран социальной политики[NEWLINE][ICON_BULLET]Можно просмотреть типы и количество военных юнитов[NEWLINE][ICON_BULLET]Торговые пути к ним приносят +20% [ICON_GOLD] золота</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_4">
+			<Text>Болтовня IV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_4_HELP">
+			<Text>[ICON_BULLET]+20% [ICON_TOURISM] туризм и улучшение дипломатических отношений[NEWLINE][ICON_BULLET]Может торговать голосами Всемирного Конгресса[NEWLINE][ICON_BULLET]Получить Интриги[NEWLINE][ICON_BULLET]Можно просмотреть их дерево технологий и экран социальной политики[NEWLINE][ICON_BULLET]Можно просмотреть типы и количество военных юнитов[NEWLINE][ICON_BULLET]Торговые пути к ним приносят +20% [ICON_GOLD] золота[NEWLINE][ICON_BULLET]Можно просмотреть все активные торговые сделки[NEWLINE][ICON_BULLET]Можно просмотреть их истинные дипломатические намерения ко всем остальным игрокам</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

@@ -572,7 +572,7 @@
 			<Text>{@1_BldgName} была принудительно закрыта {3_Civ} в {2_City} из-за Догмата или Резолюции!</Text>
 		</Row>
 
-		<!-- Events -->
+		<!-- Events and Espionage -->
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED_T">
 			<Text>Событие завершилось.</Text>
 		</Row>
@@ -584,6 +584,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED_CITY">
 			<Text>Последствия События в {2_City} закончились:[NEWLINE]{1_Event}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ESPIONAGE_EVENT_HAS_ENDED_CITY_T">
+			<Text>Эффект шпионажа в городе {1_City} закончился.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ESPIONAGE_EVENT_HAS_ENDED_CITY">
+			<Text>Эффекты шпионских миссий в {2_City} закончились:[NEWLINE]{1_Event}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_T">
 			<Text>'{1_Event}' не произошло.</Text>
@@ -615,59 +621,89 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SIPHON_EVENT_ENDED_ENEMY">
 			<Text>Действие иностранной шпионской миссии против вас завершилось: кража {1_MissionResult} за ход</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ESTIMATED">
-			<Text>[COLOR_POSITIVE_TEXT]Предполагаемая сумма кражи:[ENDCOLOR] {1_Yield} за ход (длительность: {2_Turns})</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_T_ESPIONAGE">
-			<Text>В {1_City} сорваны действия шпионов {2_CivAdj}!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_T_ESPIONAGE_UNKNOWN">
-			<Text>В {1_City} сорваны действия неизвестных иностранных шпионов!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_ESPIONAGE">
-			<Text>Шпионы {3_CivAdj} [COLOR_POSITIVE_TEXT]провалили[ENDCOLOR] шпионскую миссию в {2_City}: {1_EventChoice}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_ESPIONAGE_UNKNOWN">
-			<Text>Неизвестные иностранные шпионы [COLOR_POSITIVE_TEXT]провалили[ENDCOLOR] шпионскую миссию в {2_City}: {1_EventChoice}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_AA_EVENT_INVALID">
-			<Text>{1_Rank} {2_Spy}: нужна новая миссия!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_AA_EVENT_INVALID_TT">
-			<Text>{1_Rank} {2_Spy} в {3_City} нужна новая цель. Пожалуйста, выберите новую миссию для своего шпиона.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_SPY_DETECTED">
-			<Text>[COLOR_POSITIVE_TEXT]РЕЗУЛЬТАТ ЗАДАНИЯ:[ENDCOLOR] УСПЕШНО![NEWLINE][NEWLINE]Сообщение: "Обнаружено, но они не знают, на кого мы работаем. Мы продолжим работать здесь, пока вы не перенаправите нас в другое место".[NEWLINE][NEWLINE]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_SPY_IDENTIFIED">
-			<Text>[COLOR_POSITIVE_TEXT]РЕЗУЛЬТАТ ЗАДАНИЯ:[ENDCOLOR] УСПЕХ, НО ОПРЕДЕЛЕН![NEWLINE][NEWLINE]Сообщение: "Наше прикрытие раскрыто, мы возвращаемся в штаб-квартиру для переназначения".[NEWLINE][NEWLINE]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_SPY_KILLED">
-			<Text>[COLOR_NEGATIVE_TEXT]РЕЗУЛЬТАТ ЗАДАНИЯ:[ENDCOLOR] ПРОВАЛ[NEWLINE][NEWLINE]Нет связи. Ваш оперативник погиб.[NEWLINE][NEWLINE]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EXTRA_SIGHT_EVENT_HAS_ENDED_CITY_T">
-			<Text>Бонус видимости за шпионаж в {1_City} закончился.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EXTRA_SIGHT_EVENT_HAS_ENDED_CITY">
-			<Text>Бонус видимости вашей шпионской сети в {1_City} закончился. Вам нужно будет, чтобы шпион перезапустил миссию.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SUCCESS_S">
-			<Text>{1_SpyRank} {2_SpyName} преуспел в {3_CityName}!</Text>
+			<Text>{1_SpyRank} {2_SpyName}: успех в {3_CityName}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SUCCESS">
-			<Text>{1_SpyRank} {2_SpyName} в {3_CityName} выполнили свою миссию: {4_MissionResult}</Text>
+			<Text>{1_SpyRank} {2_SpyName} в {3_CityName} закончил свою миссию: {4_MissionResult}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_T_ESPIONAGE">
-			<Text>Шпионам {2_CivAdj} удалось добиться успеха в {1_City}!</Text>
+			<Text>Шпионы {2_CivAdj}: успех в {1_City}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE">
-			<Text>Шпионы {2_CivAdj} [COLOR_NEGATIVE_TEXT]выполнили[ENDCOLOR] шпионскую миссию в {1_City}: {3_MissionResult}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_UNKNOWN">
-			<Text>Неизвестные иностранные шпионы [COLOR_NEGATIVE_TEXT]выполнили[ENDCOLOR] шпионскую миссию в {1_City}: {2_MissionResult}</Text>
+			<Text>Шпионы {2_CivAdj} совершили [COLOR_NEGATIVE_TEXT]Шпионскую миссию[ENDCOLOR] в {1_City}. {3_MissionResult}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_T_ESPIONAGE_UNKNOWN">
-			<Text>Неизвестные иностранные шпионы преуспели в {1_City}!</Text>
+			<Text>Неизвестные иностранные шпионы: успех в {1_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_UNKNOWN">
+			<Text>Неизвестные иностранные шпионы совершили [COLOR_NEGATIVE_TEXT]Шпионскую миссию[ENDCOLOR] в {1_City}: {2_MissionResult}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED_AND_CAUGHT_S">
+			<Text>{1_SpyRank} {2_SpyName} был пойман и опознан!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED_AND_CAUGHT">
+			<Text>{1_SpyRank} {2_SpyName} был [COLOR_NEGATIVE_TEXT]пойман и опознан[ENDCOLOR] во время проведения миссии! Дипломатические отношения с {3_CivName} ухудшились и {1_SpyRank} {2_SpyName} заключён под стражу. Пройдет некоторое время, прежде чем его освободят и он снова сможет отправиться на задание.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED_S">
+			<Text>{1_SpyRank} {2_SpyName} опознан!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED">
+			<Text>{1_SpyRank} {2_SpyName} был [COLOR_NEGATIVE_TEXT]опознан[ENDCOLOR] во время проведения миссии! Дипломатические отношения с {3_CivName} ухудшились. {1_SpyRank} {2_SpyName} может остаться в городе и собрать разведданные для ещё одной миссии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_CAUGHT_S">
+			<Text>{1_SpyRank} {2_SpyName} был пойман и опознан!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_CAUGHT">
+			<Text>{1_SpyRank} {2_SpyName} был [COLOR_NEGATIVE_TEXT]пойман[ENDCOLOR] во время проведения миссии! Пройдет некоторое время, прежде чем его освободят и он снова сможет отправиться на задание.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_NOT_DETECTED_S">
+			<Text>{1_SpyRank} {2_SpyName} не был обнаружен!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_NOT_DETECTED">
+			<Text>{1_SpyRank} {2_SpyName} закончил свою миссию и [COLOR_POSITIVE_TEXT]не был обнаружен[ENDCOLOR]. Он может остаться в городе и собрать разведданные для ещё одной миссии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_RELEASED_PRISON_S">
+			<Text>{1_SpyRank} {2_SpyName} освобождён!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_RELEASED_PRISON">
+			<Text>{1_SpyRank} {2_SpyName} был освобождён из тюрьмы. Теперь вы можете снова отправить шпиона на задание.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NO_TOURISM_EVENT_ENDED_S">
+			<Text>{1_City} снова производит туризм</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NO_TOURISM_EVENT_ENDED">
+			<Text>Восстание в {1_City}, вызванное иностранными шпионами, закончилось. Город теперь снова производит туризм.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_DETECTED_S">
+			<Text>Контрразведка в {1_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_DETECTED">
+			<Text>По прибытии в {1_City} {2_SpyRank} {3_SpyName} обнаружил присутствие вражеского [ICON_SPY] контрразведчика! Активны следующие эффекты:[NEWLINE][NEWLINE]{4_MissionEffect}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_STARTED_S">
+			<Text>Контрразведка в {1_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_STARTED">
+			<Text>[ICON_SPY] Контрразведчик начал задание в {1_City}. Следующие эффекты теперь активны:[NEWLINE][NEWLINE]{2_MissionEffect}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_ENDED_S">
+			<Text>Контрразведывательная миссия в {1_City} завершена!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_ENDED">
+			<Text>Поскольку [ICON_SPY] Контрразведчик в {1_City} покинул город или сменил цель, следующие эффекты больше не активны:[NEWLINE][NEWLINE]{2_MissionEffect}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NEW_MISSIONS_AVAILABLE_S">
+			<Text>Доступны новые шпионские задания</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NEW_MISSIONS_AVAILABLE">
+			<Text>{1_SpyRank} {2_SpyName} набрал достаточно сетевых очков в {3_City}, чтобы выполнить следующую шпионскую миссию, если выполнены остальные условия миссии:[NEWLINE]{5_Missions}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NEW_PASSIVE_BONUS_S">
+			<Text>Разблокирован новый пассивный шпионский бонус</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NEW_PASSIVE_BONUS">
+			<Text>{1_SpyRank} {2_SpyName} набрал достаточно сетевых очков в {3_City}, чтобы разблокировать следующие пассивные бонусы:[NEWLINE][NEWLINE] {4_Missions}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_EVENT">
 			<Text>СДЕЛАТЬ ВЫБОР</Text>

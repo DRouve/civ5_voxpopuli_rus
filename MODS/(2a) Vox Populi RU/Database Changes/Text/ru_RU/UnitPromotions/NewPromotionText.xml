@@ -213,6 +213,13 @@
 			<Text>Призванный отряд, не потребляющий [ICON_WAR] припасов.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Теряется при улучшении.[ENDCOLOR]</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT">
+			<Text>Джаггернаут</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT_HELP">
+			<Text>+25 ОЗ.[NEWLINE]Получает повышения [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MARCH}[ENDCOLOR] и [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MORALE}[ENDCOLOR] при появлении.</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST">
 			<Text>Банзай!</Text>
 		</Row>
@@ -716,7 +723,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PRESS_GANGS">
-			<Text>Пресс-банды</Text>
+			<Text>Коммерческий рейдер</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PRESS_GANGS_HELP">
 			<Text>Грабёж не требует [ICON_MOVES] движения и [COLOR_POSITIVE_TEXT]полностью излечивает[ENDCOLOR] этого юнита.</Text>
@@ -802,6 +809,39 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVIGATOR_2_HELP">
 			<Text>+1 к очкам [ICON_MOVES] движения и [ICON_VP_VISION] обзору.</Text>
+		</Row>
+
+		<!-- Silent Hunter -->
+		<Row Tag="TXT_KEY_PROMOTION_SILENT_HUNTER_HELP">
+			<Text>+50% к [ICON_STRENGTH] боевой мощи при нападении на [COLOR_POSITIVE_TEXT]юнитов[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_HUNTER_KILLER">
+			<Text>Убийца-охотник</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HUNTER_KILLER_HELP">
+			<Text>+50% к [ICON_STRENGTH] боевая мощи против [COLOR_POSITIVE_TEXT]Подводных лодок[ENDCOLOR].[NEWLINE]Обнаруживает Подводные лодки.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_TRUE_WOLFPACK">
+			<Text>Волчья стая</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TRUE_WOLFPACK_HELP">
+			<Text>+30% к [ICON_STRENGTH] боевой мощи за каждую [COLOR_POSITIVE_TEXT]соседнюю дружественную Подводную лодку[ENDCOLOR] при нападении.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_PREDATOR">
+			<Text>Хищник</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PREDATOR_HELP">
+			<Text>Восстанавливает 15 ОЗ после [COLOR_POSITIVE_TEXT]уничтожения вражеского юнита[ENDCOLOR].[NEWLINE]Игнорирует [COLOR_POSITIVE_TEXT]зону контроля[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_PERISCOPE_DEPTH">
+			<Text>Глубинный перископ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PERISCOPE_DEPTH_HELP">
+			<Text>+40% к [ICON_STRENGTH] боевой мощи при обороне от всех [COLOR_POSITIVE_TEXT]дальних атак[ENDCOLOR].[NEWLINE]Юнит избегает первой атаки ближнего боя каждый ход, если это возможно.</Text>
 		</Row>
 
 		<!-- Air Supremacy -->
