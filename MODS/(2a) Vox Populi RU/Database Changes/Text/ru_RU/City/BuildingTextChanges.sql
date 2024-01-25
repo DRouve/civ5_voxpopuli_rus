@@ -574,7 +574,7 @@ WHERE Tag = 'TXT_KEY_WONDER_ORACLE_HELP';
 
 -- Angkor Wat
 UPDATE Language_ru_RU
-SET Text = 'Предоставляет [COLOR_POSITIVE_TEXT]бесплатный[ENDCOLOR] Мандир в городе постройки. Во всех городах: +50% к скорости [ICON_CULTURE_LOCAL] расширения границ, -25% стоимость [ICON_GOLD] золота для приобретения новых клеток.'
+SET Text = 'Предоставляет [COLOR_POSITIVE_TEXT]бесплатный[ENDCOLOR] Мандир в городе постройки. Во всех городах: +40% к скорости [ICON_CULTURE_LOCAL] расширения границ, -25% стоимость [ICON_GOLD] золота для приобретения новых клеток.'
 WHERE Tag = 'TXT_KEY_WONDER_ANGKOR_WAT_HELP';
 
 -- Great Wall

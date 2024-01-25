@@ -55,6 +55,9 @@ WHERE Tag = 'TXT_KEY_EUPANEL_IMPROVEMENT_NEAR';
 ------------------------------------------------
 -- Top panel
 ------------------------------------------------
+UPDATE Language_en_US
+SET Text = 'Ваши учёные и богословы открыли чудеса календаря майя. Когда текущий b''ak''tun закончится, вы получите выбранного вами Великого Человека в рамках празднования.[NEWLINE][NEWLINE]Текущая дата длинного счета Maya:[NEWLINE]{1_LongMayaCalendarString}[NEWLINE][NEWLINE]Бактун начинается на 33-м ходу и возобновляется на 42/52/62/72/86/101/117/133/152/183/234/432 ходу на стандартной скорости игры.[NEWLINE][ NEWLINE]({2_TraditionalDateString} в остальном мире).'
+WHERE Tag = 'TXT_KEY_MAYA_DATE_TOOLTIP';
 
 -- Science
 UPDATE Language_ru_RU

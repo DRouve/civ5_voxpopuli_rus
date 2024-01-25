@@ -44,7 +44,7 @@ SET Text = 'Бог просторов'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+34% к скорости [ICON_CULTURE_LOCAL] расширения границ городов. Получайте 25 [ICON_PEACE] веры и 15 [ICON_PRODUCTION] производства каждый раз, когда город естественным образом расширяет свои границы (в зависимости от скорости игры).'
+SET Text = '+25% к скорости [ICON_CULTURE_LOCAL] расширения границ городов. Получайте 25 [ICON_PEACE] веры и 15 [ICON_PRODUCTION] производства каждый раз, когда город естественным образом расширяет свои границы (в зависимости от скорости игры).'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS';
 
 -- God of the Open Sky
