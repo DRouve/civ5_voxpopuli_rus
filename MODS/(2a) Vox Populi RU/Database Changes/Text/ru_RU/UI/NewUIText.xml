@@ -671,11 +671,12 @@
 		<Row Tag="TXT_KEY_TECH_SUPPLY">
 			<Text>Технологический штраф</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP">
-			<Text>Количество военных юнитов: {11_Num} ({2_Num} лимита использовано)[NEWLINE]Суммарный лимит: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]Уменьшение максимального лимита от Усталости от войны: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Базовые значения лимита:[NEWLINE]  [ICON_BULLET]+{4_Num} от имеющихся [ICON_CITY_STATE] городов[NEWLINE]  [ICON_BULLET]+{3_Num} от общего количества [ICON_CITIZEN] населения[NEWLINE]  [ICON_BULLET]+{5_Num} от [ICON_CHECKBOX] уровня сложности[NEWLINE]  [ICON_BULLET]+{10_Num} от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] Великих Людей[NEWLINE][NEWLINE][NEWLINE]Уменьшение лимита:[NEWLINE]  [ICON_BULLET] -{8_Num} от [ICON_RESEARCH] уровня Технологий[NEWLINE]  [ICON_BULLET] -{7_Num} от [ICON_WAR] Усталости от войны[NEWLINE][NEWLINE]Стоимость [ICON_GOLD]/[ICON_PEACE] военных юнитов увеличена на {9_Num}% из-за [ICON_WAR] Усталости от войны.[NEWLINE]Наибольшая Усталость от войны: {12_CivName} (13_Num)%</Text>
-		</Row>
 		<Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP_NOT_WEARY">
-			<Text>Количество военных юнитов: {11_Num} ({2_Num} лимита использовано)[NEWLINE]Суммарный лимит: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]Уменьшение максимального лимита от Усталости от войны: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Базовые значения лимита:[NEWLINE]  [ICON_BULLET]+{4_Num} от имеющихся [ICON_CITY_STATE] городов[NEWLINE]  [ICON_BULLET]+{3_Num} от общего количества [ICON_CITIZEN] населения[NEWLINE]  [ICON_BULLET]+{5_Num} от [ICON_CHECKBOX] уровня сложности[NEWLINE]  [ICON_BULLET]+{10_Num} от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] Великих Людей[NEWLINE][NEWLINE][NEWLINE]Уменьшение лимита:[NEWLINE]  [ICON_BULLET] -{8_Num} от [ICON_RESEARCH] уровня Технологий[NEWLINE]  [ICON_BULLET] -{7_Num} от [ICON_WAR] Усталости от войны[NEWLINE][NEWLINE]Стоимость [ICON_GOLD]/[ICON_PEACE] военных юнитов увеличена на {9_Num}% из-за [ICON_WAR] Усталости от войны.</Text>
+			<Text>Количество военных юнитов: {11_Num} ({2_Num} лимита использовано)[NEWLINE]Суммарный лимит: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]Уменьшение максимального лимита от Усталости от войны: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Значения лимита:[NEWLINE]  [ICON_BULLET]+{4_Num} от [ICON_CITY_STATE] городов ([ICON_WAR] {12_Num} - {13_Num} от [ICON_RESEARCH] техосблуживания)[NEWLINE]  [ICON_BULLET]+{3_Num} от [ICON_CITIZEN] населения ([ICON_SILVER_FIST] {14_Num} - {15_Num} от [ICON_RESEARCH] техобслуживания)[NEWLINE]  [ICON_BULLET]+{5_Num} от [ICON_CHECKBOX] уровня сложности ([ICON_CAPITAL] {16_Num} - {17_Num} от [ICON_RESEARCH] Эры)[NEWLINE]  [ICON_BULLET]+{10_Num} от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] Великих Людей[NEWLINE][NEWLINE][NEWLINE]Уменьшение лимита:[NEWLINE]  [ICON_BULLET] -{8_Num} от [ICON_RESEARCH] уровня Технологий[NEWLINE]  [ICON_BULLET] -{7_Num} от [ICON_WAR] Усталости от войны[NEWLINE][NEWLINE]Стоимость [ICON_GOLD]/[ICON_PEACE] военных юнитов увеличена на {9_Num}% из-за [ICON_WAR] Усталости от войны.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP">
+			<Text>{TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP_NOT_WEARY}[NEWLINE]Наибольшая Усталость от войны: {18_CivName} {19_Num}%</Text>
+		</Row>
 		</Row>
 
 		<!-- Trade Route picker -->
@@ -2866,6 +2867,15 @@
 		</Row>
 		<Row Tag="TXT_KEY_VO_BENEFITS_YIELD_PERCENTAGE">
 			<Text>[ICON_BULLET] +20% к [ICON_RESEARCH] науке, [ICON_CULTURE] культуре, [ICON_PEACE] вере вассала</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_HAPPINESS_PERCENTAGE">
+			<Text>[ICON_BULLET] +10% от избыточного [ICON_HAPPINESS_1] счастье вассала</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_UNIT_MAINTENANCE">
+			<Text>Сюзерен платит 10% от стоимости содержания юнитов вассала в качестве [ICON_GOLD] содержания вассала.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_POPULATION_MAINTENANCE">
+			<Text>Сюзерен платит Master сумму [ICON_CITIZEN] населения вассала в степени 0.8 [ENDCOLOR] в качестве [ICON_GOLD] содержания вассала.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_BENEFITS_IDEOLOGY">
 			<Text>[ICON_BULLET] Вассал принимает идеологию Сюзерена</Text>
